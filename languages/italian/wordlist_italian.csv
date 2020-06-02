@@ -67,8 +67,8 @@ PROMPT_DMR,normal,DMR
 PROMPT_FM,normal,FM
 PROMPT_WIDE,normal,Largo
 PROMPT_NARROW,normal,Stretto
-PROMPT_TBD1,normal, 
-PROMPT_TBD2,normal, 
+PROMPT_PLUS,normal,più
+PROMPT_MINUS,normal,Meno
 PROMPT_TBD3,normal,
 PROMPT_TBD4,normal,
 PROMPT_TBD5,normal,
@@ -110,7 +110,7 @@ out_of_band,normal,FUORI BANDA
 timeout,normal,TIMEOUT
 tg_entry,normal,Inserisci TG
 pc_entry,normal,Inserisci CP
-user_dmr_id,normal,ID Utente DMR
+user_dmr_id,normal,ID Utente D M R
 contact,normal,Contatto
 accept_call,normal,Accettare?
 private_call,normal,Chiamata Priv.
@@ -120,9 +120,9 @@ filter,normal,Filtro
 all_channels,normal,Tutti i canali
 gotoChannel,normal,Vai a
 scan,normal,Scansione
-channelToVfo,normal,Canale --> VFO
-vfoToChannel,normal,VFO --> Canale
-vfoToNewChannel,normal,VFO --> New Ch.
+channelToVfo,normal,Canale al V F O
+vfoToChannel,normal,V F O al Canale
+vfoToNewChannel,normal,V F O al nuovo canale
 group,normal,Gruppo
 private,normal,Privato
 all,normal,Tutti
@@ -145,7 +145,7 @@ zone_skip,normal,Salta Zona
 all_skip,normal,Salta Tutti
 yes,normal,SÌ
 no,normal,No
-rx_group,normal,Rx Grp
+rx_group,normal,Rx gruppo
 on,normal,On
 timeout_beep,normal,Bip Timeout
 factory_reset,normal,Reset Fabb.
@@ -176,8 +176,8 @@ contact_deleted,normal,Cancellato
 contact_used,normal,Contatto usato
 in_rx_group,normal,in gruppo RX
 select_tx,normal,Seleziona TX
-edit_contact,normal,Modif. Contatto
-delete_contact,normal,Canc. Contatto
+edit_contact,normal,Modificare Contatto
+delete_contact,normal,Elimina Contatto
 group_call,normal,Chiama Gruppo
 all_call,normal,Chiama Tutti
 tone_scan,normal,Scansione Toni
@@ -189,15 +189,15 @@ private_call_handling,normal,Gest. CP
 stop,normal,Fine
 one_line,normal,1 linea
 two_lines,normal,2 linee
-new_channel,normal,Nuovo can.
+new_channel,normal,Nuovo canale
 priority_order,normal,Prio.
 dmr_beep,normal,DMR bip
 start,normal,Inizio
 both,normal,Ambedue
 vox_threshold,normal,Soglia VOX
 vox_tail,normal,Coda VOX
-audio_prompt,normal,Prompt
-silent,normal,Silent
-normal,normal,Normal
+audio_prompt,normal,Richiesta
+silent,normal,Silenzioso
+normal,normal,Normale
 beep,normal,Beep
-voice,normal,Voice
+voice,normal,Voce

@@ -1,6 +1,6 @@
 PromptName,PromptSpeed,PromptText
-PROMPT_SPACE,normal,
-PROMPT_POINT,fast,PUNTO
+PROMPT_SPACE,normal, 
+PROMPT_POINT,fast,POINT
 PROMPT_0,fast,0
 PROMPT_1,fast,1
 PROMPT_2,fast,2
@@ -40,17 +40,17 @@ PROMPT_Z,fast,Z
 PROMPT_Z2,fast,Z
 PROMPT_CHANNEL,normal,CANAL
 PROMPT_CONTACT,normal,CONTACTO
-PROMPT_DBM,normal,DBM
+PROMPT_DBM,normal,D B M
 PROMPT_ENTRY,normal,ENTRADA
 PROMPT_MEGAHERTZ,normal,MEGAHERZIOS
 PROMPT_KILOHERTZ,normal,KILOHERZIOS
 PROMPT_TALKGROUP,normal,TALKGROUP
 PROMPT_TIMESLOT,normal,TIMESLOT
-PROMPT_VFO,normal,VFO
+PROMPT_VFO,normal,V F O
 PROMPT_SECONDS,normal,Segundos
 PROMPT_Minutes,normal,Minutos
 PROMPT_Hours,normal,Horas
-PROMPT_VOLTS,normal,Váltios
+PROMPT_VOLTS,normal,Vóltios
 PROMPT_WATT,normal,Watio
 PROMPT_WATTS,normal,Watios
 PROMPT_MILLIWATTS,normal,Milliwatios
@@ -62,21 +62,17 @@ PROMPT_STAR,normal,Asterisco
 PROMPT_GREEN,normal,Verde
 PROMPT_RED,normal,Rojo
 PROMPT_VERSION,normal,Versión
-PROMPT_MODE,normal,Modo
-PROMPT_DMR,normal,DMR
-PROMPT_FM,normal,FM
-PROMPT_WIDE,normal,Amplio
-PROMPT_NARROW,normal,Estrecho
-PROMPT_TBD1,normal,
-PROMPT_TBD2,normal, 
+PROMPT_PLUS,normal,más
+PROMPT_MINUS,normal,menos
 PROMPT_TBD3,normal, 
-PROMPT_TBD4,normal,
+PROMPT_TBD4,normal, 
 PROMPT_TBD5,normal, 
-PROMPT_TBD6,normal,
-PROMPT_TBD7,normal,
-PROMPT_TBD8,normal,
-PROMPT_TBD9,normal,
-PROMPT_TBD10,normal,
+PROMPT_TBD6,normal, 
+PROMPT_TBD7,normal, 
+PROMPT_TBD8,normal, 
+PROMPT_TBD9,normal, 
+PROMPT_TBD10,normal, 
+PROMPT_SPACE,normal, 
 LANGUAGE_NAME,normal,Español
 menu,normal,Menú
 credits,normal,Créditos
@@ -84,8 +80,8 @@ zone,normal,Zona
 rssi,normal,RSSI
 battery,normal,Batería
 contacts,normal,Contactos
-last_heard,normal,Últimos escuchados
 firmware_info,normal,Información Firmware
+last_heard,normal,Últimos escuchados
 options,normal,Opciones
 display_options,normal,Opciones pantalla
 sound_options,normal,Opciones sonido
@@ -93,12 +89,12 @@ channel_details,normal,Detalles Canal
 language,normal,Idioma
 new_contact,normal,Nuevo contacto
 contact_list,normal,Lista contactos
-contact_details,normal,Detalles contacto
 hotspot_mode,normal,Modo Hotspot
+contact_details,normal,Detalles contacto
 built,normal,Compilado
 zones,normal,Zonas
 keypad,normal,Teclado
-ptt,normal,PTT
+ptt,normal,P T T
 locked,normal,Bloqueado
 press_blue_plus_star,normal,Pulsa azul y asterisco
 to_unlock,normal,para desbloquear
@@ -108,21 +104,21 @@ error,normal,ERROR
 rx_only,normal,Solo Recepción
 out_of_band,normal,FUERA DE BANDA
 timeout,normal,TIMEOUT
-tg_entry,normal,Entrar TG
-pc_entry,normal,Entrar PC
-user_dmr_id,normal,ID DMR Usuario
+tg_entry,normal,Entrar T G
+pc_entry,normal,Entrar P C
+user_dmr_id,normal,I D Usuario
 contact ,normal,Contacto
 accept_call,normal,Aceptar llamada privada?
 private_call,normal,Llamada Privada
-squelch,normal,Squelch
+squelch,normal,escuelch
 quick_menu ,normal,Menú rápido
 filter,normal,Filtro
 all_channels,normal,Lista Canales
 gotoChannel,normal,Ir a canal
 scan,normal,Escanear
-channelToVfo,normal,Canal --> VFO
-vfoToChannel,normal,VFO --> Canal
-vfoToNewChannel,normal,VFO --> Nuevo Canal
+channelToVfo,normal,Canal a VFO
+vfoToChannel,normal,VFO a Canal
+vfoToNewChannel,normal,VFO a Nuevo Canal
 group,normal,Grupo
 private,normal,Privado
 all,normal,Todos
@@ -131,9 +127,9 @@ timeSlot,normal,Timeslot
 none,normal,Ninguno
 contact_saved,normal,Contacto grabado
 duplicate,normal,Duplicado
-tg,normal,TG
-pc,normal,PC
-ts,normal,TS
+tg,normal,T G
+pc,normal,P C
+ts,normal,T S
 mode,normal,Modo
 colour_code,normal,Código Color
 n_a,normal,N/A
@@ -151,9 +147,9 @@ timeout_beep,normal,Sonido TOT
 factory_reset,normal,Reset fabrica
 calibration,normal,Calibración
 band_limits,normal,Limite Banda
-beep_volume,normal,Volumen BEEP
-dmr_mic_gain,normal,Micro DMR
-fm_mic_gain,normal,Micro FM
+beep_volume,normal,Volumen pitido
+dmr_mic_gain,normal,Micro D M R
+fm_mic_gain,normal,Micro F M
 key_long,normal,Pulsación larga
 key_repeat,normal,Repecición de tecla
 dmr_filter_timeout,normal,Tiempo límite de filtro
@@ -164,8 +160,8 @@ colour_invert,normal,Color Invertido
 colour_normal,normal,Color Normal
 backlight_timeout,normal,Tiempo luz
 scan_delay,normal,Tiempo Scan
-YES,normal,SI
-NO,normal,NO
+yes___in_uppercase,normal,SI
+no___in_uppercase,normal,NO
 DISMISS,normal,DESCARTAR
 scan_mode,normal,Modo Scan
 hold,normal,Detener
@@ -196,8 +192,8 @@ start,normal,Inicio
 both,normal,Ambos
 vox_threshold,normal,VOX Ganancia
 vox_tail,normal,VOX cola
-audio_prompt,normal,Mensaje de audio
-silent,normal,Silencioso
+audio_prompt,normal,Prompt
+silent,normal,Silent
 normal,normal,Normal
-beep,normal,Bip
+beep,normal,Pitido
 voice,normal,Voz

@@ -314,7 +314,6 @@ def downloadPollyPro(voiceName,file_name,promptText,speechSpeed):
     
 def downloadSpeechForWordList(filename,voiceName):
     retval = True
-    path = os.path.dirname(sys.argv[0]) 
     with open(filename,"r",encoding='utf-8') as csvfile:
         reader = csv.DictReader(csvfile)
 
@@ -326,7 +325,7 @@ def downloadSpeechForWordList(filename,voiceName):
     return retval
 
 def encodeWordList(ser,filename,voiceName,forceReEncode):
-    path = os.path.dirname(sys.argv[0]) 
+
     with open(filename,"r",encoding='utf-8') as csvfile:
         reader = csv.DictReader(csvfile)
 
@@ -334,26 +333,24 @@ def encodeWordList(ser,filename,voiceName,forceReEncode):
             promptName = row['PromptName'].strip()
             fileStub = "P_{0}".format(promptName)
 
-            if  (os.path.exists(path+'/'+voiceName+"/" + fileStub+".amb") == False) or (forceReEncode==True):
-                convertToRaw(path +'/'  + voiceName + "/" + fileStub+".ogg",path+'/'+voiceName+"/"+fileStub+".raw")
+            convertToRaw(voiceName + "/" + fileStub+".ogg",voiceName+"/"+fileStub+".raw")
 
-                stripSilence=True;
-                
-                if (row['PromptText'] == " "):
+            stripSilence=True;
+            
+            if (row['PromptText'] == " "):
                     stripSilence = False
                     
-                convert2AMBE(ser,path + '/'+voiceName+"/"+fileStub+".raw",path+'/'+voiceName+"/" + fileStub+".amb",stripSilence)
-                os.remove(path + '/'+voiceName+"/"+fileStub+".raw")                    
+            convert2AMBE(ser,voiceName+"/"+fileStub+".raw",voiceName+"/" + fileStub+".amb",stripSilence)
+            os.remove(voiceName+"/"+fileStub+".raw")                    
             
 def buildDataPack(filename,voiceName,outputFileName):
-    print("Building Data Pack")
-    promptsDict={}#create an empty dictionary
-    path = os.path.dirname(sys.argv[0]) 
+    print("Building...")
+    promptsDict={}#create an empty dictionary 
     with open(filename,"r",encoding='utf-8') as csvfile:
         reader = csv.DictReader(csvfile)
         for row in reader:
             promptName = row['PromptName'].strip()
-            infile = path+'/'+voiceName+"/P_" + promptName+".amb"
+            infile = voiceName+"/P_" + promptName+".amb"
             with open(infile,'rb') as f:
                 promptsDict[promptName] = bytearray(f.read())
                 f.close()
@@ -379,7 +376,7 @@ def buildDataPack(filename,voiceName,outputFileName):
         for prompt in promptsDict:
             f.write(promptsDict[prompt])
     f.close()
-    print("Created voice pack "+outputFileName);
+    print("Built voice pack "+outputFileName);
 
 
 PROGRAM_VERSION = "0.0.1"
@@ -406,7 +403,7 @@ def main():
     fileName   = ""#wordlist_english.csv"
     outputName = ""#voiceprompts.bin"
     voiceName = ""#Matthew or Nicole etc
-	
+
     # Default tty
     if (platform.system() == 'Windows'):
             serialDev = "COM71"

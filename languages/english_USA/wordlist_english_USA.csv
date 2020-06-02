@@ -63,12 +63,12 @@ PROMPT_GREEN,normal,Green
 PROMPT_RED,normal,Red
 PROMPT_VERSION,normal,Version
 PROMPT_MODE,normal,Mode
-PROMPT_DMR,normal,DMR
-PROMPT_FM,normal,FM
+PROMPT_DMR,normal,D M R
+PROMPT_FM,normal,F M
 PROMPT_WIDE,normal,Wide
 PROMPT_NARROW,normal,Narrow
-PROMPT_TBD1,normal, 
-PROMPT_TBD2,normal, 
+PROMPT_PLUS,normal,Plus
+PROMPT_MINUS,normal,Minus
 PROMPT_TBD3,normal,
 PROMPT_TBD4,normal,
 PROMPT_TBD5,normal,
@@ -98,19 +98,19 @@ hotspot_mode,normal,Hotspot mode
 built,normal,Built
 zones,normal,Zones
 keypad,normal,Keypad
-ptt,normal,PTT
+ptt,normal,P T T
 locked,normal,Locked
 press_blue_plus_star,normal,Press Blue + star
 to_unlock,normal,to unlock
 unlocked,normal,Unlocked
 power_off,normal,Power Off
 error,normal,ERROR
-rx_only,normal,Rx only
+rx_only,normal,Receive only
 out_of_band,normal,OUT OF BAND
 timeout,normal,TIMEOUT
-tg_entry,normal,TG entry
-pc_entry,normal,PC entry
-user_dmr_id,normal,User DMR  ID
+tg_entry,normal,Talkgroup entry
+pc_entry,normal,Private call entry
+user_dmr_id,normal,User D M R  ID
 contact,normal,Contact
 accept_call,normal,Accept call?
 private_call,normal,Private Call
@@ -120,9 +120,9 @@ filter,normal,Filter
 all_channels,normal,All Channels
 gotoChannel,normal,Goto
 scan,normal,Scan
-channelToVfo,normal,Channel to VFO
-vfoToChannel,normal,VFO to Channel
-vfoToNewChannel,normal,VFO to New Channel
+channelToVfo,normal,Channel to V F O
+vfoToChannel,normal,V F O to Channel
+vfoToNewChannel,normal,V F O to New Channel
 group,normal,Group
 private,normal,Private
 all,normal,All
@@ -139,26 +139,26 @@ colour_code,normal,Color Code
 n_a,normal,N/A
 bandwidth,normal,Bandwidth
 stepFreq,normal,Step
-tot,normal,TOT
+tot,normal,T O T
 off,normal,Off
 zone_skip,normal,Zone Skip
 all_skip,normal,All Skip
 yes,normal,Yes
 no,normal,No
-rx_group,normal,Rx Grp
+rx_group,normal,Rx Group
 on,normal,On
 timeout_beep,normal,Timeout beep
 factory_reset,normal,Factory Reset
 calibration,normal,Calibration
 band_limits,normal,Band Limits
-beep_volume,normal,Beep vol
+beep_volume,normal,Beep volume
 dmr_mic_gain,normal,D M R mic gain
-fm_mic_gain,normal,FM mic gain
+fm_mic_gain,normal,F M mic gain
 key_long,normal,Key long
 key_repeat,normal,Key repeat
 dmr_filter_timeout,normal,Filter time
 brightness,normal,Brightness
-brightness_off,normal,Min bright
+brightness_off,normal,Minimum brightness
 contrast,normal,Contrast
 colour_invert,normal,Color:Invert
 colour_normal,normal,Color:Normal
@@ -174,8 +174,8 @@ empty_list,normal,Empty List
 delete_contact_qm,normal,Delete contact?
 contact_deleted,normal,Contact deleted
 contact_used,normal,Contact used
-in_rx_group,normal,in RX group
-select_tx,normal,Select TX
+in_rx_group,normal,In R X group
+select_tx,normal,Select T X
 edit_contact,normal,Edit Contact
 delete_contact,normal,Delete Contact
 group_call,normal,Group Call
@@ -184,8 +184,8 @@ tone_scan,normal,Tone scan
 low_battery,normal,LOW BATTERY
 Auto,normal,Auto
 manual,normal,Manual
-ptt_toggle,normal,PTT latch
-private_call_handling,normal,Allow PC
+ptt_toggle,normal,P T T latch
+private_call_handling,normal,Allow Private call
 stop,normal,Stop
 one_line,normal,1 line
 two_lines,normal,2 lines
