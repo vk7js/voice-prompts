@@ -132,12 +132,6 @@ def downloadTTSMP3(file_name,promptText):
         else:
             print("Error requesting sound")
 
-
-        
-
-
-
-
 def getMemoryArea(ser,buf,mode,bufStart,radioStart,length):
     R_SIZE = 8
     snd = bytearray(R_SIZE)
@@ -173,8 +167,6 @@ def getMemoryArea(ser,buf,mode,bufStart,radioStart,length):
             print("read stopped (error at " + str(radioPos) + ")")
             return False
     return True
-
-
 
 def sendCommand(ser,commandNumber, x_or_command_option_number, y, iSize, alignment, isInverted, message):
     # snd allocation? len 64 or 32? or 23?
@@ -324,24 +316,18 @@ def downloadSpeechForWordList(filename,voiceName):
                 break
     return retval
 
-def encodeWordList(ser,filename,voiceName,forceReEncode):
+def encodeFile(ser,fileStub,voiceName):
+    convertToRaw(voiceName + "/" + fileStub+".ogg",voiceName+"/"+fileStub+".raw")
+    convert2AMBE(ser,voiceName+"/"+fileStub+".raw",voiceName+"/" + fileStub+".amb",False)
+    os.remove(voiceName+"/"+fileStub+".raw")       
 
+def encodeWordList(ser,filename,voiceName,forceReEncode):
     with open(filename,"r",encoding='utf-8') as csvfile:
         reader = csv.DictReader(csvfile)
-
         for row in reader:
             promptName = row['PromptName'].strip()
             fileStub = "P_{0}".format(promptName)
-
-            convertToRaw(voiceName + "/" + fileStub+".ogg",voiceName+"/"+fileStub+".raw")
-
-            stripSilence=True;
-            
-            if (row['PromptText'] == " "):
-                    stripSilence = False
-                    
-            convert2AMBE(ser,voiceName+"/"+fileStub+".raw",voiceName+"/" + fileStub+".amb",stripSilence)
-            os.remove(voiceName+"/"+fileStub+".raw")                    
+            encodeFile(ser,fileStub,voiceName)
             
 def buildDataPack(filename,voiceName,outputFileName):
     print("Building...")
