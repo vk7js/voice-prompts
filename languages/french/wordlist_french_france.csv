@@ -1,0 +1,208 @@
+PromptName,PromptSpeed,PromptText
+PROMPT_SPACE,normal, 
+PROMPT_POINT,fast,POINT
+PROMPT_0,fast,0
+PROMPT_1,fast,1
+PROMPT_2,fast,2
+PROMPT_3,fast,3
+PROMPT_4,fast,4
+PROMPT_5,fast,5
+PROMPT_6,fast,6
+PROMPT_7,fast,7
+PROMPT_8,fast,8
+PROMPT_9,fast,9
+PROMPT_A,fast,A
+PROMPT_B,fast,B
+PROMPT_C,fast,C
+PROMPT_D,fast,D
+PROMPT_E,fast,E
+PROMPT_F,fast,F
+PROMPT_G,fast,G
+PROMPT_H,fast,H
+PROMPT_I,fast,I
+PROMPT_J,fast,J
+PROMPT_K,fast,K
+PROMPT_L,fast,L
+PROMPT_M,fast,M
+PROMPT_N,fast,N
+PROMPT_O,fast,O
+PROMPT_P,fast,P
+PROMPT_Q,fast,Q
+PROMPT_R,fast,R
+PROMPT_S,fast,S
+PROMPT_T,fast,T
+PROMPT_U,fast,U
+PROMPT_V,fast,V
+PROMPT_W,fast,W
+PROMPT_X,fast,X
+PROMPT_Y,fast,Y
+PROMPT_Z,fast,Z
+PROMPT_Z2,fast,Zee
+PROMPT_CHANNEL,normal,CANAL
+PROMPT_CONTACT,normal,CONTACT
+PROMPT_DBM,normal,DBM
+PROMPT_ENTRY,normal,Entrée
+PROMPT_MEGAHERTZ,normal,MEGAHERTZ
+PROMPT_KILOHERTZ,normal,KILOHERTZ
+PROMPT_TALKGROUP,normal,TALKGROUP
+PROMPT_TIMESLOT,normal,Timeslot
+PROMPT_VFO,normal,V F O
+PROMPT_SECONDS,normal,Secondes
+PROMPT_Minutes,normal,Minutes
+PROMPT_Hours,normal,Heures
+PROMPT_VOLTS,normal,Volts
+PROMPT_WATT,normal,Watt
+PROMPT_WATTS,normal,Watts
+PROMPT_MILLIWATTS,normal,Milliwatts
+PROMPT_PERCENT,normal,Pour cent
+PROMPT_RECEIVE,normal,Recevoir
+PROMPT_Transmit,normal,Transmettre
+PROMPT_HASH,normal,Hacher
+PROMPT_STAR,normal,Etoile
+PROMPT_GREEN,normal,vert
+PROMPT_RED,normal,rouge
+PROMPT_VERSION,normal,Version
+PROMPT_MODE,normal,Mode
+PROMPT_DMR,normal,D M R
+PROMPT_FM,normal,F M
+PROMPT_WIDE,normal,Large
+PROMPT_NARROW,normal,Étroit
+PROMPT_PLUS,normal,Plus
+PROMPT_MINUS,normal,Moins
+PROMPT_TBD1,normal,
+PROMPT_TBD2,normal,
+PROMPT_TBD3,normal,
+PROMPT_TBD4,normal,
+PROMPT_TBD5,normal,
+PROMPT_TBD6,normal,
+PROMPT_TBD7,normal, 
+PROMPT_TBD8,normal, 
+LANGUAGE_NAME,normal,Français
+menu,normal,Menu
+credits,normal,Crédits
+zone,normal,Zone
+rssi,normal,RSSI
+battery,normal,Batterie
+contacts,normal,Contacts
+last_heard,normal,Derniers reçus
+firmware_info,normal,Info Firmware
+options,normal,Options
+display_options,normal,Options aff.
+sound_options,normal,Options son
+channel_details,normal,Détails canal
+language,normal,Langue
+new_contact,normal,Nouveau contact
+contact_list,normal,Liste contacts
+contact_details,normal,Détails contact
+hotspot_mode,normal,Hotspot
+built,normal,Créé
+zones,normal,Zones
+keypad,normal,Clavier
+ptt,normal,PTT
+locked,normal,Verrouillé
+press_blue_plus_star,normal,Pressez Bleu + *
+to_unlock,normal,pour déverrouiller
+unlocked,normal,Déverrouillé
+power_off,normal,Extinction...
+error,normal,ERREUR
+rx_only,normal,Rx uniqmnt.
+out_of_band,normal,HORS BANDE
+timeout,normal,TIMEOUT
+tg_entry,normal,Entrez TG
+pc_entry,normal,Entrez PC
+user_dmr_id,normal,D M R ID personal
+contact,normal,Contact
+accept_call,normal,Accepter Appel ?
+private_call,normal,Appel Privé
+squelch,normal,Squelch
+quick_menu,normal,Menu rapide
+filter,normal,Filtre
+all_channels,normal,Tous Canaux
+gotoChannel,normal,Aller
+scan,normal,Scan
+channelToVfo,normal,Canal a V F O
+vfoToChannel,normal,V F O a canal
+vfoToNewChannel,normal,V F O a Nouveau canal
+group,normal,Groupe
+private,normal,Privé
+all,normal,Tous
+type,normal,Type
+timeSlot,normal,Timeslot
+none,normal,Aucun
+contact_saved,normal,Contact sauvé
+duplicate,normal,Dupliqué
+tg,normal,TG
+pc,normal,PC
+ts,normal,TS
+mode,normal,Mode
+colour_code,normal,Code Couleur
+n_a,normal,ND
+bandwidth,normal,Larg. bde
+stepFreq,normal,Pas
+tot,normal,TOT
+off,normal,Off
+zone_skip,normal,Saut Zone
+all_skip,normal,Saut Compl.
+yes,normal,Oui
+no,normal,Non
+rx_group,normal,Grp Rx
+on,normal,On
+timeout_beep,normal,Son timeout
+factory_reset,normal,Ràz Usine
+calibration,normal,Étalonnage
+band_limits,normal,Lim. Bandes
+beep_volume,normal,Vol. bip
+dmr_mic_gain,normal,DMR mic
+fm_mic_gain,normal,FM mic
+key_long,normal,Appui long
+key_repeat,normal,Répét°
+dmr_filter_timeout,normal,Tps filtre
+brightness,normal,Rétro écl.
+brightness_off,normal,Écl. Minimum
+contrast,normal,Contraste
+colour_invert,normal,Inverse
+colour_normal,normal,Normale
+backlight_timeout,normal,Timeout
+scan_delay,normal,Délai scan
+yes___in_uppercase,normal,OUI
+no___in_uppercase,normal,NON
+DISMISS,normal,CACHER
+scan_mode,normal,Mode scan
+hold,normal,Bloque
+pause,normal,Pause
+empty_list,normal,Liste Vide
+delete_contact_qm,normal,Efface contact ?
+contact_deleted,normal,Contact effacé
+contact_used,normal,Contact utilisé
+in_rx_group,normal,ds le groupe RX
+select_tx,normal,Select° TX
+edit_contact,normal,Édite Contact
+delete_contact,normal,Efface Contact
+group_call,normal,Appel de Groupe
+all_call,normal,All Call
+tone_scan,normal,Scan tons
+low_battery,normal,BATT. FAIBLE !!!
+Auto,normal,Auto
+manual,normal,Manuel
+ptt_toggle,normal,Bascule PTT
+private_call_handling,normal,Filtre PC
+stop,normal,Arrêt
+one_line,normal,1 ligne
+two_lines,normal,2 lignes
+new_channel,normal,Nouveau channel
+priority_order,normal,Ordre
+dmr_beep,normal,Bip TX
+start,normal,Début
+both,normal,Les Deux
+vox_threshold,normal,Seuil VOX
+vox_tail,normal,Queue VOX
+audio_prompt,normal,Prompt
+silent,normal,Silent
+normal,normal,Normal
+beep,normal,Beep
+voice,normal,Voice
+transmitTalkerAlias,normal,TA Tx
+squelch_VHF,normal,VHF Squelch
+squelch_220,normal,220 Squelch
+squelch_UHF,normal,UHF Squelch
+display_background_colour,normal,Couleur

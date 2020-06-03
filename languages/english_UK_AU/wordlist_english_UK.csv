@@ -160,8 +160,8 @@ dmr_filter_timeout,normal,Filter time
 brightness,normal,Brightness
 brightness_off,normal,Minimum brightness
 contrast,normal,Contrast
-colour_invert,normal,Color:Invert
-colour_normal,normal,Color:Normal
+colour_invert,normal,Invert
+colour_normal,normal,Normal
 backlight_timeout,normal,Timeout
 scan_delay,normal,Scan delay
 yes___in_uppercase,normal,YES
@@ -205,3 +205,4 @@ transmitTalkerAlias,normal,Talker Alias Transmit
 squelch_VHF,normal,V H F squelch
 squelch_220,normal,220 Megahertz squelch
 squelch_UHF,normal,U H F squelch
+display_background_colour,normal,Display backround colour

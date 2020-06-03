@@ -1,0 +1,208 @@
+PromptName,PromptSpeed,PromptText
+PROMPT_SPACE,normal, 
+PROMPT_POINT,fast,POINT
+PROMPT_0,fast,0
+PROMPT_1,fast,1
+PROMPT_2,fast,2
+PROMPT_3,fast,3
+PROMPT_4,fast,4
+PROMPT_5,fast,5
+PROMPT_6,fast,6
+PROMPT_7,fast,7
+PROMPT_8,fast,8
+PROMPT_9,fast,9
+PROMPT_A,fast,A
+PROMPT_B,fast,B
+PROMPT_C,fast,C
+PROMPT_D,fast,D
+PROMPT_E,fast,E
+PROMPT_F,fast,F
+PROMPT_G,fast,G
+PROMPT_H,fast,H
+PROMPT_I,fast,I
+PROMPT_J,fast,J
+PROMPT_K,fast,K
+PROMPT_L,fast,L
+PROMPT_M,fast,M
+PROMPT_N,fast,N
+PROMPT_O,fast,O
+PROMPT_P,fast,P
+PROMPT_Q,fast,Q
+PROMPT_R,fast,R
+PROMPT_S,fast,S
+PROMPT_T,fast,T
+PROMPT_U,fast,U
+PROMPT_V,fast,V
+PROMPT_W,fast,W
+PROMPT_X,fast,X
+PROMPT_Y,fast,Y
+PROMPT_Z,fast,Zed
+PROMPT_Z2,fast,Z
+PROMPT_CHANNEL,normal,KANÁL
+PROMPT_CONTACT,normal,KONTAKT
+PROMPT_DBM,normal,DBM
+PROMPT_ENTRY,normal,VSTUP
+PROMPT_MEGAHERTZ,normal,MEGAHERTZ
+PROMPT_KILOHERTZ,normal,KILOHERTZ
+PROMPT_TALKGROUP,normal,TALKGROUP
+PROMPT_TIMESLOT,normal,CHVILKA
+PROMPT_VFO,normal,VFO
+PROMPT_SECONDS,normal,Sekundy
+PROMPT_Minutes,normal,Minut
+PROMPT_Hours,normal,Hodiny
+PROMPT_VOLTS,normal,Volty
+PROMPT_WATT,normal,Watt
+PROMPT_WATTS,normal,Watty
+PROMPT_MILLIWATTS,normal,Milliwatts
+PROMPT_PERCENT,normal,Procent
+PROMPT_RECEIVE,normal,Dostávat
+PROMPT_Transmit,normal,Vysílat
+PROMPT_HASH,normal,Hash
+PROMPT_STAR,normal,Start
+PROMPT_GREEN,normal,Zelený
+PROMPT_RED,normal,?ervené
+PROMPT_VERSION,normal,Verze
+PROMPT_MODE,normal,Režim
+PROMPT_DMR,normal,D M R
+PROMPT_FM,normal,F M
+PROMPT_WIDE,normal,Široký
+PROMPT_NARROW,normal,Úzký
+PROMPT_PLUS,normal,Plus
+PROMPT_MINUS,normal,Mínus
+PROMPT_TBD1,normal,
+PROMPT_TBD2,normal,
+PROMPT_TBD3,normal,
+PROMPT_TBD4,normal,
+PROMPT_TBD5,normal,
+PROMPT_TBD6,normal,
+PROMPT_TBD7,normal, 
+PROMPT_TBD8,normal, 
+LANGUAGE_NAME,normal,estina
+menu,normal,Menu
+credits,normal,kreditů
+zone,normal,Zóna
+rssi,normal,Síla signálu
+battery,normal,Baterie
+contacts,normal,Kontakty
+last_heard,normal,PosledníKdoVolal
+firmware_info,normal,Firmware Info
+options,normal,Nastavení
+display_options,normal,NastaveníDisplay
+sound_options,normal,Nastavení zvuku
+channel_details,normal,Kanál Detail
+language,normal,Jazyk
+new_contact,normal,Nový Kontakt
+contact_list,normal,Kontakt list
+contact_details,normal,Hotspot-Mód
+hotspot_mode,normal,Kontakt Detail
+built,normal,Sestavení
+zones,normal,Zóny
+keypad,normal,Klávesa
+ptt,normal,PTT
+locked,normal,Zam€ený
+press_blue_plus_star,normal,Stla€it Modré + *
+to_unlock,normal,Odemknout
+unlocked,normal,Odemknuto
+power_off,normal,Vypínaní...
+error,normal,CHYBA
+rx_only,normal,Jenom Rx
+out_of_band,normal,MIMO PÁSMO
+timeout,normal,asLimit
+tg_entry,normal,TG Zadání
+pc_entry,normal,PC Zadání
+user_dmr_id,normal,Uživ. DMR ID
+contact,normal,Kontakty
+accept_call,normal,P›ijmout hovor?
+private_call,normal,Seznam kontakt¡
+squelch,normal,Squelch
+quick_menu,normal,Rychlé menu
+filter,normal,Filtr
+all_channels,normal,Všechny Kanály
+gotoChannel,normal,Další kanál
+scan,normal,Sken
+channelToVfo,normal,Kanál-->VFO
+vfoToChannel,normal,VFO-->Kanál
+vfoToNewChannel,normal,VFO-->Nový Kanál
+group,normal,Group
+private,normal,Soukromé
+all,normal,Všechno
+type,normal,Typ
+timeSlot,normal,TimeSlot
+none,normal,Není
+contact_saved,normal,Kontakt uložen
+duplicate,normal,Duplikát
+tg,normal,TG
+pc,normal,PC
+ts,normal,TS
+mode,normal,Mód
+colour_code,normal,Color Code
+n_a,normal,N/A
+bandwidth,normal,Ší›.Pásma
+stepFreq,normal,Krok
+tot,normal,TOT
+off,normal,Vyp
+zone_skip,normal,Skip v Zone
+all_skip,normal,Skip ve Vše
+yes,normal,Ano
+no,normal,Ne
+rx_group,normal,Rx Group
+on,normal,Zap
+timeout_beep,normal,TónLimit
+factory_reset,normal,Úplný-Reset
+calibration,normal,Kalibrace
+band_limits,normal,OmezitPásmo
+beep_volume,normal,ZvukKláves
+dmr_mic_gain,normal,DMR mic
+fm_mic_gain,normal,FM mic
+key_long,normal,Držet
+key_repeat,normal,Znovu
+dmr_filter_timeout,normal,asDMRFiltru
+brightness,normal,Jas
+brightness_off,normal,Min. Jas
+contrast,normal,Kontrast
+colour_invert,normal,erná
+colour_normal,normal,Bílá
+backlight_timeout,normal,as Svícení
+scan_delay,normal,Sken pauza
+yes___in_uppercase,normal,ANO
+no___in_uppercase,normal,NE
+DISMISS,normal,ODMÍTNI
+scan_mode,normal,SkenMód
+hold,normal,Zastavit
+pause,normal,Pauza
+empty_list,normal,Prázdný seznam
+delete_contact_qm,normal,Smazat kontakt?
+contact_deleted,normal,Kontakt smazán
+contact_used,normal,Použít kontakt
+in_rx_group,normal,v RX Group
+select_tx,normal,Vybrat TX
+edit_contact,normal,Upravit kontakt
+delete_contact,normal,Smazat Kontakt
+group_call,normal,Seznam Group
+all_call,normal,Všechny €ísla
+tone_scan,normal,CTCSS Sken
+low_battery,normal,SLABÁ BATERIE!
+Auto,normal,Automat.
+manual,normal,Manualní
+ptt_toggle,normal,PTT p›epnout
+private_call_handling,normal,Soukr.Volání
+stop,normal,stop
+one_line,normal,1 ›ádek
+two_lines,normal,2 ›ádky
+new_channel,normal,Nový Kanal
+priority_order,normal,íst ID
+dmr_beep,normal,pípDMR
+start,normal,start
+both,normal,StartStop
+vox_threshold,normal,VOX Práh
+vox_tail,normal,VOX Dozvuk
+audio_prompt,normal,VýzvaZvuk
+silent,normal,Tichý
+normal,normal,Normál
+beep,normal,Pípá
+voice,normal,Hlas
+transmitTalkerAlias,normal,TA Tx
+squelch_VHF,normal,VHF Squelch
+squelch_220,normal,220 Squelch
+squelch_UHF,normal,UHF Squelch
+display_background_colour,normal,Barva

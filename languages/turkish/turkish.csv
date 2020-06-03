@@ -1,0 +1,208 @@
+PromptName,PromptSpeed,PromptText
+PROMPT_SPACE,normal, 
+PROMPT_POINT,fast,POINT
+PROMPT_0,fast,0
+PROMPT_1,fast,1
+PROMPT_2,fast,2
+PROMPT_3,fast,3
+PROMPT_4,fast,4
+PROMPT_5,fast,5
+PROMPT_6,fast,6
+PROMPT_7,fast,7
+PROMPT_8,fast,8
+PROMPT_9,fast,9
+PROMPT_A,fast,A
+PROMPT_B,fast,B
+PROMPT_C,fast,C
+PROMPT_D,fast,D
+PROMPT_E,fast,E
+PROMPT_F,fast,F
+PROMPT_G,fast,G
+PROMPT_H,fast,H
+PROMPT_I,fast,I
+PROMPT_J,fast,J
+PROMPT_K,fast,K
+PROMPT_L,fast,L
+PROMPT_M,fast,M
+PROMPT_N,fast,N
+PROMPT_O,fast,O
+PROMPT_P,fast,P
+PROMPT_Q,fast,Q
+PROMPT_R,fast,R
+PROMPT_S,fast,S
+PROMPT_T,fast,T
+PROMPT_U,fast,U
+PROMPT_V,fast,V
+PROMPT_W,fast,W
+PROMPT_X,fast,X
+PROMPT_Y,fast,Y
+PROMPT_Z,fast,Z
+PROMPT_Z2,fast,Z
+PROMPT_CHANNEL,normal,KANAL
+PROMPT_CONTACT,normal,?LET???M
+PROMPT_DBM,normal,DBM
+PROMPT_ENTRY,normal,G?R??
+PROMPT_MEGAHERTZ,normal,MEGAHERTZ
+PROMPT_KILOHERTZ,normal,PROMPT_KILOHERTZ
+PROMPT_TALKGROUP,normal,talkgroup
+PROMPT_TIMESLOT,normal,ZAMAN ARALI?I
+PROMPT_VFO,normal,VFO
+PROMPT_SECONDS,normal,Saniye
+PROMPT_Minutes,normal,Dakika
+PROMPT_Hours,normal,Saatler
+PROMPT_VOLTS,normal,Volt
+PROMPT_WATT,normal,vat
+PROMPT_WATTS,normal,Watts
+PROMPT_MILLIWATTS,normal,miliwatt
+PROMPT_PERCENT,normal,Yüzde
+PROMPT_RECEIVE,normal,Teslim almak
+PROMPT_Transmit,normal,?letim
+PROMPT_HASH,normal,esrar
+PROMPT_STAR,normal,Ba?lat
+PROMPT_GREEN,normal,Ye?il
+PROMPT_RED,normal,K?rm?z?
+PROMPT_VERSION,normal,versiyon
+PROMPT_MODE,normal,kip
+PROMPT_DMR,normal,D M R
+PROMPT_FM,normal,FM
+PROMPT_WIDE,normal,Geni?
+PROMPT_NARROW,normal,Dar
+PROMPT_PLUS,normal,Art?
+PROMPT_MINUS,normal,Eksi
+PROMPT_TBD1,normal,
+PROMPT_TBD2,normal,
+PROMPT_TBD3,normal,
+PROMPT_TBD4,normal,
+PROMPT_TBD5,normal,
+PROMPT_TBD6,normal,
+PROMPT_TBD7,normal, 
+PROMPT_TBD8,normal, 
+LANGUAGE_NAME,normal,Turkish
+menu,normal,Menü
+credits,normal,Yap“mc“lar
+zone,normal,Bölge
+rssi,normal,RSSI
+battery,normal,Batarya
+contacts,normal,Ki–iler
+last_heard,normal,Son Duyulanlar
+firmware_info,normal,YAZILIM Bilgisi
+options,normal,Opsiyonlar
+display_options,normal,Ekran Opsiyon
+sound_options,normal,Sound options
+channel_details,normal,Kanal Detay
+language,normal,Dil
+new_contact,normal,Yeni Ki–i
+contact_list,normal,Ki–i listesi
+contact_details,normal,Eri–im Modu
+hotspot_mode,normal,Ki–i Detaylar“
+built,normal,Olu–turma
+zones,normal,Bölgeler
+keypad,normal,Klavye
+ptt,normal,PTT
+locked,normal,Kiltli
+press_blue_plus_star,normal,Bas Mavi + *
+to_unlock,normal,Açmak için
+unlocked,normal,Kilit Aç“k
+power_off,normal,HO•ÇAKALIN
+error,normal,HATA
+rx_only,normal,Sadece Rx
+out_of_band,normal,BAND D“–“
+timeout,normal,Timeout
+tg_entry,normal,TG Giri–
+pc_entry,normal,PC Giri–
+user_dmr_id,normal,Ki–isel DMR ID
+contact,normal,Kontakt
+accept_call,normal,Arama Kabul?
+private_call,normal,Özel Arama
+squelch,normal,Squelch
+quick_menu,normal,H“zl“ Menü
+filter,normal,Filtre
+all_channels,normal,Tüm Kanallar
+gotoChannel,normal,Kanala Git
+scan,normal,Tara
+channelToVfo,normal,Kanal --> VFO
+vfoToChannel,normal,VFO --> Kanal
+vfoToNewChannel,normal,VFO --> Yeni Kanal
+group,normal,Grup
+private,normal,Özel
+all,normal,Tüm
+type,normal,Tip
+timeSlot,normal,Zaman Dilimi
+none,normal,Yok
+contact_saved,normal,Ki–i Kay“tedildi
+duplicate,normal,Çift!
+tg,normal,TG
+pc,normal,PC
+ts,normal,TS
+mode,normal,Mod
+colour_code,normal,Renk Kodu
+n_a,normal,N/A
+bandwidth,normal,Band geni–
+stepFreq,normal,Ad“m
+tot,normal,TX Süre
+off,normal,Kapal“
+zone_skip,normal,Bölge Atla
+all_skip,normal,Tüm Atla
+yes,normal,Evet
+no,normal,Hay“r
+rx_group,normal,Rx Grp
+on,normal,Aç
+timeout_beep,normal,Zaman bip
+factory_reset,normal,Fabrika Ayarlar“
+calibration,normal,Kalibrasyon
+band_limits,normal,Band S“n“r“
+beep_volume,normal,Bip sesi
+dmr_mic_gain,normal,DMR mic
+fm_mic_gain,normal,FM mic
+key_long,normal,Tu– Uzun
+key_repeat,normal,Tu– rpt
+dmr_filter_timeout,normal,FiltreSüre
+brightness,normal,Parlakl“k
+brightness_off,normal,Az parlak
+contrast,normal,Kontrast
+colour_invert,normal,Ters
+colour_normal,normal,Normal
+backlight_timeout,normal,Zamana–“m“
+scan_delay,normal,Tarama H“z“
+yes___in_uppercase,normal,EVET
+no___in_uppercase,normal,HAYIR
+DISMISS,normal,REDDET
+scan_mode,normal,Tarama modu
+hold,normal,Dur
+pause,normal,Bekle
+empty_list,normal,Bo– Liste
+delete_contact_qm,normal,Ki–iyi silmek?
+contact_deleted,normal,Ki–i silindi
+contact_used,normal,Ki–i kullan“mda
+in_rx_group,normal,RX grubunda
+select_tx,normal,TX seçin
+edit_contact,normal,Ki–iyi Düzenle
+delete_contact,normal,Ki–iyi silmek
+group_call,normal,Grup Ça˜r“s“
+all_call,normal,Tüm aramalar
+tone_scan,normal,Ton tarama
+low_battery,normal,DÜ•ÜK BATARYA !
+Auto,normal,Otomatik
+manual,normal,Manüel
+ptt_toggle,normal,PTT Tu–u
+private_call_handling,normal,PC izin ver
+stop,normal,Stop
+one_line,normal,1 sat“r
+two_lines,normal,2 sat“r
+new_channel,normal,Yeni Kanal
+priority_order,normal,Öncelik
+dmr_beep,normal,DMR beep
+start,normal,Start
+both,normal,Both
+vox_threshold,normal,VOX Thres.
+vox_tail,normal,VOX Tail
+audio_prompt,normal,Prompt
+silent,normal,Silent
+normal,normal,Normal
+beep,normal,Beep
+voice,normal,Voice
+transmitTalkerAlias,normal,TA Tx
+squelch_VHF,normal,VHF Squelch
+squelch_220,normal,220 Squelch
+squelch_UHF,normal,UHF Squelch
+display_background_colour,normal,Renk
