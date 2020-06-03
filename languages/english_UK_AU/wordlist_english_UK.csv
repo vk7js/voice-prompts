@@ -69,14 +69,14 @@ PROMPT_WIDE,normal,Wide
 PROMPT_NARROW,normal,Narrow
 PROMPT_PLUS,normal,Plus
 PROMPT_MINUS,normal,Minus
+PROMPT_TBD1,normal,
+PROMPT_TBD2,normal,
 PROMPT_TBD3,normal,
 PROMPT_TBD4,normal,
 PROMPT_TBD5,normal,
 PROMPT_TBD6,normal,
 PROMPT_TBD7,normal, 
 PROMPT_TBD8,normal, 
-PROMPT_TBD9,normal,
-PROMPT_TBD10,normal, 
 LANGUAGE_NAME,normal,English
 menu,normal,Menu
 credits,normal,Credits
@@ -84,8 +84,8 @@ zone,normal,Zone
 rssi,normal,RSSI
 battery,normal,Battery
 contacts,normal,Contacts
-firmware_info,normal,Firmware info
 last_heard,normal,Last heard
+firmware_info,normal,Firmware info
 options,normal,Options
 display_options,normal,Display options
 sound_options,normal,Sound options

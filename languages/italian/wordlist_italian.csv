@@ -69,14 +69,14 @@ PROMPT_WIDE,normal,Largo
 PROMPT_NARROW,normal,Stretto
 PROMPT_PLUS,normal,più
 PROMPT_MINUS,normal,Meno
+PROMPT_TBD1,normal,
+PROMPT_TBD2,normal,
 PROMPT_TBD3,normal,
 PROMPT_TBD4,normal,
 PROMPT_TBD5,normal,
 PROMPT_TBD6,normal,
 PROMPT_TBD7,normal, 
-PROMPT_TBD8,normal, 
-PROMPT_TBD9,normal,
-PROMPT_TBD10,normal, 
+PROMPT_TBD8,normal,  
 LANGUAGE_NAME,normal,Italiano
 menu,normal,Menu
 credits,normal,Crediti
