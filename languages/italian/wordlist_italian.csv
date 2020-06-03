@@ -201,3 +201,7 @@ silent,normal,Silenzioso
 normal,normal,Normale
 beep,normal,Beep
 voice,normal,Voce
+transmitTalkerAlias,normal,Talker Alias Transmit
+squelch_VHF,normal,V H F squelch
+squelch_220,normal,220 Megahertz squelch
+squelch_UHF,normal,U H F squelch
