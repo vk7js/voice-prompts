@@ -1,207 +1,208 @@
-PromptName,PromptSpeed,PromptText
-PROMPT_SPACE,normal, 
-PROMPT_POINT,fast,POINT
-PROMPT_0,fast,0
-PROMPT_1,fast,1
-PROMPT_2,fast,2
-PROMPT_3,fast,3
-PROMPT_4,fast,4
-PROMPT_5,fast,5
-PROMPT_6,fast,6
-PROMPT_7,fast,7
-PROMPT_8,fast,8
-PROMPT_9,fast,9
-PROMPT_A,fast,A
-PROMPT_B,fast,B
-PROMPT_C,fast,C
-PROMPT_D,fast,D
-PROMPT_E,fast,E
-PROMPT_F,fast,F
-PROMPT_G,fast,G
-PROMPT_H,fast,H
-PROMPT_I,fast,I
-PROMPT_J,fast,J
-PROMPT_K,fast,K
-PROMPT_L,fast,L
-PROMPT_M,fast,M
-PROMPT_N,fast,N
-PROMPT_O,fast,O
-PROMPT_P,fast,P
-PROMPT_Q,fast,Q
-PROMPT_R,fast,R
-PROMPT_S,fast,S
-PROMPT_T,fast,T
-PROMPT_U,fast,U
-PROMPT_V,fast,V
-PROMPT_W,fast,W
-PROMPT_X,fast,X
-PROMPT_Y,fast,Y
-PROMPT_Z,fast,Z
-PROMPT_Z2,fast,Zee
-PROMPT_CHANNEL,normal,Canale
-PROMPT_CONTACT,normal,Contatto
-PROMPT_DBM,normal,DBM
-PROMPT_ENTRY,normal,Inserisci
-PROMPT_MEGAHERTZ,normal,MEGAHERTZ
-PROMPT_KILOHERTZ,normal,KILOHERTZ
-PROMPT_TALKGROUP,normal,TALKGROUP
-PROMPT_TIMESLOT,normal,TIMESLOT
-PROMPT_VFO,normal,VFO
-PROMPT_SECONDS,normal,Secondi
-PROMPT_Minutes,normal,Minuti
-PROMPT_Hours,normal,Ore
-PROMPT_VOLTS,normal,Volt
-PROMPT_WATT,normal,Watt
-PROMPT_WATTS,normal,Watti
-PROMPT_MILLIWATTS,normal,Milliwatts
-PROMPT_PERCENT,normal,Per cento
-PROMPT_RECEIVE,normal,Ricevere
-PROMPT_Transmit,normal,Trasmettere
-PROMPT_HASH,normal,Hash
-PROMPT_STAR,normal,Inizio
-PROMPT_GREEN,normal,Verde
-PROMPT_RED,normal,Rossa
-PROMPT_VERSION,normal,Versione
-PROMPT_MODE,normal,Mode
-PROMPT_DMR,normal,DMR
-PROMPT_FM,normal,FM
-PROMPT_WIDE,normal,Largo
-PROMPT_NARROW,normal,Stretto
-PROMPT_PLUS,normal,più
-PROMPT_MINUS,normal,Meno
-PROMPT_TBD1,normal,
-PROMPT_TBD2,normal,
-PROMPT_TBD3,normal,
-PROMPT_TBD4,normal,
-PROMPT_TBD5,normal,
-PROMPT_TBD6,normal,
-PROMPT_TBD7,normal, 
-PROMPT_TBD8,normal,  
-LANGUAGE_NAME,normal,Italiano
-menu,normal,Menu
-credits,normal,Crediti
-zone,normal,Zone
-rssi,normal,RSSI
-battery,normal,Batteria
-contacts,normal,Contatti
-last_heard,normal,Ultimi Ricevuti
-firmware_info,normal,Informazioni
-options,normal,Opzioni
-display_options,normal,Opz. Display
-sound_options,normal,Opzioni Audio
-channel_details,normal,Dettagli canale
-language,normal,Lingua
-new_contact,normal,Nuovo Contatto
-contact_list,normal,Lista Contatti
-contact_details,normal,Det.li Contatto
-hotspot_mode,normal,Modo Hotspot
-built,normal,Versione
-zones,normal,Zone
-keypad,normal,Tastiera
-ptt,normal,PTT
-locked,normal,Bloccato
-press_blue_plus_star,normal,Premi Blue + *
-to_unlock,normal,Per sbloccare
-unlocked,normal,Sbloccato
-power_off,normal,Spegnimento...
-error,normal,ERRORE
-rx_only,normal,Solo Rx
-out_of_band,normal,FUORI BANDA
-timeout,normal,TIMEOUT
-tg_entry,normal,Inserisci TG
-pc_entry,normal,Inserisci CP
-user_dmr_id,normal,ID Utente D M R
-contact,normal,Contatto
-accept_call,normal,Accettare?
-private_call,normal,Chiamata Priv.
-squelch,normal,Squelch
-quick_menu,normal,Menu rapido
-filter,normal,Filtro
-all_channels,normal,Tutti i canali
-gotoChannel,normal,Vai a
-scan,normal,Scansione
-channelToVfo,normal,Canale al V F O
-vfoToChannel,normal,V F O al Canale
-vfoToNewChannel,normal,V F O al nuovo canale
-group,normal,Gruppo
-private,normal,Privato
-all,normal,Tutti
-type,normal,Tipo
-timeSlot,normal,Timeslot
-none,normal,Nessuno
-contact_saved,normal,Salvato
-duplicate,normal,Duplicato
-tg,normal,TG
-pc,normal,CP
-ts,normal,TS
-mode,normal,Modo
-colour_code,normal,Codice Colore
-n_a,normal,N/A
-bandwidth,normal,Banda
-stepFreq,normal,Step
-tot,normal,TOT
-off,normal,Off
-zone_skip,normal,Salta Zona
-all_skip,normal,Salta Tutti
-yes,normal,SÌ
-no,normal,No
-rx_group,normal,Rx gruppo
-on,normal,On
-timeout_beep,normal,Bip Timeout
-factory_reset,normal,Reset Fabb.
-calibration,normal,Calibrazione
-band_limits,normal,Limiti Banda
-beep_volume,normal,Volume Bip
-dmr_mic_gain,normal,DMR mic
-fm_mic_gain,normal,FM mic
-key_long,normal,Key long
-key_repeat,normal,Key rpt
-dmr_filter_timeout,normal,Tempo Filtro
-brightness,normal,Luminosità
-brightness_off,normal,Min. Lum.
-contrast,normal,Contrasto
-colour_invert,normal,Colore:Invert.
-colour_normal,normal,Colore:Normale
-backlight_timeout,normal,Timeout
-scan_delay,normal,Ritardo Scan
-yes___in_uppercase,normal,SÌ
-no___in_uppercase,normal,NO
-DISMISS,normal,RIFIUTA
-scan_mode,normal,Modo Scan
-hold,normal,Hold
-pause,normal,Pausa
-empty_list,normal,Lista Vuota
-delete_contact_qm,normal,Canc. Contatto?
-contact_deleted,normal,Cancellato
-contact_used,normal,Contatto usato
-in_rx_group,normal,in gruppo RX
-select_tx,normal,Seleziona TX
-edit_contact,normal,Modificare Contatto
-delete_contact,normal,Elimina Contatto
-group_call,normal,Chiama Gruppo
-all_call,normal,Chiama Tutti
-tone_scan,normal,Scansione Toni
-low_battery,normal,BATTERIA SCARICA
-Auto,normal,Automatico
-manual,normal,Manuale
-ptt_toggle,normal,Auto-PTT
-private_call_handling,normal,Gest. CP
-stop,normal,Fine
-one_line,normal,1 linea
-two_lines,normal,2 linee
-new_channel,normal,Nuovo canale
-priority_order,normal,Prio.
-dmr_beep,normal,DMR bip
-start,normal,Inizio
-both,normal,Ambedue
-vox_threshold,normal,Soglia VOX
-vox_tail,normal,Coda VOX
-audio_prompt,normal,Richiesta
-silent,normal,Silenzioso
-normal,normal,Normale
-beep,normal,Beep
-voice,normal,Voce
-transmitTalkerAlias,normal,Talker Alias Transmit
-squelch_VHF,normal,V H F squelch
-squelch_220,normal,220 Megahertz squelch
-squelch_UHF,normal,U H F squelch
+PromptName,PromptSpeechPrefix,PromptSpeechPostfix,PromptText
+PROMPT_SPACE,,, 
+PROMPT_POINT,"<prosody rate=""fast"">",</prosody>,POINT
+PROMPT_0,"<prosody rate=""fast"">",</prosody>,0
+PROMPT_1,"<prosody rate=""fast"">",</prosody>,1
+PROMPT_2,"<prosody rate=""fast"">",</prosody>,2
+PROMPT_3,"<prosody rate=""fast"">",</prosody>,3
+PROMPT_4,"<prosody rate=""fast"">",</prosody>,4
+PROMPT_5,"<prosody rate=""fast"">",</prosody>,5
+PROMPT_6,"<prosody rate=""fast"">",</prosody>,6
+PROMPT_7,"<prosody rate=""fast"">",</prosody>,7
+PROMPT_8,"<prosody rate=""fast"">",</prosody>,8
+PROMPT_9,"<prosody rate=""fast"">",</prosody>,9
+PROMPT_A,"<prosody rate=""fast"">",</prosody>,A
+PROMPT_B,"<prosody rate=""fast"">",</prosody>,B
+PROMPT_C,"<prosody rate=""fast"">",</prosody>,C
+PROMPT_D,"<prosody rate=""fast"">",</prosody>,D
+PROMPT_E,"<prosody rate=""fast"">",</prosody>,E
+PROMPT_F,"<prosody rate=""fast"">",</prosody>,F
+PROMPT_G,"<prosody rate=""fast"">",</prosody>,G
+PROMPT_H,"<prosody rate=""fast"">",</prosody>,H
+PROMPT_I,"<prosody rate=""fast"">",</prosody>,I
+PROMPT_J,"<prosody rate=""fast"">",</prosody>,J
+PROMPT_K,"<prosody rate=""fast"">",</prosody>,K
+PROMPT_L,"<prosody rate=""fast"">",</prosody>,L
+PROMPT_M,"<prosody rate=""fast"">",</prosody>,M
+PROMPT_N,"<prosody rate=""fast"">",</prosody>,N
+PROMPT_O,"<prosody rate=""fast"">",</prosody>,O
+PROMPT_P,"<prosody rate=""fast"">",</prosody>,P
+PROMPT_Q,"<prosody rate=""fast"">",</prosody>,Q
+PROMPT_R,"<prosody rate=""fast"">",</prosody>,R
+PROMPT_S,"<prosody rate=""fast"">",</prosody>,S
+PROMPT_T,"<prosody rate=""fast"">",</prosody>,T
+PROMPT_U,"<prosody rate=""fast"">",</prosody>,U
+PROMPT_V,"<prosody rate=""fast"">",</prosody>,V
+PROMPT_W,"<prosody rate=""fast"">",</prosody>,W
+PROMPT_X,"<prosody rate=""fast"">",</prosody>,X
+PROMPT_Y,"<prosody rate=""fast"">",</prosody>,Y
+PROMPT_Z,"<prosody rate=""fast"">",</prosody>,Z
+PROMPT_Z2,"<prosody rate=""fast"">",</prosody>,Zee
+PROMPT_CHANNEL,,,Canale
+PROMPT_CONTACT,,,Contatto
+PROMPT_DBM,,,DBM
+PROMPT_ENTRY,,,Inserisci
+PROMPT_MEGAHERTZ,,,MEGAHERTZ
+PROMPT_KILOHERTZ,,,KILOHERTZ
+PROMPT_TALKGROUP,,,TALKGROUP
+PROMPT_TIMESLOT,,,TIMESLOT
+PROMPT_VFO,,,VFO
+PROMPT_SECONDS,,,Secondi
+PROMPT_Minutes,,,Minuti
+PROMPT_Hours,,,Ore
+PROMPT_VOLTS,,,Volt
+PROMPT_WATT,,,Vat
+PROMPT_WATTS,,,Vat
+PROMPT_MILLIWATTS,,,Millivat
+PROMPT_PERCENT,,,Per cento
+PROMPT_RECEIVE,,,Ricevere
+PROMPT_Transmit,,,Trasmettere
+PROMPT_HASH,,,Hash
+PROMPT_STAR,,,Inizio
+PROMPT_GREEN,,,Verde
+PROMPT_RED,,,Rosso
+PROMPT_VERSION,,,Versione
+PROMPT_MODE,,,Modo
+PROMPT_DMR,,,DMR
+PROMPT_FM,,,FM
+PROMPT_WIDE,,,Largo
+PROMPT_NARROW,,,Stretto
+PROMPT_PLUS,,,più
+PROMPT_MINUS,,,Meno
+PROMPT_TBD1,,,
+PROMPT_TBD2,,,
+PROMPT_TBD3,,,
+PROMPT_TBD4,,,
+PROMPT_TBD5,,,
+PROMPT_TBD6,,,
+PROMPT_TBD7,,, 
+PROMPT_TBD8,,,  
+LANGUAGE_NAME,,,Italiano
+menu,,,Menu
+credits,,,Crediti
+zone,,,Zone
+rssi,,,Segnale
+battery,,,Batteria
+contacts,,,Contatti
+last_heard,,,Ultimi Ricevuti
+firmware_info,,,Informazioni
+options,,,Opzioni
+display_options,,,Opzioni Display
+sound_options,,,Opzioni Audio
+channel_details,,,Dettagli canale
+language,,,Lingua
+new_contact,,,Nuovo Contatto
+contact_list,,,Lista Contatti
+contact_details,,,Dettagli Contatto
+hotspot_mode,,,Modo Hotspot
+built,,,Versione
+zones,,,Zone
+keypad,,,Tastiera
+ptt,,,PTT
+locked,,,Bloccato
+press_blue_plus_star,,,Premi Blue + asterisco
+to_unlock,,,Per sbloccare
+unlocked,,,Sbloccato
+power_off,,,Spegnimento
+error,,,ERRORE
+rx_only,,,Solo ricezione
+out_of_band,,,FUORI BANDA
+timeout,,,TEMPO SCADUTO
+tg_entry,,,Inserisci TG
+pc_entry,,,Inserisci contatto privato
+user_dmr_id,,,ID Utente D M R
+contact,,,Contatto
+accept_call,,,Accettare?
+private_call,,,Chiamata Privata
+squelch,,,Squelch
+quick_menu,,,Menu rapido
+filter,,,Filtro
+all_channels,,,Tutti i canali
+gotoChannel,,,Vai a
+scan,,,Scansione
+channelToVfo,,,Canale a V F O
+vfoToChannel,,,V F O a Canale
+vfoToNewChannel,,,V F O a nuovo canale
+group,,,Gruppo
+private,,,Privato
+all,,,Tutti
+type,,,Tipo
+timeSlot,,,Timeslot
+none,,,Nessuno
+contact_saved,,,Salvato
+duplicate,,,Duplicato
+tg,,,TG
+pc,,,CP
+ts,,,TS
+mode,,,Modo
+colour_code,,,Codice Colore
+n_a,,,Non applicato
+bandwidth,,,Banda
+stepFreq,,,Step
+tot,,,TOT
+off,,,disattivato
+zone_skip,,,Salta Zona
+all_skip,,,Salta Tutti
+yes,,,SÌ
+no,,,No
+rx_group,,,Ricezione gruppo
+on,,,On
+timeout_beep,,,Bip Timeout
+factory_reset,,,Reset Fabbrica
+calibration,,,Calibrazione
+band_limits,,,Limiti Banda
+beep_volume,,,Volume Bip
+dmr_mic_gain,,,DMR mic gain
+fm_mic_gain,,,FM mic gain
+key_long,,,tempo pressione tasto
+key_repeat,,,tempo ripetizione tasto
+dmr_filter_timeout,,,Tempo Filtro
+brightness,,,Luminosità
+brightness_off,,,Minima luminosità
+contrast,,,Contrasto
+colour_invert,,,Colore:Inverti
+colour_normal,,,Colore:Normale
+backlight_timeout,,,Timeout
+scan_delay,,,Ritardo Scansione
+yes___in_uppercase,,,SÌ
+no___in_uppercase,,,NO
+DISMISS,,,RIFIUTA
+scan_mode,,,Modo Scansione
+hold,,,Hold
+pause,,,Pausa
+empty_list,,,Lista Vuota
+delete_contact_qm,,,Cancellare Contatto?
+contact_deleted,,,Cancellato
+contact_used,,,Contatto usato
+in_rx_group,,,in gruppo RX
+select_tx,,,Seleziona TX
+edit_contact,,,Modificare Contatto
+delete_contact,,,Elimina Contatto
+group_call,,,Chiama Gruppo
+all_call,,,Chiama Tutti
+tone_scan,,,Scansione Toni
+low_battery,,,BATTERIA SCARICA
+Auto,,,Automatico
+manual,,,Manuale
+ptt_toggle,,,Auto-PTT
+private_call_handling,,,Gestione chiamata privata
+stop,,,Fine
+one_line,,,1 linea
+two_lines,,,2 linee
+new_channel,,,Nuovo canale
+priority_order,,,Priorità
+dmr_beep,,,DMR bip
+start,,,Inizio
+both,,,Ambedue
+vox_threshold,,,Soglia VOX
+vox_tail,,,Coda VOX
+audio_prompt,,,Richiesta
+silent,,,Silenzioso
+normal,,,Normale
+beep,,,Beep
+voice,,,Voce
+transmitTalkerAlias,,,Trasmetti talker alias
+squelch_VHF,,,V H F squelch
+squelch_220,,,220 Megahertz squelch
+squelch_UHF,,,U H F squelch
+display_background_colour,,,

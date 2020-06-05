@@ -1,0 +1,4 @@
+Wordlist_file,Voice_name,Voice_pack_name,Download,Encode,Createpack,Volume_change_db
+wordlist_portugeuse_eurpoean.csv,Cristiano,portuguese_portugal_cristiano.bin,n,n,n,0
+wordlist_portugues_brazil.csv,Vitoria,portuguese_brazil_vitoria.bin,y,y,y,0
+wordlist_portugues_brazil.csv,Ricardo,portuguese_portugal_ricardo.bin,y,y,y,0

@@ -13,12 +13,16 @@ import serial.tools.list_ports
 import ntpath
 import shutil
 import webbrowser
+import re
 
 
 MAX_TRANSFER_SIZE = 32
+CREATE_NO_WINDOW = 0x08000000
+DETACHED_PROCESS = 0x00000008
+overwrite=False
+gain='0'
 
-FLASH_SEND_SIZE = 8
-FLASH_WRITE_SIZE = 2
+#FLASH_WRITE_SIZE = 2
 
 def serialInit(serialDev):
     ser = serial.Serial()
@@ -38,100 +42,6 @@ def serialInit(serialDev):
         sys.exit(1)
     return ser
 
-
-def parseFMTChunk(wav_file):
-    print("parseFMTChunk")
-
-    audio_format = struct.unpack('<H', wav_file.read(2))[0]
-    assert audio_format == 1, '1 == PCM Format: assumed PCM'
-
-    num_channels = struct.unpack('<H', wav_file.read(2))[0]
-    print("num_channels = " + str(num_channels))
-
-    sample_rate = struct.unpack('<I', wav_file.read(4))[0]
-    print("sample_rate = " + str(sample_rate))
-
-    byte_rate = struct.unpack('<I', wav_file.read(4))[0]
-    print("byte_rate = " + str(byte_rate))
-
-    block_align = struct.unpack('<H', wav_file.read(2))[0]
-    print("block_align = " + str(block_align))
-
-    bitsPerSample = struct.unpack('<H', wav_file.read(2))[0]
-    print("bitsPerSample = " + str(bitsPerSample))    
-
-
-def convertWAVToRaw(infile,outfile):
-    # Open the example wave file stored in the current directory.
-
-    print(infile);
-    with open(infile, 'rb') as wav_file:
-        # Main Header
-        chunk_id = wav_file.read(4)
-        assert chunk_id == b'RIFF', 'RIFF little endian, RIFX big endian: assume RIFF'
-
-        chunk_size = struct.unpack('<I', wav_file.read(4))[0]
-        #print("Chunk size = " + str(chunk_size));
-        
-        wav_format = wav_file.read(4)
-        assert wav_format == b'WAVE', wav_format
-
-        foundDataChunk = False
-
-        while foundDataChunk==False:
-            sub_chunk_id = wav_file.read(4)
-            sub_chunk_size = struct.unpack('<I', wav_file.read(4))[0]
-#            print("sub_chunk_id = " + str(sub_chunk_id))
-#            print("sub_chunk_size = " + str(sub_chunk_size))
-
-            #if (sub_chunk_id == b'fmt '):
-            #   parseFMTChunk(wav_file)
-            #elif (sub_chunk_id == b'data'):
-            if (sub_chunk_id == b'data'):
-                foundDataChunk = True
-            else:
-                wav_file.read(sub_chunk_size)
-
-#        print("Found DATA block")
-
-        print("Saving to "+outfile);
-        with open(outfile, 'wb') as raw_file:
-            raw_file.write(wav_file.read())
-            raw_file.close
-
-        wav_file.close()
-
-
-
-# DON'T USE THIS FUNCTION
-# ALTHOUGH IT DOES DOWNLOAD THE FILE, there is some problem with the audio format, which causes problems for the AMBE encoder in the radio
-def downloadTTSMP3(file_name,promptText):
-    myobj = {'msg': promptText,
-             'lang':voiceName,
-             'source':'ttsmp3.com'}
-    data = urllib.parse.urlencode(myobj)
-    data = data.encode('ascii')
-    print("Download TTSMP3" + file_name + " -> " + promptText)
-
-    with urllib.request.urlopen("https://ttsmp3.com/makemp3_new.php", data) as f:
-        resp = f.read().decode('utf-8')
-        print(resp)
-        data = json.loads(resp)
-        if (data['Error'] == 0):
-            print(data['URL'])
-            # Download the file from `url` and save it locally under `file_name`:
-            with urllib.request.urlopen(data['URL']) as response, open(voiceName + "/S44_1k_" +file_name, 'wb') as out_file:
-                mp3data = response.read() # a `bytes` object
-                out_file.write(mp3data)
-                ## need to resample to 8kHz sample rate because ttsmp3 files are 22.05kHz
-                out_file.close()
-   
-                CREATE_NO_WINDOW = 0x08000000
-                subprocess.call(['ffmpeg','-y','-i', voiceName + "/S44_1k_" + file_name,'-ar','8000',voiceName + "/" +file_name])#, creationflags=CREATE_NO_WINDOW)
-
-        else:
-            print("Error requesting sound")
-
 def getMemoryArea(ser,buf,mode,bufStart,radioStart,length):
     R_SIZE = 8
     snd = bytearray(R_SIZE)
@@ -149,6 +59,7 @@ def getMemoryArea(ser,buf,mode,bufStart,radioStart,length):
         snd[6] = (batch >> 8) & 0xFF
         snd[7] = (batch >> 0) & 0xFF
         ret = ser.write(snd)
+        
         if (ret != R_SIZE):
             print("ERROR: write() wrote " + str(ret) + " bytes")
             return False
@@ -156,7 +67,7 @@ def getMemoryArea(ser,buf,mode,bufStart,radioStart,length):
             time.sleep(0)
             
         rcv = ser.read(ser.in_waiting)
-        if (rcv[0] == ord('R')):
+        if (rcv[0] == snd[0]):
             gotBytes = (rcv[1] << 8) + rcv[2]
             for i in range(0,gotBytes):
                 buf[bufPos] = rcv[i+3]
@@ -164,7 +75,7 @@ def getMemoryArea(ser,buf,mode,bufStart,radioStart,length):
             radioPos += gotBytes
             remaining -= gotBytes
         else:
-            print("read stopped (error at " + str(radioPos) + ")")
+            print("read stopped (error at " + str(rcv) + ")")
             return False
     return True
 
@@ -197,6 +108,7 @@ def sendCommand(ser,commandNumber, x_or_command_option_number, y, iSize, alignme
 
 
 def wavSendData(ser,buf,radioStart,length):
+    FLASH_SEND_SIZE = 8
     snd = bytearray(FLASH_SEND_SIZE+MAX_TRANSFER_SIZE)
     snd[0] = ord('W')
     snd[1] = 7#data type 7
@@ -205,6 +117,7 @@ def wavSendData(ser,buf,radioStart,length):
     remaining = length
     while (remaining > 0):
         transferSize = min(remaining,MAX_TRANSFER_SIZE)
+
         snd[2] = (radioPos >> 24) & 0xFF
         snd[3] = (radioPos >> 16) & 0xFF
         snd[4] = (radioPos >>  8) & 0xFF
@@ -212,8 +125,9 @@ def wavSendData(ser,buf,radioStart,length):
         snd[6] = (transferSize >>  8) & 0xFF
         snd[7] = (transferSize >>  0) & 0xFF
         snd[FLASH_SEND_SIZE:FLASH_SEND_SIZE+transferSize] = buf[bufPos:bufPos+transferSize]
+
         ret = ser.write(snd)
-        if (ret != FLASH_SEND_SIZE+transferSize):
+        if (ret != FLASH_SEND_SIZE+MAX_TRANSFER_SIZE):
             print("ERROR: write() wrote " + str(ret) + " bytes")
             return False
         while (ser.in_waiting == 0):
@@ -252,82 +166,154 @@ def convert2AMBE(ser,infile,outfile,stripSilence):
             print('.', end='')
             sendCommand(ser,6, 6, 0, 0, 0, 0,  "")#codecInitInternalBuffers
             transferLen = min(960,bufLen-wavBufPos)
+            #print("sent " + str(transferLen));
             wavSendData(ser,buf[wavBufPos:wavBufPos+transferLen],0,transferLen)
+            
             getMemoryArea(ser,ambFrameBuf,8,0,0,27)# mode 8 is read from AMBE
             ambBuf[ambBufPos:ambBufPos+27] = ambFrameBuf
             wavBufPos = wavBufPos + 960
             ambBufPos = ambBufPos + 27
-            
+ 
         sendCommand(ser,5, 0, 0, 0, 0, 0, "")# close CPS screen
         with open(outfile,'wb') as f:
             f.write(ambBuf[0:ambBufPos])
 
         print("")#newline
 
-def convertMP3ToWav(inFile,outFile):
-    print("ConvertToWav "+ inFile)
-    CREATE_NO_WINDOW = 0x08000000
-    DETACHED_PROCESS = 0x00000008
-    subprocess.call(['ffmpeg','-y','-i', inFile,'-acodec','pcm_s16le',outFile], creationflags=CREATE_NO_WINDOW)#,'-filter:a','volume=3dB', '-ar','8000'
-
 
 def convertToRaw(inFile,outFile):
-    print("ConvertToRaw "+ inFile + " -> " + outFile)
-    CREATE_NO_WINDOW = 0x08000000
-    DETACHED_PROCESS = 0x00000008
-    #'-af','silenceremove=1:0:-50dB'
-    subprocess.call(['ffmpeg','-y','-i', inFile,'-f','s16le',outFile], creationflags=CREATE_NO_WINDOW)#,'-filter:a','volume=3dB', '-ar','8000'
+    print("ConvertToRaw "+ inFile + " -> " + outFile + " gain="+gain)
+    callArgs = ['ffmpeg','-y','-i', inFile,'-filter:a','volume='+gain+'dB','-ar','8000','-f','s16le',outFile]
+    subprocess.call(callArgs, creationflags=CREATE_NO_WINDOW)#'-af','silenceremove=1:0:-50dB'
 
 
-def downloadPollyPro(voiceName,file_name,promptText,speechSpeed):
+
+def downloadPollyPro(voiceName,fileStub,promptText,speechSpeed):
     retval=True
+    hasDownloaded = False
     myobj = {'text-input': promptText,
              'voice':voiceName,
-             'format':'ogg_vorbis',# mp3 or ogg_vorbis or json
-             'frequency':'8000',
+             'format':'mp3',# mp3 or ogg_vorbis or json
+             'frequency':'22050',
              'effect':speechSpeed}
-
+    
     data = urllib.parse.urlencode(myobj)
     data = data.encode('ascii')
 
-    with urllib.request.urlopen("https://voicepolly.pro/speech-converter.php", data) as f:
-        resp = f.read().decode('utf-8')
-        print("Downloading synthesised speech for text: \""+promptText + "\" -> " +file_name)
-        if resp.endswith('.ogg'):
-            with urllib.request.urlopen(resp) as response, open(voiceName + "/" +file_name, 'wb') as out_file:
-                mp3data = response.read() # a `bytes` object
-                out_file.write(mp3data)
-                retval=True
-        else:
-            print("Error requesting sound " + resp)  
-            retval=False
+    mp3FileName = voiceName + "/" +fileStub+".mp3"
+    rawFileName = voiceName + "/" +fileStub+".raw"
+    ambeFileName = voiceName + "/" +fileStub+".amb"
+    
+    if (not os.path.exists(mp3FileName) or overwrite==True):
+        with urllib.request.urlopen("https://voicepolly.pro/speech-converter.php", data) as f:
+            resp = f.read().decode('utf-8')
+            print("Downloading synthesised speech for text: \""+promptText + "\" -> " +mp3FileName)
+            if resp.endswith('.mp3'):
+                with urllib.request.urlopen(resp) as response, open(mp3FileName, 'wb') as out_file:
+                    audioData = response.read() # a `bytes` object
+                    out_file.write(audioData)
+                    hasDownloaded = True
+                    retval = True
+            else:
+                print("Error requesting sound " + resp)  
+                retval=False
+#    else:
+#        print("Download skipping " + file_name)
 
+    if (hasDownloaded == True or not os.path.exists(rawFileName) or overwrite == True):
+        convertToRaw(mp3FileName,rawFileName)
+        if (os.path.exists(ambeFileName)):
+            os.remove(ambeFileName)# ambe file is now out of date, so delete it
+        
     return retval
+
+def downloadTTSMP3(voiceName,fileStub,promptText):
+    myobj = {'msg': promptText,
+             'lang':voiceName,
+             'source':'ttsmp3.com'}
+    data = urllib.parse.urlencode(myobj)
+    data = data.encode('ascii')
+
+    mp3FileName = voiceName + "/" +fileStub+".mp3"
+    rawFileName = voiceName + "/" +fileStub+".raw"
+    ambeFileName = voiceName + "/" +fileStub+".amb"
+    hasDownloaded = False
+
+    if (not os.path.exists(mp3FileName) or overwrite==True):
+        print("Download TTSMP3 " +  promptText)
+
+        with urllib.request.urlopen("https://ttsmp3.com/makemp3_new.php", data) as f:
+            resp = f.read().decode('utf-8')
+            print(resp)
+            data = json.loads(resp)
+            if (data['Error'] == 0):
+                print(data['URL'])
+                # Download the file from `url` and save it locally under `file_name`:
+                with urllib.request.urlopen(data['URL']) as response, open(mp3FileName, 'wb') as out_file:
+                    mp3data = response.read() # a `bytes` object
+                    out_file.write(mp3data)
+                    ## need to resample to 8kHz sample rate because ttsmp3 files are 22.05kHz
+                    out_file.close()
+                    hasDownloaded = True
+
+            else:
+                print("Error requesting sound")
+                return False
+
+    if (hasDownloaded == True or not os.path.exists(rawFileName) or overwrite == True):
+        convertToRaw(mp3FileName,rawFileName)
+        if (os.path.exists(ambeFileName)):
+            os.remove(ambeFileName)# ambe file is now out of date, so delete it
+        
+    return True
+
     
 def downloadSpeechForWordList(filename,voiceName):
     retval = True
+    speechSpeed="normal"
+
     with open(filename,"r",encoding='utf-8') as csvfile:
         reader = csv.DictReader(csvfile)
-
         for row in reader:
             promptName = row['PromptName'].strip()
-            if (downloadPollyPro(voiceName,"P_{0}".format(promptName)+".ogg",row['PromptText'],row['PromptSpeed'])==False):
-                retval=False
-                break
+            
+            speechPrefix = row['PromptSpeechPrefix'].strip()
+            
+            if (speechPrefix=="" or speechPrefix.find("<prosody rate=")!=-1):
+                #Use VoicePolly as its not a special SSML that it doesnt handle
+                if (speechPrefix.find("<prosody rate=")!=-1):
+                    matchObj = re.search(r'\".*\"',speechPrefix)
+                    if (matchObj):
+                        speechSpeed = matchObj.group(0)[1:-1]
+                        
+                downloadPollyPro(voiceName,promptName,row['PromptText'],speechSpeed)
+            else:
+                promptTTSText =   row['PromptSpeechPrefix'].strip() +  row['PromptText'] + row['PromptSpeechPostfix'].strip()
+                
+##                if (downloadTTSMP3(voiceName,promptName,promptTTSText)==False):
+##                    retval=False
+##                    break
+            
     return retval
 
-def encodeFile(ser,fileStub,voiceName):
-    convertToRaw(voiceName + "/" + fileStub+".ogg",voiceName+"/"+fileStub+".raw")
-    convert2AMBE(ser,voiceName+"/"+fileStub+".raw",voiceName+"/" + fileStub+".amb",False)
-    os.remove(voiceName+"/"+fileStub+".raw")       
+
+
+
+def encodeFile(ser,fileStub):
+    if ((not os.path.exists(fileStub+".amb")) or overwrite==True): 
+        convert2AMBE(ser,fileStub+".raw",fileStub+".amb",False)
+        #os.remove(fileStub+".raw")
+##    else:
+##       print("Encode skipping " + fileStub)
 
 def encodeWordList(ser,filename,voiceName,forceReEncode):
     with open(filename,"r",encoding='utf-8') as csvfile:
         reader = csv.DictReader(csvfile)
         for row in reader:
             promptName = row['PromptName'].strip()
-            fileStub = "P_{0}".format(promptName)
-            encodeFile(ser,fileStub,voiceName)
+            fileStub = voiceName + "/" + promptName
+            
+            encodeFile(ser,fileStub)
             
 def buildDataPack(filename,voiceName,outputFileName):
     print("Building...")
@@ -336,7 +322,7 @@ def buildDataPack(filename,voiceName,outputFileName):
         reader = csv.DictReader(csvfile)
         for row in reader:
             promptName = row['PromptName'].strip()
-            infile = voiceName+"/P_" + promptName+".amb"
+            infile = voiceName+"/" + promptName+".amb"
             with open(infile,'rb') as f:
                 promptsDict[promptName] = bytearray(f.read())
                 f.close()
@@ -377,18 +363,22 @@ def usage(message):
     print("Usage:  " + ntpath.basename(sys.argv[0]) + " [OPTION]")
     print("")
     print("    -h Display this help text,")
+    print("    -c Configuration file (csv) - using this overrides all other options")
     print("    -f=<worlist_csv_file> : Wordlist file. Required for all functions")
     print("    -n=<Voice_name>       : Voice name for synthesised speech from Voicepolly.pro and temporary folder name")
     print("    -s                    : Download synthesised speech Voicepolly.pro")
     print("    -e                    : Encode previous download synthesised speech files, using the GD-77")
     print("    -b                    : Build voice prompts data pack from Encoded spech files ")
-    print("    -d, --device=<device> : Use the specified device as serial port,")
+    print("    -d=<device>           : Use the specified device as serial port,")
+    print("    -o                    : Overwrite existing files")
+    print("    -g=gain               : Audio level gain adjust in db.  Default is 0, but can be negative or positive numbers")
     print("")
 
 def main():
     fileName   = ""#wordlist_english.csv"
     outputName = ""#voiceprompts.bin"
     voiceName = ""#Matthew or Nicole etc
+    configName = ""
 
     # Default tty
     if (platform.system() == 'Windows'):
@@ -403,7 +393,7 @@ def main():
 	
     # Command line argument parsing
     try:                                
-        opts, args = getopt.getopt(sys.argv[1:], "hf:n:seb:d:")
+        opts, args = getopt.getopt(sys.argv[1:], "hof:n:seb:d:c:g:")
     except getopt.GetoptError as err:
         print(str(err))
         usage("")
@@ -421,7 +411,45 @@ def main():
             elif opt in ("-f"):
                     fileName = arg  
             elif opt in ("-n"):
-                    voiceName = arg  
+                    voiceName = arg
+            elif opt in ("-d"):
+                serialDev = arg	
+            elif opt in ("-c"):
+                    configName = arg
+            elif opt in ("-o"):
+                    overwrite = True
+            elif opt in ("-g"):
+                    gain = arg        
+
+    if (configName!=""):
+        print("Using Config file ...")
+ 
+        with open(configName,"r",encoding='utf-8') as csvfile:
+            reader = csv.DictReader(csvfile)
+            for row in reader:
+                wordlistFilename = row['Wordlist_file'].strip()
+                voiceName = row['Voice_name'].strip()
+                voicePackName = row['Voice_pack_name'].strip()
+                download = row['Download'].strip()
+                encode = row['Encode'].strip()
+                createPack = row['Createpack'].strip()
+                gain = row['Volume_change_db'].strip()
+                
+                print(wordlistFilename+" "+voiceName+" "+voicePackName)
+                if (download=='y' or download=='Y'):
+                    if (downloadSpeechForWordList(wordlistFilename,voiceName)==False):
+                     sys.exit(2)
+
+                if (encode=='y' or encode=='Y'):
+                    ser = serialInit(serialDev)
+                    encodeWordList(ser,wordlistFilename,voiceName,True)
+                    if (ser.is_open):
+                        ser.close()
+                if (createPack=='y' or createPack=='Y'):
+                    buildDataPack(wordlistFilename,voiceName,voicePackName)                        
+
+        sys.exit(2)
+    
     
     if (fileName=="" or voiceName==""):
         usage("ERROR: Filename and Voicename must be specified for all operations")
@@ -435,10 +463,6 @@ def main():
         if opt in ("-s"):
             if (downloadSpeechForWordList(fileName,voiceName)==False):
                  sys.exit(2)	
-            
-    for opt, arg in opts:	
-        if opt in ("-d"):
-            serialDev = arg		
 	
     for opt, arg in opts:			
         if opt in ("-e"):
@@ -451,8 +475,6 @@ def main():
         if opt in ("-b"):
             outputName = arg
             buildDataPack(fileName,voiceName,outputName)
-
-
 
 main()
 sys.exit(0)

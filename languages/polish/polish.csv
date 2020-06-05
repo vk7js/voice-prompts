@@ -1,208 +1,208 @@
-PromptName,PromptSpeed,PromptText
-PROMPT_SPACE,normal, 
-PROMPT_POINT,fast,POINT
-PROMPT_0,fast,0
-PROMPT_1,fast,1
-PROMPT_2,fast,2
-PROMPT_3,fast,3
-PROMPT_4,fast,4
-PROMPT_5,fast,5
-PROMPT_6,fast,6
-PROMPT_7,fast,7
-PROMPT_8,fast,8
-PROMPT_9,fast,9
-PROMPT_A,fast,A
-PROMPT_B,fast,B
-PROMPT_C,fast,C
-PROMPT_D,fast,D
-PROMPT_E,fast,E
-PROMPT_F,fast,F
-PROMPT_G,fast,G
-PROMPT_H,fast,H
-PROMPT_I,fast,I
-PROMPT_J,fast,J
-PROMPT_K,fast,K
-PROMPT_L,fast,L
-PROMPT_M,fast,M
-PROMPT_N,fast,N
-PROMPT_O,fast,O
-PROMPT_P,fast,P
-PROMPT_Q,fast,Q
-PROMPT_R,fast,R
-PROMPT_S,fast,S
-PROMPT_T,fast,T
-PROMPT_U,fast,U
-PROMPT_V,fast,V
-PROMPT_W,fast,W
-PROMPT_X,fast,X
-PROMPT_Y,fast,Y
-PROMPT_Z,fast,Zed
-PROMPT_Z2,fast,Z
-PROMPT_CHANNEL,normal,Kanał
-PROMPT_CONTACT,normal,KONTAKT
-PROMPT_DBM,normal,DBM
-PROMPT_ENTRY,normal,WEJŚCIE
-PROMPT_MEGAHERTZ,normal,MEGAHERTZ
-PROMPT_KILOHERTZ,normal,KILOHERTZ
-PROMPT_TALKGROUP,normal,ROZMOWA
-PROMPT_TIMESLOT,normal,PRZEDZIA? CZASU
-PROMPT_VFO,normal,VFO
-PROMPT_SECONDS,normal,sekundy
-PROMPT_Minutes,normal,Minuty
-PROMPT_Hours,normal,godziny
-PROMPT_VOLTS,normal,Wolty
-PROMPT_WATT,normal,Wat
-PROMPT_WATTS,normal,Watts
-PROMPT_MILLIWATTS,normal,Miliwatów
-PROMPT_PERCENT,normal,Procent
-PROMPT_RECEIVE,normal,Otrzyma?
-PROMPT_Transmit,normal,Przekaza?
-PROMPT_HASH,normal,Haszysz
-PROMPT_STAR,normal,Pocz?tek
-PROMPT_GREEN,normal,Zielony
-PROMPT_RED,normal,Czerwony
-PROMPT_VERSION,normal,Wersja
-PROMPT_MODE,normal,Tryb
-PROMPT_DMR,normal,D M R
-PROMPT_FM,normal,F M
-PROMPT_WIDE,normal,Szeroki
-PROMPT_NARROW,normal,W?ski
-PROMPT_PLUS,normal,Plus
-PROMPT_MINUS,normal,Minus
-PROMPT_TBD1,normal,
-PROMPT_TBD2,normal,
-PROMPT_TBD3,normal,
-PROMPT_TBD4,normal,
-PROMPT_TBD5,normal,
-PROMPT_TBD6,normal,
-PROMPT_TBD7,normal, 
-PROMPT_TBD8,normal, 
-LANGUAGE_NAME,normal,Polski
-menu,normal,J†zyk
-credits,normal,Spis
-zone,normal,Wspóˆtwórcy
-rssi,normal,Strefy
-battery,normal,Sygnaˆ
-contacts,normal,Bateria
-last_heard,normal,Kontakty
-firmware_info,normal,Wersja programu
-options,normal,Ostatnio aktywne
-display_options,normal,Opcje
-sound_options,normal,Opcje ekranu
-channel_details,normal,Szczegóły kanału
-language,normal,Detale kanaˆu
-new_contact,normal,Nowy kontakt
-contact_list,normal,Lista kontaktów
-contact_details,normal,HotSpot
-hotspot_mode,normal,Detale kontaktu
-built,normal,Kompilacja
-zones,normal,Strefy
-keypad,normal,Klawiatura
-ptt,normal,PTT
-locked,normal,zablokowana
-press_blue_plus_star,normal,Niebieski + *
-to_unlock,normal,aby odblokowa‚
-unlocked,normal,Odblokowane
-power_off,normal,Wyˆ„czanie...
-error,normal,B‡ƒD
-rx_only,normal,Tylko odbiór
-out_of_band,normal,POZA PASMEM
-timeout,normal,CZAS MINƒ‡
-tg_entry,normal,Wpisz numer TG
-pc_entry,normal,Wpisz numer PC
-user_dmr_id,normal,ID u’ytkownika
-contact,normal,Kontakt
-accept_call,normal,Zaakceptowa‚?
-private_call,normal,Prywatne
-squelch,normal,Squelch
-quick_menu,normal,Szybkie opcje
-filter,normal,Filtr
-all_channels,normal,Wszystkie
-gotoChannel,normal,Idź do kanału
-scan,normal,Skanowanie
-channelToVfo,normal,Kanał do VFO
-vfoToChannel,normal,VFO do Kanał
-vfoToNewChannel,normal,VFO do Nowy Kanał
-group,normal,Grupa
-private,normal,Prywatny
-all,normal,Wszystko
-type,normal,Typ
-timeSlot,normal,TimeSlot
-none,normal,Brak
-contact_saved,normal,Zapisz kontakt
-duplicate,normal,Duplikat
-tg,normal,TG
-pc,normal,PC
-ts,normal,TS
-mode,normal,Tryb
-colour_code,normal,Kolor kodu
-n_a,normal,N/A
-bandwidth,normal,Pasmo
-stepFreq,normal,Krok
-tot,normal,TOT
-off,normal,Wyˆ.
-zone_skip,normal,Pomi‹ Zone
-all_skip,normal,Pomi‹ All
-yes,normal,Tak
-no,normal,Nie
-rx_group,normal,Rx Grup
-on,normal,Wˆ.
-timeout_beep,normal,Czas bipa
-factory_reset,normal,Reset
-calibration,normal,Kalibracja
-band_limits,normal,Limit pasma
-beep_volume,normal,Gˆos bipa
-dmr_mic_gain,normal,DMR mic
-fm_mic_gain,normal,FM mic
-key_long,normal,Key dˆugi
-key_repeat,normal,Key krótki
-dmr_filter_timeout,normal,Czas filtra
-brightness,normal,jasność
-brightness_off,normal,Mini jasność
-contrast,normal,Kontrast
-colour_invert,normal,nwersja
-colour_normal,normal,Normalny
-backlight_timeout,normal,Œwiecenie
-scan_delay,normal,Czas skan.
-yes___in_uppercase,normal,TAK
-no___in_uppercase,normal,NIE
-DISMISS,normal,ODWOŁAĆ
-scan_mode,normal,Tryb skan.
-hold,normal,Stój
-pause,normal,Pauza
-empty_list,normal,Lista pusta
-delete_contact_qm,normal,Usu‹ kontakt?
-contact_deleted,normal,Kontakt usuniety
-contact_used,normal,Kontakt istnieje
-in_rx_group,normal,W grupie RX
-select_tx,normal,Wybierz TX
-edit_contact,normal,Edytuj kontakt
-delete_contact,normal,Usu‹ kontakt
-group_call,normal,Grupy
-all_call,normal,‡„cze wszystkich
-tone_scan,normal,Skan tonu CTCSS
-low_battery,normal,S‡ABA BATERIA!!!
-Auto,normal,Automat
-manual,normal,Manualny
-ptt_toggle,normal,Staˆe PTT
-private_call_handling,normal,Zezwól PC
-stop,normal,Stop
-one_line,normal,1 linia
-two_lines,normal,2 linie
-new_channel,normal,Nowy kanaˆ
-priority_order,normal,Wybór
-dmr_beep,normal,Wybór bipa
-start,normal,Start
-both,normal,Oba
-vox_threshold,normal,VOX Thres.
-vox_tail,normal,VOX Tail
-audio_prompt,normal,Prompt
-silent,normal,Silent
-normal,normal,Normal
-beep,normal,Beep
-voice,normal,Voice
-transmitTalkerAlias,normal,TA Tx
-squelch_VHF,normal,VHF Squelch
-squelch_220,normal,220 Squelch
-squelch_UHF,normal,UHF Squelch
-display_background_colour,normal,Kolor
+PromptName,PromptSpeed,PromptText,Volume_db,Overwrite,Notes
+PROMPT_SPACE,normal, ,0,y,
+PROMPT_POINT,fast,POINT,0,y,
+PROMPT_0,fast,0,0,y,
+PROMPT_1,fast,1,0,y,
+PROMPT_2,fast,2,0,y,
+PROMPT_3,fast,3,0,y,
+PROMPT_4,fast,4,0,y,
+PROMPT_5,fast,5,0,y,
+PROMPT_6,fast,6,0,y,
+PROMPT_7,fast,7,0,y,
+PROMPT_8,fast,8,0,y,
+PROMPT_9,fast,9,0,y,
+PROMPT_A,fast,A,0,y,
+PROMPT_B,fast,B,0,y,
+PROMPT_C,fast,C,0,y,
+PROMPT_D,fast,D,0,y,
+PROMPT_E,fast,E,0,y,
+PROMPT_F,fast,F,0,y,
+PROMPT_G,fast,G,0,y,
+PROMPT_H,fast,H,0,y,
+PROMPT_I,fast,I,0,y,
+PROMPT_J,fast,J,0,y,
+PROMPT_K,fast,K,0,y,
+PROMPT_L,fast,L,0,y,
+PROMPT_M,fast,M,0,y,
+PROMPT_N,fast,N,0,y,
+PROMPT_O,fast,O,0,y,
+PROMPT_P,fast,P,0,y,
+PROMPT_Q,fast,Q,0,y,
+PROMPT_R,fast,R,0,y,
+PROMPT_S,fast,S,0,y,
+PROMPT_T,fast,T,0,y,
+PROMPT_U,fast,U,0,y,
+PROMPT_V,fast,V,0,y,
+PROMPT_W,fast,W,0,y,
+PROMPT_X,fast,X,0,y,
+PROMPT_Y,fast,Y,0,y,
+PROMPT_Z,fast,Zed,0,y,
+PROMPT_Z2,fast,Z,0,y,
+PROMPT_CHANNEL,normal,Kanał,0,y,
+PROMPT_CONTACT,normal,KONTAKT,0,y,
+PROMPT_DBM,normal,DBM,0,y,
+PROMPT_ENTRY,normal,WEJŚCIE,0,y,
+PROMPT_MEGAHERTZ,normal,MEGAHERTZ,0,y,
+PROMPT_KILOHERTZ,normal,KILOHERTZ,0,y,
+PROMPT_TALKGROUP,normal,ROZMOWA,0,y,
+PROMPT_TIMESLOT,normal,PRZEDZIA? CZASU,0,y,
+PROMPT_VFO,normal,VFO,0,y,
+PROMPT_SECONDS,normal,sekundy,0,y,
+PROMPT_Minutes,normal,Minuty,0,y,
+PROMPT_Hours,normal,godziny,0,y,
+PROMPT_VOLTS,normal,Wolty,0,y,
+PROMPT_WATT,normal,Wat,0,y,
+PROMPT_WATTS,normal,Watts,0,y,
+PROMPT_MILLIWATTS,normal,Miliwatów,0,y,
+PROMPT_PERCENT,normal,Procent,0,y,
+PROMPT_RECEIVE,normal,Otrzyma?,0,y,
+PROMPT_Transmit,normal,Przekaza?,0,y,
+PROMPT_HASH,normal,Haszysz,0,y,
+PROMPT_STAR,normal,Pocz?tek,0,y,
+PROMPT_GREEN,normal,Zielony,0,y,
+PROMPT_RED,normal,Czerwony,0,y,
+PROMPT_VERSION,normal,Wersja,0,y,
+PROMPT_MODE,normal,Tryb,0,y,
+PROMPT_DMR,normal,D M R,0,y,
+PROMPT_FM,normal,F M,0,y,
+PROMPT_WIDE,normal,Szeroki,0,y,
+PROMPT_NARROW,normal,W?ski,0,y,
+PROMPT_PLUS,normal,Plus,0,y,
+PROMPT_MINUS,normal,Minus,0,y,
+PROMPT_TBD1,normal,,0,y,
+PROMPT_TBD2,normal,,0,y,
+PROMPT_TBD3,normal,,0,y,
+PROMPT_TBD4,normal,,0,y,
+PROMPT_TBD5,normal,,0,y,
+PROMPT_TBD6,normal,,0,y,
+PROMPT_TBD7,normal, ,0,y,
+PROMPT_TBD8,normal, ,0,y,
+LANGUAGE_NAME,normal,Polski,0,y,
+menu,normal,J†zyk,0,y,
+credits,normal,Spis,0,y,
+zone,normal,Wspóˆtwórcy,0,y,
+rssi,normal,Strefy,0,y,
+battery,normal,Sygnaˆ,0,y,
+contacts,normal,Bateria,0,y,
+last_heard,normal,Kontakty,0,y,
+firmware_info,normal,Wersja programu,0,y,
+options,normal,Ostatnio aktywne,0,y,
+display_options,normal,Opcje,0,y,
+sound_options,normal,Opcje ekranu,0,y,
+channel_details,normal,Szczegóły kanału,0,y,
+language,normal,Detale kanaˆu,0,y,
+new_contact,normal,Nowy kontakt,0,y,
+contact_list,normal,Lista kontaktów,0,y,
+contact_details,normal,HotSpot,0,y,
+hotspot_mode,normal,Detale kontaktu,0,y,
+built,normal,Kompilacja,0,y,
+zones,normal,Strefy,0,y,
+keypad,normal,Klawiatura,0,y,
+ptt,normal,PTT,0,y,
+locked,normal,zablokowana,0,y,
+press_blue_plus_star,normal,Niebieski + *,0,y,
+to_unlock,normal,aby odblokowa‚,0,y,
+unlocked,normal,Odblokowane,0,y,
+power_off,normal,Wyˆ„czanie...,0,y,
+error,normal,B‡ƒD,0,y,
+rx_only,normal,Tylko odbiór,0,y,
+out_of_band,normal,POZA PASMEM,0,y,
+timeout,normal,CZAS MINƒ‡,0,y,
+tg_entry,normal,Wpisz numer TG,0,y,
+pc_entry,normal,Wpisz numer PC,0,y,
+user_dmr_id,normal,ID u’ytkownika,0,y,
+contact,normal,Kontakt,0,y,
+accept_call,normal,Zaakceptowa‚?,0,y,
+private_call,normal,Prywatne,0,y,
+squelch,normal,Squelch,0,y,
+quick_menu,normal,Szybkie opcje,0,y,
+filter,normal,Filtr,0,y,
+all_channels,normal,Wszystkie,0,y,
+gotoChannel,normal,Idź do kanału,0,y,
+scan,normal,Skanowanie,0,y,
+channelToVfo,normal,Kanał do VFO,0,y,
+vfoToChannel,normal,VFO do Kanał,0,y,
+vfoToNewChannel,normal,VFO do Nowy Kanał,0,y,
+group,normal,Grupa,0,y,
+private,normal,Prywatny,0,y,
+all,normal,Wszystko,0,y,
+type,normal,Typ,0,y,
+timeSlot,normal,TimeSlot,0,y,
+none,normal,Brak,0,y,
+contact_saved,normal,Zapisz kontakt,0,y,
+duplicate,normal,Duplikat,0,y,
+tg,normal,TG,0,y,
+pc,normal,PC,0,y,
+ts,normal,TS,0,y,
+mode,normal,Tryb,0,y,
+colour_code,normal,Kolor kodu,0,y,
+n_a,normal,N/A,0,y,
+bandwidth,normal,Pasmo,0,y,
+stepFreq,normal,Krok,0,y,
+tot,normal,TOT,0,y,
+off,normal,Wyˆ.,0,y,
+zone_skip,normal,Pomi‹ Zone,0,y,
+all_skip,normal,Pomi‹ All,0,y,
+yes,normal,Tak,0,y,
+no,normal,Nie,0,y,
+rx_group,normal,Rx Grup,0,y,
+on,normal,Wˆ.,0,y,Beginning of this word does not seem to compress well to AMBE
+timeout_beep,normal,Czas bipa,0,y,
+factory_reset,normal,Reset,0,y,
+calibration,normal,Kalibracja,0,y,
+band_limits,normal,Limit pasma,0,y,
+beep_volume,normal,Gˆos bipa,0,y,
+dmr_mic_gain,normal,DMR mic,0,y,
+fm_mic_gain,normal,FM mic,0,y,
+key_long,normal,Key dˆugi,0,y,
+key_repeat,normal,Key krótki,0,y,
+dmr_filter_timeout,normal,Czas filtra,0,y,
+brightness,normal,jasność,0,y,
+brightness_off,normal,Mini jasność,0,y,
+contrast,normal,Kontrast,0,y,
+colour_invert,normal,nwersja,0,y,
+colour_normal,normal,Normalny,0,y,
+backlight_timeout,normal,Œwiecenie,0,y,
+scan_delay,normal,Czas skan.,0,y,
+yes___in_uppercase,normal,TAK,0,y,
+no___in_uppercase,normal,NIE,0,y,
+DISMISS,normal,ODWOŁAĆ,0,y,
+scan_mode,normal,Tryb skan.,0,y,
+hold,normal,Stój,0,y,
+pause,normal,Pauza,0,y,
+empty_list,normal,Lista pusta,0,y,
+delete_contact_qm,normal,Usu‹ kontakt?,0,y,
+contact_deleted,normal,Kontakt usuniety,0,y,
+contact_used,normal,Kontakt istnieje,0,y,
+in_rx_group,normal,W grupie RX,0,y,
+select_tx,normal,Wybierz TX,0,y,
+edit_contact,normal,Edytuj kontakt,0,y,
+delete_contact,normal,Usu‹ kontakt,0,y,
+group_call,normal,Grupy,0,y,
+all_call,normal,‡„cze wszystkich,0,y,
+tone_scan,normal,Skan tonu CTCSS,0,y,
+low_battery,normal,S‡ABA BATERIA!!!,0,y,
+Auto,normal,Automat,0,y,
+manual,normal,Manualny,0,y,
+ptt_toggle,normal,Staˆe PTT,0,y,
+private_call_handling,normal,Zezwól PC,0,y,
+stop,normal,Stop,0,y,
+one_line,normal,1 linia,0,y,
+two_lines,normal,2 linie,0,y,
+new_channel,normal,Nowy kanaˆ,0,y,
+priority_order,normal,Wybór,0,y,
+dmr_beep,normal,Wybór bipa,0,y,
+start,normal,Start,0,y,
+both,normal,Oba,0,y,
+vox_threshold,normal,VOX Thres.,0,y,
+vox_tail,normal,VOX Tail,0,y,
+audio_prompt,normal,Prompt,0,y,
+silent,normal,Silent,0,y,
+normal,normal,Normal,0,y,
+beep,normal,Beep,0,y,
+voice,normal,Voice,0,y,
+transmitTalkerAlias,normal,TA Tx,0,y,
+squelch_VHF,normal,VHF Squelch,0,y,
+squelch_220,normal,220 Squelch,0,y,
+squelch_UHF,normal,UHF Squelch,0,y,
+display_background_colour,normal,Kolor,0,y,

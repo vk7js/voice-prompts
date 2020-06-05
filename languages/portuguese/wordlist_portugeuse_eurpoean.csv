@@ -1,0 +1,207 @@
+PromptName,PromptSpeechPrefix,PromptSpeechPostfix,PromptText
+PROMPT_SPACE,,, 
+PROMPT_POINT,,,POINT
+PROMPT_0,,,0
+PROMPT_1,,,1
+PROMPT_2,,,2
+PROMPT_3,,,3
+PROMPT_4,,,4
+PROMPT_5,,,5
+PROMPT_6,,,6
+PROMPT_7,,,7
+PROMPT_8,,,8
+PROMPT_9,,,9
+PROMPT_A,,,A
+PROMPT_B,,,B
+PROMPT_C,,,C
+PROMPT_D,,,D
+PROMPT_E,,,E
+PROMPT_F,,,F
+PROMPT_G,,,G
+PROMPT_H,,,H
+PROMPT_I,,,I
+PROMPT_J,,,J
+PROMPT_K,,,K
+PROMPT_L,,,L
+PROMPT_M,,,M
+PROMPT_N,,,N
+PROMPT_O,,,O
+PROMPT_P,,,P
+PROMPT_Q,,,Q
+PROMPT_R,,,R
+PROMPT_S,,,S
+PROMPT_T,,,T
+PROMPT_U,,,U
+PROMPT_V,,,V
+PROMPT_W,,,W
+PROMPT_X,,,X
+PROMPT_Y,,,Y
+PROMPT_Z,,,Z
+PROMPT_Z2,,,Zee
+PROMPT_CHANNEL,,,Canal
+PROMPT_CONTACT,,,Contato
+PROMPT_DBM,,,DBM
+PROMPT_ENTRY,,,Inserisci
+PROMPT_MEGAHERTZ,,,MEGAHERTZ
+PROMPT_KILOHERTZ,,,KILOHERTZ
+PROMPT_TALKGROUP,,,TALKGROUP
+PROMPT_TIMESLOT,,,TIMESLOT
+PROMPT_VFO,,,VFO
+PROMPT_SECONDS,,,Segundos
+PROMPT_Minutes,,,Minutos
+PROMPT_Hours,,,Horas
+PROMPT_VOLTS,,,Volt
+PROMPT_WATT,,,Watt
+PROMPT_WATTS,,,Watts
+PROMPT_MILLIWATTS,,,Milliwatts
+PROMPT_PERCENT,,,Por cento
+PROMPT_RECEIVE,,,Receber
+PROMPT_Transmit,,,Transmite
+PROMPT_HASH,,,Hash
+PROMPT_STAR,,,Estrela
+PROMPT_GREEN,,,Verde
+PROMPT_RED,,,Vermelho
+PROMPT_VERSION,,,Versão
+PROMPT_MODE,,,Modo
+PROMPT_DMR,,,DMR
+PROMPT_FM,,,FM
+PROMPT_WIDE,,,Largo
+PROMPT_NARROW,,,Limitar
+PROMPT_PLUS,,,Plus
+PROMPT_MINUS,,,Minus
+PROMPT_TBD1,,, 
+PROMPT_TBD2,,, 
+PROMPT_TBD3,,, 
+PROMPT_TBD4,,, 
+PROMPT_TBD5,,, 
+PROMPT_TBD6,,, 
+PROMPT_TBD7,,, 
+PROMPT_TBD8,,,  
+LANGUAGE_NAME,,,Portugues
+menu,,,Menu
+credits,,,Creditos
+zone,,,Zona
+rssi,,,RSSI
+battery,,,Bateria
+contacts,,,Contactos
+last_heard,,,Ultima escutada
+firmware_info,,,Versao Firmware
+options,,,Opcoes
+display_options,,,Opcoes Visor
+sound_options,,,Sound options
+channel_details,,,Detalhes Canal
+language,,,Lingua
+new_contact,,,Contacto Novo
+contact_list,,,Lista Contactos
+contact_details,,,Detalhes Contato
+hotspot_mode,,,Modo Hotspot
+built,,,Built
+zones,,,Zonas
+keypad,,,Teclado
+ptt,,,PTT
+locked,,,Bloqueado
+press_blue_plus_star,,,Prima Azul + *
+to_unlock,,,Para Desbloquear
+unlocked,,,Desbloqueado
+power_off,,,Desligar...
+error,,,ERRO
+rx_only,,,Apenas Rx
+out_of_band,,,FORA DA BANDA
+timeout,,,TEMPO ESGOTADO
+tg_entry,,,Entrada TG
+pc_entry,,,Entrada PC
+user_dmr_id,,,DMRID Utilizador
+contact,,,Contacto
+accept_call,,,Aceitar Chamada?
+private_call,,,Chamada Privada
+squelch,,,Squelch
+quick_menu,,,Menu Rápido
+filter,,,Filtro
+all_channels,,,Todos os Canais
+gotoChannel,,,Ir para
+scan,,,Busca
+channelToVfo,,,Canal --> VFO
+vfoToChannel,,,VFO --> Canal
+vfoToNewChannel,,,VFO --> Novo Can
+group,,,Grupo
+private,,,Privado
+all,,,Todos
+type,,,Tipo
+timeSlot,,,Intervalo Tempo
+none,,,Nenhum
+contact_saved,,,Contacto Gravado
+duplicate,,,Duplicado
+tg,,,TG
+pc,,,PC
+ts,,,TS
+mode,,,Mode
+colour_code,,,Codigo de cores
+n_a,,,N/A
+bandwidth,,,Largura de banda
+stepFreq,,,Passo
+tot,,,TOT
+off,,,Off
+zone_skip,,,Z Ignorar
+all_skip,,,A Ignorar
+yes,,,Sim
+no,,,Nao
+rx_group,,,Rx Grp
+on,,,On
+timeout_beep,,,Beep timeout
+factory_reset,,,Fact Reset
+calibration,,,Calibracao
+band_limits,,,Limites banda
+beep_volume,,,Volume beep
+dmr_mic_gain,,,Micro DMR
+fm_mic_gain,,,Micro FM
+key_long,,,Key long
+key_repeat,,,Key rpt
+dmr_filter_timeout,,,Filtro DMR
+brightness,,,Brilho
+brightness_off,,,Min bright
+contrast,,,Contraste
+colour_invert,,,Color:Invertido
+colour_normal,,,Color:Normal
+backlight_timeout,,,Timeout
+scan_delay,,,Scan delay
+yes___in_uppercase,,,SIM
+no___in_uppercase,,,NÃO
+DISMISS,,,DISPENSAR
+scan_mode,,,Scan mode
+hold,,,Hold
+pause,,,Pause
+empty_list,,,Empty List
+delete_contact_qm,,,Delete contact?
+contact_deleted,,,Contact deleted
+contact_used,,,Contact used
+in_rx_group,,,in RX group
+select_tx,,,Select TX
+edit_contact,,,Edit Contact
+delete_contact,,,Delete Contact
+group_call,,,Group Call
+all_call,,,All Call
+tone_scan,,,Tone scan
+low_battery,,,LOW BATTERY !!!
+Auto,,,Auto
+manual,,,Manual
+ptt_toggle,,,PTT toggle
+private_call_handling,,,Handle PC
+stop,,,Stop
+one_line,,,1 line
+two_lines,,,2 lines
+new_channel,,,Canal novo
+priority_order,,,Order
+dmr_beep,,,DMR beep
+start,,,Start
+both,,,Both
+vox_threshold,,,VOX Thres.
+vox_tail,,,VOX Tail
+audio_prompt,,,Prompt
+silent,,,Silent
+normal,,,Normal
+beep,,,Beep
+voice,,,Voice
+transmitTalkerAlias,,,Talker Alias Transmit
+squelch_VHF,,,V H F squelch
+squelch_220,,,220 Megahertz squelch
+squelch_UHF,,,U H F squelch

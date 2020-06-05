@@ -1,208 +1,208 @@
-PromptName,PromptSpeed,PromptText
-PROMPT_SPACE,normal, 
-PROMPT_POINT,fast,POINT
-PROMPT_0,fast,0
-PROMPT_1,fast,1
-PROMPT_2,fast,2
-PROMPT_3,fast,3
-PROMPT_4,fast,4
-PROMPT_5,fast,5
-PROMPT_6,fast,6
-PROMPT_7,fast,7
-PROMPT_8,fast,8
-PROMPT_9,fast,9
-PROMPT_A,fast,A
-PROMPT_B,fast,B
-PROMPT_C,fast,C
-PROMPT_D,fast,D
-PROMPT_E,fast,E
-PROMPT_F,fast,F
-PROMPT_G,fast,G
-PROMPT_H,fast,H
-PROMPT_I,fast,I
-PROMPT_J,fast,J
-PROMPT_K,fast,K
-PROMPT_L,fast,L
-PROMPT_M,fast,M
-PROMPT_N,fast,N
-PROMPT_O,fast,O
-PROMPT_P,fast,P
-PROMPT_Q,fast,Q
-PROMPT_R,fast,R
-PROMPT_S,fast,S
-PROMPT_T,fast,T
-PROMPT_U,fast,U
-PROMPT_V,fast,V
-PROMPT_W,fast,W
-PROMPT_X,fast,X
-PROMPT_Y,fast,Y
-PROMPT_Z,fast,Z
-PROMPT_Z2,fast,Z
-PROMPT_CHANNEL,normal,KANAL
-PROMPT_CONTACT,normal,KONTAKT
-PROMPT_DBM,normal,DBM
-PROMPT_ENTRY,normal,INDGANG
-PROMPT_MEGAHERTZ,normal,megahertz
-PROMPT_KILOHERTZ,normal,kilohertz
-PROMPT_TALKGROUP,normal,talegruppe
-PROMPT_TIMESLOT,normal,TIDSVINDUE
-PROMPT_VFO,normal,VFO
-PROMPT_SECONDS,normal,Sekunder
-PROMPT_Minutes,normal,minutter
-PROMPT_Hours,normal,timer
-PROMPT_VOLTS,normal,volt
-PROMPT_WATT,normal,Watt
-PROMPT_WATTS,normal,Watts
-PROMPT_MILLIWATTS,normal,milliwatt
-PROMPT_PERCENT,normal,procent
-PROMPT_RECEIVE,normal,Modtage
-PROMPT_Transmit,normal,Transmit
-PROMPT_HASH,normal,Hash
-PROMPT_STAR,normal,Start
-PROMPT_GREEN,normal,Grøn
-PROMPT_RED,normal,Rød
-PROMPT_VERSION,normal,Version
-PROMPT_MODE,normal,Mode
-PROMPT_DMR,normal,D M R
-PROMPT_FM,normal,F M
-PROMPT_WIDE,normal,Bred
-PROMPT_NARROW,normal,Smal
-PROMPT_PLUS,normal,Plus
-PROMPT_MINUS,normal,Minus
-PROMPT_TBD1,normal,
-PROMPT_TBD2,normal,
-PROMPT_TBD3,normal,
-PROMPT_TBD4,normal,
-PROMPT_TBD5,normal,
-PROMPT_TBD6,normal,
-PROMPT_TBD7,normal, 
-PROMPT_TBD8,normal, 
-LANGUAGE_NAME,normal,Dansk
-menu,normal,Menu
-credits,normal,Credits
-zone,normal,Zone
-rssi,normal,RSSI
-battery,normal,Batteri
-contacts,normal,Kontakter
-last_heard,normal,Sidst Hørt
-firmware_info,normal,Firmware info
-options,normal,Valg
-display_options,normal,Display Valg
-sound_options,normal,Sound options
-channel_details,normal,Kanal detaljer
-language,normal,Sprog
-new_contact,normal,Ny Kontakt
-contact_list,normal,Kontakt liste
-contact_details,normal,Hotspot mode
-hotspot_mode,normal,Kontakt Detaljer
-built,normal,Version
-zones,normal,Zoner
-keypad,normal,Keypad
-ptt,normal,PTT
-locked,normal,Låst
-press_blue_plus_star,normal,Tast Blå + *
-to_unlock,normal,Lås op
-unlocked,normal,Oplåst
-power_off,normal,Lukker Ned...
-error,normal,FEJL
-rx_only,normal,Kun Rx
-out_of_band,normal,Ude af FRQ
-timeout,normal,TIMEOUT
-tg_entry,normal,Indtast TG
-pc_entry,normal,Indtast PC
-user_dmr_id,normal,Bruger DMR ID
-contact,normal,Kontakt
-accept_call,normal,Modtag kald?
-private_call,normal,Privat kald
-squelch,normal,Squelch
-quick_menu,normal,Quick Menu
-filter,normal,Filter
-all_channels,normal,Alle kanaler
-gotoChannel,normal,Goto
-scan,normal,Scan
-channelToVfo,normal,Kanal --> VFO
-vfoToChannel,normal,VFO --> Kanal
-vfoToNewChannel,normal,VFO --> Ny Kanal
-group,normal,Gruppe
-private,normal,Privat
-all,normal,Alle
-type,normal,Type
-timeSlot,normal,Timeslot
-none,normal,Ingen
-contact_saved,normal,Kontakt Gemt
-duplicate,normal,Duplet
-tg,normal,TG
-pc,normal,PC
-ts,normal,TS
-mode,normal,Mode
-colour_code,normal,Color Code
-n_a,normal,N/A
-bandwidth,normal,Båndbrede
-stepFreq,normal,Step
-tot,normal,TOT
-off,normal,Fra
-zone_skip,normal,Zone Skip
-all_skip,normal,Alle Skip
-yes,normal,Ja
-no,normal,Nej
-rx_group,normal,Rx Grp
-on,normal,On
-timeout_beep,normal,Timeout bip
-factory_reset,normal,Fabriksinst
-calibration,normal,Justering
-band_limits,normal,Åben FRQ
-beep_volume,normal,Bip vol
-dmr_mic_gain,normal,DMR mic
-fm_mic_gain,normal,FM mic
-key_long,normal,Lang Tast
-key_repeat,normal,Tast rpt
-dmr_filter_timeout,normal,Filter tid
-brightness,normal,Lys styrke
-brightness_off,normal,Min bright
-contrast,normal,Kontrast
-colour_invert,normal,Sort
-colour_normal,normal,Normal
-backlight_timeout,normal,Timeout
-scan_delay,normal,Scan delay
-yes___in_uppercase,normal,JA
-no___in_uppercase,normal,NEJ
-DISMISS,normal,FORTRYD
-scan_mode,normal,Scan mode
-hold,normal,Hold
-pause,normal,Pause
-empty_list,normal,Tøm List
-delete_contact_qm,normal,Slet kontakt?
-contact_deleted,normal,kontakt slettet
-contact_used,normal,Kontakt brugt
-in_rx_group,normal,i RX gruppe
-select_tx,normal,Valg TX
-edit_contact,normal,Rediger Kontakt
-delete_contact,normal,Slet Kontakt
-group_call,normal,Grupe Kald
-all_call,normal,Alle Kald
-tone_scan,normal,Tone scan
-low_battery,normal,LOW BATTERY !!!
-Auto,normal,Auto
-manual,normal,Manual
-ptt_toggle,normal,PTT toggle
-private_call_handling,normal,Handle PC
-stop,normal,Stop
-one_line,normal,1 line
-two_lines,normal,2 lines
-new_channel,normal,Ny kanal
-priority_order,normal,Order
-dmr_beep,normal,DMR beep
-start,normal,Start
-both,normal,Both
-vox_threshold,normal,VOX Thres.
-vox_tail,normal,VOX Tail
-audio_prompt,normal,Prompt
-silent,normal,Silent
-normal,normal,Normal
-beep,normal,Beep
-voice,normal,Voice
-transmitTalkerAlias,normal,TA Tx
-squelch_VHF,normal,VHF Squelch
-squelch_220,normal,220 Squelch
-squelch_UHF,normal,UHF Squelch
-display_background_colour,normal,Farve
+PromptName,PromptSpeed,PromptText,Volume_db,Overwrite,Notes
+PROMPT_SPACE,normal, ,0,y,
+PROMPT_POINT,fast,POINT,0,y,
+PROMPT_0,fast,0,0,y,
+PROMPT_1,fast,1,0,y,
+PROMPT_2,fast,2,0,y,
+PROMPT_3,fast,3,0,y,
+PROMPT_4,fast,4,0,y,
+PROMPT_5,fast,5,0,y,
+PROMPT_6,fast,6,0,y,
+PROMPT_7,fast,7,0,y,
+PROMPT_8,fast,8,0,y,
+PROMPT_9,fast,9,0,y,
+PROMPT_A,fast,A,0,y,
+PROMPT_B,fast,B,0,y,
+PROMPT_C,fast,C,0,y,
+PROMPT_D,fast,D,0,y,
+PROMPT_E,fast,E,0,y,
+PROMPT_F,fast,F,0,y,
+PROMPT_G,fast,G,0,y,
+PROMPT_H,fast,H,0,y,
+PROMPT_I,fast,I,0,y,
+PROMPT_J,fast,J,0,y,
+PROMPT_K,fast,K,0,y,
+PROMPT_L,fast,L,0,y,
+PROMPT_M,fast,M,0,y,
+PROMPT_N,fast,N,0,y,
+PROMPT_O,fast,O,0,y,
+PROMPT_P,fast,P,0,y,
+PROMPT_Q,fast,Q,0,y,
+PROMPT_R,fast,R,0,y,
+PROMPT_S,fast,S,0,y,
+PROMPT_T,fast,T,0,y,
+PROMPT_U,fast,U,0,y,
+PROMPT_V,fast,V,0,y,
+PROMPT_W,fast,W,0,y,
+PROMPT_X,fast,X,0,y,
+PROMPT_Y,fast,Y,0,y,
+PROMPT_Z,fast,Z,0,y,
+PROMPT_Z2,fast,Z,0,y,
+PROMPT_CHANNEL,normal,KANAL,0,y,
+PROMPT_CONTACT,normal,KONTAKT,0,y,
+PROMPT_DBM,normal,DBM,0,y,
+PROMPT_ENTRY,normal,INDGANG,0,y,
+PROMPT_MEGAHERTZ,normal,megahertz,0,y,
+PROMPT_KILOHERTZ,normal,kilohertz,0,y,
+PROMPT_TALKGROUP,normal,talegruppe,0,y,
+PROMPT_TIMESLOT,normal,TIDSVINDUE,0,y,
+PROMPT_VFO,normal,VFO,0,y,
+PROMPT_SECONDS,normal,Sekunder,0,y,
+PROMPT_Minutes,normal,minutter,0,y,
+PROMPT_Hours,normal,timer,0,y,
+PROMPT_VOLTS,normal,volt,0,y,
+PROMPT_WATT,normal,Watt,0,y,
+PROMPT_WATTS,normal,Watts,0,y,
+PROMPT_MILLIWATTS,normal,milliwatt,0,y,
+PROMPT_PERCENT,normal,procent,0,y,
+PROMPT_RECEIVE,normal,Modtage,0,y,
+PROMPT_Transmit,normal,Transmit,0,y,
+PROMPT_HASH,normal,Hash,0,y,
+PROMPT_STAR,normal,Start,0,y,
+PROMPT_GREEN,normal,Grøn,0,y,
+PROMPT_RED,normal,Rød,0,y,
+PROMPT_VERSION,normal,Version,0,y,
+PROMPT_MODE,normal,Mode,0,y,
+PROMPT_DMR,normal,D M R,0,y,
+PROMPT_FM,normal,F M,0,y,
+PROMPT_WIDE,normal,Bred,0,y,
+PROMPT_NARROW,normal,Smal,0,y,
+PROMPT_PLUS,normal,Plus,0,y,
+PROMPT_MINUS,normal,Minus,0,y,
+PROMPT_TBD1,normal,,0,y,
+PROMPT_TBD2,normal,,0,y,
+PROMPT_TBD3,normal,,0,y,
+PROMPT_TBD4,normal,,0,y,
+PROMPT_TBD5,normal,,0,y,
+PROMPT_TBD6,normal,,0,y,
+PROMPT_TBD7,normal, ,0,y,
+PROMPT_TBD8,normal, ,0,y,
+LANGUAGE_NAME,normal,Dansk,0,y,
+menu,normal,Menu,0,y,
+credits,normal,Credits,0,y,
+zone,normal,Zone,0,y,
+rssi,normal,RSSI,0,y,
+battery,normal,Batteri,0,y,
+contacts,normal,Kontakter,0,y,
+last_heard,normal,Sidst Hørt,0,y,
+firmware_info,normal,Firmware info,0,y,
+options,normal,Valg,0,y,
+display_options,normal,Display Valg,0,y,
+sound_options,normal,Sound options,0,y,
+channel_details,normal,Kanal detaljer,0,y,
+language,normal,Sprog,0,y,
+new_contact,normal,Ny Kontakt,0,y,
+contact_list,normal,Kontakt liste,0,y,
+contact_details,normal,Hotspot mode,0,y,
+hotspot_mode,normal,Kontakt Detaljer,0,y,
+built,normal,Version,0,y,
+zones,normal,Zoner,0,y,
+keypad,normal,Keypad,0,y,
+ptt,normal,PTT,0,y,
+locked,normal,Låst,0,y,
+press_blue_plus_star,normal,Tast Blå + *,0,y,
+to_unlock,normal,Lås op,0,y,
+unlocked,normal,Oplåst,0,y,
+power_off,normal,Lukker Ned...,0,y,
+error,normal,FEJL,0,y,
+rx_only,normal,Kun Rx,0,y,
+out_of_band,normal,Ude af FRQ,0,y,
+timeout,normal,TIMEOUT,0,y,
+tg_entry,normal,Indtast TG,0,y,
+pc_entry,normal,Indtast PC,0,y,
+user_dmr_id,normal,Bruger DMR ID,0,y,
+contact,normal,Kontakt,0,y,
+accept_call,normal,Modtag kald?,0,y,
+private_call,normal,Privat kald,0,y,
+squelch,normal,Squelch,0,y,
+quick_menu,normal,Quick Menu,0,y,
+filter,normal,Filter,0,y,
+all_channels,normal,Alle kanaler,0,y,
+gotoChannel,normal,Goto,0,y,
+scan,normal,Scan,0,y,
+channelToVfo,normal,Kanal --> VFO,0,y,
+vfoToChannel,normal,VFO --> Kanal,0,y,
+vfoToNewChannel,normal,VFO --> Ny Kanal,0,y,
+group,normal,Gruppe,0,y,
+private,normal,Privat,0,y,
+all,normal,Alle,0,y,
+type,normal,Type,0,y,
+timeSlot,normal,Timeslot,0,y,
+none,normal,Ingen,0,y,
+contact_saved,normal,Kontakt Gemt,0,y,
+duplicate,normal,Duplet,0,y,
+tg,normal,TG,0,y,
+pc,normal,PC,0,y,
+ts,normal,TS,0,y,
+mode,normal,Mode,0,y,
+colour_code,normal,Color Code,0,y,
+n_a,normal,N/A,0,y,
+bandwidth,normal,Båndbrede,0,y,
+stepFreq,normal,Step,0,y,
+tot,normal,TOT,0,y,
+off,normal,Fra,0,y,
+zone_skip,normal,Zone Skip,0,y,
+all_skip,normal,Alle Skip,0,y,
+yes,normal,Ja,0,y,
+no,normal,Nej,0,y,
+rx_group,normal,Rx Grp,0,y,
+on,normal,On,0,y,Beginning of this word does not seem to compress well to AMBE
+timeout_beep,normal,Timeout bip,0,y,
+factory_reset,normal,Fabriksinst,0,y,
+calibration,normal,Justering,0,y,
+band_limits,normal,Åben FRQ,0,y,
+beep_volume,normal,Bip vol,0,y,
+dmr_mic_gain,normal,DMR mic,0,y,
+fm_mic_gain,normal,FM mic,0,y,
+key_long,normal,Lang Tast,0,y,
+key_repeat,normal,Tast rpt,0,y,
+dmr_filter_timeout,normal,Filter tid,0,y,
+brightness,normal,Lys styrke,0,y,
+brightness_off,normal,Min bright,0,y,
+contrast,normal,Kontrast,0,y,
+colour_invert,normal,Sort,0,y,
+colour_normal,normal,Normal,0,y,
+backlight_timeout,normal,Timeout,0,y,
+scan_delay,normal,Scan delay,0,y,
+yes___in_uppercase,normal,JA,0,y,
+no___in_uppercase,normal,NEJ,0,y,
+DISMISS,normal,FORTRYD,0,y,
+scan_mode,normal,Scan mode,0,y,
+hold,normal,Hold,0,y,
+pause,normal,Pause,0,y,
+empty_list,normal,Tøm List,0,y,
+delete_contact_qm,normal,Slet kontakt?,0,y,
+contact_deleted,normal,kontakt slettet,0,y,
+contact_used,normal,Kontakt brugt,0,y,
+in_rx_group,normal,i RX gruppe,0,y,
+select_tx,normal,Valg TX,0,y,
+edit_contact,normal,Rediger Kontakt,0,y,
+delete_contact,normal,Slet Kontakt,0,y,
+group_call,normal,Grupe Kald,0,y,
+all_call,normal,Alle Kald,0,y,
+tone_scan,normal,Tone scan,0,y,
+low_battery,normal,LOW BATTERY !!!,0,y,
+Auto,normal,Auto,0,y,
+manual,normal,Manual,0,y,
+ptt_toggle,normal,PTT toggle,0,y,
+private_call_handling,normal,Handle PC,0,y,
+stop,normal,Stop,0,y,
+one_line,normal,1 line,0,y,
+two_lines,normal,2 lines,0,y,
+new_channel,normal,Ny kanal,0,y,
+priority_order,normal,Order,0,y,
+dmr_beep,normal,DMR beep,0,y,
+start,normal,Start,0,y,
+both,normal,Both,0,y,
+vox_threshold,normal,VOX Thres.,0,y,
+vox_tail,normal,VOX Tail,0,y,
+audio_prompt,normal,Prompt,0,y,
+silent,normal,Silent,0,y,
+normal,normal,Normal,0,y,
+beep,normal,Beep,0,y,
+voice,normal,Voice,0,y,
+transmitTalkerAlias,normal,TA Tx,0,y,
+squelch_VHF,normal,VHF Squelch,0,y,
+squelch_220,normal,220 Squelch,0,y,
+squelch_UHF,normal,UHF Squelch,0,y,
+display_background_colour,normal,Farve,0,y,
