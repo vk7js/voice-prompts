@@ -290,9 +290,9 @@ def downloadSpeechForWordList(filename,voiceName):
             else:
                 promptTTSText =   row['PromptSpeechPrefix'].strip() +  row['PromptText'] + row['PromptSpeechPostfix'].strip()
                 
-##                if (downloadTTSMP3(voiceName,promptName,promptTTSText)==False):
-##                    retval=False
-##                    break
+                if (downloadTTSMP3(voiceName,promptName,promptTTSText)==False):
+                    retval=False
+                    break
             
     return retval
 
