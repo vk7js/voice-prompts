@@ -1,57 +1,57 @@
 PromptName,PromptSpeechPrefix,PromptSpeechPostfix,PromptText
 PROMPT_SPACE,,, 
-PROMPT_POINT,"<prosody rate=""fast"">",</prosody>,POINT
-PROMPT_0,"<prosody rate=""fast"">",</prosody>,0
-PROMPT_1,"<prosody rate=""fast"">",</prosody>,1
-PROMPT_2,"<prosody rate=""fast"">",</prosody>,2
-PROMPT_3,"<prosody rate=""fast"">",</prosody>,3
-PROMPT_4,"<prosody rate=""fast"">",</prosody>,4
-PROMPT_5,"<prosody rate=""fast"">",</prosody>,5
-PROMPT_6,"<prosody rate=""fast"">",</prosody>,6
-PROMPT_7,"<prosody rate=""fast"">",</prosody>,7
-PROMPT_8,"<prosody rate=""fast"">",</prosody>,8
-PROMPT_9,"<prosody rate=""fast"">",</prosody>,9
-PROMPT_A,"<prosody rate=""fast"">",</prosody>,A
-PROMPT_B,"<prosody rate=""fast"">",</prosody>,B
-PROMPT_C,"<prosody rate=""fast"">",</prosody>,C
-PROMPT_D,"<prosody rate=""fast"">",</prosody>,D
-PROMPT_E,"<prosody rate=""fast"">",</prosody>,E
-PROMPT_F,"<prosody rate=""fast"">",</prosody>,F
-PROMPT_G,"<prosody rate=""fast"">",</prosody>,G
-PROMPT_H,"<prosody rate=""fast"">",</prosody>,H
-PROMPT_I,"<prosody rate=""fast"">",</prosody>,I
-PROMPT_J,"<prosody rate=""fast"">",</prosody>,J
-PROMPT_K,"<prosody rate=""fast"">",</prosody>,K
-PROMPT_L,"<prosody rate=""fast"">",</prosody>,L
-PROMPT_M,"<prosody rate=""fast"">",</prosody>,M
-PROMPT_N,"<prosody rate=""fast"">",</prosody>,N
-PROMPT_O,"<prosody rate=""fast"">",</prosody>,O
-PROMPT_P,"<prosody rate=""fast"">",</prosody>,P
-PROMPT_Q,"<prosody rate=""fast"">",</prosody>,Q
-PROMPT_R,"<prosody rate=""fast"">",</prosody>,R
-PROMPT_S,"<prosody rate=""fast"">",</prosody>,S
-PROMPT_T,"<prosody rate=""fast"">",</prosody>,T
-PROMPT_U,"<prosody rate=""fast"">",</prosody>,U
-PROMPT_V,"<prosody rate=""fast"">",</prosody>,V
-PROMPT_W,"<prosody rate=""fast"">",</prosody>,W
-PROMPT_X,"<prosody rate=""fast"">",</prosody>,X
-PROMPT_Y,"<prosody rate=""fast"">",</prosody>,Y
-PROMPT_Z,"<prosody rate=""fast"">",</prosody>,Zed
-PROMPT_Z2,"<prosody rate=""fast"">",</prosody>,Z
-PROMPT_CHANNEL,,,CHANNEL
-PROMPT_CONTACT,,,CONTACT
+PROMPT_POINT,,,POINT
+PROMPT_0,,,0
+PROMPT_1,,,1
+PROMPT_2,,,2
+PROMPT_3,,,3
+PROMPT_4,,,4
+PROMPT_5,,,5
+PROMPT_6,,,6
+PROMPT_7,,,7
+PROMPT_8,,,8
+PROMPT_9,,,9
+PROMPT_A,,,A
+PROMPT_B,,,B
+PROMPT_C,,,C
+PROMPT_D,,,D
+PROMPT_E,,,E
+PROMPT_F,,,F
+PROMPT_G,,,G
+PROMPT_H,,,H
+PROMPT_I,,,I
+PROMPT_J,,,J
+PROMPT_K,,,K
+PROMPT_L,,,L
+PROMPT_M,,,M
+PROMPT_N,,,N
+PROMPT_O,,,O
+PROMPT_P,,,P
+PROMPT_Q,,,Q
+PROMPT_R,,,R
+PROMPT_S,,,S
+PROMPT_T,,,T
+PROMPT_U,,,U
+PROMPT_V,,,V
+PROMPT_W,,,W
+PROMPT_X,,,X
+PROMPT_Y,,,Y
+PROMPT_Z,,,Zed
+PROMPT_Z2,,,Z
+PROMPT_CHANNEL,,,Channel
+PROMPT_CONTACT,,,Contact
 PROMPT_DBM,,,DBM
-PROMPT_ENTRY,,,ENTRY
-PROMPT_MEGAHERTZ,,,MEGAHERTZ
-PROMPT_KILOHERTZ,,,KILOHERTZ
-PROMPT_TALKGROUP,,,TALKGROUP
-PROMPT_TIMESLOT,,,TIMESLOT
-PROMPT_VFO,,,VFO
+PROMPT_ENTRY,,,Entry
+PROMPT_MEGAHERTZ,,,Megahertz
+PROMPT_KILOHERTZ,,,Kilohertz
+PROMPT_TALKGROUP,,,Talkgroup
+PROMPT_TIMESLOT,,,Timeslot
+PROMPT_VFO,,,V F O
 PROMPT_SECONDS,,,Seconds
 PROMPT_Minutes,,,Minutes
 PROMPT_Hours,,,Hours
 PROMPT_VOLTS,,,Volts
-PROMPT_WATT,,,Watt
+PROMPT_WATT,,,Wattt
 PROMPT_WATTS,,,Watts
 PROMPT_MILLIWATTS,,,Milliwatts
 PROMPT_PERCENT,,,Percent
@@ -109,7 +109,7 @@ rx_only,,,Receive only
 out_of_band,,,OUT OF BAND
 timeout,,,TIMEOUT
 tg_entry,,,Talkgroup entry
-pc_entry,,,Private call entry
+pc_entry,,,Private Call entry
 user_dmr_id,,,User D M R  ID
 contact,,,Contact
 accept_call,,,Accept call?
@@ -118,11 +118,11 @@ squelch,,,Squelch
 quick_menu,,,Quick Menu
 filter,,,Filter
 all_channels,,,All Channels
-gotoChannel,,,Goto
+gotoChannel,,,Go To Channel
 scan,,,Scan
-channelToVfo,,,Channel to V F O
-vfoToChannel,,,V F O to Channel
-vfoToNewChannel,,,V F O to New Channel
+channelToVfo,,,Copy Channel to V F O
+vfoToChannel,,,Copy V F O to Channel
+vfoToNewChannel,,,Copy V F O to New Channel
 group,,,Group
 private,,,Private
 all,,,All
@@ -146,7 +146,7 @@ all_skip,,,All Skip
 yes,,,Yes
 no,,,No
 rx_group,,,Rx Group
-on,"<emphasis level=""strong"">",</emphasis>,On
+on,<emphasis level="strong">,</emphasis>,On
 timeout_beep,,,Timeout beep
 factory_reset,,,Factory Reset
 calibration,,,Calibration
@@ -175,7 +175,7 @@ delete_contact_qm,,,Delete contact?
 contact_deleted,,,Contact deleted
 contact_used,,,Contact used
 in_rx_group,,,In R X group
-select_tx,,,Select T X
+select_tx,,,Select Contact
 edit_contact,,,Edit Contact
 delete_contact,,,Delete Contact
 group_call,,,Group Call
@@ -185,7 +185,7 @@ low_battery,,,LOW BATTERY
 Auto,,,Auto
 manual,,,Manual
 ptt_toggle,,,P T T latch
-private_call_handling,,,Allow Private call
+private_call_handling,,,Allow Private Call
 stop,,,Stop
 one_line,,,1 line
 two_lines,,,2 lines
