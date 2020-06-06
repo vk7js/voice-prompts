@@ -55,13 +55,13 @@ PROMPT_WATT,,,WATT
 PROMPT_WATTS,,,WATTS
 PROMPT_MILLIWATTS,,,MILLIWATTS
 PROMPT_PERCENT,,,Porcento
-PROMPT_RECEIVE,,,Recepção
-PROMPT_Transmit,,,Transmissão
+PROMPT_RECEIVE,,,RecepÃ§Ã£o
+PROMPT_Transmit,,,TransmissÃ£o
 PROMPT_HASH,,,Sustenido
 PROMPT_STAR,,,asterisco
 PROMPT_GREEN,,,Verde
 PROMPT_RED,,,Vermelho
-PROMPT_VERSION,,,Versão
+PROMPT_VERSION,,,VersÃ£o
 PROMPT_MODE,,,Modo
 PROMPT_DMR,,,DMR
 PROMPT_FM,,,FM
@@ -77,18 +77,18 @@ PROMPT_TBD5,,,
 PROMPT_TBD6,,, 
 PROMPT_TBD7,,, 
 PROMPT_TBD8,,,  
-LANGUAGE_NAME,,,Português
+LANGUAGE_NAME,,,PortuguÃªs
 menu,,,Menu
-credits,,,Créditos
+credits,,,CrÃ©ditos
 zone,,,Zona
 rssi,,,Sinal Recebido
 battery,,,Bateria
 contacts,,,Contatos
-last_heard,,,Último escutado
-firmware_info,,,Versão Firmware
-options,,,Opções
-display_options,,,Opções do display
-sound_options,,,Opções de som
+last_heard,,,Ãšltimo escutado
+firmware_info,,,VersÃ£o Firmware
+options,,,OpÃ§Ãµes
+display_options,,,OpÃ§Ãµes do display
+sound_options,,,OpÃ§Ãµes de som
 channel_details,,,Detalhes Canal
 language,,,Idioma
 new_contact,,,Novo Contato
@@ -100,12 +100,12 @@ zones,,,Zonas
 keypad,,,Teclado
 ptt,,,PTT
 locked,,,Bloqueado
-press_blue_plus_star,,,Pressione o botão azul e asterisco
+press_blue_plus_star,,,Pressione o botÃ£o azul e asterisco
 to_unlock,,,Para Desbloquear
 unlocked,,,Desbloqueado
 power_off,,,Desligando...
 error,,,ERRO!
-rx_only,,,Apenas recepção
+rx_only,,,Apenas recepÃ§Ã£o
 out_of_band,,,FORA DE BANDA
 timeout,,,TEMPO ESGOTADO
 tg_entry,,,Entrada TG
@@ -115,7 +115,7 @@ contact,,,Contato
 accept_call,,,Aceitar Chamada?
 private_call,,,Chamada Privada
 squelch,,,Squelch
-quick_menu,,,Menu Rápido
+quick_menu,,,Menu RÃ¡pido
 filter,,,Filtro
 all_channels,,,Todos os canais
 gotoChannel,,,Ir para canal
@@ -135,7 +135,7 @@ tg,,,TG
 pc,,,PC
 ts,,,TS
 mode,,,Modo
-colour_code,,,Código de cores
+colour_code,,,CÃ³digo de cores
 n_a,,,N/A
 bandwidth,,,Largura de banda
 stepFreq,,,Passo
@@ -144,11 +144,11 @@ off,,,Off
 zone_skip,,,Ignorar zona
 all_skip,,,Ignorar todos
 yes,,,Sim
-no,,,Não
+no,,,NÃ£o
 rx_group,,,Grupo Rx
 on,,,Ativado
 timeout_beep,,,Bip timeout
-factory_reset,,,Configurações padrão
+factory_reset,,,ConfiguraÃ§Ãµes padrÃ£o
 calibration,,,Ajuste
 band_limits,,,Limite de banda
 beep_volume,,,Volume do bip
@@ -158,14 +158,14 @@ key_long,,,Key long
 key_repeat,,,Key rpt 
 dmr_filter_timeout,,,Limite de tempo do filtro DMR
 brightness,,,Brilho
-brightness_off,,,Brilho mínimo
+brightness_off,,,Brilho mÃ­nimo
 contrast,,,Contraste
 colour_invert,,,Cor invertida
 colour_normal,,,Cor normal
 backlight_timeout,,,Tempo da luz do display
 scan_delay,,,Tempo scan
 yes___in_uppercase,,,SIM
-no___in_uppercase,,,NÃO
+no___in_uppercase,,,NÃƒO
 DISMISS,,,DESCARTAR
 scan_mode,,,Modo Scan
 hold,,,Aguardar 
@@ -182,7 +182,7 @@ group_call,,,Chamada em grupo
 all_call,,,Chamada para todos
 tone_scan,,,Tone scan
 low_battery,,,BATERIA FRACA!
-Auto,,,Automático
+Auto,,,AutomÃ¡tico
 manual,,,Manual
 ptt_toggle,,,PTT Fixo
 private_call_handling,,,Filtro PC
@@ -205,3 +205,4 @@ transmitTalkerAlias,,,Transmitir alias
 squelch_VHF,,,VHF squelch
 squelch_220,,,220 Megahertz squelch
 squelch_UHF,,,UHF squelch
+display_background_colour,,,Exibir cor de fundor

@@ -167,41 +167,42 @@ scan_delay,,,Scan delay
 yes___in_uppercase,,,SIM
 no___in_uppercase,,,NÃO
 DISMISS,,,DISPENSAR
-scan_mode,,,Scan mode
-hold,,,Hold
-pause,,,Pause
-empty_list,,,Empty List
-delete_contact_qm,,,Delete contact?
-contact_deleted,,,Contact deleted
-contact_used,,,Contact used
-in_rx_group,,,in RX group
-select_tx,,,Select TX
-edit_contact,,,Edit Contact
-delete_contact,,,Delete Contact
-group_call,,,Group Call
-all_call,,,All Call
+scan_mode,,,Modo Scan
+hold,,,Aguardar 
+pause,,,Pausa
+empty_list,,,Lista vazia
+delete_contact_qm,,,Apagar contato?
+contact_deleted,,,Contato apagado
+contact_used,,,Contato usado  
+in_rx_group,,,no grupo RX         
+select_tx,,,Selecione para TX
+edit_contact,,,Editar Contato
+delete_contact,,,Apagar contato
+group_call,,,Chamada em grupo
+all_call,,,Chamada para todos
 tone_scan,,,Tone scan
-low_battery,,,LOW BATTERY !!!
-Auto,,,Auto
+low_battery,,,BATERIA FRACA!
+Auto,,,Automático
 manual,,,Manual
-ptt_toggle,,,PTT toggle
-private_call_handling,,,Handle PC
-stop,,,Stop
-one_line,,,1 line
-two_lines,,,2 lines
-new_channel,,,Canal novo
-priority_order,,,Order
-dmr_beep,,,DMR beep
-start,,,Start
-both,,,Both
-vox_threshold,,,VOX Thres.
+ptt_toggle,,,PTT Fixo
+private_call_handling,,,Filtro PC
+stop,,,Parar
+one_line,,,1 linha
+two_lines,,,2 linhas
+new_channel,,,Novo Canal
+priority_order,,,Ordem
+dmr_beep,,,DMR bip
+start,,,Inicio
+both,,,Ambos
+vox_threshold,,,VOX Thres
 vox_tail,,,VOX Tail
 audio_prompt,,,Prompt
-silent,,,Silent
+silent,,,Silencioso
 normal,,,Normal
-beep,,,Beep
-voice,,,Voice
-transmitTalkerAlias,,,Talker Alias Transmit
-squelch_VHF,,,V H F squelch
+beep,,,Bip
+voice,,,Voz
+transmitTalkerAlias,,,Transmitir alias
+squelch_VHF,,,VHF squelch
 squelch_220,,,220 Megahertz squelch
-squelch_UHF,,,U H F squelch
+squelch_UHF,,,UHF squelch
+display_background_colour,,,Exibir cor de fundor
