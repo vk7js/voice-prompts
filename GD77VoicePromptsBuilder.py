@@ -436,6 +436,11 @@ def main():
                 gain = row['Volume_change_db'].strip()
                 
                 print(wordlistFilename+" "+voiceName+" "+voicePackName)
+
+                if not os.path.exists(voiceName):
+                    print("Creating folder " + voiceName + " for temporary files")
+                    os.mkdir(voiceName);		
+
                 if (download=='y' or download=='Y'):
                     if (downloadSpeechForWordList(wordlistFilename,voiceName)==False):
                      sys.exit(2)
