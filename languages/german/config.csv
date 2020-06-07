@@ -1,2 +1,4 @@
 Wordlist_file,Voice_name,Voice_pack_name,Download,Encode,Createpack,Volume_change_db
 wordlist_german.csv,Vicki,german_vicki.bin,y,y,y,0
+wordlist_german.csv,Marlene,german_marlene.bin,y,y,y,0
+wordlist_german.csv,Hans,german_hans.bin,y,y,y,0
