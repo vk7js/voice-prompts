@@ -1,3 +1,6 @@
 Wordlist_file,Voice_name,Voice_pack_name,Download,Encode,Createpack,Volume_change_db
 wordlist_english_UK.csv,Matthew,english_uk_matthew.bin,y,y,y,0
 wordlist_english_UK.csv,Amy,english_uk_amy.bin,y,y,y,0
+wordlist_english_UK.csv,Brian,english_uk_brian.bin,y,y,y,0
+wordlist_english_UK.csv,Nicole,english_AU_nicole.bin,y,y,y,0
+wordlist_english_UK.csv,Emma,english_uk_emma.bin,y,y,y,0
