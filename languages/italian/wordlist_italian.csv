@@ -1,46 +1,46 @@
 PromptName,PromptSpeechPrefix,PromptSpeechPostfix,PromptText
 PROMPT_SPACE,,, 
-PROMPT_POINT,"<prosody rate=""fast"">",</prosody>,POINT
-PROMPT_0,"<prosody rate=""fast"">",</prosody>,0
-PROMPT_1,"<prosody rate=""fast"">",</prosody>,1
-PROMPT_2,"<prosody rate=""fast"">",</prosody>,2
-PROMPT_3,"<prosody rate=""fast"">",</prosody>,3
-PROMPT_4,"<prosody rate=""fast"">",</prosody>,4
-PROMPT_5,"<prosody rate=""fast"">",</prosody>,5
-PROMPT_6,"<prosody rate=""fast"">",</prosody>,6
-PROMPT_7,"<prosody rate=""fast"">",</prosody>,7
-PROMPT_8,"<prosody rate=""fast"">",</prosody>,8
-PROMPT_9,"<prosody rate=""fast"">",</prosody>,9
-PROMPT_A,"<prosody rate=""fast"">",</prosody>,A
-PROMPT_B,"<prosody rate=""fast"">",</prosody>,B
-PROMPT_C,"<prosody rate=""fast"">",</prosody>,C
-PROMPT_D,"<prosody rate=""fast"">",</prosody>,D
-PROMPT_E,"<prosody rate=""fast"">",</prosody>,E
-PROMPT_F,"<prosody rate=""fast"">",</prosody>,F
-PROMPT_G,"<prosody rate=""fast"">",</prosody>,G
-PROMPT_H,"<prosody rate=""fast"">",</prosody>,H
-PROMPT_I,"<prosody rate=""fast"">",</prosody>,I
-PROMPT_J,"<prosody rate=""fast"">",</prosody>,J
-PROMPT_K,"<prosody rate=""fast"">",</prosody>,K
-PROMPT_L,"<prosody rate=""fast"">",</prosody>,L
-PROMPT_M,"<prosody rate=""fast"">",</prosody>,M
-PROMPT_N,"<prosody rate=""fast"">",</prosody>,N
-PROMPT_O,"<prosody rate=""fast"">",</prosody>,O
-PROMPT_P,"<prosody rate=""fast"">",</prosody>,P
-PROMPT_Q,"<prosody rate=""fast"">",</prosody>,Q
-PROMPT_R,"<prosody rate=""fast"">",</prosody>,R
-PROMPT_S,"<prosody rate=""fast"">",</prosody>,S
-PROMPT_T,"<prosody rate=""fast"">",</prosody>,T
-PROMPT_U,"<prosody rate=""fast"">",</prosody>,U
-PROMPT_V,"<prosody rate=""fast"">",</prosody>,V
-PROMPT_W,"<prosody rate=""fast"">",</prosody>,W
-PROMPT_X,"<prosody rate=""fast"">",</prosody>,X
-PROMPT_Y,"<prosody rate=""fast"">",</prosody>,Y
-PROMPT_Z,"<prosody rate=""fast"">",</prosody>,Z
-PROMPT_Z2,"<prosody rate=""fast"">",</prosody>,Zee
+PROMPT_POINT,,,POINT
+PROMPT_0,,,0
+PROMPT_1,,,1
+PROMPT_2,,,2
+PROMPT_3,,,3
+PROMPT_4,,,4
+PROMPT_5,,,5
+PROMPT_6,,,6
+PROMPT_7,,,7
+PROMPT_8,,,8
+PROMPT_9,,,9
+PROMPT_A,,,A
+PROMPT_B,,,B
+PROMPT_C,,,C
+PROMPT_D,,,D
+PROMPT_E,,,E
+PROMPT_F,,,F
+PROMPT_G,,,G
+PROMPT_H,,,H
+PROMPT_I,,,I
+PROMPT_J,,,J
+PROMPT_K,,,K
+PROMPT_L,,,L
+PROMPT_M,,,M
+PROMPT_N,,,N
+PROMPT_O,,,O
+PROMPT_P,,,P
+PROMPT_Q,,,Q
+PROMPT_R,,,R
+PROMPT_S,,,S
+PROMPT_T,,,T
+PROMPT_U,,,U
+PROMPT_V,,,V
+PROMPT_W,,,W
+PROMPT_X,,,X
+PROMPT_Y,,,Y
+PROMPT_Z,,,Z
+PROMPT_Z2,,,Zee
 PROMPT_CHANNEL,,,Canale
 PROMPT_CONTACT,,,Contatto
-PROMPT_DBM,,,DBM
+PROMPT_DBM,,,D B M
 PROMPT_ENTRY,,,Inserisci
 PROMPT_MEGAHERTZ,,,MEGAHERTZ
 PROMPT_KILOHERTZ,,,KILOHERTZ
@@ -63,8 +63,8 @@ PROMPT_GREEN,,,Verde
 PROMPT_RED,,,Rosso
 PROMPT_VERSION,,,Versione
 PROMPT_MODE,,,Modo
-PROMPT_DMR,,,DMR
-PROMPT_FM,,,FM
+PROMPT_DMR,,,D M R
+PROMPT_FM,,,F M
 PROMPT_WIDE,,,Largo
 PROMPT_NARROW,,,Stretto
 PROMPT_PLUS,,,più
@@ -98,7 +98,7 @@ hotspot_mode,,,Modo Hotspot
 built,,,Versione
 zones,,,Zone
 keypad,,,Tastiera
-ptt,,,PTT
+ptt,,,P T T
 locked,,,Bloccato
 press_blue_plus_star,,,Premi Blue + asterisco
 to_unlock,,,Per sbloccare
@@ -152,8 +152,8 @@ factory_reset,,,Reset Fabbrica
 calibration,,,Calibrazione
 band_limits,,,Limiti Banda
 beep_volume,,,Volume Bip
-dmr_mic_gain,,,DMR mic gain
-fm_mic_gain,,,FM mic gain
+dmr_mic_gain,,,D M R mic gain
+fm_mic_gain,,,F M mic gain
 key_long,,,tempo pressione tasto
 key_repeat,,,tempo ripetizione tasto
 dmr_filter_timeout,,,Tempo Filtro
@@ -191,7 +191,7 @@ one_line,,,1 linea
 two_lines,,,2 linee
 new_channel,,,Nuovo canale
 priority_order,,,Priorità
-dmr_beep,,,DMR bip
+dmr_beep,,,D M R bip
 start,,,Inizio
 both,,,Ambedue
 vox_threshold,,,Soglia VOX

@@ -63,8 +63,8 @@ PROMPT_GREEN,,,Verde
 PROMPT_RED,,,Vermelho
 PROMPT_VERSION,,,Versão
 PROMPT_MODE,,,Modo
-PROMPT_DMR,,,DMR
-PROMPT_FM,,,FM
+PROMPT_DMR,,,D M R
+PROMPT_FM,,,F M
 PROMPT_WIDE,,,Largura de banda larga
 PROMPT_NARROW,,,Largura de banda estreita
 PROMPT_PLUS,,,Mais
@@ -110,7 +110,7 @@ out_of_band,,,FORA DE BANDA
 timeout,,,TEMPO ESGOTADO
 tg_entry,,,Entrada TG
 pc_entry,,,Entrada PC
-user_dmr_id,,,DMR ID 
+user_dmr_id,,,D M R ID 
 contact,,,Contato
 accept_call,,,Aceitar Chamada?
 private_call,,,Chamada Privada
@@ -120,9 +120,9 @@ filter,,,Filtro
 all_channels,,,Todos os canais
 gotoChannel,,,Ir para canal
 scan,,,Escanear
-channelToVfo,,,Canal para VFO
-vfoToChannel,,,VFO para Canal
-vfoToNewChannel,,,VFO para um Novo Canal
+channelToVfo,,,Copiar Canal para V F O
+vfoToChannel,,,Copiar V F O para Canal
+vfoToNewChannel,,,Copiar V F O para um Novo Canal
 group,,,Grupo
 private,,,Privado
 all,,,Todos
@@ -152,11 +152,11 @@ factory_reset,,,Configurações padrão
 calibration,,,Ajuste
 band_limits,,,Limite de banda
 beep_volume,,,Volume do bip
-dmr_mic_gain,,,Microfone DMR
-fm_mic_gain,,,Microfone FM
+dmr_mic_gain,,,Microfone D M R
+fm_mic_gain,,,Microfone F M
 key_long,,,Key long  
 key_repeat,,,Key rpt 
-dmr_filter_timeout,,,Limite de tempo do filtro DMR
+dmr_filter_timeout,,,Limite de tempo do filtro D M R
 brightness,,,Brilho
 brightness_off,,,Brilho mínimo
 contrast,,,Contraste
@@ -191,7 +191,7 @@ one_line,,,1 linha
 two_lines,,,2 linhas
 new_channel,,,Novo Canal
 priority_order,,,Ordem
-dmr_beep,,,DMR bip
+dmr_beep,,,D M R bip
 start,,,Inicio
 both,,,Ambos
 vox_threshold,,,VOX Thres

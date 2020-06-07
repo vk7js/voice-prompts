@@ -116,9 +116,9 @@ filter,,,Filtro
 all_channels,,,Lista Canales
 gotoChannel,,,Ir a canal
 scan,,,Escanear
-channelToVfo,,,Canal a VFO
-vfoToChannel,,,VFO a Canal
-vfoToNewChannel,,,VFO a Nuevo Canal
+channelToVfo,,,Canal a V F O
+vfoToChannel,,,V F O a Canal
+vfoToNewChannel,,,V F O a Nuevo Canal
 group,,,Grupo
 private,,,Privado
 all,,,Todos
@@ -187,7 +187,7 @@ one_line,,,1 linea
 two_lines,,,2 linea
 new_channel,,,Nuevo canal
 priority_order,,,Orden
-dmr_beep,,,DMR beep
+dmr_beep,,,D M R beep
 start,,,Inicio
 both,,,Ambos
 vox_threshold,,,VOX Ganancia
