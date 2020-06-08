@@ -146,7 +146,7 @@ all_skip,,,All Skip
 yes,,,Yes
 no,,,No
 rx_group,,,Rx Group
-on,<emphasis level="strong">,</emphasis>,On
+on,,,On
 timeout_beep,,,Timeout beep
 factory_reset,,,Factory Reset
 calibration,,,Calibration
