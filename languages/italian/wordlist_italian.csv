@@ -1,6 +1,6 @@
 PromptName,PromptSpeechPrefix,PromptSpeechPostfix,PromptText
 PROMPT_SPACE,,, 
-PROMPT_POINT,,,POINT
+PROMPT_POINT,,,PUNTO
 PROMPT_0,,,0
 PROMPT_1,,,1
 PROMPT_2,,,2
@@ -146,7 +146,7 @@ all_skip,,,Salta Tutti
 yes,,,SÌ
 no,,,No
 rx_group,,,Ricezione gruppo
-on,,,On
+on,,,Attivato
 timeout_beep,,,Bip Timeout
 factory_reset,,,Reset Fabbrica
 calibration,,,Calibrazione
@@ -160,7 +160,7 @@ dmr_filter_timeout,,,Tempo Filtro
 brightness,,,Luminosità
 brightness_off,,,Minima luminosità
 contrast,,,Contrasto
-colour_invert,,,Colore:Inverti
+colour_invert,,,Colore:Invertito
 colour_normal,,,Colore:Normale
 backlight_timeout,,,Timeout
 scan_delay,,,Ritardo Scansione
@@ -199,10 +199,10 @@ vox_tail,,,Coda VOX
 audio_prompt,,,Richiesta
 silent,,,Silenzioso
 normal,,,Normale
-beep,,,Beep
+beep,,,Bip
 voice,,,Voce
 transmitTalkerAlias,,,Trasmetti talker alias
 squelch_VHF,,,V H F squelch
 squelch_220,,,220 Megahertz squelch
 squelch_UHF,,,U H F squelch
-display_background_colour,,,
+display_background_colour,,,Colore sfondo Display
