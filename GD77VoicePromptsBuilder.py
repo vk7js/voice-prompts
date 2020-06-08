@@ -154,14 +154,20 @@ def convert2AMBE(ser,infile,outfile,stripSilence):
         ambBufPos=0;
         ambFrameBuf = bytearray(27)
         startPos=0
-        stripSilence=False
+        stripSilence=True
+        #if (infile[0:11] !="PROMPT_SPACE"):
+        #    stripSilence = True;
+            
         if (stripSilence):
-            while (buf[startPos]< 10 and buf[(startPos+1)]==0):
+            while (startPos<len(buf) and  buf[startPos]==0 and buf[(startPos+1)]==0):
                startPos = startPos + 2;
+            if (startPos == len(buf)):
+                startPos = 0
 
-            print("Startpos "+str(startPos));
+            print("Stripping silence until position "+str(startPos));
                
-
+        wavBufPos = startPos
+        
         while (wavBufPos < bufLen):
             print('.', end='')
             sendCommand(ser,6, 6, 0, 0, 0, 0,  "")#codecInitInternalBuffers
