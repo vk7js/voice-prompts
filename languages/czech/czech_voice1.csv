@@ -1,0 +1,208 @@
+PromptName,PromptSpeechPrefix,PromptSpeechPostfix,PromptText
+PROMPT_SPACE,,, 
+PROMPT_POINT,,,POJNT
+PROMPT_0,,,0
+PROMPT_1,,,1
+PROMPT_2,,,2
+PROMPT_3,,,3
+PROMPT_4,,,4
+PROMPT_5,,,5
+PROMPT_6,,,6
+PROMPT_7,,,7
+PROMPT_8,,,8
+PROMPT_9,,,9
+PROMPT_A,,,A
+PROMPT_B,,,B
+PROMPT_C,,,C
+PROMPT_D,,,D
+PROMPT_E,,,E
+PROMPT_F,,,F
+PROMPT_G,,,G
+PROMPT_H,,,H
+PROMPT_I,,,I
+PROMPT_J,,,J
+PROMPT_K,,,K
+PROMPT_L,,,L
+PROMPT_M,,,M
+PROMPT_N,,,N
+PROMPT_O,,,O
+PROMPT_P,,,P
+PROMPT_Q,,,Q
+PROMPT_R,,,R
+PROMPT_S,,,S
+PROMPT_T,,,T
+PROMPT_U,,,U
+PROMPT_V,,,V
+PROMPT_W,,,W
+PROMPT_X,,,X
+PROMPT_Y,,,Y
+PROMPT_Z,,,Zed
+PROMPT_Z2,,,Z
+PROMPT_CHANNEL,,,KANÁL
+PROMPT_CONTACT,,,KONTAKT
+PROMPT_DBM,,,D B M
+PROMPT_ENTRY,,,VSTUP
+PROMPT_MEGAHERTZ,,,MEGAHERTZ
+PROMPT_KILOHERTZ,,,KILOHERTZ
+PROMPT_TALKGROUP,,,TALKGROUP
+PROMPT_TIMESLOT,,,TAJMSLOT
+PROMPT_VFO,,,VFO
+PROMPT_SECONDS,,,Sekund
+PROMPT_Minutes,,,Minut
+PROMPT_Hours,,,Hodin
+PROMPT_VOLTS,,,Voltů
+PROMPT_WATT,,,Wat
+PROMPT_WATTS,,,Waty
+PROMPT_MILLIWATTS,,,Miliwat
+PROMPT_PERCENT,,,Procent
+PROMPT_RECEIVE,,,Přijímat
+PROMPT_Transmit,,,Vysílat
+PROMPT_HASH,,,Haš
+PROMPT_STAR,,,Hvězdička
+PROMPT_GREEN,,,Zelené
+PROMPT_RED,,,Červené
+PROMPT_VERSION,,,Verze
+PROMPT_MODE,,,Režim
+PROMPT_DMR,,,D M R
+PROMPT_FM,,,F M
+PROMPT_WIDE,,,Široká
+PROMPT_NARROW,,,Úzká
+PROMPT_PLUS,,,Plus
+PROMPT_MINUS,,,Mínus
+PROMPT_TBD1,,,T D B 1
+PROMPT_TBD2,,,T D B 2
+PROMPT_TBD3,,,T D B 3
+PROMPT_TBD4,,,T D B 4
+PROMPT_TBD5,,,T D B 5
+PROMPT_TBD6,,,T D B 6
+PROMPT_TBD7,,,T D B 7 
+PROMPT_TBD8,,,T D B 8
+LANGUAGE_NAME,,,Čeština
+menu,,,Menu
+credits,,,přispěvatelé
+zone,,,Zóna
+rssi,,,Síla signálu
+battery,,,Baterie
+contacts,,,Kontakty
+last_heard,,,Poslední Kdo Volal
+firmware_info,,,Firmvejr Info
+options,,,Nastavení
+display_options,,,Nastavení Dyspleje
+sound_options,,,Nastavení zvuku
+channel_details,,,Kanál Detajl
+language,,,Jazyk
+new_contact,,,Nový Kontakt
+contact_list,,,Kontakty
+contact_details,,,Kontakt detajl
+hotspot_mode,,,Hotspot mód
+built,,,Sestavení
+zones,,,Zóny
+keypad,,,Klávesa
+ptt,,,P T T
+locked,,,Zamčené
+press_blue_plus_star,,,Stlačit Modré plus hvězdička
+to_unlock,,,Odemknout
+unlocked,,,Odemčeno
+power_off,,,Vypínaní stanice
+error,,,CHYBA
+rx_only,,,Jenom R X
+out_of_band,,,MIMO PÁSMO
+timeout,,,Časový Limit
+tg_entry,,,T G Zadání
+pc_entry,,,P C Zadání
+user_dmr_id,,,Uživatelské I D D M R
+contact,,,Kontakty
+accept_call,,,Přijmout hovor?
+private_call,,,Soukromý hovor
+squelch,,,Skvelč
+quick_menu,,,Rychlé menu
+filter,,,Filtr
+all_channels,,,Všechny Kanály
+gotoChannel,,,Další kanál
+scan,,,Sken
+channelToVfo,,,Kanál kopíruj do V F O
+vfoToChannel,,,V F O kopíruj do Kanál
+vfoToNewChannel,,,V F O kopíruj do Nový Kanál
+group,,,Group
+private,,,Soukromé
+all,,,Všechno
+type,,,Typ
+timeSlot,,,TajmSlot
+none,,,Není
+contact_saved,,,Kontakt uložen
+duplicate,,,Duplikát
+tg,,,T G
+pc,,,P C
+ts,,,T S
+mode,,,Mód
+colour_code,,,Color kód
+n_a,,,Ne nebo Ano
+bandwidth,,,Šířka Pásma
+stepFreq,,,Krok frekvence
+tot,,,TOT
+off,,,Vypnuto
+zone_skip,,,Skip přeskoč v Zóně
+all_skip,,,Skip přeskoč ve Všem
+yes,,,Ano
+no,,,Ne
+rx_group,,,R X Group
+on,,,Zapnuto
+timeout_beep,,,Čas Limit pípnutí
+factory_reset,,,Úplný Reset
+calibration,,,Kalibrace
+band_limits,,,Omezit Pásmo
+beep_volume,,,Zvuk tlačítek
+dmr_mic_gain,,,D M R mikrofon gejn
+fm_mic_gain,,,F M mikrofon gejn
+key_long,,,Držet
+key_repeat,,,Znovu zmáčkni tlačítko
+dmr_filter_timeout,,,Čas D M R Filtru
+brightness,,,Jas
+brightness_off,,,Minimální Jas
+contrast,,,Kontrast
+colour_invert,,,Černé pozadí
+colour_normal,,,Bílé pozadí
+backlight_timeout,,,Doba podsvícení
+scan_delay,,,Sken pauza
+yes___in_uppercase,,,ANO
+no___in_uppercase,,,NE
+DISMISS,,,ODMÍTNOUT
+scan_mode,,,Sken Mód
+hold,,,Zastavit
+pause,,,Pauza
+empty_list,,,Prázdný seznam
+delete_contact_qm,,,Smazat kontakt?
+contact_deleted,,,Kontakt smazán
+contact_used,,,Použít kontakt
+in_rx_group,,,v R X Group
+select_tx,,,Vybrat T X
+edit_contact,,,Upravit kontakt
+delete_contact,,,Smazat Kontakt
+group_call,,,Groupy seznam
+all_call,,,Všechny čísla
+tone_scan,,,C T C S S Sken
+low_battery,,,SLABÁ BATERIE!
+Auto,,,Automatomatický
+manual,,,Manualní
+ptt_toggle,,,P T T přepnout
+private_call_handling,,,Soukromé Volání
+stop,,,stop
+one_line,,,Jeden řádek
+two_lines,,,Dva řádky
+new_channel,,,Nový Kanál
+priority_order,,,Priorita čtení I D
+dmr_beep,,,pípnutí v D M R
+start,,,na začátku vysílání
+both,,,Na začátku i na konci vysílání
+vox_threshold,,,VOX Práh
+vox_tail,,,VOX poslouchá ještě sekund
+audio_prompt,,,Výzva Zvukem
+silent,,,Tichý
+normal,,,Normální
+beep,,,Pípání
+voice,,,Hlas
+transmitTalkerAlias,,,vyslat talkr alias
+squelch_VHF,,,V H F Skvelč
+squelch_220,,,220 Skvelč
+squelch_UHF,,,U H F Skvelč
+display_background_colour,,,Barva displeje
