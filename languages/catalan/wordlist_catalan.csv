@@ -143,10 +143,10 @@ tot,,,TOT
 off,,,NO
 zone_skip,,,Saltar zona
 all_skip,,,Saltar tot
-yes,,,Sí
+yes,,,Si
 no,,,No
 rx_group,,,Llista TG/ID
-on,,,Sí
+on,,,Si
 timeout_beep,,,Avís T.O.T.
 factory_reset,,,Reinici fabr.
 calibration,,,Calibració
@@ -187,8 +187,8 @@ manual,,,Manual
 ptt_toggle,,,Enclavar PTT
 private_call_handling,,,Gestió PC
 stop,,,Stop
-one_line,,,1 línia
-two_lines,,,2 línies
+one_line,,,1 linea
+two_lines,,,2 linea
 new_channel,,,Nou canal
 priority_order,,,Prio.
 dmr_beep,,,DMR Beep

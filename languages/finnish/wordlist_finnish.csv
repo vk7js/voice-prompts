@@ -39,16 +39,16 @@ PROMPT_Y,,,Y
 PROMPT_Z,,,Z
 PROMPT_Z2,,,Z
 PROMPT_CHANNEL,,,kanava
-PROMPT_CONTACT,,,Ottaa yhteytt‰
+PROMPT_CONTACT,,,Ottaa yhteytt√§
 PROMPT_DBM,,,D B M
-PROMPT_ENTRY,,,merkint‰
+PROMPT_ENTRY,,,merkint√§
 PROMPT_MEGAHERTZ,,,megahertsi
 PROMPT_KILOHERTZ,,,kilohertsin
-PROMPT_TALKGROUP,,,keskusteluryhm‰puhelua
-PROMPT_TIMESLOT,,,aikav‰li‰
+PROMPT_TALKGROUP,,,keskusteluryhm√§puhelua
+PROMPT_TIMESLOT,,,aikav√§li√§
 PROMPT_VFO,,,V F O
 PROMPT_SECONDS,,,sekuntia
-PROMPT_Minutes,,,Pˆyt‰kirja
+PROMPT_Minutes,,,P√∂yt√§kirja
 PROMPT_Hours,,,tuntia
 PROMPT_VOLTS,,,volttia
 PROMPT_WATT,,,Wattt
@@ -56,16 +56,16 @@ PROMPT_WATTS,,,Watts
 PROMPT_MILLIWATTS,,,millivvattia
 PROMPT_PERCENT,,,prosentti
 PROMPT_RECEIVE,,,Vastaanottaa
-PROMPT_Transmit,,,l‰hetys-
+PROMPT_Transmit,,,l√§hetys-
 PROMPT_HASH,,,hash
 PROMPT_STAR,,,alkaa
-PROMPT_GREEN,,,Vihre‰
+PROMPT_GREEN,,,Vihre√§
 PROMPT_RED,,,Punainen
 PROMPT_VERSION,,,Versio
 PROMPT_MODE,,,tila
 PROMPT_DMR,,,D M R
 PROMPT_FM,,,F M
-PROMPT_WIDE,,,leve‰
+PROMPT_WIDE,,,leve√§
 PROMPT_NARROW,,,Kapea
 PROMPT_PLUS,,,Plus
 PROMPT_MINUS,,,Miinus
@@ -87,8 +87,8 @@ contacts,,,Kontaktit
 last_heard,,,Viimeksi kuultu
 firmware_info,,,Laiteohjelmisto
 options,,,Yleis  Asetukset
-display_options,,,N‰ytˆn Asetukset
-sound_options,,,ƒ‰ni   Asetukset
+display_options,,,N√§yt√∂n Asetukset
+sound_options,,,√Ñ√§ni   Asetukset
 channel_details,,,Kanava Asetukset
 language,,,Kieli
 new_contact,,,Uusi kontakti
@@ -96,22 +96,22 @@ contact_list,,,Uusi kanava
 contact_details,,,Kontakti lista
 hotspot_mode,,,Hotspotti tila
 built,,,Kontakti Asetus
-zones,,,Koontik‰‰nnˆs
+zones,,,Koontik√§√§nn√∂s
 keypad,,,Zonet
-ptt,,,N‰pp‰in
+ptt,,,N√§pp√§in
 locked,,,PTT
 press_blue_plus_star,,,Lukossa
-to_unlock,,,Paina sinist‰ ja *
-unlocked,,,avataksesi n‰plukko
-power_off,,,N‰plukko avattu
+to_unlock,,,Paina sinist√§ ja *
+unlocked,,,avataksesi n√§plukko
+power_off,,,N√§plukko avattu
 error,,,Virta pois...
 rx_only,,,VIRHE
 out_of_band,,,Vain Rx
-timeout,,,B‰ndial ulkopu
+timeout,,,B√§ndial ulkopu
 tg_entry,,,AIKAKATK
 pc_entry,,,Aseta TG
 user_dmr_id,,,Aseta PC
-contact,,,K‰ytt‰j‰n D M R ID
+contact,,,K√§ytt√§j√§n D M R ID
 accept_call,,,Kontakti
 private_call,,,Vastaa puheluun?
 squelch,,,Priv. puhelu
@@ -124,19 +124,19 @@ channelToVfo,,,Skannaus
 vfoToChannel,,,Kanava --> V F O
 vfoToNewChannel,,,V F O --> Kanava
 group,,,VFO --> Uusi kan
-private,,,Ryhm‰
+private,,,Ryhm√§
 all,,,Privaatti
 type,,,Kaikki
 timeSlot,,,Tyyppi
-none,,,Aikav‰li
-contact_saved,,,Tyhj‰
+none,,,Aikav√§li
+contact_saved,,,Tyhj√§
 duplicate,,,Kontakti tallen.
 tg,,,kaksoiskappale
 pc,,,TG
 ts,,,PC
 mode,,,TS
 colour_code,,,Mode
-n_a,,,V‰ri Koodi
+n_a,,,V√§ri Koodi
 bandwidth,,,Pois
 stepFreq,,,Kaistanl
 tot,,,Steppi
@@ -146,51 +146,51 @@ all_skip,,,Skippaa zone
 yes,,,Skippaa kaik
 no,,,Joo
 rx_group,,,Ei
-on,"<emphasis level=""strong"">",</emphasis>,Rx Ryhm‰
+on,"<emphasis level=""strong"">",</emphasis>,Rx Ryhm√§
 timeout_beep,,,On
 factory_reset,,,Aikakatk beep
 calibration,,,TehdasAsetus
 band_limits,,,Kalibriointi
-beep_volume,,,B‰ndi Rajoitu
-dmr_mic_gain,,,N‰pƒ‰niVoim
+beep_volume,,,B√§ndi Rajoitu
+dmr_mic_gain,,,N√§p√Ñ√§niVoim
 fm_mic_gain,,,D M R MicGain
 key_long,,,F M MicGain
-key_repeat,,,N‰p pitk‰
-dmr_filter_timeout,,,N‰p toisto
+key_repeat,,,N√§p pitk√§
+dmr_filter_timeout,,,N√§p toisto
 brightness,,,Suodin aika
 brightness_off,,,Kirkkaus
 contrast,,,Min kirkkaus
 colour_invert,,,Kontrasti
-colour_normal,,,K‰‰nteinen
+colour_normal,,,K√§√§nteinen
 backlight_timeout,,,Normaali
 scan_delay,,,TaustValoAika
 yes___in_uppercase,,,Skann. viive
-no___in_uppercase,,,KYLLƒ
+no___in_uppercase,,,KYLL√Ñ
 DISMISS,,,EI
 scan_mode,,,POISTU
 hold,,,Skannaus
-pause,,,Pys‰yty
+pause,,,Pys√§yty
 empty_list,,,Pauseta
-delete_contact_qm,,,Tyhj‰ lista
+delete_contact_qm,,,Tyhj√§ lista
 contact_deleted,,,Poista kontakti?
 contact_used,,,Kontakti Poistet
-in_rx_group,,,Kontakti k‰ytˆss
-select_tx,,,on RX ryhm‰ss‰
+in_rx_group,,,Kontakti k√§yt√∂ss
+select_tx,,,on RX ryhm√§ss√§
 edit_contact,,,Valitse TX
 delete_contact,,,Muokkaa Kontakti
 group_call,,,Poista Kontakti
-all_call,,,Ryhm‰ Puhelu
+all_call,,,Ryhm√§ Puhelu
 tone_scan,,,Puhelu kaikille
-low_battery,,,Ali‰‰ni scan
-Auto,,,Akku V‰hiss‰ !
+low_battery,,,Ali√§√§ni scan
+Auto,,,Akku V√§hiss√§ !
 manual,,,Automaatti
 ptt_toggle,,,Manuaali
 private_call_handling,,,PTT Lukko
-stop,,,K‰sittele PC
+stop,,,K√§sittele PC
 one_line,,,Stoppaa
 two_lines,,,1 rivi
-new_channel,,,2 rivi‰
-priority_order,,,J‰rjest
+new_channel,,,2 rivi√§
+priority_order,,,J√§rjest
 dmr_beep,,,D M R piippi
 start,,,Alku
 both,,,Molemm
@@ -205,4 +205,4 @@ transmitTalkerAlias,,,TA Tx
 squelch_VHF,,,VHF K.Salpa
 squelch_220,,,220 K.Salpa
 squelch_UHF,,,VHF K.Salpa
-display_background_colour,,,V‰ri
+display_background_colour,,,V√§ri
