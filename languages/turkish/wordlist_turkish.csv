@@ -1,0 +1,208 @@
+PromptName,PromptSpeechPrefix,PromptSpeechPostfix,PromptText
+PROMPT_SPACE,,, 
+PROMPT_POINT,,,Nokta
+PROMPT_0,,,0
+PROMPT_1,,,1
+PROMPT_2,,,2
+PROMPT_3,,,3
+PROMPT_4,,,4
+PROMPT_5,,,5
+PROMPT_6,,,6
+PROMPT_7,,,7
+PROMPT_8,,,8
+PROMPT_9,,,9
+PROMPT_A,,,A
+PROMPT_B,,,B
+PROMPT_C,,,C
+PROMPT_D,,,D
+PROMPT_E,,,E
+PROMPT_F,,,F
+PROMPT_G,,,G
+PROMPT_H,,,H
+PROMPT_I,,,I
+PROMPT_J,,,J
+PROMPT_K,,,K
+PROMPT_L,,,L
+PROMPT_M,,,M
+PROMPT_N,,,N
+PROMPT_O,,,O
+PROMPT_P,,,P
+PROMPT_Q,,,Q
+PROMPT_R,,,R
+PROMPT_S,,,S
+PROMPT_T,,,T
+PROMPT_U,,,U
+PROMPT_V,,,V
+PROMPT_W,,,W
+PROMPT_X,,,X
+PROMPT_Y,,,Y
+PROMPT_Z,,,Z
+PROMPT_Z2,,,Z
+PROMPT_CHANNEL,,,KANAL
+PROMPT_CONTACT,,,?LET???M
+PROMPT_DBM,,,DBM
+PROMPT_ENTRY,,,G?R??
+PROMPT_MEGAHERTZ,,,MEGAHERTZ
+PROMPT_KILOHERTZ,,,PROMPT_KILOHERTZ
+PROMPT_TALKGROUP,,,talkgroup
+PROMPT_TIMESLOT,,,ZAMAN ARALI?I
+PROMPT_VFO,,,V F O
+PROMPT_SECONDS,,,Saniye
+PROMPT_Minutes,,,Dakika
+PROMPT_Hours,,,Saatler
+PROMPT_VOLTS,,,Volt
+PROMPT_WATT,,,vat
+PROMPT_WATTS,,,Watts
+PROMPT_MILLIWATTS,,,miliwatt
+PROMPT_PERCENT,,,Yüzde
+PROMPT_RECEIVE,,,Teslim almak
+PROMPT_Transmit,,,?letim
+PROMPT_HASH,,,esrar
+PROMPT_STAR,,,Ba?lat
+PROMPT_GREEN,,,Ye?il
+PROMPT_RED,,,K?rm?z?
+PROMPT_VERSION,,,versiyon
+PROMPT_MODE,,,kip
+PROMPT_DMR,,,D M R
+PROMPT_FM,,,F M
+PROMPT_WIDE,,,Geni?
+PROMPT_NARROW,,,Dar
+PROMPT_PLUS,,,Art?
+PROMPT_MINUS,,,Eksi
+PROMPT_TBD1,,,
+PROMPT_TBD2,,,
+PROMPT_TBD3,,,
+PROMPT_TBD4,,,
+PROMPT_TBD5,,,
+PROMPT_TBD6,,,
+PROMPT_TBD7,,, 
+PROMPT_TBD8,,, 
+LANGUAGE_NAME,,,Turkish
+menu,,,Menü
+credits,,,Yap“mc“lar
+zone,,,Bölge
+rssi,,,RSSI
+battery,,,Batarya
+contacts,,,Ki–iler
+last_heard,,,Son Duyulanlar
+firmware_info,,,YAZILIM Bilgisi
+options,,,Opsiyonlar
+display_options,,,Ekran Opsiyon
+sound_options,,,Sound options
+channel_details,,,Kanal Detay
+language,,,Dil
+new_contact,,,Yeni Ki–i
+contact_list,,,Ki–i listesi
+contact_details,,,Eri–im Modu
+hotspot_mode,,,Ki–i Detaylar“
+built,,,Olu–turma
+zones,,,Bölgeler
+keypad,,,Klavye
+ptt,,,PTT
+locked,,,Kiltli
+press_blue_plus_star,,,Bas Mavi + *
+to_unlock,,,Açmak için
+unlocked,,,Kilit Aç“k
+power_off,,,HO•ÇAKALIN
+error,,,HATA
+rx_only,,,Sadece Rx
+out_of_band,,,BAND D“–“
+timeout,,,Timeout
+tg_entry,,,TG Giri–
+pc_entry,,,PC Giri–
+user_dmr_id,,,Ki–isel DMR ID
+contact,,,Kontakt
+accept_call,,,Arama Kabul?
+private_call,,,Özel Arama
+squelch,,,Squelch
+quick_menu,,,H“zl“ Menü
+filter,,,Filtre
+all_channels,,,Tüm Kanallar
+gotoChannel,,,Kanala Git
+scan,,,Tara
+channelToVfo,,,Kanal --> V F O
+vfoToChannel,,,V F O --> Kanal
+vfoToNewChannel,,,V F O --> Yeni Kanal
+group,,,Grup
+private,,,Özel
+all,,,Tüm
+type,,,Tip
+timeSlot,,,Zaman Dilimi
+none,,,Yok
+contact_saved,,,Ki–i Kay“tedildi
+duplicate,,,Çift!
+tg,,,TG
+pc,,,PC
+ts,,,TS
+mode,,,Mod
+colour_code,,,Renk Kodu
+n_a,,,N/A
+bandwidth,,,Band geni–
+stepFreq,,,Ad“m
+tot,,,TX Süre
+off,,,Kapal“
+zone_skip,,,Bölge Atla
+all_skip,,,Tüm Atla
+yes,,,Evet
+no,,,Hay“r
+rx_group,,,Rx Grp
+on,,,Aç
+timeout_beep,,,Zaman bip
+factory_reset,,,Fabrika Ayarlar“
+calibration,,,Kalibrasyon
+band_limits,,,Band S“n“r“
+beep_volume,,,Bip sesi
+dmr_mic_gain,,,DMR mic
+fm_mic_gain,,,FM mic
+key_long,,,Tu– Uzun
+key_repeat,,,Tu– rpt
+dmr_filter_timeout,,,FiltreSüre
+brightness,,,Parlakl“k
+brightness_off,,,Az parlak
+contrast,,,Kontrast
+colour_invert,,,Ters
+colour_normal,,,Normal
+backlight_timeout,,,Zamana–“m“
+scan_delay,,,Tarama H“z“
+yes___in_uppercase,,,EVET
+no___in_uppercase,,,HAYIR
+DISMISS,,,REDDET
+scan_mode,,,Tarama modu
+hold,,,Dur
+pause,,,Bekle
+empty_list,,,Bo– Liste
+delete_contact_qm,,,Ki–iyi silmek?
+contact_deleted,,,Ki–i silindi
+contact_used,,,Ki–i kullan“mda
+in_rx_group,,,RX grubunda
+select_tx,,,TX seçin
+edit_contact,,,Ki–iyi Düzenle
+delete_contact,,,Ki–iyi silmek
+group_call,,,Grup Ça˜r“s“
+all_call,,,Tüm aramalar
+tone_scan,,,Ton tarama
+low_battery,,,DÜ•ÜK BATARYA !
+Auto,,,Otomatik
+manual,,,Manüel
+ptt_toggle,,,PTT Tu–u
+private_call_handling,,,PC izin ver
+stop,,,Stop
+one_line,,,1 sat“r
+two_lines,,,2 sat“r
+new_channel,,,Yeni Kanal
+priority_order,,,Öncelik
+dmr_beep,,,DMR beep
+start,,,Start
+both,,,Both
+vox_threshold,,,VOX Thres.
+vox_tail,,,VOX Tail
+audio_prompt,,,Prompt
+silent,,,Silent
+normal,,,Normal
+beep,,,Beep
+voice,,,Voice
+transmitTalkerAlias,,,TA Tx
+squelch_VHF,,,VHF Squelch
+squelch_220,,,220 Squelch
+squelch_UHF,,,UHF Squelch
+display_background_colour,,,Renk

@@ -21,6 +21,7 @@ CREATE_NO_WINDOW = 0x08000000
 DETACHED_PROCESS = 0x00000008
 overwrite=False
 gain='0'
+removeSilenceAtStart = False
 
 #FLASH_WRITE_SIZE = 2
 
@@ -140,8 +141,8 @@ def wavSendData(ser,buf,radioStart,length):
         remaining -= transferSize
     return True
 
-def convert2AMBE(ser,infile,outfile,stripSilence):
-    print("Compress to AMBE "+infile + " -> " + outfile);
+def convert2AMBE(ser,infile,outfile):
+
     with open(infile,'rb') as f:
         ambBuf = bytearray(16*1024)# arbitary 16k buffer
         buf = bytearray(f.read())
@@ -149,27 +150,26 @@ def convert2AMBE(ser,infile,outfile,stripSilence):
         sendCommand(ser,0, 0, 0, 0, 0, 0, "")#show CPS screen as this disables the radio etc
         sendCommand(ser,6, 5, 0, 0, 0, 0,  "")#codecInitInternalBuffers
         wavBufPos = 0
-        print(infile+" " , end='');
+
         bufLen = len(buf)
         ambBufPos=0;
         ambFrameBuf = bytearray(27)
         startPos=0
-        stripSilence=True
         #if (infile[0:11] !="PROMPT_SPACE"):
         #    stripSilence = True;
-            
-        if (stripSilence):
+
+        if (removeSilenceAtStart==True):
             while (startPos<len(buf) and  buf[startPos]==0 and buf[(startPos+1)]==0):
                startPos = startPos + 2;
             if (startPos == len(buf)):
                 startPos = 0
-
-            print("Stripping silence until position "+str(startPos));
+                
+        print("Compress to AMBE "+infile + " pos:+" + str(startPos));
                
         wavBufPos = startPos
         
         while (wavBufPos < bufLen):
-            print('.', end='')
+            #print('.', end='')
             sendCommand(ser,6, 6, 0, 0, 0, 0,  "")#codecInitInternalBuffers
             transferLen = min(960,bufLen-wavBufPos)
             #print("sent " + str(transferLen));
@@ -184,7 +184,7 @@ def convert2AMBE(ser,infile,outfile,stripSilence):
         with open(outfile,'wb') as f:
             f.write(ambBuf[0:ambBufPos])
 
-        print("")#newline
+        #print("")#newline
 
 
 def convertToRaw(inFile,outFile):
@@ -307,7 +307,7 @@ def downloadSpeechForWordList(filename,voiceName):
 
 def encodeFile(ser,fileStub):
     if ((not os.path.exists(fileStub+".amb")) or overwrite==True): 
-        convert2AMBE(ser,fileStub+".raw",fileStub+".amb",False)
+        convert2AMBE(ser,fileStub+".raw",fileStub+".amb")
         #os.remove(fileStub+".raw")
 ##    else:
 ##       print("Encode skipping " + fileStub)
@@ -378,9 +378,14 @@ def usage(message):
     print("    -d=<device>           : Use the specified device as serial port,")
     print("    -o                    : Overwrite existing files")
     print("    -g=gain               : Audio level gain adjust in db.  Default is 0, but can be negative or positive numbers")
+    print("    -r                    : Remove silence from beginning of audio files")
     print("")
 
 def main():
+    global overwrite
+    global gain
+    global removeSilenceAtStart
+    
     fileName   = ""#wordlist_english.csv"
     outputName = ""#voiceprompts.bin"
     voiceName = ""#Matthew or Nicole etc
@@ -425,7 +430,9 @@ def main():
             elif opt in ("-o"):
                     overwrite = True
             elif opt in ("-g"):
-                    gain = arg        
+                    gain = arg
+            elif opt in ("-r"):
+                    removeSilenceAtStart = arg          
 
     if (configName!=""):
         print("Using Config file ...")
@@ -440,12 +447,19 @@ def main():
                 encode = row['Encode'].strip()
                 createPack = row['Createpack'].strip()
                 gain = row['Volume_change_db'].strip()
+                rs = row['Remove_silence'].strip()
                 
-                print(wordlistFilename+" "+voiceName+" "+voicePackName)
+                print("Processing " + wordlistFilename+" "+voiceName+" "+voicePackName)
 
                 if not os.path.exists(voiceName):
                     print("Creating folder " + voiceName + " for temporary files")
-                    os.mkdir(voiceName);		
+                    os.mkdir(voiceName);
+
+
+                if (rs=='y' or rs=='Y'):
+                    removeSilenceAtStart = True
+                else:
+                    removeSilenceAtStart = False    
 
                 if (download=='y' or download=='Y'):
                     if (downloadSpeechForWordList(wordlistFilename,voiceName)==False):
@@ -453,6 +467,7 @@ def main():
 
                 if (encode=='y' or encode=='Y'):
                     ser = serialInit(serialDev)
+                
                     encodeWordList(ser,wordlistFilename,voiceName,True)
                     if (ser.is_open):
                         ser.close()

@@ -1,0 +1,208 @@
+PromptName,PromptSpeechPrefix,PromptSpeechPostfix,PromptText
+PROMPT_SPACE,,, 
+PROMPT_POINT,,,Punkt
+PROMPT_0,,,0
+PROMPT_1,,,1
+PROMPT_2,,,2
+PROMPT_3,,,3
+PROMPT_4,,,4
+PROMPT_5,,,5
+PROMPT_6,,,6
+PROMPT_7,,,7
+PROMPT_8,,,8
+PROMPT_9,,,9
+PROMPT_A,,,A
+PROMPT_B,,,B
+PROMPT_C,,,C
+PROMPT_D,,,D
+PROMPT_E,,,E
+PROMPT_F,,,F
+PROMPT_G,,,G
+PROMPT_H,,,H
+PROMPT_I,,,I
+PROMPT_J,,,J
+PROMPT_K,,,K
+PROMPT_L,,,L
+PROMPT_M,,,M
+PROMPT_N,,,N
+PROMPT_O,,,O
+PROMPT_P,,,P
+PROMPT_Q,,,Q
+PROMPT_R,,,R
+PROMPT_S,,,S
+PROMPT_T,,,T
+PROMPT_U,,,U
+PROMPT_V,,,V
+PROMPT_W,,,W
+PROMPT_X,,,X
+PROMPT_Y,,,Y
+PROMPT_Z,,,Z
+PROMPT_Z2,,,Z
+PROMPT_CHANNEL,,,KANAL
+PROMPT_CONTACT,,,KONTAKT
+PROMPT_DBM,,,D B M
+PROMPT_ENTRY,,,INDGANG
+PROMPT_MEGAHERTZ,,,megahertz
+PROMPT_KILOHERTZ,,,kilohertz
+PROMPT_TALKGROUP,,,talegruppe
+PROMPT_TIMESLOT,,,TIDSVINDUE
+PROMPT_VFO,,,V F O
+PROMPT_SECONDS,,,Sekunder
+PROMPT_Minutes,,,minutter
+PROMPT_Hours,,,timer
+PROMPT_VOLTS,,,volt
+PROMPT_WATT,,,Watt
+PROMPT_WATTS,,,Watts
+PROMPT_MILLIWATTS,,,milliwatt
+PROMPT_PERCENT,,,procent
+PROMPT_RECEIVE,,,Modtage
+PROMPT_Transmit,,,Transmit
+PROMPT_HASH,,,Hash
+PROMPT_STAR,,,Start
+PROMPT_GREEN,,,Grøn
+PROMPT_RED,,,Rød
+PROMPT_VERSION,,,Version
+PROMPT_MODE,,,Mode
+PROMPT_DMR,,,D M R
+PROMPT_FM,,,F M
+PROMPT_WIDE,,,Bred
+PROMPT_NARROW,,,Smal
+PROMPT_PLUS,,,Plus
+PROMPT_MINUS,,,Minus
+PROMPT_TBD1,,,
+PROMPT_TBD2,,,
+PROMPT_TBD3,,,
+PROMPT_TBD4,,,
+PROMPT_TBD5,,,
+PROMPT_TBD6,,,
+PROMPT_TBD7,,, 
+PROMPT_TBD8,,, 
+LANGUAGE_NAME,,,Dansk
+menu,,,Menu
+credits,,,Credits
+zone,,,Zone
+rssi,,,RSSI
+battery,,,Batteri
+contacts,,,Kontakter
+last_heard,,,Sidst Hørt
+firmware_info,,,Firmware info
+options,,,Valg
+display_options,,,Display Valg
+sound_options,,,Sound options
+channel_details,,,Kanal detaljer
+language,,,Sprog
+new_contact,,,Ny Kontakt
+contact_list,,,Kontakt liste
+contact_details,,,Hotspot mode
+hotspot_mode,,,Kontakt Detaljer
+built,,,Version
+zones,,,Zoner
+keypad,,,Keypad
+ptt,,,PTT
+locked,,,Låst
+press_blue_plus_star,,,Tast Blå + *
+to_unlock,,,Lås op
+unlocked,,,Oplåst
+power_off,,,Lukker Ned...
+error,,,FEJL
+rx_only,,,Kun Rx
+out_of_band,,,Ude af FRQ
+timeout,,,TIMEOUT
+tg_entry,,,Indtast TG
+pc_entry,,,Indtast PC
+user_dmr_id,,,Bruger DMR ID
+contact,,,Kontakt
+accept_call,,,Modtag kald?
+private_call,,,Privat kald
+squelch,,,Squelch
+quick_menu,,,Quick Menu
+filter,,,Filter
+all_channels,,,Alle kanaler
+gotoChannel,,,Goto
+scan,,,Scan
+channelToVfo,,,Kanal --> V F O
+vfoToChannel,,,V F O --> Kanal
+vfoToNewChannel,,,V F O --> Ny Kanal
+group,,,Gruppe
+private,,,Privat
+all,,,Alle
+type,,,Type
+timeSlot,,,Timeslot
+none,,,Ingen
+contact_saved,,,Kontakt Gemt
+duplicate,,,Duplet
+tg,,,TG
+pc,,,PC
+ts,,,TS
+mode,,,Mode
+colour_code,,,Color Code
+n_a,,,N/A
+bandwidth,,,Båndbrede
+stepFreq,,,Step
+tot,,,TOT
+off,,,Fra
+zone_skip,,,Zone Skip
+all_skip,,,Alle Skip
+yes,,,Ja
+no,,,Nej
+rx_group,,,Rx Grp
+on,,,On
+timeout_beep,,,Timeout bip
+factory_reset,,,Fabriksinst
+calibration,,,Justering
+band_limits,,,Åben FRQ
+beep_volume,,,Bip vol
+dmr_mic_gain,,,DMR mic
+fm_mic_gain,,,FM mic
+key_long,,,Lang Tast
+key_repeat,,,Tast rpt
+dmr_filter_timeout,,,Filter tid
+brightness,,,Lys styrke
+brightness_off,,,Min bright
+contrast,,,Kontrast
+colour_invert,,,Sort
+colour_normal,,,Normal
+backlight_timeout,,,Timeout
+scan_delay,,,Scan delay
+yes___in_uppercase,,,JA
+no___in_uppercase,,,NEJ
+DISMISS,,,FORTRYD
+scan_mode,,,Scan mode
+hold,,,Hold
+pause,,,Pause
+empty_list,,,Tøm List
+delete_contact_qm,,,Slet kontakt?
+contact_deleted,,,kontakt slettet
+contact_used,,,Kontakt brugt
+in_rx_group,,,i RX gruppe
+select_tx,,,Valg TX
+edit_contact,,,Rediger Kontakt
+delete_contact,,,Slet Kontakt
+group_call,,,Grupe Kald
+all_call,,,Alle Kald
+tone_scan,,,Tone scan
+low_battery,,,LOW BATTERY !!!
+Auto,,,Auto
+manual,,,Manual
+ptt_toggle,,,PTT toggle
+private_call_handling,,,Handle PC
+stop,,,Stop
+one_line,,,1 line
+two_lines,,,2 lines
+new_channel,,,Ny kanal
+priority_order,,,Order
+dmr_beep,,,DMR beep
+start,,,Start
+both,,,Both
+vox_threshold,,,VOX Thres.
+vox_tail,,,VOX Tail
+audio_prompt,,,Prompt
+silent,,,Silent
+normal,,,Normal
+beep,,,Beep
+voice,,,Voice
+transmitTalkerAlias,,,TA Tx
+squelch_VHF,,,VHF Squelch
+squelch_220,,,220 Squelch
+squelch_UHF,,,UHF Squelch
+display_background_colour,,,Farve

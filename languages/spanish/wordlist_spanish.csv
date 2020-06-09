@@ -62,6 +62,11 @@ PROMPT_STAR,,,Asterisco
 PROMPT_GREEN,,,Verde
 PROMPT_RED,,,Rojo
 PROMPT_VERSION,,,Versión
+PROMPT_MODE,,,Modo
+PROMPT_DMR,,,D M R
+PROMPT_FM,,,F M
+PROMPT_WIDE,,,Amplio
+PROMPT_NARROW,,,Estrecho
 PROMPT_PLUS,,,más
 PROMPT_MINUS,,,menos
 PROMPT_TBD1,,, 
@@ -201,3 +206,4 @@ transmitTalkerAlias,,,Talker Alias Transmit
 squelch_VHF,,,V H F squelch
 squelch_220,,,220 Megahertz squelch
 squelch_UHF,,,U H F squelch
+display_background_colour,,,display background colour

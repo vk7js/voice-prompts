@@ -1,0 +1,208 @@
+PromptName,PromptSpeechPrefix,PromptSpeechPostfix,PromptText
+PROMPT_SPACE,,, 
+PROMPT_POINT,,,kohta
+PROMPT_0,,,0
+PROMPT_1,,,1
+PROMPT_2,,,2
+PROMPT_3,,,3
+PROMPT_4,,,4
+PROMPT_5,,,5
+PROMPT_6,,,6
+PROMPT_7,,,7
+PROMPT_8,,,8
+PROMPT_9,,,9
+PROMPT_A,,,A
+PROMPT_B,,,B
+PROMPT_C,,,C
+PROMPT_D,,,D
+PROMPT_E,,,E
+PROMPT_F,,,F
+PROMPT_G,,,G
+PROMPT_H,,,H
+PROMPT_I,,,I
+PROMPT_J,,,J
+PROMPT_K,,,K
+PROMPT_L,,,L
+PROMPT_M,,,M
+PROMPT_N,,,N
+PROMPT_O,,,O
+PROMPT_P,,,P
+PROMPT_Q,,,Q
+PROMPT_R,,,R
+PROMPT_S,,,S
+PROMPT_T,,,T
+PROMPT_U,,,U
+PROMPT_V,,,V
+PROMPT_W,,,W
+PROMPT_X,,,X
+PROMPT_Y,,,Y
+PROMPT_Z,,,Z
+PROMPT_Z2,,,Z
+PROMPT_CHANNEL,,,kanava
+PROMPT_CONTACT,,,Ottaa yhteyttä
+PROMPT_DBM,,,D B M
+PROMPT_ENTRY,,,merkintä
+PROMPT_MEGAHERTZ,,,megahertsi
+PROMPT_KILOHERTZ,,,kilohertsin
+PROMPT_TALKGROUP,,,keskusteluryhmäpuhelua
+PROMPT_TIMESLOT,,,aikaväliä
+PROMPT_VFO,,,V F O
+PROMPT_SECONDS,,,sekuntia
+PROMPT_Minutes,,,Pöytäkirja
+PROMPT_Hours,,,tuntia
+PROMPT_VOLTS,,,volttia
+PROMPT_WATT,,,Wattt
+PROMPT_WATTS,,,Watts
+PROMPT_MILLIWATTS,,,millivvattia
+PROMPT_PERCENT,,,prosentti
+PROMPT_RECEIVE,,,Vastaanottaa
+PROMPT_Transmit,,,lähetys-
+PROMPT_HASH,,,hash
+PROMPT_STAR,,,alkaa
+PROMPT_GREEN,,,Vihreä
+PROMPT_RED,,,Punainen
+PROMPT_VERSION,,,Versio
+PROMPT_MODE,,,tila
+PROMPT_DMR,,,D M R
+PROMPT_FM,,,F M
+PROMPT_WIDE,,,leveä
+PROMPT_NARROW,,,Kapea
+PROMPT_PLUS,,,Plus
+PROMPT_MINUS,,,Miinus
+PROMPT_TBD1,,,
+PROMPT_TBD2,,,
+PROMPT_TBD3,,,
+PROMPT_TBD4,,,
+PROMPT_TBD5,,,
+PROMPT_TBD6,,,
+PROMPT_TBD7,,, 
+PROMPT_TBD8,,, 
+LANGUAGE_NAME,,,Suomi
+menu,,,Menu
+credits,,,Kiitokset
+zone,,,Zone
+rssi,,,RSSI Signaali
+battery,,,Akun Tila
+contacts,,,Kontaktit
+last_heard,,,Viimeksi kuultu
+firmware_info,,,Laiteohjelmisto
+options,,,Yleis  Asetukset
+display_options,,,Näytön Asetukset
+sound_options,,,Ääni   Asetukset
+channel_details,,,Kanava Asetukset
+language,,,Kieli
+new_contact,,,Uusi kontakti
+contact_list,,,Uusi kanava
+contact_details,,,Kontakti lista
+hotspot_mode,,,Hotspotti tila
+built,,,Kontakti Asetus
+zones,,,Koontikäännös
+keypad,,,Zonet
+ptt,,,Näppäin
+locked,,,PTT
+press_blue_plus_star,,,Lukossa
+to_unlock,,,Paina sinistä ja *
+unlocked,,,avataksesi näplukko
+power_off,,,Näplukko avattu
+error,,,Virta pois...
+rx_only,,,VIRHE
+out_of_band,,,Vain Rx
+timeout,,,Bändial ulkopu
+tg_entry,,,AIKAKATK
+pc_entry,,,Aseta TG
+user_dmr_id,,,Aseta PC
+contact,,,Käyttäjän D M R ID
+accept_call,,,Kontakti
+private_call,,,Vastaa puheluun?
+squelch,,,Priv. puhelu
+quick_menu,,,K.Salpa
+filter,,,Pika Menu
+all_channels,,,Suodata
+gotoChannel,,,Kaikki Kanavat
+scan,,,Muistipaikk
+channelToVfo,,,Skannaus
+vfoToChannel,,,Kanava --> V F O
+vfoToNewChannel,,,V F O --> Kanava
+group,,,VFO --> Uusi kan
+private,,,Ryhmä
+all,,,Privaatti
+type,,,Kaikki
+timeSlot,,,Tyyppi
+none,,,Aikaväli
+contact_saved,,,Tyhjä
+duplicate,,,Kontakti tallen.
+tg,,,kaksoiskappale
+pc,,,TG
+ts,,,PC
+mode,,,TS
+colour_code,,,Mode
+n_a,,,Väri Koodi
+bandwidth,,,Pois
+stepFreq,,,Kaistanl
+tot,,,Steppi
+off,,,TOT
+zone_skip,,,Ei
+all_skip,,,Skippaa zone
+yes,,,Skippaa kaik
+no,,,Joo
+rx_group,,,Ei
+on,"<emphasis level=""strong"">",</emphasis>,Rx Ryhmä
+timeout_beep,,,On
+factory_reset,,,Aikakatk beep
+calibration,,,TehdasAsetus
+band_limits,,,Kalibriointi
+beep_volume,,,Bändi Rajoitu
+dmr_mic_gain,,,NäpÄäniVoim
+fm_mic_gain,,,D M R MicGain
+key_long,,,F M MicGain
+key_repeat,,,Näp pitkä
+dmr_filter_timeout,,,Näp toisto
+brightness,,,Suodin aika
+brightness_off,,,Kirkkaus
+contrast,,,Min kirkkaus
+colour_invert,,,Kontrasti
+colour_normal,,,Käänteinen
+backlight_timeout,,,Normaali
+scan_delay,,,TaustValoAika
+yes___in_uppercase,,,Skann. viive
+no___in_uppercase,,,KYLLÄ
+DISMISS,,,EI
+scan_mode,,,POISTU
+hold,,,Skannaus
+pause,,,Pysäyty
+empty_list,,,Pauseta
+delete_contact_qm,,,Tyhjä lista
+contact_deleted,,,Poista kontakti?
+contact_used,,,Kontakti Poistet
+in_rx_group,,,Kontakti käytöss
+select_tx,,,on RX ryhmässä
+edit_contact,,,Valitse TX
+delete_contact,,,Muokkaa Kontakti
+group_call,,,Poista Kontakti
+all_call,,,Ryhmä Puhelu
+tone_scan,,,Puhelu kaikille
+low_battery,,,Aliääni scan
+Auto,,,Akku Vähissä !
+manual,,,Automaatti
+ptt_toggle,,,Manuaali
+private_call_handling,,,PTT Lukko
+stop,,,Käsittele PC
+one_line,,,Stoppaa
+two_lines,,,1 rivi
+new_channel,,,2 riviä
+priority_order,,,Järjest
+dmr_beep,,,D M R piippi
+start,,,Alku
+both,,,Molemm
+vox_threshold,,,VOX Herkk.
+vox_tail,,,VOX Viive
+audio_prompt,,,Prompt
+silent,,,Silent
+normal,,,Normal
+beep,,,Beep
+voice,,,Voice
+transmitTalkerAlias,,,TA Tx
+squelch_VHF,,,VHF K.Salpa
+squelch_220,,,220 K.Salpa
+squelch_UHF,,,VHF K.Salpa
+display_background_colour,,,Väri

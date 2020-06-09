@@ -1,0 +1,5 @@
+Wordlist_file,Voice_name,Voice_pack_name,Download,Encode,Createpack,Volume_change_db,,Remove_silence
+wordlist_polish.csv,Ewa,polish_ewa.vpr,n,n,n,0,,n
+wordlist_polish.csv,Maja,polish_maja.vpr,n,n,n,0,,n
+wordlist_polish.csv,Jacek,polish_jacek.vpr,n,n,n,0,,n
+wordlist_polish.csv,Jan,polish_jan.vpr,y,y,y,0,,n

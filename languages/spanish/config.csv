@@ -1,2 +1,2 @@
-Wordlist_file,Voice_name,Voice_pack_name,Download,Encode,Createpack,Volume_change_db
-wordlist_spanish.csv,Enrique,spanish_enrique.bin,y,y,y,0
+Wordlist_file,Voice_name,Voice_pack_name,Download,Encode,Createpack,Volume_change_db,,Remove_silence
+wordlist_spanish.csv,Enrique,spanish_enrique.vpr,y,y,y,0,,n
