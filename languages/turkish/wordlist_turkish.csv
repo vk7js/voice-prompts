@@ -69,14 +69,14 @@ PROMPT_WIDE,,,Geni?
 PROMPT_NARROW,,,Dar
 PROMPT_PLUS,,,Art?
 PROMPT_MINUS,,,Eksi
+PROMPT_VFO_EXCHANGE_TX_RX,,,Exchange Tx and Rx frequencies
+PROMPT_VFO_COPY_RX_TO_TX,,,Copy Receive frequency to Transmit frequency
+PROMPT_VFO_COPY_TX_TO_RX,,,Copy Transmit frequency to Receive frequency
 PROMPT_TBD1,,,
 PROMPT_TBD2,,,
 PROMPT_TBD3,,,
 PROMPT_TBD4,,,
 PROMPT_TBD5,,,
-PROMPT_TBD6,,,
-PROMPT_TBD7,,, 
-PROMPT_TBD8,,, 
 LANGUAGE_NAME,,,Turkish
 menu,,,Menü
 credits,,,Yap“mc“lar
@@ -206,3 +206,8 @@ squelch_VHF,,,VHF Squelch
 squelch_220,,,220 Squelch
 squelch_UHF,,,UHF Squelch
 display_background_colour,,,Renk
+openGD77,,,Open G D 77
+openGD77S,,,Open G D 77 S
+openDM1801,,,Open D M 18 0 1
+openRD5R,,,Open R D 5 R
+gitCommit,,,Git commit

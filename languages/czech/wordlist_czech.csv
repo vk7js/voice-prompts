@@ -69,14 +69,14 @@ PROMPT_WIDE,,,Široká
 PROMPT_NARROW,,,Úzká
 PROMPT_PLUS,,,Plus
 PROMPT_MINUS,,,Mínus
-PROMPT_TBD1,,,TE DE BE JEDNA
-PROMPT_TBD2,,,TE DE BE DVA
-PROMPT_TBD3,,,TE DE BE TŘY
-PROMPT_TBD4,,,TE DE BE ČTYŘY
-PROMPT_TBD5,,,TE DE BE PJET
-PROMPT_TBD6,,,TE DE BE ŠEST
-PROMPT_TBD7,,,TE DE BE SEDUM 
-PROMPT_TBD8,,,TE DE BE OSUM
+PROMPT_VFO_EXCHANGE_TX_RX,,,Exchange Tx and Rx frequencies
+PROMPT_VFO_COPY_RX_TO_TX,,,Copy Receive frequency to Transmit frequency
+PROMPT_VFO_COPY_TX_TO_RX,,,Copy Transmit frequency to Receive frequency
+PROMPT_TBD1,,,
+PROMPT_TBD2,,,
+PROMPT_TBD3,,,
+PROMPT_TBD4,,,
+PROMPT_TBD5,,,
 LANGUAGE_NAME,,,Čeština
 menu,,,Me nu
 credits,,,přispjěvatelé
@@ -206,3 +206,8 @@ squelch_VHF,,,VE HA EF Skvelč
 squelch_220,,,dvjestedvacet Skvelč
 squelch_UHF,,,U HA EF Skvelč
 display_background_colour,,,Barva dyspleje
+openGD77,,,Open G D 77
+openGD77S,,,Open G D 77 S
+openDM1801,,,Open D M 18 0 1
+openRD5R,,,Open R D 5 R
+gitCommit,,,Git commit
