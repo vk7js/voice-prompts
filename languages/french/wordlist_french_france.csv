@@ -1,74 +1,74 @@
 PromptName,PromptSpeechPrefix,PromptSpeechPostfix,PromptText
-PROMPT_SPACE,,, ,
-PROMPT_POINT,,,POINT,
-PROMPT_0,,,0,
-PROMPT_1,,,1,
-PROMPT_2,,,2,
-PROMPT_3,,,3,
-PROMPT_4,,,4,
-PROMPT_5,,,5,
-PROMPT_6,,,6,
-PROMPT_7,,,7,
-PROMPT_8,,,8,
-PROMPT_9,,,9,
-PROMPT_A,,,A,
-PROMPT_B,,,B,
-PROMPT_C,,,C,
-PROMPT_D,,,D,
-PROMPT_E,,,E,
-PROMPT_F,,,F,
-PROMPT_G,,,G,
-PROMPT_H,,,H,
-PROMPT_I,,,I,
-PROMPT_J,,,J,
-PROMPT_K,,,K,
-PROMPT_L,,,L,
-PROMPT_M,,,M,
-PROMPT_N,,,N,
-PROMPT_O,,,O,
-PROMPT_P,,,P,
-PROMPT_Q,,,Q,
-PROMPT_R,,,R,
-PROMPT_S,,,S,
-PROMPT_T,,,T,
-PROMPT_U,,,U,
-PROMPT_V,,,V,
-PROMPT_W,,,W,
-PROMPT_X,,,X,
-PROMPT_Y,,,Y,
-PROMPT_Z,,,Z,
-PROMPT_Z2,,,Zee,
-PROMPT_CHANNEL,,,CANAL,
-PROMPT_CONTACT,,,CONTACT,
-PROMPT_DBM,,,DBM,
-PROMPT_ENTRY,,,Entrée,
-PROMPT_MEGAHERTZ,,,MEGAHERTZ,
-PROMPT_KILOHERTZ,,,KILOHERTZ,
-PROMPT_TALKGROUP,,,TALKGROUP,
-PROMPT_TIMESLOT,,,Timeslot,
-PROMPT_VFO,,,V F O,
-PROMPT_SECONDS,,,Secondes,
-PROMPT_Minutes,,,Minutes,
-PROMPT_Hours,,,Heures,
-PROMPT_VOLTS,,,Volts,
-PROMPT_WATT,,,Watt,
-PROMPT_WATTS,,,Watts,
-PROMPT_MILLIWATTS,,,Milliwatts,
-PROMPT_PERCENT,,,Pour cent,
-PROMPT_RECEIVE,,,Recevoir,
-PROMPT_Transmit,,,Transmettre,
-PROMPT_HASH,,,Hacher,
-PROMPT_STAR,,,Etoile,
-PROMPT_GREEN,,,vert,
-PROMPT_RED,,,rouge,
-PROMPT_VERSION,,,Version,
-PROMPT_MODE,,,Mode,
-PROMPT_DMR,,,D M R,
-PROMPT_FM,,,F M,
-PROMPT_WIDE,,,Large,
-PROMPT_NARROW,,,Étroit,
-PROMPT_PLUS,,,Plus,
-PROMPT_MINUS,,,Moins,
+PROMPT_SPACE,,, 
+PROMPT_POINT,,,POINT
+PROMPT_0,,,0
+PROMPT_1,,,1
+PROMPT_2,,,2
+PROMPT_3,,,3
+PROMPT_4,,,4
+PROMPT_5,,,5
+PROMPT_6,,,6
+PROMPT_7,,,7
+PROMPT_8,,,8
+PROMPT_9,,,9
+PROMPT_A,,,A
+PROMPT_B,,,B
+PROMPT_C,,,C
+PROMPT_D,,,D
+PROMPT_E,,,E
+PROMPT_F,,,F
+PROMPT_G,,,G
+PROMPT_H,,,H
+PROMPT_I,,,I
+PROMPT_J,,,J
+PROMPT_K,,,K
+PROMPT_L,,,L
+PROMPT_M,,,M
+PROMPT_N,,,N
+PROMPT_O,,,O
+PROMPT_P,,,P
+PROMPT_Q,,,Q
+PROMPT_R,,,R
+PROMPT_S,,,S
+PROMPT_T,,,T
+PROMPT_U,,,U
+PROMPT_V,,,V
+PROMPT_W,,,W
+PROMPT_X,,,X
+PROMPT_Y,,,Y
+PROMPT_Z,,,Z
+PROMPT_Z2,,,Zee
+PROMPT_CHANNEL,,,CANAL
+PROMPT_CONTACT,,,CONTACT
+PROMPT_DBM,,,DBM
+PROMPT_ENTRY,,,Entrée
+PROMPT_MEGAHERTZ,,,MEGAHERTZ
+PROMPT_KILOHERTZ,,,KILOHERTZ
+PROMPT_TALKGROUP,,,TALKGROUP
+PROMPT_TIMESLOT,,,Timeslot
+PROMPT_VFO,,,V F O
+PROMPT_SECONDS,,,Secondes
+PROMPT_Minutes,,,Minutes
+PROMPT_Hours,,,Heures
+PROMPT_VOLTS,,,Volts
+PROMPT_WATT,,,Watt
+PROMPT_WATTS,,,Watts
+PROMPT_MILLIWATTS,,,Milliwatts
+PROMPT_PERCENT,,,Pour cent
+PROMPT_RECEIVE,,,Recevoir
+PROMPT_Transmit,,,Transmettre
+PROMPT_HASH,,,Hacher
+PROMPT_STAR,,,Etoile
+PROMPT_GREEN,,,vert
+PROMPT_RED,,,rouge
+PROMPT_VERSION,,,Version
+PROMPT_MODE,,,Mode
+PROMPT_DMR,,,D M R
+PROMPT_FM,,,F M
+PROMPT_WIDE,,,Large
+PROMPT_NARROW,,,Étroit
+PROMPT_PLUS,,,Plus
+PROMPT_MINUS,,,Moins
 PROMPT_VFO_EXCHANGE_TX_RX,,,Échangez les fréquences de transmission et de réception
 PROMPT_VFO_COPY_RX_TO_TX,,,Copier la fréquence de réception sur la fréquence de transmission
 PROMPT_VFO_COPY_TX_TO_RX,,,Copier la fréquence de transmission sur la fréquence de réception
@@ -77,135 +77,135 @@ PROMPT_TBD2,,,
 PROMPT_TBD3,,,
 PROMPT_TBD4,,,
 PROMPT_TBD5,,,
-LANGUAGE_NAME,,,Français,
-menu,,,Menu,
-credits,,,Crédits,
-zone,,,Zone,
-rssi,,,RSSI,
-battery,,,Batterie,
-contacts,,,Contacts,
-last_heard,,,Derniers reçus,
-firmware_info,,,Info Firmware,
-options,,,Options,
-display_options,,,Options aff.,
-sound_options,,,Options son,
-channel_details,,,Détails canal,
-language,,,Langue,
-new_contact,,,Nouveau contact,
-contact_list,,,Liste contacts,
-contact_details,,,Détails contact,
-hotspot_mode,,,Hotspot,
-built,,,Créé,
-zones,,,Zones,
-keypad,,,Clavier,
-ptt,,,PTT,
-locked,,,Verrouillé,
-press_blue_plus_star,,,Pressez Bleu + *,
-to_unlock,,,pour déverrouiller,
-unlocked,,,Déverrouillé,
-power_off,,,Extinction...,
-error,,,ERREUR,
-rx_only,,,Rx uniqmnt.,
-out_of_band,,,HORS BANDE,
-timeout,,,TIMEOUT,
-tg_entry,,,Entrez TG,
-pc_entry,,,Entrez PC,
-user_dmr_id,,,D M R ID personal,
-contact,,,Contact,
-accept_call,,,Accepter Appel ?,
-private_call,,,Appel Privé,
-squelch,,,Squelch,
-quick_menu,,,Menu rapide,
-filter,,,Filtre,
-all_channels,,,Tous Canaux,
-gotoChannel,,,Aller,
-scan,,,Scan,
-channelToVfo,,,Canal a V F O,
-vfoToChannel,,,V F O a canal,
-vfoToNewChannel,,,V F O a Nouveau canal,
-group,,,Groupe,
-private,,,Privé,
-all,,,Tous,
-type,,,Type,
-timeSlot,,,Timeslot,
-none,,,Aucun,
-contact_saved,,,Contact sauvé,
-duplicate,,,Dupliqué,
-tg,,,TG,
-pc,,,PC,
-ts,,,TS,
-mode,,,Mode,
-colour_code,,,Code Couleur,
-n_a,,,ND,
-bandwidth,,,Larg. bde,
-stepFreq,,,Pas,
-tot,,,TOT,
-off,,,Off,
-zone_skip,,,Saut Zone,
-all_skip,,,Saut Compl.,
-yes,,,Oui,
-no,,,Non,
-rx_group,,,Grp Rx,
-on,,,On,Beginning of this word does not seem to compress well to AMBE
-timeout_beep,,,Son timeout,
-factory_reset,,,Ràz Usine,
-calibration,,,Étalonnage,
-band_limits,,,Lim. Bandes,
-beep_volume,,,Vol. bip,
-dmr_mic_gain,,,DMR mic,
-fm_mic_gain,,,FM mic,
-key_long,,,Appui long,
-key_repeat,,,Répét°,
-dmr_filter_timeout,,,Tps filtre,
-brightness,,,Rétro écl.,
-brightness_off,,,Écl. Minimum,
-contrast,,,Contraste,
-colour_invert,,,Inverse,
-colour_normal,,,Normale,
-backlight_timeout,,,Timeout,
-scan_delay,,,Délai scan,
-yes___in_uppercase,,,OUI,
-no___in_uppercase,,,NON,
-DISMISS,,,CACHER,
-scan_mode,,,Mode scan,
-hold,,,Bloque,
-pause,,,Pause,
-empty_list,,,Liste Vide,
-delete_contact_qm,,,Efface contact ?,
-contact_deleted,,,Contact effacé,
-contact_used,,,Contact utilisé,
-in_rx_group,,,ds le groupe RX,
-select_tx,,,Select° TX,
-edit_contact,,,Édite Contact,
-delete_contact,,,Efface Contact,
-group_call,,,Appel de Groupe,
-all_call,,,All Call,
-tone_scan,,,Scan tons,
-low_battery,,,BATT. FAIBLE !!!,
-Auto,,,Auto,
-manual,,,Manuel,
-ptt_toggle,,,Bascule PTT,
-private_call_handling,,,Filtre PC,
-stop,,,Arrêt,
-one_line,,,1 ligne,
-two_lines,,,2 lignes,
-new_channel,,,Nouveau channel,
-priority_order,,,Ordre,
-dmr_beep,,,Bip TX,
-start,,,Début,
-both,,,Les Deux,
-vox_threshold,,,Seuil VOX,
-vox_tail,,,Queue VOX,
-audio_prompt,,,Prompt,
-silent,,,Silent,
-normal,,,Normal,
-beep,,,Beep,
-voice,,,Voice,
-transmitTalkerAlias,,,TA Tx,
-squelch_VHF,,,VHF Squelch,
-squelch_220,,,220 Squelch,
-squelch_UHF,,,UHF Squelch,
-display_background_colour,,,Couleur,
+LANGUAGE_NAME,,,Français
+menu,,,Menu
+credits,,,Crédits
+zone,,,Zone
+rssi,,,RSSI
+battery,,,Batterie
+contacts,,,Contacts
+last_heard,,,Derniers reçus
+firmware_info,,,Info Firmware
+options,,,Options
+display_options,,,Options aff.
+sound_options,,,Options son
+channel_details,,,Détails canal
+language,,,Langue
+new_contact,,,Nouveau contact
+contact_list,,,Liste contacts
+contact_details,,,Détails contact
+hotspot_mode,,,Hotspot
+built,,,Créé
+zones,,,Zones
+keypad,,,Clavier
+ptt,,,PTT
+locked,,,Verrouillé
+press_blue_plus_star,,,Pressez Bleu + *
+to_unlock,,,pour déverrouiller
+unlocked,,,Déverrouillé
+power_off,,,Extinction...
+error,,,ERREUR
+rx_only,,,Rx uniqmnt.
+out_of_band,,,HORS BANDE
+timeout,,,TIMEOUT
+tg_entry,,,Entrez TG
+pc_entry,,,Entrez PC
+user_dmr_id,,,D M R ID personal
+contact,,,Contact
+accept_call,,,Accepter Appel ?
+private_call,,,Appel Privé
+squelch,,,Squelch
+quick_menu,,,Menu rapide
+filter,,,Filtre
+all_channels,,,Tous Canaux
+gotoChannel,,,Aller
+scan,,,Scan
+channelToVfo,,,Canal a V F O
+vfoToChannel,,,V F O a canal
+vfoToNewChannel,,,V F O a Nouveau canal
+group,,,Groupe
+private,,,Privé
+all,,,Tous
+type,,,Type
+timeSlot,,,Timeslot
+none,,,Aucun
+contact_saved,,,Contact sauvé
+duplicate,,,Dupliqué
+tg,,,TG
+pc,,,PC
+ts,,,TS
+mode,,,Mode
+colour_code,,,Code Couleur
+n_a,,,ND
+bandwidth,,,Larg. bde
+stepFreq,,,Pas
+tot,,,TOT
+off,,,Off
+zone_skip,,,Saut Zone
+all_skip,,,Saut Compl.
+yes,,,Oui
+no,,,Non
+rx_group,,,Grp Rx
+on,,,On
+timeout_beep,,,Son timeout
+factory_reset,,,Ràz Usine
+calibration,,,Étalonnage
+band_limits,,,Lim. Bandes
+beep_volume,,,Vol. bip
+dmr_mic_gain,,,DMR mic
+fm_mic_gain,,,FM mic
+key_long,,,Appui long
+key_repeat,,,Répét°
+dmr_filter_timeout,,,Tps filtre
+brightness,,,Rétro écl.
+brightness_off,,,Écl. Minimum
+contrast,,,Contraste
+colour_invert,,,Inverse
+colour_normal,,,Normale
+backlight_timeout,,,Timeout
+scan_delay,,,Délai scan
+yes___in_uppercase,,,OUI
+no___in_uppercase,,,NON
+DISMISS,,,CACHER
+scan_mode,,,Mode scan
+hold,,,Bloque
+pause,,,Pause
+empty_list,,,Liste Vide
+delete_contact_qm,,,Efface contact ?
+contact_deleted,,,Contact effacé
+contact_used,,,Contact utilisé
+in_rx_group,,,ds le groupe RX
+select_tx,,,Select° TX
+edit_contact,,,Édite Contact
+delete_contact,,,Efface Contact
+group_call,,,Appel de Groupe
+all_call,,,All Call
+tone_scan,,,Scan tons
+low_battery,,,BATT. FAIBLE !!!
+Auto,,,Auto
+manual,,,Manuel
+ptt_toggle,,,Bascule PTT
+private_call_handling,,,Filtre PC
+stop,,,Arrêt
+one_line,,,1 ligne
+two_lines,,,2 lignes
+new_channel,,,Nouveau channel
+priority_order,,,Ordre
+dmr_beep,,,Bip TX
+start,,,Début
+both,,,Les Deux
+vox_threshold,,,Seuil VOX
+vox_tail,,,Queue VOX
+audio_prompt,,,Prompt
+silent,,,Silent
+normal,,,Normal
+beep,,,Beep
+voice,,,Voice
+transmitTalkerAlias,,,TA Tx
+squelch_VHF,,,VHF Squelch
+squelch_220,,,220 Squelch
+squelch_UHF,,,UHF Squelch
+display_background_colour,,,Couleur
 openGD77,,,Open G D 77
 openGD77S,,,Open G D 77 S
 openDM1801,,,Open D M 18 0 1
