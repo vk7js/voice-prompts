@@ -1,4 +1,4 @@
-PromptName,PromptSpeechPrefix,PromptSpeechPostfix,PromptText,Notes
+PromptName,PromptSpeechPrefix,PromptSpeechPostfix,PromptText
 PROMPT_SPACE,,, ,
 PROMPT_POINT,,,POINT,
 PROMPT_0,,,0,
