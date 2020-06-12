@@ -284,7 +284,7 @@ def downloadSpeechForWordList(filename,voiceName):
     speechSpeed="normal"
 
     with open(filename,"r",encoding='utf-8') as csvfile:
-        reader = csv.DictReader(csvfile)
+        reader = csv.DictReader(filter(lambda row: row[0]!='#', csvfile))
         for row in reader:
             promptName = row['PromptName'].strip()
             
