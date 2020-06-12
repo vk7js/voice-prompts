@@ -1,3 +1,5 @@
+#!/usr/bin/env python3
+
 import urllib.request
 import json
 import csv
@@ -190,7 +192,10 @@ def convert2AMBE(ser,infile,outfile):
 def convertToRaw(inFile,outFile):
     print("ConvertToRaw "+ inFile + " -> " + outFile + " gain="+gain)
     callArgs = ['ffmpeg','-y','-i', inFile,'-filter:a','volume='+gain+'dB','-ar','8000','-f','s16le',outFile]
-    subprocess.call(callArgs, creationflags=CREATE_NO_WINDOW)#'-af','silenceremove=1:0:-50dB'
+    if os.name == 'nt':
+        subprocess.call(callArgs, creationflags=CREATE_NO_WINDOW)#'-af','silenceremove=1:0:-50dB'
+    elif os.name == 'posix':
+        subprocess.call(callArgs)#'-af','silenceremove=1:0:-50dB'
 
 
 
@@ -279,7 +284,7 @@ def downloadSpeechForWordList(filename,voiceName):
     speechSpeed="normal"
 
     with open(filename,"r",encoding='utf-8') as csvfile:
-        reader = csv.DictReader(csvfile)
+        reader = csv.DictReader(filter(lambda row: row[0]!='#', csvfile))
         for row in reader:
             promptName = row['PromptName'].strip()
             
@@ -314,7 +319,7 @@ def encodeFile(ser,fileStub):
 
 def encodeWordList(ser,filename,voiceName,forceReEncode):
     with open(filename,"r",encoding='utf-8') as csvfile:
-        reader = csv.DictReader(csvfile)
+        reader = csv.DictReader(filter(lambda row: row[0]!='#', csvfile))
         for row in reader:
             promptName = row['PromptName'].strip()
             fileStub = voiceName + "/" + promptName
@@ -325,7 +330,7 @@ def buildDataPack(filename,voiceName,outputFileName):
     print("Building...")
     promptsDict={}#create an empty dictionary 
     with open(filename,"r",encoding='utf-8') as csvfile:
-        reader = csv.DictReader(csvfile)
+        reader = csv.DictReader(filter(lambda row: row[0]!='#', csvfile))
         for row in reader:
             promptName = row['PromptName'].strip()
             infile = voiceName+"/" + promptName+".amb"
@@ -410,11 +415,17 @@ def main():
         usage("")
         sys.exit(2)
 
-    if (str(shutil.which("ffmpeg.exe")).find("ffmpeg") == -1):
-        usage("ERROR: You must install ffmpeg. See https://www.ffmpeg.org/download.html")
-        #webbrowser.open("https://www.ffmpeg.org/download.html")
-        sys.exit(2)
-
+    if os.name == 'nt':
+        if (str(shutil.which("ffmpeg.exe")).find("ffmpeg") == -1):
+            usage("ERROR: You must install ffmpeg. See https://www.ffmpeg.org/download.html")
+            #webbrowser.open("https://www.ffmpeg.org/download.html")
+            sys.exit(2)
+    elif os.name == 'posix':
+        if (str(shutil.which("ffmpeg")).find("ffmpeg") == -1):
+            usage("ERROR: You must install ffmpeg. See https://www.ffmpeg.org/download.html")
+            #webbrowser.open("https://www.ffmpeg.org/download.html")
+            sys.exit(2)
+            
     for opt, arg in opts:
             if opt in ("-h"):
                     usage()
@@ -438,7 +449,7 @@ def main():
         print("Using Config file ...")
  
         with open(configName,"r",encoding='utf-8') as csvfile:
-            reader = csv.DictReader(csvfile)
+            reader = csv.DictReader(filter(lambda row: row[0]!='#', csvfile))
             for row in reader:
                 wordlistFilename = row['Wordlist_file'].strip()
                 voiceName = row['Voice_name'].strip()
