@@ -1,6 +1,6 @@
 PromptName,PromptSpeechPrefix,PromptSpeechPostfix,PromptText
 PROMPT_SPACE,,, 
-PROMPT_POINT,,,POJNT
+PROMPT_POINT,,,TEČKA
 PROMPT_0,,,NULA
 PROMPT_1,,,JEDNA
 PROMPT_2,,,DVA
@@ -48,7 +48,7 @@ PROMPT_TALKGROUP,,,TALKGROUP
 PROMPT_TIMESLOT,,,TAJM SLOT
 PROMPT_VFO,,,VEFO
 PROMPT_SECONDS,,,Sekund
-PROMPT_Minutes,,,Minut
+PROMPT_Minutes,,,Minutu
 PROMPT_Hours,,,Hodin
 PROMPT_VOLTS,,,Voltů
 PROMPT_WATT,,,Wat
@@ -69,9 +69,9 @@ PROMPT_WIDE,,,Široká
 PROMPT_NARROW,,,Úzká
 PROMPT_PLUS,,,Plus
 PROMPT_MINUS,,,Mínus
-PROMPT_VFO_EXCHANGE_TX_RX,,,Exchange Tx and Rx frequencies
-PROMPT_VFO_COPY_RX_TO_TX,,,Copy Receive frequency to Transmit frequency
-PROMPT_VFO_COPY_TX_TO_RX,,,Copy Transmit frequency to Receive frequency
+PROMPT_VFO_EXCHANGE_TX_RX,,,Zamjenit frekvenci vysílání za frekvenci pro příjem
+PROMPT_VFO_COPY_RX_TO_TX,,,Kopíírovat frekvenci příjem na frekvenci pro vysílání
+PROMPT_VFO_COPY_TX_TO_RX,,,Kopíírovat frekvenci vysílání na frekvenci pro příjem
 PROMPT_TBD1,,,
 PROMPT_TBD2,,,
 PROMPT_TBD3,,,
@@ -182,11 +182,11 @@ group_call,,,Groupy seznam
 all_call,,,Všechny čísla
 tone_scan,,,Subton CT CSS Sken
 low_battery,,,SLABÁ BATERIE!
-Auto,,,Automatomatický
+Auto,,,Automatický
 manual,,,Manualní
 ptt_toggle,,,PE T T přepnout
 private_call_handling,,,Soukromé Volání
-stop,,,stop
+stop,,,Na koncy vysílání
 one_line,,,Jeden řádek
 two_lines,,,Dva řádky
 new_channel,,,Nový Kanál
@@ -206,8 +206,8 @@ squelch_VHF,,,VE HA EF Skvelč
 squelch_220,,,dvjestedvacet Skvelč
 squelch_UHF,,,U HA EF Skvelč
 display_background_colour,,,Barva dyspleje
-openGD77,,,Open G D 77
-openGD77S,,,Open G D 77 S
-openDM1801,,,Open D M 18 0 1
-openRD5R,,,Open R D 5 R
-gitCommit,,,Git commit
+openGD77,,,Open Gee De sedumdesát sedum
+openGD77S,,,Open Gee De sedumdesát sedum S
+openDM1801,,,Open D M osumnáct nula jedna
+openRD5R,,,Open R D pjet R
+gitCommit,,,Git Zavázat se
