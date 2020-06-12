@@ -69,9 +69,9 @@ PROMPT_WIDE,,,Breit
 PROMPT_NARROW,,,Schmal
 PROMPT_PLUS,,,Plus
 PROMPT_MINUS,,,Minus
-PROMPT_VFO_EXCHANGE_TX_RX,,,Exchange Tx and Rx frequencies
-PROMPT_VFO_COPY_RX_TO_TX,,,Copy Receive frequency to Transmit frequency
-PROMPT_VFO_COPY_TX_TO_RX,,,Copy Transmit frequency to Receive frequency
+PROMPT_VFO_EXCHANGE_TX_RX,,,Tausche T x und R x frequenz
+PROMPT_VFO_COPY_RX_TO_TX,,,Kopiere R X frequenz zu T X frequenz
+PROMPT_VFO_COPY_TX_TO_RX,,,Kopiere T X frequenz zu R X frequenz
 PROMPT_TBD1,,,
 PROMPT_TBD2,,,
 PROMPT_TBD3,,,
@@ -196,7 +196,7 @@ start,,,Start
 both,,,Beide
 vox_threshold,,,VOX Empfindlichkeit
 vox_tail,,,VOX Dauer
-audio_prompt,,,Ansage
+audio_prompt,,,Audio Ansage
 silent,,,Still
 normal,,,Normal
 beep,,,Signaltöne
@@ -210,4 +210,4 @@ openGD77,,,Open G D 77
 openGD77S,,,Open G D 77 S
 openDM1801,,,Open D M 18 0 1
 openRD5R,,,Open R D 5 R
-gitCommit,,,Git commit
+gitCommit,,,Git übergabe
