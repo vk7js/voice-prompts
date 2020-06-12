@@ -319,7 +319,7 @@ def encodeFile(ser,fileStub):
 
 def encodeWordList(ser,filename,voiceName,forceReEncode):
     with open(filename,"r",encoding='utf-8') as csvfile:
-        reader = csv.DictReader(csvfile)
+        reader = csv.DictReader(filter(lambda row: row[0]!='#', csvfile))
         for row in reader:
             promptName = row['PromptName'].strip()
             fileStub = voiceName + "/" + promptName
@@ -330,7 +330,7 @@ def buildDataPack(filename,voiceName,outputFileName):
     print("Building...")
     promptsDict={}#create an empty dictionary 
     with open(filename,"r",encoding='utf-8') as csvfile:
-        reader = csv.DictReader(csvfile)
+        reader = csv.DictReader(filter(lambda row: row[0]!='#', csvfile))
         for row in reader:
             promptName = row['PromptName'].strip()
             infile = voiceName+"/" + promptName+".amb"
@@ -449,7 +449,7 @@ def main():
         print("Using Config file ...")
  
         with open(configName,"r",encoding='utf-8') as csvfile:
-            reader = csv.DictReader(csvfile)
+            reader = csv.DictReader(filter(lambda row: row[0]!='#', csvfile))
             for row in reader:
                 wordlistFilename = row['Wordlist_file'].strip()
                 voiceName = row['Voice_name'].strip()
