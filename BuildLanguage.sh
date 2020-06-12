@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 
-LANGUAGES="english_uk english_usa catalan czech danish finnish french german italian polish portuguese spanish turkish"
+LANGUAGES="english_UK english_USA catalan czech danish finnish french german italian polish portuguese spanish turkish"
 PYTHON=$(command -v python3)
 
 #
