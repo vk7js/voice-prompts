@@ -242,8 +242,11 @@ def downloadTTSMP3(voiceName,fileStub,promptText):
     myobj = {'msg': promptText,
              'lang':voiceName,
              'source':'ttsmp3.com'}
+
     data = urllib.parse.urlencode(myobj)
-    data = data.encode('ascii')
+    myStr = str.replace(data,"+","%20") #hacky fix because urlencode is not encoding spaces to %20
+    data = myStr.encode('ascii')
+
 
     mp3FileName = voiceName + "/" +fileStub+".mp3"
     rawFileName = voiceName + "/" +fileStub+".raw"
