@@ -120,9 +120,9 @@ filter,,,Filter
 all_channels,,,Alle Kanäle
 gotoChannel,,,Gehe zu
 scan,,,Suchlauf
-channelToVfo,,,Kanal zu VFO
-vfoToChannel,,,VFO zu Kanal
-vfoToNewChannel,,,VFO zu neuem Kanal
+channelToVfo,,,Kanal zu V F O
+vfoToChannel,,,V F O zu Kanal
+vfoToNewChannel,,,V F O zu neuem Kanal
 group,,,Gruppe
 private,,,Privat
 all,,,Alle
