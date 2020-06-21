@@ -200,7 +200,7 @@ audio_prompt,,,Prompt
 silent,,,Silent
 normal,,,Normal
 beep,,,Beep
-voice,,,Voice
+voice_prompt_level_1,,,Voice mode
 transmitTalkerAlias,,,TA Tx
 squelch_VHF,,,VHF Squelch
 squelch_220,,,220 Squelch
@@ -210,4 +210,6 @@ openGD77,,,Open G D 77
 openGD77S,,,Open G D 77 S
 openDM1801,,,Open D M 18 0 1
 openRD5R,,,Open R D 5 R
-gitCommit,,,Git commit
+gitCommit,,,Git revision
+voice_prompt_level_2,,,Voice mode 2
+voice_prompt_level_3,,,Voice mode 3

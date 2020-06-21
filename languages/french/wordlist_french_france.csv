@@ -218,7 +218,7 @@ audio_prompt,,,Assistance vocale
 silent,,,Silencieux
 normal,,,Normal
 beep,,,Bip
-voice,,,Voix
+voice_prompt_level_1,,,Voix
 transmitTalkerAlias,,,Diffuser le talker alias
 # <phoneme alphabet="ipa" ph="squœ lʃ"></phoneme><break time="1ms"/>V H F
 squelch_VHF,,,Squelch V H F
@@ -233,3 +233,5 @@ openDM1801,,,Open D M 1801
 openRD5R,,,Open R D 5 R
 # Révision <phoneme alphabet="ipa" ph="gi.t"></phoneme>
 gitCommit,,,Révision git
+voice_prompt_level_2,,,Voix 2
+voice_prompt_level_3,,,Voix 3

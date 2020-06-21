@@ -200,7 +200,7 @@ audio_prompt,,,Prompt
 silent,,,Silent
 normal,,,Normal
 beep,,,Pitido
-voice,,,Voz
+voice_prompt_level_1,,,Voz
 transmitTalkerAlias,,,Talker Alias Transmit
 squelch_VHF,,,V H F squelch
 squelch_220,,,220 Megahertz squelch
@@ -210,4 +210,6 @@ openGD77,,,Open G D 77
 openGD77S,,,Open G D 77 S
 openDM1801,,,Open D M 18 0 1
 openRD5R,,,Open R D 5 R
-gitCommit,,,Git commit
+gitCommit,,,Git revision
+voice_prompt_level_2,,,Voz 2
+voice_prompt_level_3,,,Voz 3

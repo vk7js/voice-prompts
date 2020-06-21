@@ -200,7 +200,7 @@ audio_prompt,,,Výzva Zvukem
 silent,,,Tichý
 normal,,,Normální
 beep,,,PíÍpání
-voice,,,Hlas
+voice_prompt_level_1,,,Hlas
 transmitTalkerAlias,,,vyslat talkrr alyas
 squelch_VHF,,,VE HA EF Skvelč
 squelch_220,,,dvjestedvacet Skvelč
@@ -211,3 +211,5 @@ openGD77S,,,Open Gee De sedumdesát sedum S
 openDM1801,,,Open D M osumnáct nula jedna
 openRD5R,,,Open R D pjet R
 gitCommit,,,Git Zavázat se
+voice_prompt_level_2,,,Hlas 2
+voice_prompt_level_3,,,Hlas 3
