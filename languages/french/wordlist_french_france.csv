@@ -6,8 +6,7 @@ PROMPT_1,,,1
 PROMPT_2,,,2
 PROMPT_3,,,3
 PROMPT_4,,,4
-# <phoneme alphabet="ipa" ph=" sɛ̃ɛ̃k"></phoneme>
-PROMPT_5,<phoneme alphabet="ipa" ph=" sɛ̃ɛ̃k">,</phoneme>,5
+PROMPT_5,<phoneme alphabet="ipa" ph=" sɛ̃ɛ̃k">,</phoneme>,
 PROMPT_6,,,6
 PROMPT_7,,,7
 PROMPT_8,,,8
@@ -43,13 +42,10 @@ PROMPT_CHANNEL,,,CANAL
 PROMPT_CONTACT,,,CONTACT
 PROMPT_DBM,,,DBM
 PROMPT_ENTRY,,,Entrée
-# <phoneme alphabet="ipa" ph=" meg a ɛrtz"></phoneme>
-PROMPT_MEGAHERTZ,,,megahertz
-# <phoneme alphabet="ipa" ph=" kilo ɛrtz"></phoneme>
-PROMPT_KILOHERTZ,,,kilohertz
+PROMPT_MEGAHERTZ,<phoneme alphabet="ipa" ph=" meg a ɛrtz">,</phoneme>,
+PROMPT_KILOHERTZ,<phoneme alphabet="ipa" ph=" kilo ɛrtz">,</phoneme>,
 PROMPT_TALKGROUP,,,tolk group
-# <phoneme alphabet="ipa" ph="ta im slɔ t"></phoneme>
-PROMPT_TIMESLOT,,,timeslot
+PROMPT_TIMESLOT,<phoneme alphabet="ipa" ph="ta im slɔ t">,</phoneme>,
 PROMPT_VFO,,,V F O
 PROMPT_SECONDS,,,Secondes
 PROMPT_Minutes,,,Minutes
@@ -61,8 +57,7 @@ PROMPT_MILLIWATTS,,,Milliwatt
 PROMPT_PERCENT,,,Pourcent
 PROMPT_RECEIVE,,,Reçois
 PROMPT_Transmit,,,Transmet
-# <phoneme alphabet="ipa" ph="diɛɛz"></phoneme>
-PROMPT_HASH,,,dièse
+PROMPT_HASH,<phoneme alphabet="ipa" ph="diɛɛz">,</phoneme>,
 PROMPT_STAR,,,Étoile
 PROMPT_GREEN,,,Vert
 PROMPT_RED,,,Rouge
@@ -83,8 +78,7 @@ PROMPT_TBD3,,,
 PROMPT_TBD4,,,
 PROMPT_TBD5,,,
 LANGUAGE_NAME,,,Français
-# <phoneme alphabet="ipa" ph="møny"></phoneme>
-menu,,,menu
+menu,<phoneme alphabet="ipa" ph="møny">,</phoneme>,
 credits,,,Crédit
 zone,,,Zone
 rssi,,,R S S I
@@ -100,14 +94,12 @@ language,,,Langue
 new_contact,,,Nouveau contact
 contact_list,,,Liste des contact
 contact_details,,,Détail du contact
-# HOTSPOT word only: <phoneme alphabet="ipa" ph=" ɔ.t.sp ɔo t"></phoneme>
-hotspot_mode,,,mode hotspot
+hotspot_mode,mode <phoneme alphabet="ipa" ph=" ɔ.t.sp ɔɔ t">,</phoneme>,
 built,,,Créé
 zones,,,Zone
 keypad,,,Clavier
 ptt,,,PTT
-# <phoneme alphabet="ipa" ph="ve.r.u.j e"></phoneme>
-locked,,,Vérouillé
+locked,<phoneme alphabet="ipa" ph="ve.r.u.j e">,</phoneme>,
 press_blue_plus_star,,,Pressez la touche bleue plus l'étoile
 to_unlock,,,pour déverrouiller
 unlocked,,,Déverrouillé
@@ -122,8 +114,7 @@ user_dmr_id,,,numéro D M R utilisateur
 contact,,,Contact
 accept_call,,,Accepter l'appel ?
 private_call,,,appel privé
-# <phoneme alphabet="ipa" ph="squœ lʃ"></phoneme>
-squelch,,,squelch
+squelch,<phoneme alphabet="ipa" ph="squœ lʃ">,</phoneme>,
 quick_menu,,,Menu rapide
 filter,,,Filtre
 all_channels,,,Tous les canaux
@@ -132,13 +123,11 @@ scan,,,Scan
 channelToVfo,,,Canal vers V F O
 vfoToChannel,,,V F O vers canal
 vfoToNewChannel,,,V F O vers un nouveau canal
-# <phoneme alphabet="ipa" ph="gr.u.p"></phoneme>
-group,,,groupe
+group,<phoneme alphabet="ipa" ph="gr.u.p">,</phoneme>,
 private,,,privé
 all,,,Tous
 type,,,Type
-# <phoneme alphabet="ipa" ph="ta im slɔ t"></phoneme>
-timeSlot,,,timeslot
+timeSlot,<phoneme alphabet="ipa" ph="ta im slɔ t">,</phoneme>,
 none,,,Aucun
 contact_saved,,,Contact sauvé
 duplicate,,,Dupliqué
@@ -146,8 +135,7 @@ tg,,,TG
 pc,,,PC
 ts,,,TS
 mode,,,Mode
-#<phoneme alphabet="ipa" ph="kɔd"></phoneme> couleur
-colour_code,,,<phoneme alphabet="ipa" ph="kɔd"></phoneme> couleur
+colour_code,<phoneme alphabet="ipa" ph="kɔd"></phoneme> couleur,,
 n_a,,,Non disponible
 bandwidth,,,Largeur de bande
 stepFreq,,,Pas
@@ -193,12 +181,9 @@ delete_contact,,,Effacer le contact
 group_call,,,Appel de Groupe
 all_call,,,Appel pour tous
 tone_scan,,,Tonalité de scan
-# <phoneme alphabet="ipa" ph="ba.t.ø.r.i"></phoneme> faible
-# the following sounds good too
-low_battery,,,Batri Faible
+low_battery,<phoneme alphabet="ipa" ph="ba.t.ø.r.i"></phoneme> faible,,
 Auto,,,Automatique
-# <phoneme alphabet="ipa" ph="man yɛ l"></phoneme>
-manual,,,manuèl
+manual,<phoneme alphabet="ipa" ph="man yɛ l">,</phoneme>,
 ptt_toggle,,,Bascule PTT
 private_call_handling,,,Filtre appel privé
 stop,,,Arrêt
@@ -206,10 +191,7 @@ one_line,,,sur une ligne
 two_lines,,,sur deux lignes
 new_channel,,,Nouveau canal
 priority_order,,,Ordre de priorité
-# <phoneme alphabet="ipa" ph="bip"></phoneme><break time="2ms"/> émission D M R
-# or
-# beep<break time="2ms"/>émission D M R
-dmr_beep,,,Beep émission D M R
+dmr_beep,<phoneme alphabet="ipa" ph="bip"></phoneme><break time="2ms"/> émission D M R,,
 start,,,Début
 both,,,Les deux
 vox_threshold,,,Seuil du VOX
@@ -220,18 +202,14 @@ normal,,,Normal
 beep,,,Bip
 voice_prompt_level_1,,,Voix
 transmitTalkerAlias,,,Diffuser le talker alias
-# <phoneme alphabet="ipa" ph="squœ lʃ"></phoneme><break time="1ms"/>V H F
-squelch_VHF,,,Squelch V H F
-## <phoneme alphabet="ipa" ph="squœ lʃ"></phoneme><break time="1ms"/>220<phoneme alphabet="ipa" ph=" meg a ɛrtz"></phoneme>
-squelch_220,,,Squelch 220 mégahertz
-# <phoneme alphabet="ipa" ph="squœ lʃ"></phoneme><break time="1ms"/>U H F
-squelch_UHF,,,Squelch U H F
+squelch_VHF,<phoneme alphabet="ipa" ph="squœ lʃ"></phoneme><break time="1ms"/>V H F,,
+squelch_220,<phoneme alphabet="ipa" ph="squœ lʃ"></phoneme><break time="1ms"/>220<phoneme alphabet="ipa" ph=" meg a ɛrtz">,</phoneme>,
+squelch_UHF,<phoneme alphabet="ipa" ph="squœ lʃ"></phoneme><break time="1ms"/>U H F,,
 display_background_colour,,,Couleur de fond d'écran
 openGD77,,,Open G D 77
 openGD77S,,,Open G D 77 S
 openDM1801,,,Open D M 1801
 openRD5R,,,Open R D 5 R
-# Révision <phoneme alphabet="ipa" ph="gi.t"></phoneme>
-gitCommit,,,Révision git
+gitCommit,Révision <phoneme alphabet="ipa" ph="gi.t">,</phoneme>,
 voice_prompt_level_2,,,Voix 2
 voice_prompt_level_3,,,Voix 3
