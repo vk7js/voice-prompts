@@ -344,7 +344,7 @@ def buildDataPack(filename,voiceName,outputFileName):
     headerTOCSize = 256*4 + 4 + 4
     outBuf = bytearray(headerTOCSize)
     outBuf[0:3]  = bytes([0x56, 0x50, 0x00, 0x00])#Magic number 
-    outBuf[4:7]  = bytes([0x01, 0x00, 0x00, 0x00])#Version number = 1
+    outBuf[4:7]  = bytes([0x02, 0x00, 0x00, 0x00])#Version number = 2
     outBuf[8:11] = bytes([0x00, 0x00, 0x00, 0x00])#Fist prompt audio is at offset zero
     bufPos=12;
     cumulativelength=0;
@@ -449,7 +449,7 @@ def main():
                     removeSilenceAtStart = arg          
 
     if (configName!=""):
-        print("Using Config file ...")
+        print("Using Config file: {}...".format(configName))
  
         with open(configName,"r",encoding='utf-8') as csvfile:
             reader = csv.DictReader(filter(lambda row: row[0]!='#', csvfile))

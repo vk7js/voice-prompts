@@ -77,6 +77,14 @@ PROMPT_TBD2,,,
 PROMPT_TBD3,,,
 PROMPT_TBD4,,,
 PROMPT_TBD5,,,
+PROMPT_POWER,,,power
+PROMPT_CHANNEL_MODE,,,channel mode
+PROMPT_SCAN_MODE,,,scan mode
+PROMPT_TIMESLOT_MODE,,,timeslot mode
+PROMPT_FILTER_MODE,,,filter mode
+PROMPT_ZONE_MODE,,,zone mode
+PROMPT_POWER_MODE,,,power mode
+PROMPT_COLORCODE_MODE,,,color code mode
 LANGUAGE_NAME,,,Dansk
 menu,,,Menu
 credits,,,Credits

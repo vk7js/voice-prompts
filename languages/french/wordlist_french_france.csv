@@ -77,6 +77,14 @@ PROMPT_TBD2,,,
 PROMPT_TBD3,,,
 PROMPT_TBD4,,,
 PROMPT_TBD5,,,
+PROMPT_POWER,,,puissance
+PROMPT_CHANNEL_MODE,,,mode canaux
+PROMPT_SCAN_MODE,,,mode scan
+PROMPT_TIMESLOT_MODE,mode <phoneme alphabet="ipa" ph="ta im slɔ t">,</phoneme>,
+PROMPT_FILTER_MODE,,,mode filtre
+PROMPT_ZONE_MODE,,,mode zone
+PROMPT_POWER_MODE,,,mode puissance
+PROMPT_COLORCODE_MODE,mode <phoneme alphabet="ipa" ph="kɔd"></phoneme> couleur,,
 LANGUAGE_NAME,,,Français
 menu,<phoneme alphabet="ipa" ph="møny">,</phoneme>,
 credits,,,Crédit
