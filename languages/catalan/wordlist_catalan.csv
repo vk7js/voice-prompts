@@ -72,11 +72,34 @@ PROMPT_MINUS,,,menos
 PROMPT_VFO_EXCHANGE_TX_RX,,,Exchange Tx and Rx frequencies
 PROMPT_VFO_COPY_RX_TO_TX,,,Copy Receive frequency to Transmit frequency
 PROMPT_VFO_COPY_TX_TO_RX,,,Copy Transmit frequency to Receive frequency
+PROMPT_POWER,,,power
+PROMPT_CHANNEL_MODE,,,channel mode
+PROMPT_SCAN_MODE,,,scan mode
+PROMPT_TIMESLOT_MODE,,,timeslot mode
+PROMPT_FILTER_MODE,,,filter mode
+PROMPT_ZONE_MODE,,,zone mode
+PROMPT_POWER_MODE,,,power mode
+PROMPT_COLORCODE_MODE,,,color code mode
 PROMPT_TBD1,,,
 PROMPT_TBD2,,,
 PROMPT_TBD3,,,
 PROMPT_TBD4,,,
 PROMPT_TBD5,,,
+PROMPT_TBD6,,,
+PROMPT_TBD7,,,
+PROMPT_TBD8,,,
+PROMPT_TBD9,,,
+PROMPT_TBD10,,,
+PROMPT_TBD11,,,
+PROMPT_TBD12,,,
+PROMPT_TBD13,,,
+PROMPT_TBD14,,,
+PROMPT_TBD15,,,
+PROMPT_TBD16,,,
+PROMPT_TBD17,,,
+PROMPT_TBD18,,,
+PROMPT_TBD19,,,
+PROMPT_TBD20,,,
 LANGUAGE_NAME,,,Català
 menu,,,Menú
 credits,,,Crèdits

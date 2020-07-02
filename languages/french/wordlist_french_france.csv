@@ -72,11 +72,34 @@ PROMPT_MINUS,,,Moins
 PROMPT_VFO_EXCHANGE_TX_RX,,,Échanger les fréquences de transmission et de réception
 PROMPT_VFO_COPY_RX_TO_TX,,,Copier la fréquence de réception sur la fréquence de transmission
 PROMPT_VFO_COPY_TX_TO_RX,,,Copier la fréquence de transmission sur la fréquence de réception
+PROMPT_POWER,,,puissance
+PROMPT_CHANNEL_MODE,,,mode canaux
+PROMPT_SCAN_MODE,,,mode scan
+PROMPT_TIMESLOT_MODE,mode <phoneme alphabet="ipa" ph="ta im slɔ t">,</phoneme>,
+PROMPT_FILTER_MODE,,,mode filtre
+PROMPT_ZONE_MODE,,,mode zone
+PROMPT_POWER_MODE,,,mode puissance
+PROMPT_COLORCODE_MODE,mode <phoneme alphabet="ipa" ph="kɔd"></phoneme> couleur,,
 PROMPT_TBD1,,,
 PROMPT_TBD2,,,
 PROMPT_TBD3,,,
 PROMPT_TBD4,,,
 PROMPT_TBD5,,,
+PROMPT_TBD6,,,
+PROMPT_TBD7,,,
+PROMPT_TBD8,,,
+PROMPT_TBD9,,,
+PROMPT_TBD10,,,
+PROMPT_TBD11,,,
+PROMPT_TBD12,,,
+PROMPT_TBD13,,,
+PROMPT_TBD14,,,
+PROMPT_TBD15,,,
+PROMPT_TBD16,,,
+PROMPT_TBD17,,,
+PROMPT_TBD18,,,
+PROMPT_TBD19,,,
+PROMPT_TBD20,,,
 LANGUAGE_NAME,,,Français
 menu,<phoneme alphabet="ipa" ph="møny">,</phoneme>,
 credits,,,Crédit
