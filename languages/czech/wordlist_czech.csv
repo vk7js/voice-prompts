@@ -236,3 +236,6 @@ openRD5R,,,Open R D pjet R
 gitCommit,,,Git Zavázat se
 voice_prompt_level_2,,,hlas dva
 voice_prompt_level_3,,,hlas třy
+dmr_filter,,,D M R Filter
+dmr_cc_filter,,,Colour code Filter
+dmr_ts_filter,,,Timeslot Filter
