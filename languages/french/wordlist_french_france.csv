@@ -42,10 +42,10 @@ PROMPT_CHANNEL,,,CANAL
 PROMPT_CONTACT,,,CONTACT
 PROMPT_DBM,,,DBM
 PROMPT_ENTRY,,,Entrée
-PROMPT_MEGAHERTZ,<phoneme alphabet="ipa" ph=" meg a ɛrtz">,</phoneme>,
-PROMPT_KILOHERTZ,<phoneme alphabet="ipa" ph=" kilo ɛrtz">,</phoneme>,
+PROMPT_MEGAHERTZ,<phoneme alphabet="ipa" ph=" meg a ɛrts">,</phoneme>,
+PROMPT_KILOHERTZ,<phoneme alphabet="ipa" ph=" kilo ɛrts">,</phoneme>,
 PROMPT_TALKGROUP,,,tolk group
-PROMPT_TIMESLOT,<phoneme alphabet="ipa" ph="ta im slɔ t">,</phoneme>,
+PROMPT_TIMESLOT,<phoneme alphabet="ipa" ph="tajm sl">,</phoneme>hotte,
 PROMPT_VFO,,,V F O
 PROMPT_SECONDS,,,Secondes
 PROMPT_Minutes,,,Minutes
@@ -70,16 +70,16 @@ PROMPT_NARROW,,,Étroit
 PROMPT_PLUS,,,Plus
 PROMPT_MINUS,,,Moins
 PROMPT_VFO_EXCHANGE_TX_RX,,,Échanger les fréquences de transmission et de réception
-PROMPT_VFO_COPY_RX_TO_TX,,,Copier la fréquence de réception sur la fréquence de transmission
-PROMPT_VFO_COPY_TX_TO_RX,,,Copier la fréquence de transmission sur la fréquence de réception
+PROMPT_VFO_COPY_RX_TO_TX,,,Copier la fréquence de réception vers la fréquence de transmission
+PROMPT_VFO_COPY_TX_TO_RX,,,Copier la fréquence de transmission vers la fréquence de réception
 PROMPT_POWER,,,puissance
 PROMPT_CHANNEL_MODE,,,mode canaux
 PROMPT_SCAN_MODE,,,mode scan
-PROMPT_TIMESLOT_MODE,mode <phoneme alphabet="ipa" ph="ta im slɔ t">,</phoneme>,
+PROMPT_TIMESLOT_MODE,mode <phoneme alphabet="ipa" ph="tajm sl">,</phoneme>hotte,
 PROMPT_FILTER_MODE,,,mode filtre
 PROMPT_ZONE_MODE,,,mode zone
 PROMPT_POWER_MODE,,,mode puissance
-PROMPT_COLORCODE_MODE,mode <phoneme alphabet="ipa" ph="kɔd"></phoneme> couleur,,
+PROMPT_COLORCODE_MODE,,,mode code couleur
 PROMPT_TBD1,,,
 PROMPT_TBD2,,,
 PROMPT_TBD3,,,
@@ -107,7 +107,8 @@ zone,,,Zone
 rssi,,,R S S I
 battery,,,Batterie
 contacts,,,Contact
-last_heard,,,Dernier reçu
+# rentendus is not a typo.
+last_heard,,,Derniers rentendus
 firmware_info,,,Info Firmware
 options,,,Option
 display_options,,,Option d'affichage
@@ -117,7 +118,7 @@ language,,,Langue
 new_contact,,,Nouveau contact
 contact_list,,,Liste des contact
 contact_details,,,Détail du contact
-hotspot_mode,mode <phoneme alphabet="ipa" ph=" ɔ.t.sp ɔɔ t">,</phoneme>,
+hotspot_mode,,,mode hote spot
 built,,,Créé
 zones,,,Zone
 keypad,,,Clavier
@@ -135,7 +136,7 @@ tg_entry,,,Entrez le TG
 pc_entry,,,Entrez le PC
 user_dmr_id,,,numéro D M R utilisateur
 contact,,,Contact
-accept_call,,,Accepter l'appel ?
+accept_call,Répondre<break time="2ms"/> à,,
 private_call,,,appel privé
 squelch,<phoneme alphabet="ipa" ph="squœ lʃ">,</phoneme>,
 quick_menu,,,Menu rapide
@@ -150,7 +151,7 @@ group,<phoneme alphabet="ipa" ph="gr.u.p">,</phoneme>,
 private,,,privé
 all,,,Tous
 type,,,Type
-timeSlot,<phoneme alphabet="ipa" ph="ta im slɔ t">,</phoneme>,
+timeSlot,<phoneme alphabet="ipa" ph="tajm sl">,</phoneme>hotte,
 none,,,Aucun
 contact_saved,,,Contact sauvé
 duplicate,,,Dupliqué
@@ -158,10 +159,10 @@ tg,,,TG
 pc,,,PC
 ts,,,TS
 mode,,,Mode
-colour_code,<phoneme alphabet="ipa" ph="kɔd"></phoneme> couleur,,
+colour_code,,,code couleur
 n_a,,,Non disponible
 bandwidth,,,Largeur de bande
-stepFreq,,,Pas
+stepFreq,Pas<break time="1ms"/> de fréquence,,
 tot,,,T O T
 off,,,Arrêt
 zone_skip,,,Sauter la Zone
@@ -208,7 +209,7 @@ low_battery,<phoneme alphabet="ipa" ph="ba.t.ø.r.i"></phoneme> faible,,
 Auto,,,Automatique
 manual,<phoneme alphabet="ipa" ph="man yɛ l">,</phoneme>,
 ptt_toggle,,,Bascule PTT
-private_call_handling,,,Filtre appel privé
+private_call_handling,,,Gestion des appels privés
 stop,,,Arrêt
 one_line,,,sur une ligne
 two_lines,,,sur deux lignes
@@ -223,10 +224,10 @@ audio_prompt,,,Assistance vocale
 silent,,,Silencieux
 normal,,,Normal
 beep,,,Bip
-voice_prompt_level_1,,,Voix
-transmitTalkerAlias,,,Diffuser le talker alias
+voice_prompt_level_1,,,Voix niveau 1
+transmitTalkerAlias,Diffuser le<phoneme alphabet="ipa" ph="tol kœr"></phoneme> alias,,
 squelch_VHF,<phoneme alphabet="ipa" ph="squœ lʃ"></phoneme><break time="1ms"/>V H F,,
-squelch_220,<phoneme alphabet="ipa" ph="squœ lʃ"></phoneme><break time="1ms"/>220<phoneme alphabet="ipa" ph=" meg a ɛrtz">,</phoneme>,
+squelch_220,<phoneme alphabet="ipa" ph="squœ lʃ"></phoneme><break time="1ms"/>220<phoneme alphabet="ipa" ph=" meg a ɛrts">,</phoneme>,
 squelch_UHF,<phoneme alphabet="ipa" ph="squœ lʃ"></phoneme><break time="1ms"/>U H F,,
 display_background_colour,,,Couleur de fond d'écran
 openGD77,,,Open G D 77
@@ -234,8 +235,8 @@ openGD77S,,,Open G D 77 S
 openDM1801,,,Open D M 1801
 openRD5R,,,Open R D 5 R
 gitCommit,Révision <phoneme alphabet="ipa" ph="gi.t">,</phoneme>,
-voice_prompt_level_2,,,Voix 2
-voice_prompt_level_3,,,Voix 3
-dmr_filter,,,D M R Filter
-dmr_cc_filter,,,Colour code Filter
-dmr_ts_filter,,,Timeslot Filter
+voice_prompt_level_2,,,Voix niveau 2
+voice_prompt_level_3,,,Voix niveau 3
+dmr_filter,,,Filtre D M R
+dmr_cc_filter,,,Filtre code couleur
+dmr_ts_filter,Filtre <phoneme alphabet="ipa" ph="tajm sl">,</phoneme>hotte,
