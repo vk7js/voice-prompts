@@ -72,14 +72,14 @@ PROMPT_MINUS,,,Mínus
 PROMPT_VFO_EXCHANGE_TX_RX,,,Zamjenit frekvenci vysílání za frekvenci pro příjem
 PROMPT_VFO_COPY_RX_TO_TX,,,Kopíírovat frekvenci příjem na frekvenci pro vysílání
 PROMPT_VFO_COPY_TX_TO_RX,,,Kopíírovat frekvenci vysílání na frekvenci pro příjem
-PROMPT_POWER,,,power
-PROMPT_CHANNEL_MODE,,,channel mode
-PROMPT_SCAN_MODE,,,scan mode
-PROMPT_TIMESLOT_MODE,,,timeslot mode
-PROMPT_FILTER_MODE,,,filter mode
-PROMPT_ZONE_MODE,,,zone mode
-PROMPT_POWER_MODE,,,power mode
-PROMPT_COLORCODE_MODE,,,color code mode
+PROMPT_POWER,,,napáájení
+PROMPT_CHANNEL_MODE,,,kanal mood
+PROMPT_SCAN_MODE,,,sken mood
+PROMPT_TIMESLOT_MODE,,,tajm slot mood
+PROMPT_FILTER_MODE,,,filtr mood
+PROMPT_ZONE_MODE,,,zóna mood
+PROMPT_POWER_MODE,,,napáájení mood
+PROMPT_COLORCODE_MODE,,,kolor kood mood
 PROMPT_TBD1,,,
 PROMPT_TBD2,,,
 PROMPT_TBD3,,,
@@ -223,7 +223,7 @@ audio_prompt,,,Výzva Zvukem
 silent,,,Tichý
 normal,,,Normální
 beep,,,PíÍpání
-voice_prompt_level_1,,,Hlas
+voice_prompt_level_1,,,Hlas jedna
 transmitTalkerAlias,,,vyslat talkrr alyas
 squelch_VHF,,,VE HA EF Skvelč
 squelch_220,,,dvjestedvacet Skvelč
@@ -236,6 +236,6 @@ openRD5R,,,Open R D pjet R
 gitCommit,,,Git Zavázat se
 voice_prompt_level_2,,,hlas dva
 voice_prompt_level_3,,,hlas třy
-dmr_filter,,,D M R Filter
-dmr_cc_filter,,,Colour code Filter
-dmr_ts_filter,,,Timeslot Filter
+dmr_filter,,,DIEMARK filtr
+dmr_cc_filter,,,Kolor kood Filtr
+dmr_ts_filter,,,Tajm slot Filtr
