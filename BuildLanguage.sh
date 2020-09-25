@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 
-LANGUAGES="english_UK english_USA catalan czech danish finnish french german italian polish portuguese spanish turkish"
+LANGUAGES="$(ls languages/)"
 PYTHON=$(command -v python3)
 
 #
@@ -45,4 +45,3 @@ else # No command line argument, build the whole language list
 fi
 
 exit 0
-
