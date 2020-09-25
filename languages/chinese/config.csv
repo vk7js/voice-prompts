@@ -1,0 +1,2 @@
+Wordlist_file,Voice_name,Voice_pack_name,Download,Encode,Createpack,Volume_change_db,Remove_silence
+wordlist_chinese.csv,Zhiyu,chinese_zhiyu.vpr,y,y,y,0,y
