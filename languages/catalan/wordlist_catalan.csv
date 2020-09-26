@@ -1,6 +1,6 @@
 PromptName,PromptSpeechPrefix,PromptSpeechPostfix,PromptText
 PROMPT_SPACE,,, 
-PROMPT_POINT,,,POINT
+PROMPT_POINT,,,PUNT
 PROMPT_0,,,0
 PROMPT_1,,,1
 PROMPT_2,,,2
@@ -39,48 +39,48 @@ PROMPT_Y,,,Y
 PROMPT_Z,,,Z
 PROMPT_Z2,,,Z
 PROMPT_CHANNEL,,,CANAL
-PROMPT_CONTACT,,,CONTACTO
+PROMPT_CONTACT,,,CONTACTE
 PROMPT_DBM,,,D B M
 PROMPT_ENTRY,,,ENTRADA
-PROMPT_MEGAHERTZ,,,MEGAHERZIOS
-PROMPT_KILOHERTZ,,,KILOHERZIOS
+PROMPT_MEGAHERTZ,,,MEGAHERTZS
+PROMPT_KILOHERTZ,,,KILOHERTZS
 PROMPT_TALKGROUP,,,TALKGROUP
 PROMPT_TIMESLOT,,,TIMESLOT
 PROMPT_VFO,,,V F O
-PROMPT_SECONDS,,,Segundos
-PROMPT_Minutes,,,Minutos
-PROMPT_Hours,,,Horas
-PROMPT_VOLTS,,,Vóltios
-PROMPT_WATT,,,Watio
-PROMPT_WATTS,,,Watios
-PROMPT_MILLIWATTS,,,Milliwatios
-PROMPT_PERCENT,,,Porciento
-PROMPT_RECEIVE,,,Recepción
-PROMPT_Transmit,,,Transmisión
-PROMPT_HASH,,,Almohadilla
-PROMPT_STAR,,,Asterisco
-PROMPT_GREEN,,,Verde
-PROMPT_RED,,,Rojo
-PROMPT_VERSION,,,Versión
-PROMPT_MODE,,,Modo
+PROMPT_SECONDS,,,Segons
+PROMPT_Minutes,,,Minuts
+PROMPT_Hours,,,Hores
+PROMPT_VOLTS,,,Volts
+PROMPT_WATT,,,Vat
+PROMPT_WATTS,,,Vats
+PROMPT_MILLIWATTS,,,Milivats
+PROMPT_PERCENT,,,Per cent
+PROMPT_RECEIVE,,,Recepció
+PROMPT_Transmit,,,Transmissió
+PROMPT_HASH,,,Cuadradet
+PROMPT_STAR,,,Asterisc
+PROMPT_GREEN,,,Verd
+PROMPT_RED,,,Vermell
+PROMPT_VERSION,,,Versió
+PROMPT_MODE,,,Mode
 PROMPT_DMR,,,D M R
 PROMPT_FM,,,F M
-PROMPT_WIDE,,,Amplio
-PROMPT_NARROW,,,Estrecho
-PROMPT_PLUS,,,más
-PROMPT_MINUS,,,menos
-PROMPT_VFO_EXCHANGE_TX_RX,,,Exchange Tx and Rx frequencies
-PROMPT_VFO_COPY_RX_TO_TX,,,Copy Receive frequency to Transmit frequency
-PROMPT_VFO_COPY_TX_TO_RX,,,Copy Transmit frequency to Receive frequency
-PROMPT_POWER,,,power
-PROMPT_CHANNEL_MODE,,,channel mode
-PROMPT_SCAN_MODE,,,scan mode
-PROMPT_TIMESLOT_MODE,,,timeslot mode
-PROMPT_FILTER_MODE,,,filter mode
-PROMPT_ZONE_MODE,,,zone mode
-PROMPT_POWER_MODE,,,power mode
+PROMPT_WIDE,,,Ample
+PROMPT_NARROW,,,Estret
+PROMPT_PLUS,,,més
+PROMPT_MINUS,,,menys
+PROMPT_VFO_EXCHANGE_TX_RX,,,Intercanvia frequencies de T X i R X
+PROMPT_VFO_COPY_RX_TO_TX,,,Copia la freqüència de recepció a Transmissió
+PROMPT_VFO_COPY_TX_TO_RX,,,Copia la freqüència de Transmissió a recepció
+PROMPT_POWER,,,potència
+PROMPT_CHANNEL_MODE,,,mode de canals
+PROMPT_SCAN_MODE,,,mode d escaneig
+PROMPT_TIMESLOT_MODE,,,mode Time slot
+PROMPT_FILTER_MODE,,,mode de filtre
+PROMPT_ZONE_MODE,,,mode de zona
+PROMPT_POWER_MODE,,,mode de potencia
 PROMPT_COLORCODE_MODE,,,color code mode
-PROMPT_HERTZ,,,HERZIOS
+PROMPT_HERTZ,,,Hersos
 PROMPT_TBD2,,,
 PROMPT_TBD3,,,
 PROMPT_TBD4,,,
@@ -100,52 +100,52 @@ PROMPT_TBD17,,,
 PROMPT_TBD18,,,
 PROMPT_TBD19,,,
 PROMPT_TBD20,,,
-LANGUAGE_NAME,,,Catal�
-menu,,,Men�
-credits,,,Cr�dits
+LANGUAGE_NAME,,,Català
+menu,,,Menú
+credits,,,Crèdits
 zone,,,Zona
 rssi,,,Senyal
-battery,,,Bater�a
+battery,,,Batería
 contacts,,,Contactes
-last_heard,,,Escoltats
-firmware_info,,,Info firmware
+last_heard,,,Escoltats darrerament
+firmware_info,,,Informació del firmware
 options,,,Opcions
-display_options,,,Opcions pantalla
-sound_options,,,Opcions de s�
-channel_details,,,Detalls Canal
+display_options,,,Opcions de pantalla
+sound_options,,,Opcions de só
+channel_details,,,Detalls del Canal
 language,,,Idioma
 new_contact,,,Nou contacte
 contact_list,,,Contactes
-contact_details,,,Mode Hotspot
-hotspot_mode,,,Detall Ctte
+contact_details,,,Detall del contacte
+hotspot_mode,,,Mode hot espot
 built,,,Compilat
 zones,,,Zones
 keypad,,,Teclat
 ptt,,,PTT
 locked,,,blocat
-press_blue_plus_star,,,Prem Blau + (*)
+press_blue_plus_star,,,Prem Blau i asterisc
 to_unlock,,,per desblocar
 unlocked,,,Desblocat
 power_off,,,Apagant...
 error,,,ERROR
-rx_only,,,Nom�s RX
+rx_only,,,Nomes R ics
 out_of_band,,,FORA DE BANDA
-timeout,,,TIMEOUT
-tg_entry,,,Entreu TG
-pc_entry,,,Entreu ID
-user_dmr_id,,,ID DMR d'Usuari
+timeout,,,final del temps
+tg_entry,,,Entreu T G
+pc_entry,,,Entreu I D
+user_dmr_id,,,I D D M R del Usuari
 contact,,,Contacte
 accept_call,,,Acceptar trucada?
 private_call,,,Trucada privada
-squelch,,,Squelch
-quick_menu,,,Men� R�pid
+squelch,,,Silenciador
+quick_menu,,,Menú Ràpid
 filter,,,Filtre
 all_channels,,,Llista total
 gotoChannel,,,Anar al canal
-scan,,,Scan
-channelToVfo,,,Canal -> VFO
-vfoToChannel,,,VFO -> Canal
-vfoToNewChannel,,,VFO -> Nou Canal
+scan,,,escanejar
+channelToVfo,,,Canal a V F O
+vfoToChannel,,,V F O a Canal
+vfoToNewChannel,,,V F O a Nou Canal
 group,,,Grup
 private,,,Privada
 all,,,Tots
@@ -154,89 +154,89 @@ timeSlot,,,TS
 none,,,Cap
 contact_saved,,,Contacte Desat
 duplicate,,,Duplicat
-tg,,,TG
-pc,,,ID
-ts,,,TS
+tg,,,T G
+pc,,,I D
+ts,,,T S
 mode,,,Mode
-colour_code,,,Codi Color
-n_a,,,N/D
-bandwidth,,,Ample banda
+colour_code,,,Codi de Color
+n_a,,,No disponible
+bandwidth,,,Ample de banda
 stepFreq,,,Salt
-tot,,,TOT
-off,,,NO
+tot,,,Temps de Transmissió
+off,,,apagat
 zone_skip,,,Saltar zona
 all_skip,,,Saltar tot
 yes,,,Si
 no,,,No
-rx_group,,,Llista TG/ID
+rx_group,,,Llista de T G i I D
 on,,,Si
-timeout_beep,,,Av�s T.O.T.
-factory_reset,,,Reinici fabr.
-calibration,,,Calibraci�
-band_limits,,,L�mit bandes
-beep_volume,,,Volum tons
-dmr_mic_gain,,,Mic DMR
-fm_mic_gain,,,FM mic
-key_long,,,Prem llarg
-key_repeat,,,Prem rpt
+timeout_beep,,,Avis T O T 
+factory_reset,,,Reinici de fàbrica
+calibration,,,Calibració
+band_limits,,,Límit de bandes
+beep_volume,,,Volum dels tons
+dmr_mic_gain,,,Guany de Micro D M R
+fm_mic_gain,,,Guan de micro F M
+key_long,,,Premer llarg
+key_repeat,,,Premer repetidament
 dmr_filter_timeout,,,Filtre temps
 brightness,,,Brillantor
-brightness_off,,,Brillan. min
+brightness_off,,,Brillantor mínima
 contrast,,,Contrast
 colour_invert,,,Invers
 colour_normal,,,Normal
-backlight_timeout,,,Temps llum
-scan_delay,,,Temps Scan
-yes___in_uppercase,,,S�
-no___in_uppercase,,,No
+backlight_timeout,,,Temps diluminació
+scan_delay,,,Temps descaneig
+yes___in_uppercase,,,SI
+no___in_uppercase,,,NO
 DISMISS,,,PASSAR
-scan_mode,,,Mode Scan
+scan_mode,,,Mode Escaner
 hold,,,Parar
 pause,,,Pausa
 empty_list,,,Llista buida
-delete_contact_qm,,,Esborrar ctte?
-contact_deleted,,,Ctte esborrat
-contact_used,,,Ctte en �s a
-in_rx_group,,,la Llista TG/ID
-select_tx,,,Selec. TX
-edit_contact,,,Editar Ctte
-delete_contact,,,Esborrar Ctte
+delete_contact_qm,,,Esborrar contacte?
+contact_deleted,,,Contacte esborrat
+contact_used,,,Contacte en ús a
+in_rx_group,,,la Llista T G i I D
+select_tx,,,Seleccionar T X
+edit_contact,,,Editar Contacte
+delete_contact,,,Esborrar Contacte
 group_call,,,Cridar a Grup
 all_call,,,Cridar a Tots
-tone_scan,,,Scan CCTCS
+tone_scan,,,Escaner de subtó
 low_battery,,,BATERIA BAIXA !!
-Auto,,,Auto
+Auto,,,Automàtic
 manual,,,Manual
-ptt_toggle,,,Enclavar PTT
-private_call_handling,,,Gesti� PC
-stop,,,Stop
-one_line,,,1 linea
-two_lines,,,2 linea
+ptt_toggle,,,Enclavar P T T
+private_call_handling,,,Gestió de trucada privada
+stop,,,Parar
+one_line,,,una linia
+two_lines,,,dues linies
 new_channel,,,Nou canal
-priority_order,,,Prio.
-dmr_beep,,,DMR Beep
+priority_order,,,Prioritat
+dmr_beep,,,To D M R
 start,,,Inici
 both,,,Tots
-vox_threshold,,,VOX Thres.
-vox_tail,,,VOX Tail
-audio_prompt,,,Prompt
-silent,,,Silent
+vox_threshold,,,llindar de veu dobertura del P T T
+vox_tail,,,Cua del P T T activat per veu
+audio_prompt,,,Veus
+silent,,,Silenci
 normal,,,Normal
 beep,,,Beep
-voice_prompt_level_1,,,Voice
-transmitTalkerAlias,,,TA Tx
-squelch_VHF,,,VHF Squelch
-squelch_220,,,220 Squelch
-squelch_UHF,,,UHF Squelch
-display_background_colour,,,display background colour
+voice_prompt_level_1,,,Veu
+transmitTalkerAlias,,,Transmissió del talker alias
+squelch_VHF,,,silenciador 144 
+squelch_220,,,silenciador 220
+squelch_UHF,,,silenciador 440
+display_background_colour,,,color de fóns de la pantalla
 openGD77,,,Open G D 77
 openGD77S,,,Open G D 77 S
 openDM1801,,,Open D M 18 0 1
 openRD5R,,,Open R D 5 R
-gitCommit,,,Git revision
-voice_prompt_level_2,,,Voice mode 2
-voice_prompt_level_3,,,Voice mode 3
-dmr_filter,,,DMR Filter
-dmr_cc_filter,,,CC Filter
-dmr_ts_filter,,,TS Filter
+gitCommit,,,revisió del G I T
+voice_prompt_level_2,,,mode de veu 2
+voice_prompt_level_3,,,mode de veu 3
+dmr_filter,,,Filtre D M R
+dmr_cc_filter,,,Filtre de color
+dmr_ts_filter,,,Filtre de eslot
 dtmf_contact_list,,,DTMF list
