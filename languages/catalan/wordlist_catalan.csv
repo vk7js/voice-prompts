@@ -118,6 +118,7 @@ new_contact,,,Nou contacte
 contact_list,,,Contactes
 contact_details,,,Mode Hotspot
 hotspot_mode,,,Detall Ctte
+dtmf_contact_list,,,DTMF list
 built,,,Compilat
 zones,,,Zones
 keypad,,,Teclat

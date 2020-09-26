@@ -119,6 +119,7 @@ new_contact,,,Nouveau contact
 contact_list,,,Liste des contact
 contact_details,,,Détail du contact
 hotspot_mode,,,mode hote spot
+dtmf_contact_list,,,list des contact DTMF
 built,,,Créé
 zones,,,Zone
 keypad,,,Clavier

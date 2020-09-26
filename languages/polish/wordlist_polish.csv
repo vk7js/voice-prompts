@@ -118,6 +118,7 @@ new_contact,,,Nowy kontakt
 contact_list,,,Lista kontaktów
 contact_details,,,HotSpot
 hotspot_mode,,,Detale kontaktu
+dtmf_contact_list,,,Lista DTMF
 built,,,Kompilacja
 zones,,,Strefy
 keypad,,,Klawiatura

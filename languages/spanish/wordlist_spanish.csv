@@ -118,6 +118,7 @@ new_contact,,,Nuevo contacto
 contact_list,,,Lista contactos
 contact_details,,,Detalles contacto
 hotspot_mode,,,Modo Jotspot
+dtmf_contact_list,,,Lista DTMF
 built,,,Compilado
 zones,,,Zonas
 keypad,,,Teclado

@@ -118,6 +118,7 @@ new_contact,,,Uusi kontakti
 contact_list,,,Uusi kanava
 contact_details,,,Kontakti lista
 hotspot_mode,,,Hotspotti tila
+dtmf_contact_list,,,DTMF lista
 built,,,Kontakti Asetus
 zones,,,Koontikäännös
 keypad,,,Zonet

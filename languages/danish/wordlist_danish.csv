@@ -118,6 +118,7 @@ new_contact,,,Ny Kontakt
 contact_list,,,Kontakt liste
 contact_details,,,Hotspot mode
 hotspot_mode,,,Kontakt Detaljer
+dtmf_contact_list,,,DTMF liste
 built,,,Version
 zones,,,Zoner
 keypad,,,Keypad
