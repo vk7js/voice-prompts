@@ -118,7 +118,6 @@ new_contact,,,Nový Kontakt
 contact_list,,,Kontakty
 contact_details,,,Kontakt detajl
 hotspot_mode,,,Hotspot mood
-dtmf_contact_list,,,DTMF list
 built,,,Verse sestavení
 zones,,,Zoonyy
 keypad,,,Klaavesa
@@ -240,3 +239,4 @@ voice_prompt_level_3,,,hlas třy
 dmr_filter,,,DIEMARK filtr
 dmr_cc_filter,,,Kolor kood Filtr
 dmr_ts_filter,,,Tajm slot Filtr
+dtmf_contact_list,,,DTMF list

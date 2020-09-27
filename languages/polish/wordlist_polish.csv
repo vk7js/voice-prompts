@@ -118,7 +118,6 @@ new_contact,,,Nowy kontakt
 contact_list,,,Lista kontaktów
 contact_details,,,HotSpot
 hotspot_mode,,,Detale kontaktu
-dtmf_contact_list,,,Lista DTMF
 built,,,Kompilacja
 zones,,,Strefy
 keypad,,,Klawiatura
@@ -240,3 +239,4 @@ voice_prompt_level_3,,,Voice 3
 dmr_filter,,,D M R Filter
 dmr_cc_filter,,,Colour code Filter
 dmr_ts_filter,,,Timeslot Filter
+dtmf_contact_list,,,Lista DTMF

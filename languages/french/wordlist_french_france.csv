@@ -119,7 +119,6 @@ new_contact,,,Nouveau contact
 contact_list,,,Liste des contact
 contact_details,,,Détail du contact
 hotspot_mode,,,mode hote spot
-dtmf_contact_list,,,list des contact DTMF
 built,,,Créé
 zones,,,Zone
 keypad,,,Clavier
@@ -241,3 +240,4 @@ voice_prompt_level_3,,,Voix niveau 3
 dmr_filter,,,Filtre D M R
 dmr_cc_filter,,,Filtre code couleur
 dmr_ts_filter,Filtre <phoneme alphabet="ipa" ph="tajm sl">,</phoneme>hotte,
+dtmf_contact_list,,,list des contact DTMF

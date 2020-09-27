@@ -118,7 +118,6 @@ new_contact,,,新联系人
 contact_list,,,联系人列表
 contact_details,,,联系人详情
 hotspot_mode,,,热点模式
-dtmf_contact_list,,,D T M F 书
 built,,,编译于
 zones,,,区域
 keypad,,,键盘
@@ -240,3 +239,4 @@ voice_prompt_level_3,,,语音模式3
 dmr_filter,,,D M R 过滤模式
 dmr_cc_filter,,,色码过滤
 dmr_ts_filter,,,时隙过滤
+dtmf_contact_list,,,D T M F 书
