@@ -345,7 +345,7 @@ def buildDataPack(filename,voiceName,outputFileName):
     outBuf = bytearray(headerTOCSize)
     outBuf[0:3]  = bytes([0x56, 0x50, 0x00, 0x00])#Magic number 
     outBuf[4:7]  = bytes([0x02, 0x00, 0x00, 0x00])#Version number = 2
-    outBuf[8:11] = bytes([0x00, 0x00, 0x00, 0x00])#Fist prompt audio is at offset zero
+    outBuf[8:11] = bytes([0x00, 0x00, 0x00, 0x00])#First prompt audio is at offset zero
     bufPos=12;
     cumulativelength=0;
     for prompt in promptsDict:
