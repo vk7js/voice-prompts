@@ -240,3 +240,5 @@ dmr_filter,,,D M R Filter
 dmr_cc_filter,,,Colour code Filter
 dmr_ts_filter,,,Timeslot Filter
 dtmf_contact_list,,,DTMF liste
+power,,,Power
+master_power,,,Master

@@ -241,3 +241,5 @@ dmr_filter,,,Filtre D M R
 dmr_cc_filter,,,Filtre code couleur
 dmr_ts_filter,Filtre <phoneme alphabet="ipa" ph="tajm sl">,</phoneme>hotte,
 dtmf_contact_list,,,list des contact DTMF
+power,,,puissance
+master_power,,,Master
