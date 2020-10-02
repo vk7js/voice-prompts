@@ -240,5 +240,5 @@ dmr_filter,,,Filtro D M R
 dmr_cc_filter,,,Filtro Codigo Color
 dmr_ts_filter,,,Filtro Timeslot
 dtmf_contact_list,,,Lista DTMF
-power,,,potencia
+channel_power,,,Channel power
 master_power,,,Master

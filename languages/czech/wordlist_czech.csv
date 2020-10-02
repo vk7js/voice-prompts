@@ -240,5 +240,5 @@ dmr_filter,,,DIEMARK filtr
 dmr_cc_filter,,,Kolor kood Filtr
 dmr_ts_filter,,,Tajm slot Filtr
 dtmf_contact_list,,,DTMF list
-power,,,napáájení
-master_power,,,Mistr
+channel_power,,,Channel power
+master_power,,,Master

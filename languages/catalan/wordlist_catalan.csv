@@ -240,5 +240,5 @@ dmr_filter,,,Filtre D M R
 dmr_cc_filter,,,Filtre de color
 dmr_ts_filter,,,Filtre de eslot
 dtmf_contact_list,,,DTMF list
-power,,,potència
+channel_power,,,Channel power
 master_power,,,Master
