@@ -1,0 +1,244 @@
+PromptName,PromptSpeechPrefix,PromptSpeechPostfix,PromptText
+PROMPT_SPACE,,, 
+PROMPT_POINT,,,POINT
+PROMPT_0,,,0
+PROMPT_1,,,1
+PROMPT_2,,,2
+PROMPT_3,,,3
+PROMPT_4,,,4
+PROMPT_5,,,5
+PROMPT_6,,,6
+PROMPT_7,,,7
+PROMPT_8,,,8
+PROMPT_9,,,9
+PROMPT_A,,,A
+PROMPT_B,,,B
+PROMPT_C,,,C
+PROMPT_D,,,D
+PROMPT_E,,,E
+PROMPT_F,,,F
+PROMPT_G,,,G
+PROMPT_H,,,H
+PROMPT_I,,,I
+PROMPT_J,,,J
+PROMPT_K,,,K
+PROMPT_L,,,L
+PROMPT_M,,,M
+PROMPT_N,,,N
+PROMPT_O,,,O
+PROMPT_P,,,P
+PROMPT_Q,,,Q
+PROMPT_R,,,R
+PROMPT_S,,,S
+PROMPT_T,,,T
+PROMPT_U,,,U
+PROMPT_V,,,V
+PROMPT_W,,,W
+PROMPT_X,,,X
+PROMPT_Y,,,Y
+PROMPT_Z,,,Zed
+PROMPT_Z2,,,Z
+PROMPT_CHANNEL,,,Kanaal
+PROMPT_CONTACT,,,Contact
+PROMPT_DBM,,,D B M
+PROMPT_ENTRY,,,Binnenkomst
+PROMPT_MEGAHERTZ,,,Megahertz
+PROMPT_KILOHERTZ,,,Kilohertz
+PROMPT_TALKGROUP,,,Gespreksgroep
+PROMPT_TIMESLOT,,,Tijdslot
+PROMPT_VFO,,,V F O
+PROMPT_SECONDS,,,Seconden
+PROMPT_Minutes,,,Minuten
+PROMPT_Hours,,,Uren
+PROMPT_VOLTS,,,Volt
+PROMPT_WATT,,,Wattt
+PROMPT_WATTS,,,Watts
+PROMPT_MILLIWATTS,,,Milliwatt
+PROMPT_PERCENT,,,Procent
+PROMPT_RECEIVE,,,Te ontvangen
+PROMPT_Transmit,,,Zenden
+PROMPT_HASH,,,Hash
+PROMPT_STAR,,,Begin
+PROMPT_GREEN,,,Groen
+PROMPT_RED,,,Rood
+PROMPT_VERSION,,,Versie
+PROMPT_MODE,,,Modus
+PROMPT_DMR,,,D M R
+PROMPT_FM,,,F M
+PROMPT_WIDE,,,Breed
+PROMPT_NARROW,,,Smal
+PROMPT_PLUS,,,Plus
+PROMPT_MINUS,,,Minus
+PROMPT_VFO_EXCHANGE_TX_RX,,,Wissel Tx- en Rx-frequenties uit
+PROMPT_VFO_COPY_RX_TO_TX,,,Kopieer de ontvangstfrequentie naar de verzendfrequentie
+PROMPT_VFO_COPY_TX_TO_RX,,,Kopieer de verzendfrequentie naar de ontvangstfrequentie
+PROMPT_POWER,,,kracht
+PROMPT_CHANNEL_MODE,,,kanaalmodus
+PROMPT_SCAN_MODE,,,scanmodus
+PROMPT_TIMESLOT_MODE,,,tijdslotmodus
+PROMPT_FILTER_MODE,,,filtermodus
+PROMPT_ZONE_MODE,,,zonemodus
+PROMPT_POWER_MODE,,,power modus
+PROMPT_COLORCODE_MODE,,,kleurcodemodus
+PROMPT_HERTZ,,,hertz
+PROMPT_TBD2,,,
+PROMPT_TBD3,,,
+PROMPT_TBD4,,,
+PROMPT_TBD5,,,
+PROMPT_TBD6,,,
+PROMPT_TBD7,,,
+PROMPT_TBD8,,,
+PROMPT_TBD9,,,
+PROMPT_TBD10,,,
+PROMPT_TBD11,,,
+PROMPT_TBD12,,,
+PROMPT_TBD13,,,
+PROMPT_TBD14,,,
+PROMPT_TBD15,,,
+PROMPT_TBD16,,,
+PROMPT_TBD17,,,
+PROMPT_TBD18,,,
+PROMPT_TBD19,,,
+PROMPT_TBD20,,,
+LANGUAGE_NAME,,,Nederlands
+menu,,,Menu
+credits,,,Vermeldingen
+zone,,,Zone
+rssi,,,Veldsterkte
+battery,,,Batterij
+contacts,,,Contacten
+last_heard,,,Laatst gehoord
+firmware_info,,,Firmware info
+options,,,Opties
+display_options,,,Scherm opties
+sound_options,,,Geluid opties
+channel_details,,,Kanaal details
+language,,,Taal
+new_contact,,,Nieuw contact
+contact_list,,,Contactlijst
+contact_details,,,Contact Details
+hotspot_mode,,,Hotspot   
+built,,,Gemaakt
+zones,,,Zones
+keypad,,,Toetsenbord
+ptt,,,PTT
+locked,,,Vergrendeld
+press_blue_plus_star,,,Druk Blauw + *
+to_unlock,,,om te ontgrendelen
+unlocked,,,Ontgrendeld
+power_off,,,Uitschakelen ...
+error,,,FOUT
+rx_only,,,Alleen Rx
+out_of_band,,,BUITEN BAND
+timeout,,,TIME-OUT
+tg_entry,,,TG invoeren
+pc_entry,,,PO invoeren
+user_dmr_id,,,DMRID Gebruiker
+contact,,,Contact
+accept_call,,,Oproep aannemen?
+private_call,,,Private Oproep
+squelch,,,Squelch
+quick_menu,,,Snelmenu
+filter,,,Filter
+all_channels,,,Alle Kanalen
+gotoChannel,,,Ga Naar
+scan,,,Scan
+channelToVfo,,,Kanaal --> VFO
+vfoToChannel,,,VFO --> Kanaal
+vfoToNewChannel,,,VFO-->Nieuw Kan.
+group,,,Groep
+private,,,Privaat
+all,,,Alle
+type,,,Type
+timeSlot,,,Tijdslot  
+none,,,Geen
+contact_saved,,,Contact Bewaard
+duplicate,,,Dubbel
+tg,,,TG
+pc,,,PO
+ts,,,TS
+mode,,,Mode    
+colour_code,,,Color Code
+n_a,,,nvt
+bandwidth,,,Bandbreedte
+stepFreq,,,Stap  
+tot,,,TOT   
+off,,,Uit
+zone_skip,,,Zone Oversl
+all_skip,,,Alles Overs
+yes,,,Ja
+no,,,Neen
+rx_group,,,Rx Grp
+on,"<emphasis level=""strong"">",</emphasis>,Aan
+timeout_beep,,,Timeout piep
+factory_reset,,,Fact Reset
+calibration,,,Calibratie
+band_limits,,,Band Lim. 
+beep_volume,,,Piepvolume
+dmr_mic_gain,,,DMR mic   
+fm_mic_gain,,,FM mic    
+key_long,,,Toets lang
+key_repeat,,,Toets herh
+dmr_filter_timeout,,,Filter tijd
+brightness,,,Helderheid 
+brightness_off,,,Min helderh
+contrast,,,Contrast   
+colour_invert,,,Omkeren
+colour_normal,,,Normaal
+backlight_timeout,,,Timeout 
+scan_delay,,,Scan vertr.
+yes___in_uppercase,,,JA
+no___in_uppercase,,,NEEN
+DISMISS,,,AFWIJZEN
+scan_mode,,,Scan mode
+hold,,,Houden
+pause,,,Pauze
+empty_list,,,Lijst Leegmaken
+delete_contact_qm,,,Wis contact?
+contact_deleted,,,Contact gewist
+contact_used,,,Contact gebruikt
+in_rx_group,,,in de Rx groep
+select_tx,,,Zet als Tx
+edit_contact,,,Bewerk Contact
+delete_contact,,,Wis Contact
+group_call,,,Groepsoproep
+all_call,,,Iedereen Roepen
+tone_scan,,,Toon scan
+low_battery,,,BATTERY LEEG!!!
+Auto,,,Auto
+manual,,,Manueel
+ptt_toggle,,,PTT latch 
+private_call_handling,,,Sta PO toe
+stop,,,Stop
+one_line,,,1 lijn
+two_lines,,,2 lijnen
+new_channel,,,Nw kanaal
+priority_order,,,Volgord
+dmr_beep,,,DMR piep  
+start,,,Start
+both,,,Beide
+vox_threshold,,,VOX Drempel
+vox_tail,,,VOX Duur   
+audio_prompt,,,Melding 
+silent,,,Stil
+normal,,,Normaal
+beep,,,Piep
+voice_prompt_level_1,,,Stem
+transmitTalkerAlias,,,TA zenden 
+squelch_VHF,,,VHF Squelch
+squelch_220,,,220 Squelch
+squelch_UHF,,,UHF Squelch
+display_background_colour,,,Kleur  
+openGD77,,,OpenGD77
+openGD77S,,,OpenGD77S
+openDM1801,,,OpenDM1801
+openRD5R,,,OpenRD5R
+gitCommit,,,Git commit
+voice_prompt_level_2,,,Stem L2
+voice_prompt_level_3,,,Stem L3
+dmr_filter,,,DMR Filter
+dmr_cc_filter,,,CC Filter 
+dmr_ts_filter,,,TS Filter 
+dtmf_contact_list,,,DTMF lijst
+channel_power,,,Kn kracht
+master_power,,,Master
