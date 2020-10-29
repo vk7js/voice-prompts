@@ -241,4 +241,6 @@ dmr_cc_filter,,,Kleurkode Filter
 dmr_ts_filter,,,Tijdslot Filter 
 dtmf_contact_list,,,D T M F lijst
 channel_power,,,Vermogen voor Kanaal
-master_power,,,Algemeen vermogen
+channel_power_from_master,,,Channel Power From Master
+set_quickkey,,,Set Quickkey
+dual_watch,,,Dual Watch

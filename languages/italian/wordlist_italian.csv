@@ -240,3 +240,7 @@ dmr_filter,,,Filtro D M R
 dmr_cc_filter,,,Filtro codice colore
 dmr_ts_filter,,,Filtro Timeslot
 dtmf_contact_list,,,Lista DTMF
+channel_power,,,Channel Power
+channel_power_from_master,,,Channel Power From Master
+set_quickkey,,,Set Quickkey
+dual_watch,,,Dual Watch
