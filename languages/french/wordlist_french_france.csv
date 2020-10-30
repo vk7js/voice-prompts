@@ -241,3 +241,7 @@ dmr_filter,,,Filtre D M R
 dmr_cc_filter,,,Filtre code couleur
 dmr_ts_filter,Filtre <phoneme alphabet="ipa" ph="tajm sl">,</phoneme>hotte,
 dtmf_contact_list,,,list des contact DTMF
+channel_power,,,puissance canal
+channel_power_from_master,,,puissance canal depuis le Master
+set_quickkey,,,défini quick key
+dual_watch,,,double veille
