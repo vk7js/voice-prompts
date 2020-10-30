@@ -164,8 +164,8 @@ bandwidth,,,Šířka Paasma
 stepFreq,,,Krok frekveence
 tot,,,TEOTE
 off,,,Vypnuto
-zone_skip,,,Skip - přeskoč ve Zooně
-all_skip,,,Skip - přeskoč ve Všem
+zone_skip,,,vyřadit při skenovaaní vzooňě
+all_skip,,,vyřadit při skenovaaní všech kanaalů
 yes,,,Ano
 no,,,Nee
 rx_group,,,ER - IKSS Group
@@ -240,7 +240,7 @@ dmr_filter,,,DIEMARK filtr
 dmr_cc_filter,,,Kolor kood Filtr
 dmr_ts_filter,,,Tajm slot Filtr
 dtmf_contact_list,,,DTMF list
-channel_power,,,Channel Power
-channel_power_from_master,,,Channel Power From Master
-set_quickkey,,,Set Quickkey
-dual_watch,,,Dual Watch
+channel_power,,,vysýlacý vyykon
+channel_power_from_master,,,vysýlacý vyykon nastavený operaatorem
+set_quickkey,,,Nastaveni rychlee kláavesy
+dual_watch,,,Hlídáání dvou kanáálů
