@@ -245,3 +245,5 @@ channel_power,,,puissance canal
 channel_power_from_master,,,puissance canal depuis le Master
 set_quickkey,,,défini quick key
 dual_watch,,,double veille
+info,,,Information
+pwr,,,Puissance
