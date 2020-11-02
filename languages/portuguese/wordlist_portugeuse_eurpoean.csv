@@ -244,3 +244,5 @@ channel_power,,,Channel Power
 channel_power_from_master,,,Channel Power From Master
 set_quickkey,,,Set Quickkey
 dual_watch,,,Dual Watch
+info,,,Information
+pwr,,,Power
