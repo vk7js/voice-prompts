@@ -244,5 +244,5 @@ channel_power,,,vysýlacý vyykon
 channel_power_from_master,,,vysýlacý vyykon nastavený operaatorem
 set_quickkey,,,Nastaveni rychlee kláavesy
 dual_watch,,,Hlídáání dvou kanáálů
-info,,,Information
-pwr,,,Power
+info,,,informace
+pwr,,,vyysýlacy vyykon
