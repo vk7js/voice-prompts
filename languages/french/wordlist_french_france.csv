@@ -245,6 +245,7 @@ channel_power,,,puissance canal
 channel_power_from_master,,,puissance canal depuis le Master
 set_quickkey,,,défini quick key
 dual_watch,,,double veille
+# Double r is not a typo
 info,,,Inforrmation
 pwr,,,Puissance
-user_power,,,User power level
+user_power,,,Niveau de puissance utilisateur
