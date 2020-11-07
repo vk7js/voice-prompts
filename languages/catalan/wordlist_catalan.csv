@@ -44,9 +44,9 @@ PROMPT_DBM,,,D B M
 PROMPT_ENTRY,,,ENTRADA
 PROMPT_MEGAHERTZ,,,MEGAHERTZS
 PROMPT_KILOHERTZ,,,KILOHERTZS
-PROMPT_TALKGROUP,,,TALKGROUP
-PROMPT_TIMESLOT,,,TIMESLOT
-PROMPT_VFO,,,V F O
+PROMPT_TALKGROUP,,,GRUP
+PROMPT_TIMESLOT,,,ESLOT
+PROMPT_VFO,,,B F O
 PROMPT_SECONDS,,,Segons
 PROMPT_Minutes,,,Minuts
 PROMPT_Hours,,,Hores
@@ -75,11 +75,11 @@ PROMPT_VFO_COPY_TX_TO_RX,,,Copia la freqüència de Transmissió a recepció
 PROMPT_POWER,,,potència
 PROMPT_CHANNEL_MODE,,,mode de canals
 PROMPT_SCAN_MODE,,,mode d escaneig
-PROMPT_TIMESLOT_MODE,,,mode Time slot
+PROMPT_TIMESLOT_MODE,,,mode Time eslot
 PROMPT_FILTER_MODE,,,mode de filtre
-PROMPT_ZONE_MODE,,,mode de zona
+PROMPT_ZONE_MODE,,,mode de sona
 PROMPT_POWER_MODE,,,mode de potencia
-PROMPT_COLORCODE_MODE,,,color code mode
+PROMPT_COLORCODE_MODE,,,mode codi color
 PROMPT_HERTZ,,,Hersos
 PROMPT_TBD2,,,
 PROMPT_TBD3,,,
@@ -100,18 +100,18 @@ PROMPT_TBD17,,,
 PROMPT_TBD18,,,
 PROMPT_TBD19,,,
 PROMPT_TBD20,,,
-LANGUAGE_NAME,,,Català
+LANGUAGE_NAME,,,Catalá
 menu,,,Menú
 credits,,,Crèdits
-zone,,,Zona
+zone,,,Sona
 rssi,,,Senyal
 battery,,,Batería
 contacts,,,Contactes
 last_heard,,,Escoltats darrerament
 firmware_info,,,Informació del firmware
-options,,,Opcions
-display_options,,,Opcions de pantalla
-sound_options,,,Opcions de só
+options,,,Opcións
+display_options,,,Opcións de pantalla
+sound_options,,,Opcións de só
 channel_details,,,Detalls del Canal
 language,,,Idioma
 new_contact,,,Nou contacte
@@ -121,12 +121,12 @@ hotspot_mode,,,Mode hot espot
 built,,,Compilat
 zones,,,Zones
 keypad,,,Teclat
-ptt,,,PTT
+ptt,,,P T T
 locked,,,blocat
 press_blue_plus_star,,,Prem Blau i asterisc
 to_unlock,,,per desblocar
 unlocked,,,Desblocat
-power_off,,,Apagant...
+power_off,,,Apagant
 error,,,ERROR
 rx_only,,,Nomes R ics
 out_of_band,,,FORA DE BANDA
@@ -138,19 +138,19 @@ contact,,,Contacte
 accept_call,,,Acceptar trucada?
 private_call,,,Trucada privada
 squelch,,,Silenciador
-quick_menu,,,Menú Ràpid
+quick_menu,,,Menú Ràpit
 filter,,,Filtre
 all_channels,,,Llista total
 gotoChannel,,,Anar al canal
 scan,,,escanejar
-channelToVfo,,,Canal a V F O
-vfoToChannel,,,V F O a Canal
-vfoToNewChannel,,,V F O a Nou Canal
+channelToVfo,,,Canal a B F O
+vfoToChannel,,,B F O a Canal
+vfoToNewChannel,,,B F O a Nou Canal
 group,,,Grup
 private,,,Privada
 all,,,Tots
 type,,,Tipus
-timeSlot,,,TS
+timeSlot,,,Taim eslot
 none,,,Cap
 contact_saved,,,Contacte Desat
 duplicate,,,Duplicat
@@ -164,13 +164,13 @@ bandwidth,,,Ample de banda
 stepFreq,,,Salt
 tot,,,Temps de Transmissió
 off,,,apagat
-zone_skip,,,Saltar zona
+zone_skip,,,Saltar sona
 all_skip,,,Saltar tot
 yes,,,Si
 no,,,No
 rx_group,,,Llista de T G i I D
 on,,,Si
-timeout_beep,,,Avis T O T 
+timeout_beep,,,Avis fi de temps 
 factory_reset,,,Reinici de fàbrica
 calibration,,,Calibració
 band_limits,,,Límit de bandes
@@ -222,28 +222,28 @@ vox_tail,,,Cua del P T T activat per veu
 audio_prompt,,,Veus
 silent,,,Silenci
 normal,,,Normal
-beep,,,Beep
+beep,,,Bip
 voice_prompt_level_1,,,Veu
 transmitTalkerAlias,,,Transmissió del talker alias
-squelch_VHF,,,silenciador 144 
-squelch_220,,,silenciador 220
-squelch_UHF,,,silenciador 440
+squelch_VHF,,,silenciador cent cuaranta cuatre 
+squelch_220,,,silenciador dos cents vint
+squelch_UHF,,,silenciador cuatre cents cuaranta
 display_background_colour,,,color de fóns de la pantalla
-openGD77,,,Open G D 77
-openGD77S,,,Open G D 77 S
-openDM1801,,,Open D M 18 0 1
-openRD5R,,,Open R D 5 R
+openGD77,,,Open G D setanta set
+openGD77S,,,Open G D setanta set S
+openDM1801,,,Open D M dibuit 0 1
+openRD5R,,,Open R D cinc R
 gitCommit,,,revisió del G I T
 voice_prompt_level_2,,,mode de veu 2
 voice_prompt_level_3,,,mode de veu 3
 dmr_filter,,,Filtre D M R
 dmr_cc_filter,,,Filtre de color
 dmr_ts_filter,,,Filtre de eslot
-dtmf_contact_list,,,DTMF list
-channel_power,,,Channel Power
-channel_power_from_master,,,Channel Power From Master
-set_quickkey,,,Set Quickkey
-dual_watch,,,Dual Watch
-info,,,Information
-pwr,,,Power
-user_power,,,User power level
+dtmf_contact_list,,,Lista D t m f
+channel_power,,,potencia del canal
+channel_power_from_master,,,potencia dels canal des del Master
+set_quickkey,,,Ajust de tecla rapida
+dual_watch,,,escolta doble
+info,,,Informació
+pwr,,,Potencia
+user_power,,,nivel de potencia del usuari
