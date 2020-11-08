@@ -73,13 +73,13 @@ PROMPT_VFO_EXCHANGE_TX_RX,,,Tausche T x und R x frequenz
 PROMPT_VFO_COPY_RX_TO_TX,,,Kopiere R X frequenz zu T X frequenz
 PROMPT_VFO_COPY_TX_TO_RX,,,Kopiere T X frequenz zu R X frequenz
 PROMPT_POWER,,,power
-PROMPT_CHANNEL_MODE,,,channel mode
-PROMPT_SCAN_MODE,,,scan mode
-PROMPT_TIMESLOT_MODE,,,timeslot mode
-PROMPT_FILTER_MODE,,,filter mode
-PROMPT_ZONE_MODE,,,zone mode
-PROMPT_POWER_MODE,,,power mode
-PROMPT_COLORCODE_MODE,,,color code mode
+PROMPT_CHANNEL_MODE,,,Kanal Modus
+PROMPT_SCAN_MODE,,,scan Modus
+PROMPT_TIMESLOT_MODE,,,timeslot Modus
+PROMPT_FILTER_MODE,,,filter Modus
+PROMPT_ZONE_MODE,,,Zonen Modus
+PROMPT_POWER_MODE,,,power Modus
+PROMPT_COLORCODE_MODE,,,color code Modus
 PROMPT_HERTZ,,,HERTZ
 PROMPT_TBD2,,,
 PROMPT_TBD3,,,
@@ -174,7 +174,7 @@ timeout_beep,,,Timeout Ton
 factory_reset,,,Werks Reset
 calibration,,,Kalibration
 band_limits,,,Band Limit
-beep_volume,,,Biep Lautstärke
+beep_volume,,,Signalton Lautstärke
 dmr_mic_gain,,,D M R Mikrofonverstärkung
 fm_mic_gain,,,F M Mikrofonverstärkung
 key_long,,,Tastendruck lang
@@ -223,7 +223,7 @@ audio_prompt,,,Audio Ansage
 silent,,,Still
 normal,,,Normal
 beep,,,Signaltöne
-voice_prompt_level_1,,,Stimme
+voice_prompt_level_1,,,Sprachansage
 transmitTalkerAlias,,,sende Talker Alias
 squelch_VHF,,,V H F Rauschsperre
 squelch_220,,,220 MEGAHERTZ Rauschsperre
@@ -234,16 +234,16 @@ openGD77S,,,Open G D 77 S
 openDM1801,,,Open D M 18 0 1
 openRD5R,,,Open R D 5 R
 gitCommit,,,Git übergabe
-voice_prompt_level_2,,,Stimme 2
-voice_prompt_level_3,,,Stimme 3
+voice_prompt_level_2,,,Sprachansage Stufe 2
+voice_prompt_level_3,,,Sprachansage Stufe 3
 dmr_filter,,,D M R Filter
 dmr_cc_filter,,,Colour code Filter
 dmr_ts_filter,,,Timeslot Filter
-dtmf_contact_list,,,DTMF liste
-channel_power,,,Channel Power
-channel_power_from_master,,,Channel Power From Master
-set_quickkey,,,Set Quickkey
-dual_watch,,,Dual Watch
-info,,,Information
-pwr,,,Power
-user_power,,,User power level
+dtmf_contact_list,,,DTMF Kontaktliste
+channel_power,,,Kanal Sendeleistung
+channel_power_from_master,,,Kanal Sendeleistung vom Master
+set_quickkey,,,Schnelltaste belegen
+dual_watch,,,Zweikanal Überwachung
+info,,,Infoleiste
+pwr,,,Sendeleistung
+user_power,,,Benutzerdefinierte Sendeleistungsstufe
