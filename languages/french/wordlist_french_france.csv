@@ -251,6 +251,6 @@ pwr,,,Puissance
 user_power,,,Niveau de puissance utilisateur
 temperature,,,Temperature
 celcius,,,Celcius
-fahrenheit,,,Fahrenheit
+seconds,,,Secondes
 radio_info,,,Informations sur la Radio
 temperature_calibration,,,Étalonnage de la température
