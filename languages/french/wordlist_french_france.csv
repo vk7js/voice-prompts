@@ -249,3 +249,8 @@ dual_watch,,,double veille
 info,,,Inforrmation
 pwr,,,Puissance
 user_power,,,Niveau de puissance utilisateur
+temperature,,,Temperature
+celcius,,,Celcius
+fahrenheit,,,Fahrenheit
+radio_infos,,,Informations sur la Radio
+temperature_calibration,,,Étalonnage de la température
