@@ -247,3 +247,7 @@ dual_watch,,,Zweikanal Überwachung
 info,,,Infoleiste
 pwr,,,Sendeleistung
 user_power,,,Benutzerdefinierte Sendeleistungsstufe
+temperature,,,Temperature
+celcius,,,Celcius
+fahrenheit,,,Fahrenheit
+radio_info,,,Radio informations

@@ -247,3 +247,7 @@ dual_watch,,,Dual Watch
 info,,,Information
 pwr,,,Power
 user_power,,,User power level
+temperature,,,Temperature
+celcius,,,Celcius
+fahrenheit,,,Fahrenheit
+radio_info,,,Radio informations
