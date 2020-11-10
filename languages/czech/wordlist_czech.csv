@@ -247,8 +247,8 @@ dual_watch,,,Hlídáání dvou kanáálů
 info,,,informace
 pwr,,,vyysýlacy vyykon
 user_power,,,operaatorem nastavený vysýlacý vyykon
-temperature,,,Temperature
-celcius,,,Celcius
+temperature,,,Teplota
+celcius,,,Celsia
 fahrenheit,,,Fahrenheit
-radio_infos,,,Radio informations
-temperature_calibration,,,Temperature calibration
+radio_infos,,,Informace o rádiu
+temperature_calibration,,,Teplotní kalibrace

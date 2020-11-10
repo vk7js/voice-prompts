@@ -240,15 +240,15 @@ dmr_filter,,,D M R 过滤模式
 dmr_cc_filter,,,色码过滤
 dmr_ts_filter,,,时隙过滤
 dtmf_contact_list,,,D T M F 书
-channel_power,,,Channel Power
-channel_power_from_master,,,Channel Power From Master
-set_quickkey,,,Set Quickkey
-dual_watch,,,Dual Watch
-info,,,Information
-pwr,,,Power
-user_power,,,User power level
-temperature,,,Temperature
-celcius,,,Celcius
-fahrenheit,,,Fahrenheit
-radio_infos,,,Radio informations
-temperature_calibration,,,Temperature calibration
+channel_power,,,通道功率
+channel_power_from_master,,,主通道电源
+set_quickkey,,,设置快捷键
+dual_watch,,,双手表
+info,,,信息
+pwr,,,功率
+user_power,,,用户功率等级
+temperature,,,温度
+celcius,,,摄氏温度
+fahrenheit,,,华氏温度
+radio_infos,,,广播信息
+temperature_calibration,,,温度校准
