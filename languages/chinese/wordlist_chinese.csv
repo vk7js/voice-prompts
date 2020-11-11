@@ -249,6 +249,6 @@ pwr,,,功率
 user_power,,,用户功率等级
 temperature,,,温度
 celcius,,,摄氏温度
-fahrenheit,,,华氏温度
-radio_infos,,,广播信息
+seconds,,,Seconds
+radio_info,,,广播信息
 temperature_calibration,,,温度校准

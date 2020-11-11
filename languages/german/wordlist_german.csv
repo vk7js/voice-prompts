@@ -249,6 +249,6 @@ pwr,,,Sendeleistung
 user_power,,,Benutzerdefinierte Sendeleistungsstufe
 temperature,,,Temperature
 celcius,,,Celcius
-fahrenheit,,,Fahrenheit
-radio_infos,,,Radio information
+seconds,,,Seconds
+radio_info,,,Radio information
 temperature_calibration,,,Temperature calibration
