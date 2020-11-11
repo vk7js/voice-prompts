@@ -248,7 +248,7 @@ info,,,informace
 pwr,,,vyysýlacy vyykon
 user_power,,,operaatorem nastavený vysýlacý vyykon
 temperature,,,Teplota
-celcius,,,Celsia
-seconds,,,Seconds
+celcius,,,Stupnjě celzya
+seconds,,,Sekund
 radio_info,,,Informace o rádiu
-temperature_calibration,,,Teplotní kalibrace
+temperature_calibration,,,Kalibrace teploty
