@@ -254,3 +254,5 @@ celcius,,,Celcius
 seconds,,,Secondes
 radio_info,,,Informations sur la Radio
 temperature_calibration,,,Étalonnage de la température
+pin_code,,,Enter Pin code
+settings_update,,,Paramètres mis à jour
