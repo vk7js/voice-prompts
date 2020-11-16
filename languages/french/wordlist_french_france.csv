@@ -81,7 +81,7 @@ PROMPT_ZONE_MODE,,,mode zone
 PROMPT_POWER_MODE,,,mode puissance
 PROMPT_COLORCODE_MODE,,,mode code couleur
 PROMPT_HERTZ,<phoneme alphabet="ipa" ph=" ɛrts">,</phoneme>,
-PROMPT_TBD2,,,
+PROMPT_SETTINGS_UPDATE,,,Paramètres mis à jour
 PROMPT_TBD3,,,
 PROMPT_TBD4,,,
 PROMPT_TBD5,,,
@@ -254,5 +254,4 @@ celcius,,,Celcius
 seconds,,,Secondes
 radio_info,,,Informations sur la Radio
 temperature_calibration,,,Étalonnage de la température
-pin_code,,,Enter Pin code
-settings_update,,,Paramètres mis à jour
+pin_code,,,Entrez le code pine

@@ -81,7 +81,7 @@ PROMPT_ZONE_MODE,,,zóna mood
 PROMPT_POWER_MODE,,,napáájení mood
 PROMPT_COLORCODE_MODE,,,kolor kood mood
 PROMPT_HERTZ,,,HERTZ
-PROMPT_TBD2,,,
+PROMPT_SETTINGS_UPDATE,,,Settings update
 PROMPT_TBD3,,,
 PROMPT_TBD4,,,
 PROMPT_TBD5,,,
@@ -253,4 +253,3 @@ seconds,,,Sekund
 radio_info,,,Informace o rádiu
 temperature_calibration,,,Kalibrace teploty
 pin_code,,,Enter Pin code
-settings_update,,,Settings update
