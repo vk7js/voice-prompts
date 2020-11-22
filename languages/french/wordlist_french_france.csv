@@ -116,7 +116,7 @@ sound_options,,,Option audio
 channel_details,,,Détail du canal
 language,,,Langue
 new_contact,,,Nouveau contact
-contact_list,,,Liste des contacts DMR
+dmr_contacts,,,Liste des contacts DMR
 contact_details,,,Détail du contact
 hotspot_mode,,,mode hote spot
 built,,,Créé
