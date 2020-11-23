@@ -115,7 +115,7 @@ sound_options,,,声音设定
 channel_details,,,信道详情
 language,,,语言
 new_contact,,,新联系人
-contact_list,,,联系人列表
+dmr_contacts,,,联系人列表
 contact_details,,,联系人详情
 hotspot_mode,,,热点模式
 built,,,编译于

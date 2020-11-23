@@ -115,7 +115,7 @@ sound_options,,,Ääni   Asetukset
 channel_details,,,Kanava Asetukset
 language,,,Kieli
 new_contact,,,Uusi kontakti
-contact_list,,,Uusi kanava
+dmr_contacts,,,Uusi kanava
 contact_details,,,Kontakti lista
 hotspot_mode,,,Hotspotti tila
 built,,,Kontakti Asetus
