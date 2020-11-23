@@ -344,7 +344,7 @@ def buildDataPack(filename,voiceName,outputFileName):
     headerTOCSize = 256*4 + 4 + 4
     outBuf = bytearray(headerTOCSize)
     outBuf[0:3]  = bytes([0x56, 0x50, 0x00, 0x00])#Magic number 
-    outBuf[4:7]  = bytes([0x02, 0x00, 0x00, 0x00])#Version number = 2
+    outBuf[4:7]  = bytes([0x03, 0x00, 0x00, 0x00])#Version number = 3
     outBuf[8:11] = bytes([0x00, 0x00, 0x00, 0x00])#First prompt audio is at offset zero
     bufPos=12;
     cumulativelength=0;
