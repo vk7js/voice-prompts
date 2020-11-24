@@ -58,7 +58,7 @@ PROMPT_PERCENT,,,Procent
 PROMPT_RECEIVE,,,Příjem
 PROMPT_Transmit,,,Vysýláníí
 PROMPT_HASH,,,Haš
-PROMPT_STAR,,,Hvjězdička
+PROMPT_STAR,,,Hvjězda
 PROMPT_GREEN,,,Zelené
 PROMPT_RED,,,Červené
 PROMPT_VERSION,,,Verse
@@ -69,9 +69,9 @@ PROMPT_WIDE,,,Široká
 PROMPT_NARROW,,,Úzká
 PROMPT_PLUS,,,Plus
 PROMPT_MINUS,,,Mínus
-PROMPT_VFO_EXCHANGE_TX_RX,,,Zamjenit frekvenci vysílání za frekvenci pro příjem
-PROMPT_VFO_COPY_RX_TO_TX,,,Kopíírovat frekvenci příjem na frekvenci pro vysílání
-PROMPT_VFO_COPY_TX_TO_RX,,,Kopíírovat frekvenci vysílání na frekvenci pro příjem
+PROMPT_VFO_EXCHANGE_TX_RX,,,zmjeň frekvenci T X za R X
+PROMPT_VFO_COPY_RX_TO_TX,,,Kopííruj frekvenci R X na T X
+PROMPT_VFO_COPY_TX_TO_RX,,,kopííruj frekvenci T X na R X
 PROMPT_POWER,,,napáájení
 PROMPT_CHANNEL_MODE,,,kanal mood
 PROMPT_SCAN_MODE,,,sken mood
@@ -90,10 +90,10 @@ rssi,,,Síla sygnálu
 battery,,,Baterie
 contacts,,,Kontakty
 last_heard,,,Poslední Kdo Volal
-firmware_info,,,Informace o Firmvejru
+firmware_info,,,Firmvejr info
 options,,,Nastavení
-display_options,,,Nastavení Dyspleje
-sound_options,,,Nastavení zvuku
+display_options,,,Nastavení Dysplej
+sound_options,,,Nastavení zvuk
 channel_details,,,Kanál Detajl
 language,,,Jazyk
 new_contact,,,Nový Kontakt
@@ -105,17 +105,17 @@ zones,,,Zoonyy
 keypad,,,Klaavesa
 ptt,,,PE T T
 locked,,,Zamčeno
-press_blue_plus_star,,,Stlačit Modré + hvjezdička
+press_blue_plus_star,,,Stlač Modré + hvjezda
 to_unlock,,,Odemknout
 unlocked,,,Odemčeno
-power_off,,,Vypýnání stanice
+power_off,,,Vypýnání
 error,,,CHYBA
-rx_only,,,Jenom ER IKSS
+rx_only,,,Jen R X
 out_of_band,,,MIMO PAASMO
-timeout,,,Časový Limit
+timeout,,,Čas Limit
 tg_entry,,,Talk Group Zadání
-pc_entry,,,Privat Kontakt Zadání
-user_dmr_id,,,Uživatelské I DE DIEMARK
+pc_entry,,,Kontakt Zadání
+user_dmr_id,,,Diemark I DE uživatele
 contact,,,Kontakty
 accept_call,,,Přiijmout hovor?
 private_call,,,Soukromý hovor
@@ -125,9 +125,9 @@ filter,,,Filtr
 all_channels,,,Všechny Kanály
 gotoChannel,,,Další kanál
 scan,,,Sken
-channelToVfo,,,Kanál kopíruj do VEFO
-vfoToChannel,,,VEFO kopíruj do Kanál
-vfoToNewChannel,,,VEFO kopíruj do Nový Kanál
+channelToVfo,,,Kanál do VEFO
+vfoToChannel,,,VEFO do Kanál
+vfoToNewChannel,,,VEFO do Nový Kanál
 group,,,Group
 private,,,Soukromé
 all,,,Všechno
@@ -137,20 +137,20 @@ none,,,Není
 contact_saved,,,Kontakt uložen
 duplicate,,,Duplikát
 tg,,,Talk Group
-pc,,,Privatni Kontakt
+pc,,,Kontakt
 ts,,,Tajmslot
 mode,,,Mood
 colour_code,,,Kolor kood
-n_a,,,Ano -  nebo ne
+n_a,,,Ne či ano
 bandwidth,,,Šířka Paasma
 stepFreq,,,Krok frekveence
 tot,,,TEOTE
 off,,,Vypnuto
-zone_skip,,,vyřadit při skenovaaní vzooňě
-all_skip,,,vyřadit při skenovaaní všech kanaalů
+zone_skip,,,vyřaď při skenu vzooňě
+all_skip,,,vyřaď při skenu všech kanaalů
 yes,,,Ano
 no,,,Nee
-rx_group,,,ER - IKSS Group
+rx_group,,,R X Group
 on,,,Zapnuto
 timeout_beep,,,Čas Limit pípnutí
 factory_reset,,,Úplný Reset
@@ -160,14 +160,14 @@ beep_volume,,,Zvuk kláves
 dmr_mic_gain,,,DIEMARK mikrofon gejn
 fm_mic_gain,,,F M mikrofon gejn
 key_long,,,Držet
-key_repeat,,,Znovu zmáčkni tlačítko
-dmr_filter_timeout,,,Čas DIEMARK Filtru
+key_repeat,,,Znovu stlač klávesu
+dmr_filter_timeout,,,Čas DIEMARK Filtr
 brightness,,,Jas
-brightness_off,,,Minimální Jas
+brightness_off,,,Minymum Jas
 contrast,,,Kontrast
-colour_invert,,,Černé pozadí
-colour_normal,,,Bílé pozadí
-backlight_timeout,,,Doba podsvícení
+colour_invert,,,Černá
+colour_normal,,,Biýlaá
+backlight_timeout,,,Doba svícení
 scan_delay,,,Sken pauza
 yes___in_uppercase,,,ANO
 no___in_uppercase,,,NEE
@@ -179,26 +179,26 @@ empty_list,,,Prázdný seznam
 delete_contact_qm,,,Smazat kontakt?
 contact_deleted,,,Kontakt smazán
 contact_used,,,Použít kontakt
-in_rx_group,,,ve - ER - IKSS Group
+in_rx_group,,,ve - R X Group
 select_tx,,,Vybrat T X
 edit_contact,,,Upravit kontakt
 delete_contact,,,Smazat Kontakt
-group_call,,,Groupy seznam
+group_call,,,Group seznam
 all_call,,,Všechny čísla
 tone_scan,,,Subton CT CSS Sken
 low_battery,,,SLABÁ BATERIE!
-Auto,,,Automatický
+Auto,,,Auto
 manual,,,Manualní
 ptt_toggle,,,PE T T přepnout
 private_call_handling,,,Soukromé Volání
-stop,,,Na koncy vysílání
+stop,,,Na koncy
 one_line,,,Jeden řádek
 two_lines,,,Dva řádky
 new_channel,,,Nový Kanál
 priority_order,,,Priorita čtení I DE
 dmr_beep,,,pípnutí ve DIEMARK
-start,,,na začátku vysílání
-both,,,Na začátku i na koncy vysílání
+start,,,na začátku
+both,,,Na začátku i na koncy
 vox_threshold,,,VOX Prách cytlivost
 vox_tail,,,VOX poslouchá ještě sekund
 audio_prompt,,,Výzva Zvukem
@@ -223,17 +223,17 @@ dmr_cc_filter,,,Kolor kood Filtr
 dmr_ts_filter,,,Tajm slot Filtr
 dtmf_contact_list,,,DTMF list
 channel_power,,,vysýlacý vyykon
-channel_power_from_master,,,vysýlacý vyykon nastavený operaatorem
+channel_power_from_master,,,nastavuje operátor
 set_quickkey,,,Nastaveni rychlee kláavesy
-dual_watch,,,Hlídáání dvou kanáálů
+dual_watch,,,Hlídat dva kanáli
 info,,,informace
 pwr,,,vyysýlacy vyykon
-user_power,,,operaatorem nastavený vysýlacý vyykon
+user_power,,,max výkon při ++
 temperature,,,Teplota
 celcius,,,Stupnjě celzya
 seconds,,,Sekund
-radio_info,,,Informace o rádiu
+radio_info,,,Info o rádiu
 temperature_calibration,,,Kalibrace teploty
 pin_code,,,Zadej pin kood
-please_confirm,,,Please confirm
+please_confirm,,,potvrďit
 scanning,,,
