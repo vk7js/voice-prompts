@@ -239,3 +239,4 @@ temperature_calibration,,,Étalonnage de la température
 pin_code,,,Entrez le code pine
 please_confirm,,,Confirmez s'il vous plaît
 scanning,,,
+overwrite_qm,,,Overwrite ?

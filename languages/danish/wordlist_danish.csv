@@ -237,3 +237,4 @@ temperature_calibration,,,Temperature calibration
 pin_code,,,Enter Pin code
 please_confirm,,,Please confirm
 scanning,,,
+overwrite_qm,,,Overwrite ?

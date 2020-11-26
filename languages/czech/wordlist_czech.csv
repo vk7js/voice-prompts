@@ -237,3 +237,4 @@ temperature_calibration,,,Kalibrace teploty
 pin_code,,,Zadej pin kood
 please_confirm,,,potvrďit
 scanning,,,
+overwrite_qm,,,Overwrite ?
