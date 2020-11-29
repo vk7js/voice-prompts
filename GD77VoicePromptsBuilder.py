@@ -62,13 +62,13 @@ def getMemoryArea(ser,buf,mode,bufStart,radioStart,length):
         snd[6] = (batch >> 8) & 0xFF
         snd[7] = (batch >> 0) & 0xFF
         ret = ser.write(snd)
-        
+
         if (ret != R_SIZE):
             print("ERROR: write() wrote " + str(ret) + " bytes")
             return False
         while (ser.in_waiting == 0):
             time.sleep(0)
-            
+
         rcv = ser.read(ser.in_waiting)
         if (rcv[0] == snd[0]):
             gotBytes = (rcv[1] << 8) + rcv[2]
@@ -165,23 +165,23 @@ def convert2AMBE(ser,infile,outfile):
                startPos = startPos + 2;
             if (startPos == len(buf)):
                 startPos = 0
-                
+
         print("Compress to AMBE "+infile + " pos:+" + str(startPos));
-               
+
         wavBufPos = startPos
-        
+
         while (wavBufPos < bufLen):
             #print('.', end='')
             sendCommand(ser,6, 6, 0, 0, 0, 0,  "")#codecInitInternalBuffers
             transferLen = min(960,bufLen-wavBufPos)
             #print("sent " + str(transferLen));
             wavSendData(ser,buf[wavBufPos:wavBufPos+transferLen],0,transferLen)
-            
+
             getMemoryArea(ser,ambFrameBuf,8,0,0,27)# mode 8 is read from AMBE
             ambBuf[ambBufPos:ambBufPos+27] = ambFrameBuf
             wavBufPos = wavBufPos + 960
             ambBufPos = ambBufPos + 27
- 
+
         sendCommand(ser,5, 0, 0, 0, 0, 0, "")# close CPS screen
         with open(outfile,'wb') as f:
             f.write(ambBuf[0:ambBufPos])
@@ -207,14 +207,14 @@ def downloadPollyPro(voiceName,fileStub,promptText,speechSpeed):
              'format':'mp3',# mp3 or ogg_vorbis or json
              'frequency':'22050',
              'effect':speechSpeed}
-    
+
     data = urllib.parse.urlencode(myobj)
     data = data.encode('ascii')
 
     mp3FileName = voiceName + "/" +fileStub+".mp3"
     rawFileName = voiceName + "/" +fileStub+".raw"
     ambeFileName = voiceName + "/" +fileStub+".amb"
-    
+
     if (not os.path.exists(mp3FileName) or overwrite==True):
         with urllib.request.urlopen("https://voicepolly.pro/speech-converter.php", data) as f:
             resp = f.read().decode('utf-8')
@@ -226,7 +226,7 @@ def downloadPollyPro(voiceName,fileStub,promptText,speechSpeed):
                     hasDownloaded = True
                     retval = True
             else:
-                print("Error requesting sound " + resp)  
+                print("Error requesting sound " + resp)
                 retval=False
 #    else:
 #        print("Download skipping " + file_name)
@@ -235,7 +235,7 @@ def downloadPollyPro(voiceName,fileStub,promptText,speechSpeed):
         convertToRaw(mp3FileName,rawFileName)
         if (os.path.exists(ambeFileName)):
             os.remove(ambeFileName)# ambe file is now out of date, so delete it
-        
+
     return retval
 
 def downloadTTSMP3(voiceName,fileStub,promptText):
@@ -278,10 +278,10 @@ def downloadTTSMP3(voiceName,fileStub,promptText):
         convertToRaw(mp3FileName,rawFileName)
         if (os.path.exists(ambeFileName)):
             os.remove(ambeFileName)# ambe file is now out of date, so delete it
-        
+
     return True
 
-    
+
 def downloadSpeechForWordList(filename,voiceName):
     retval = True
     speechSpeed="normal"
@@ -290,31 +290,31 @@ def downloadSpeechForWordList(filename,voiceName):
         reader = csv.DictReader(filter(lambda row: row[0]!='#', csvfile))
         for row in reader:
             promptName = row['PromptName'].strip()
-            
+
             speechPrefix = row['PromptSpeechPrefix'].strip()
-            
+
             if (speechPrefix=="" or speechPrefix.find("<prosody rate=")!=-1):
                 #Use VoicePolly as its not a special SSML that it doesnt handle
                 if (speechPrefix.find("<prosody rate=")!=-1):
                     matchObj = re.search(r'\".*\"',speechPrefix)
                     if (matchObj):
                         speechSpeed = matchObj.group(0)[1:-1]
-                        
+
                 downloadPollyPro(voiceName,promptName,row['PromptText'],speechSpeed)
             else:
                 promptTTSText =   row['PromptSpeechPrefix'].strip() +  row['PromptText'] + row['PromptSpeechPostfix'].strip()
-                
+
                 if (downloadTTSMP3(voiceName,promptName,promptTTSText)==False):
                     retval=False
                     break
-            
+
     return retval
 
 
 
 
 def encodeFile(ser,fileStub):
-    if ((not os.path.exists(fileStub+".amb")) or overwrite==True): 
+    if ((not os.path.exists(fileStub+".amb")) or overwrite==True):
         convert2AMBE(ser,fileStub+".raw",fileStub+".amb")
         #os.remove(fileStub+".raw")
 ##    else:
@@ -326,12 +326,12 @@ def encodeWordList(ser,filename,voiceName,forceReEncode):
         for row in reader:
             promptName = row['PromptName'].strip()
             fileStub = voiceName + "/" + promptName
-            
+
             encodeFile(ser,fileStub)
-            
+
 def buildDataPack(filename,voiceName,outputFileName):
     print("Building...")
-    promptsDict={}#create an empty dictionary 
+    promptsDict={}#create an empty dictionary
     with open(filename,"r",encoding='utf-8') as csvfile:
         reader = csv.DictReader(filter(lambda row: row[0]!='#', csvfile))
         for row in reader:
@@ -343,7 +343,7 @@ def buildDataPack(filename,voiceName,outputFileName):
 
     headerTOCSize = 256*4 + 4 + 4
     outBuf = bytearray(headerTOCSize)
-    outBuf[0:3]  = bytes([0x56, 0x50, 0x00, 0x00])#Magic number 
+    outBuf[0:3]  = bytes([0x56, 0x50, 0x00, 0x00])#Magic number
     outBuf[4:7]  = bytes([0x03, 0x00, 0x00, 0x00])#Version number = 3
     outBuf[8:11] = bytes([0x00, 0x00, 0x00, 0x00])#First prompt audio is at offset zero
     bufPos=12;
@@ -373,7 +373,7 @@ def usage(message):
         print()
         print(message)
         print()
-        
+
     print("Usage:  " + ntpath.basename(sys.argv[0]) + " [OPTION]")
     print("")
     print("    -h Display this help text,")
@@ -393,7 +393,7 @@ def main():
     global overwrite
     global gain
     global removeSilenceAtStart
-    
+
     fileName   = ""#wordlist_english.csv"
     outputName = ""#voiceprompts.bin"
     voiceName = ""#Matthew or Nicole etc
@@ -404,14 +404,14 @@ def main():
             serialDev = "COM71"
     else:
             serialDev = "/dev/ttyACM0"
-    #Automatically search for the OpenGD77 device port	
+    #Automatically search for the OpenGD77 device port
     for port in serial.tools.list_ports.comports():
             if (port.description.find("OpenGD77")==0):
                     #print("Found OpenGD77 on port "+port.device);
-                    serialDev = port.device		
-	
+                    serialDev = port.device
+
     # Command line argument parsing
-    try:                                
+    try:
         opts, args = getopt.getopt(sys.argv[1:], "hof:n:seb:d:c:g:")
     except getopt.GetoptError as err:
         print(str(err))
@@ -428,17 +428,17 @@ def main():
             usage("ERROR: You must install ffmpeg. See https://www.ffmpeg.org/download.html")
             #webbrowser.open("https://www.ffmpeg.org/download.html")
             sys.exit(2)
-            
+
     for opt, arg in opts:
             if opt in ("-h"):
                     usage()
                     sys.exit(2)
             elif opt in ("-f"):
-                    fileName = arg  
+                    fileName = arg
             elif opt in ("-n"):
                     voiceName = arg
             elif opt in ("-d"):
-                serialDev = arg	
+                serialDev = arg
             elif opt in ("-c"):
                     configName = arg
             elif opt in ("-o"):
@@ -446,11 +446,11 @@ def main():
             elif opt in ("-g"):
                     gain = arg
             elif opt in ("-r"):
-                    removeSilenceAtStart = arg          
+                    removeSilenceAtStart = arg
 
     if (configName!=""):
         print("Using Config file: {}...".format(configName))
- 
+
         with open(configName,"r",encoding='utf-8') as csvfile:
             reader = csv.DictReader(filter(lambda row: row[0]!='#', csvfile))
             for row in reader:
@@ -462,18 +462,17 @@ def main():
                 createPack = row['Createpack'].strip()
                 gain = row['Volume_change_db'].strip()
                 rs = row['Remove_silence'].strip()
-                
+
                 print("Processing " + wordlistFilename+" "+voiceName+" "+voicePackName)
 
                 if not os.path.exists(voiceName):
                     print("Creating folder " + voiceName + " for temporary files")
                     os.mkdir(voiceName);
 
-
                 if (rs=='y' or rs=='Y'):
                     removeSilenceAtStart = True
                 else:
-                    removeSilenceAtStart = False    
+                    removeSilenceAtStart = False
 
                 if (download=='y' or download=='Y'):
                     if (downloadSpeechForWordList(wordlistFilename,voiceName)==False):
@@ -481,37 +480,37 @@ def main():
 
                 if (encode=='y' or encode=='Y'):
                     ser = serialInit(serialDev)
-                
+
                     encodeWordList(ser,wordlistFilename,voiceName,True)
                     if (ser.is_open):
                         ser.close()
                 if (createPack=='y' or createPack=='Y'):
-                    buildDataPack(wordlistFilename,voiceName,voicePackName)                        
+                    buildDataPack(wordlistFilename,voiceName,voicePackName)
 
-        sys.exit(2)
-    
-    
+        sys.exit(0)
+
+
     if (fileName=="" or voiceName==""):
         usage("ERROR: Filename and Voicename must be specified for all operations")
-        sys.exit(2)	
-		
+        sys.exit(2)
+
     if not os.path.exists(voiceName):
         print("Creating folder " + voiceName + " for temporary files")
-        os.mkdir(voiceName);		
-	
-    for opt, arg in opts:			
+        os.mkdir(voiceName);
+
+    for opt, arg in opts:
         if opt in ("-s"):
             if (downloadSpeechForWordList(fileName,voiceName)==False):
-                 sys.exit(2)	
-	
-    for opt, arg in opts:			
+                 sys.exit(2)
+
+    for opt, arg in opts:
         if opt in ("-e"):
             ser = serialInit(serialDev)
             encodeWordList(ser,fileName,voiceName,True)
             if (ser.is_open):
                 ser.close()
-			
-    for opt, arg in opts:		
+
+    for opt, arg in opts:
         if opt in ("-b"):
             outputName = arg
             buildDataPack(fileName,voiceName,outputName)
