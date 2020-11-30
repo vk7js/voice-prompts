@@ -153,7 +153,7 @@ no,,,Nein
 rx_group,,,Empfangs Gruppe
 on,,,Ein
 timeout_beep,,,Timeout Ton
-factory_reset,,,Werks Reset
+UNUSED_1,,,
 calibration,,,Kalibration
 band_limits,,,Band Limit
 beep_volume,,,Signalton Lautstärke

@@ -153,7 +153,7 @@ no,,,Nej
 rx_group,,,Rx Grp
 on,,,On
 timeout_beep,,,Timeout bip
-factory_reset,,,Fabriksinst
+UNUSED_1,,,
 calibration,,,Justering
 band_limits,,,Åben FRQ
 beep_volume,,,Bip vol

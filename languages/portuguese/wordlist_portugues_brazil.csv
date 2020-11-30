@@ -153,7 +153,7 @@ no,,,Não
 rx_group,,,Grupo Rx
 on,,,Ativado
 timeout_beep,,,Bip timeout
-factory_reset,,,Configurações padrão
+UNUSED_1,,,
 calibration,,,Ajuste
 band_limits,,,Limite de banda
 beep_volume,,,Volume do bip
