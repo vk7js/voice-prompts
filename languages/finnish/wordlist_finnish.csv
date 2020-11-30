@@ -153,7 +153,7 @@ no,,,Joo
 rx_group,,,Ei
 on,"<emphasis level=""strong"">",</emphasis>,Rx Ryhmä
 timeout_beep,,,On
-factory_reset,,,Aikakatk beep
+UNUSED_1,,,
 calibration,,,TehdasAsetus
 band_limits,,,Kalibriointi
 beep_volume,,,Bändi Rajoitu

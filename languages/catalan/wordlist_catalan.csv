@@ -153,7 +153,7 @@ no,,,No
 rx_group,,,Llista de T G i I D
 on,,,Si
 timeout_beep,,,Avis fi de temps 
-factory_reset,,,Reinici de fàbrica
+UNUSED_1,,,
 calibration,,,Calibració
 band_limits,,,Límit de bandes
 beep_volume,,,Volum dels tons

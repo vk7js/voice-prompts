@@ -154,7 +154,7 @@ no,,,Non
 rx_group,,,Groupe de réception
 on,,,Marche
 timeout_beep,,,Tonalité de temporisation
-factory_reset,,,Remise à zéro usine
+UNUSED_1,,,
 calibration,,,Étalonnage
 band_limits,,,Limite de Bande
 beep_volume,,,Volume de tonalité

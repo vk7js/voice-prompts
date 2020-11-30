@@ -153,7 +153,7 @@ no,,,Nee
 rx_group,,,R X Group
 on,,,Zapnuto
 timeout_beep,,,Čas Limit pípnutí
-factory_reset,,,Úplný Reset
+UNUSED_1,,,
 calibration,,,Kalibrace
 band_limits,,,Omezit Pásmo
 beep_volume,,,Zvuk kláves

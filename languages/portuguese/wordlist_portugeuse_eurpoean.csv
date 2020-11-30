@@ -153,7 +153,7 @@ no,,,Nao
 rx_group,,,Rx Grp
 on,,,On
 timeout_beep,,,Beep timeout
-factory_reset,,,Fact Reset
+UNUSED_1,,,
 calibration,,,Calibracao
 band_limits,,,Limites banda
 beep_volume,,,Volume beep
