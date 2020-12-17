@@ -293,7 +293,7 @@ def downloadSpeechForWordList(filename,voiceName):
 
             speechPrefix = row['PromptSpeechPrefix'].strip()
 
-            if (speechPrefix=="" or speechPrefix.find("<prosody rate=")!=-1):
+            if (speechPrefix != ""):
                 #Use VoicePolly as its not a special SSML that it doesnt handle
                 if (speechPrefix.find("<prosody rate=")!=-1):
                     matchObj = re.search(r'\".*\"',speechPrefix)
