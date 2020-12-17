@@ -236,5 +236,5 @@ radio_info,,,Info o rádiu
 temperature_calibration,,,Kalibrace teploty
 pin_code,,,Zadej pin kood
 please_confirm,,,potvrďit
-scanning,,,
+tx_rx_lock,,,Lock Transmit and Receive frequencies
 overwrite_qm,,,Přepsat ?
