@@ -236,5 +236,5 @@ radio_info,,,广播信息
 temperature_calibration,,,温度校准
 pin_code,,,输入密码
 please_confirm,,,请确认
-tx_rx_lock,,,Lock Transmit and Receive frequencies
+vfo_freq_bind_mode,,,Bind Transmit and Receive frequencies
 overwrite_qm,,,Overwrite ?

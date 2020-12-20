@@ -236,5 +236,5 @@ radio_info,,,Radio information
 temperature_calibration,,,Temperature calibration
 pin_code,,,Enter Pin code
 please_confirm,,,Please confirm
-tx_rx_lock,,,Lock Transmit and Receive frequencies,
+vfo_freq_bind_mode,,,Bind Transmit and Receive frequencies
 overwrite_qm,,,Overwrite ?
