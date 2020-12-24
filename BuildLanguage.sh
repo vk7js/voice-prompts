@@ -8,7 +8,7 @@ PYTHON=$(command -v python3)
 #
 function BuildLanguage()
 {
-    (cd languages/$1 && ${PYTHON} ../../GD77VoicePromptsBuilder.py -c config.csv) || return 1 && return 0
+    (cd languages/$1 && ${PYTHON} ../../GD77VoicePromptsBuilder.py $PROMPTS_OPTIONS -c config.csv) || return 1 && return 0
 }
 
 #

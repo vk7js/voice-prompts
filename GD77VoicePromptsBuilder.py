@@ -24,6 +24,7 @@ DETACHED_PROCESS = 0x00000008
 overwrite=False
 gain='0'
 removeSilenceAtStart = False
+forceTTSMP3Usage = False
 
 #FLASH_WRITE_SIZE = 2
 
@@ -218,7 +219,7 @@ def downloadPollyPro(voiceName,fileStub,promptText,speechSpeed):
     if (not os.path.exists(mp3FileName) or overwrite==True):
         with urllib.request.urlopen("https://voicepolly.pro/speech-converter.php", data) as f:
             resp = f.read().decode('utf-8')
-            print("Downloading synthesised speech for text: \""+promptText + "\" -> " +mp3FileName)
+            print("PollyPro: Downloading synthesised speech for text: \"" + promptText + "\" -> " + mp3FileName)
             if resp.endswith('.mp3'):
                 with urllib.request.urlopen(resp) as response, open(mp3FileName, 'wb') as out_file:
                     audioData = response.read() # a `bytes` object
@@ -258,6 +259,7 @@ def downloadTTSMP3(voiceName,fileStub,promptText):
 
         with urllib.request.urlopen("https://ttsmp3.com/makemp3_new.php", data) as f:
             resp = f.read().decode('utf-8')
+            print("TTSMP3: Downloading synthesised speech for text: \"" + promptText + "\" -> " + mp3FileName)
             print(resp)
             data = json.loads(resp)
             if (data['Error'] == 0):
@@ -293,16 +295,16 @@ def downloadSpeechForWordList(filename,voiceName):
 
             speechPrefix = row['PromptSpeechPrefix'].strip()
 
-            if (speechPrefix != ""):
+            if ((forceTTSMP3Usage == False) and (speechPrefix != "")):
                 #Use VoicePolly as its not a special SSML that it doesnt handle
                 if (speechPrefix.find("<prosody rate=")!=-1):
                     matchObj = re.search(r'\".*\"',speechPrefix)
                     if (matchObj):
                         speechSpeed = matchObj.group(0)[1:-1]
 
-                downloadPollyPro(voiceName,promptName,row['PromptText'],speechSpeed)
+                downloadPollyPro(voiceName, promptName, row['PromptText'], speechSpeed)
             else:
-                promptTTSText =   row['PromptSpeechPrefix'].strip() +  row['PromptText'] + row['PromptSpeechPostfix'].strip()
+                promptTTSText = row['PromptSpeechPrefix'].strip() +  row['PromptText'] + row['PromptSpeechPostfix'].strip()
 
                 if (downloadTTSMP3(voiceName,promptName,promptTTSText)==False):
                     retval=False
@@ -380,7 +382,8 @@ def usage(message):
     print("    -c Configuration file (csv) - using this overrides all other options")
     print("    -f=<worlist_csv_file> : Wordlist file. Required for all functions")
     print("    -n=<Voice_name>       : Voice name for synthesised speech from Voicepolly.pro and temporary folder name")
-    print("    -s                    : Download synthesised speech Voicepolly.pro")
+    print("    -s                    : Download synthesised speech from Voicepolly.pro")
+    print("    -T                    : Download synthesised speech from ttsmp3.com")
     print("    -e                    : Encode previous download synthesised speech files, using the GD-77")
     print("    -b                    : Build voice prompts data pack from Encoded spech files ")
     print("    -d=<device>           : Use the specified device as serial port,")
@@ -392,7 +395,7 @@ def usage(message):
 def main():
     global overwrite
     global gain
-    global removeSilenceAtStart
+    global removeSilenceAtStart, forceTTSMP3Usage
 
     fileName   = ""#wordlist_english.csv"
     outputName = ""#voiceprompts.bin"
@@ -401,18 +404,18 @@ def main():
 
     # Default tty
     if (platform.system() == 'Windows'):
-            serialDev = "COM71"
+        serialDev = "COM71"
     else:
-            serialDev = "/dev/ttyACM0"
+        serialDev = "/dev/ttyACM0"
     #Automatically search for the OpenGD77 device port
     for port in serial.tools.list_ports.comports():
-            if (port.description.find("OpenGD77")==0):
-                    #print("Found OpenGD77 on port "+port.device);
-                    serialDev = port.device
-
+        if (port.description.find("OpenGD77")==0):
+            #print("Found OpenGD77 on port "+port.device);
+            serialDev = port.device
+            
     # Command line argument parsing
     try:
-        opts, args = getopt.getopt(sys.argv[1:], "hof:n:seb:d:c:g:")
+        opts, args = getopt.getopt(sys.argv[1:], "hof:n:seb:d:c:g:T")
     except getopt.GetoptError as err:
         print(str(err))
         usage("")
@@ -430,23 +433,25 @@ def main():
             sys.exit(2)
 
     for opt, arg in opts:
-            if opt in ("-h"):
-                    usage()
-                    sys.exit(2)
-            elif opt in ("-f"):
-                    fileName = arg
-            elif opt in ("-n"):
-                    voiceName = arg
-            elif opt in ("-d"):
-                serialDev = arg
-            elif opt in ("-c"):
-                    configName = arg
-            elif opt in ("-o"):
-                    overwrite = True
-            elif opt in ("-g"):
-                    gain = arg
-            elif opt in ("-r"):
-                    removeSilenceAtStart = arg
+        if opt in ("-h"):
+            usage()
+            sys.exit(2)
+        elif opt in ("-f"):
+            fileName = arg
+        elif opt in ("-n"):
+            voiceName = arg
+        elif opt in ("-d"):
+            serialDev = arg
+        elif opt in ("-c"):
+            configName = arg
+        elif opt in ("-o"):
+            overwrite = True
+        elif opt in ("-g"):
+            gain = arg
+        elif opt in ("-r"):
+            removeSilenceAtStart = arg
+        elif opt in ("-T"):
+            forceTTSMP3Usage = True
 
     if (configName!=""):
         print("Using Config file: {}...".format(configName))
