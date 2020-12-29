@@ -1,0 +1,4 @@
+Wordlist_file,Voice_name,Voice_pack_name,Download,Encode,Createpack,Volume_change_db,Remove_silence
+wordlist_japanese.csv,Takumi,japanese_takumi.vpr,y,y,y,0,y
+wordlist_japanese.csv,Mizuki,japanese_mizuki.vpr,y,y,y,0,y
+

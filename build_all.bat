@@ -42,3 +42,6 @@ py ..\..\GD77VoicePromptsBuilder.py -c config.csv
 
 cd ..\dutch
 py ..\..\GD77VoicePromptsBuilder.py -c config.csv
+
+cd ..\japanese
+py ..\..\GD77VoicePromptsBuilder.py -c config.csv
