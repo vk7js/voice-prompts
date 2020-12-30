@@ -84,17 +84,17 @@ PROMPT_HERTZ,,,ヘルツ
 PROMPT_SETTINGS_UPDATE,,,アップデート設定
 LANGUAGE_NAME,,,日本語
 menu,,,メニュー
-credits,,,作者
+credits,,,開発者
 zone,,,ゾーン
-rssi,,,信号強度
+rssi,,,信号強度RSSI
 battery,,,電池
 contacts,,,コンタクト
-last_heard,,,受信履歴
+last_heard,,,受信ログ
 firmware_info,,,ファームウエア情報
 options,,,オプション設定
-display_options,,,表示設定
-sound_options,,,音声設定
-channel_details,,,チャンネル設定情報
+display_options,,,表示オプション
+sound_options,,,音声オプション
+channel_details,,,チャンネル内容
 language,,,言語
 new_contact,,,新しいコンタクト
 dmr_contacts,,,デジタルコンタクト
@@ -151,22 +151,22 @@ all_skip,,,全てスキップ
 yes,,,はい
 no,,,いいえ
 rx_group,,,受信グループ
-on,,,開く
-timeout_beep,,,タイムアウト警告音
+on,,,オン
+timeout_beep,,,タイムアウトビープ
 UNUSED_1,,,
 calibration,,,キャリブレーション
-band_limits,,,バンドリミット
+band_limits,,,バンド制限
 beep_volume,,,ビープ音量
 dmr_mic_gain,,,D M R マイクゲイン
 fm_mic_gain,,,F M マイクゲイン
-key_long,,,長押し時間
+key_long,,,キーロング時間
 key_repeat,,,キーリピート時間
-dmr_filter_timeout,,,フィルタータイム
+dmr_filter_timeout,,,フィルタータイムアウト
 brightness,,,あかるさ
-brightness_off,,,最小明度
+brightness_off,,,ディマー
 contrast,,,コントラスト
-colour_invert,,,画面反転
-colour_normal,,,画面普通
+colour_invert,,,反転
+colour_normal,,,通常
 backlight_timeout,,,バックライトタイムアウト
 scan_delay,,,スキャンディレイ
 yes___in_uppercase,,,はい
@@ -187,15 +187,15 @@ group_call,,,グループコール
 all_call,,,オールコール
 tone_scan,,,トーンスキャン
 low_battery,,,電池切れ
-Auto,,,自動
-manual,,,手動
+Auto,,,オート
+manual,,,マニュアル
 ptt_toggle,,,P T T トグル
-private_call_handling,,,プライベートコールを受け付ける
+private_call_handling,,,プライベートコール受付
 stop,,,ストップ
 one_line,,,いちぎょう
 two_lines,,,にぎょう
 new_channel,,,新しいチャンネル
-priority_order,,,優先順
+priority_order,,,DB名前表示優先順
 dmr_beep,,,D M R ビープ
 start,,,開始
 both,,,両方
@@ -205,19 +205,19 @@ audio_prompt,,,音声案内
 silent,,,サイレント
 normal,,,正常
 beep,,,ビープ
-voice_prompt_level_1,,,音声案内レベル1
-transmitTalkerAlias,,,話者別名
-squelch_VHF,,,V H F スケルチ
+voice_prompt_level_1,,,レベル1
+transmitTalkerAlias,,,トーカーエイリアス送信
+squelch_VHF,,,ブイエイチエフ スケルチ
 squelch_220,,,にひゃくにじゅうメガヘルツ スケルチ
-squelch_UHF,,,U H F スケルチ
-display_background_colour,,,背景色
+squelch_UHF,,,ユーエイチエフ スケルチ
+display_background_colour,,,バックカラー
 openGD77,,,open G D 7 7
 openGD77S,,,open G D 7 7 S
 openDM1801,,,open D M 1 8 0 1
 openRD5R,,,open R D 5 R
 gitCommit,,,Gitコミット
-voice_prompt_level_2,,,音声案内レベル2
-voice_prompt_level_3,,,音声案内レベル2
+voice_prompt_level_2,,,レベル2
+voice_prompt_level_3,,,レベル3
 dmr_filter,,,D M R フィルター
 dmr_cc_filter,,,カラーコードフィルター
 dmr_ts_filter,,,タイムスロットフィルター
