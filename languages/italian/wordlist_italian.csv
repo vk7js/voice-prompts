@@ -228,13 +228,13 @@ set_quickkey,,,Imposta tasti
 dual_watch,,,Doppio ascolto
 info,,,Informazioni
 pwr,,,Potenza
-user_power,,,Volt PA
-temperature,,,Temperature
+user_power,,,Volt amplificatore di potenza RF
+temperature,,,Temperatura
 celcius,,,Celcius
-seconds,,,Seconds
-radio_info,,,Radio information
-temperature_calibration,,,Temperature calibration
-pin_code,,,Enter Pin code
-please_confirm,,,Please confirm
-vfo_freq_bind_mode,,,Bind Transmit and Receive frequencies
-overwrite_qm,,,Overwrite ?
+seconds,,,Secondi
+radio_info,,,Informazioni radio 
+temperature_calibration,,,Calibrazione temperatura 
+pin_code,,,Inserire codice PIN 
+please_confirm,,,Prego confermare
+vfo_freq_bind_mode,,,Abbina le frequenze di trasmissione e ricezione 
+overwrite_qm,,,Sovrascrivi ?
