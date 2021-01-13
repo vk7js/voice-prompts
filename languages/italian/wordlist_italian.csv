@@ -223,7 +223,7 @@ dmr_cc_filter,,,Filtro codice colore
 dmr_ts_filter,,,Filtro Timeslot
 dtmf_contact_list,,,Lista DTMF
 channel_power,,,Vat canale
-channel_power_from_master,,,di base
+from_master,,,di base
 set_quickkey,,,Imposta tasti
 dual_watch,,,Doppio ascolto
 info,,,Informazioni

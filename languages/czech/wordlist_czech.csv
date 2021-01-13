@@ -223,7 +223,7 @@ dmr_cc_filter,,,Kolor kood Filtr
 dmr_ts_filter,,,Tajm slot Filtr
 dtmf_contact_list,,,DTMF list
 channel_power,,,vysýlacý vyykon
-channel_power_from_master,,,nastavuje operátor
+from_master,,,od pána
 set_quickkey,,,Nastaveni rychlee kláavesy
 dual_watch,,,Hlídat dva kanáli
 info,,,informace

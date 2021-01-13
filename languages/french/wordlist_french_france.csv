@@ -63,8 +63,8 @@ PROMPT_GREEN,,,Vert
 PROMPT_RED,,,Rouge
 PROMPT_VERSION,,,Version
 PROMPT_MODE,,,Mode
-PROMPT_DMR,,,D M R
-PROMPT_FM,,,F M
+PROMPT_DMR,,,D.M.R.
+PROMPT_FM,,,F.M.
 PROMPT_WIDE,,,Large
 PROMPT_NARROW,,,Étroit
 PROMPT_PLUS,,,Plus
@@ -116,7 +116,7 @@ out_of_band,,,HORS BANDE
 timeout,,,Délai dépassé
 tg_entry,,,Entrez le TG
 pc_entry,,,Entrez le PC
-user_dmr_id,,,numéro D M R utilisateur
+user_dmr_id,,,numéro DMR utilisateur
 contact,,,Contact
 accept_call,Répondre<break time="2ms"/> à,,
 private_call,,,appel privé
@@ -158,11 +158,11 @@ UNUSED_1,,,
 calibration,,,Étalonnage
 band_limits,,,Limite de Bande
 beep_volume,,,Volume de tonalité
-dmr_mic_gain,,,Gain micro D M R
-fm_mic_gain,,,Gain micro F M
+dmr_mic_gain,,,Gain micro DMR
+fm_mic_gain,,,Gain micro FM
 key_long,,,Appui long
 key_repeat,,,Répétition de touche
-dmr_filter_timeout,,,Temporisation de filtre D M R
+dmr_filter_timeout,,,Temporisation de filtre DMR
 brightness,,,Rétro éclairage
 brightness_off,,,Rétro-éclairage minimal
 contrast,,,Contraste
@@ -197,7 +197,7 @@ one_line,,,sur une ligne
 two_lines,,,sur deux lignes
 new_channel,,,Nouveau canal
 priority_order,,,Ordre de priorité
-dmr_beep,<phoneme alphabet="ipa" ph="bip"></phoneme><break time="2ms"/> émission D M R,,
+dmr_beep,<phoneme alphabet="ipa" ph="bip"></phoneme><break time="2ms"/> émission DMR,,
 start,,,Début
 both,,,Les deux
 vox_threshold,,,Seuil du VOX
@@ -219,12 +219,12 @@ openRD5R,,,Open R D 5 R
 gitCommit,Révision <phoneme alphabet="ipa" ph="gi.t">,</phoneme>,
 voice_prompt_level_2,,,Voix niveau 2
 voice_prompt_level_3,,,Voix niveau 3
-dmr_filter,,,Filtre D M R
+dmr_filter,,,Filtre DMR
 dmr_cc_filter,,,Filtre code couleur
 dmr_ts_filter,Filtre <phoneme alphabet="ipa" ph="tajm sl">,</phoneme>hotte,
 dtmf_contact_list,,,liste des contacts DTMF FM
 channel_power,,,puissance canal
-channel_power_from_master,,,puissance canal depuis le Master
+from_master,,,Depuis le Master
 set_quickkey,,,défini quick key
 dual_watch,,,double veille
 # Double r is not a typo

@@ -223,7 +223,7 @@ dmr_cc_filter,,,カラーコードフィルター
 dmr_ts_filter,,,タイムスロットフィルター
 dtmf_contact_list,,,D T M F コンタクトリスト
 channel_power,,,チャンネル出力
-channel_power_from_master,,,マスター出力設定
+from_master,,,マスターから
 set_quickkey,,,クイックキー設定
 dual_watch,,,デュアルワッチ
 info,,,情報

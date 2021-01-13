@@ -223,7 +223,7 @@ dmr_cc_filter,,,Filtre de color
 dmr_ts_filter,,,Filtre de eslot
 dtmf_contact_list,,,Lista D t m f
 channel_power,,,potencia del canal
-channel_power_from_master,,,potencia dels canal des del Master
+from_master,,,del Master
 set_quickkey,,,Ajust de tecla rapida
 dual_watch,,,escolta doble
 info,,,Informació
