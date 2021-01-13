@@ -224,7 +224,7 @@ dmr_cc_filter,,,Filtre code couleur
 dmr_ts_filter,Filtre <phoneme alphabet="ipa" ph="tajm sl">,</phoneme>hotte,
 dtmf_contact_list,,,liste des contacts DTMF FM
 channel_power,,,puissance canal
-channel_power_from_master,,,puissance canal depuis le Master
+from_master,,,Depuis le Master
 set_quickkey,,,défini quick key
 dual_watch,,,double veille
 # Double r is not a typo

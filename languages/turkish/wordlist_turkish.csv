@@ -223,7 +223,7 @@ dmr_cc_filter,,,CC Filter
 dmr_ts_filter,,,TS Filter
 dtmf_contact_list,,,DTMF listesi
 channel_power,,,Channel Power
-channel_power_from_master,,,Channel Power From Master
+from_master,,,From Master
 set_quickkey,,,Set Quickkey
 dual_watch,,,Dual Watch
 info,,,Information

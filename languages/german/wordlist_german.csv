@@ -223,7 +223,7 @@ dmr_cc_filter,,,Colour code Filter
 dmr_ts_filter,,,Timeslot Filter
 dtmf_contact_list,,,FM DTMF Kontaktliste
 channel_power,,,Kanal Sendeleistung
-channel_power_from_master,,,Kanal Sendeleistung vom Master
+from_master,,,vom Master
 set_quickkey,,,Schnelltaste belegen
 dual_watch,,,Zweikanal Überwachung
 info,,,Infoleiste
