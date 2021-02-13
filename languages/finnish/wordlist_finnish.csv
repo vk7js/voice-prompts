@@ -151,7 +151,7 @@ all_skip,,,Skippaa zone
 yes,,,Skippaa kaik
 no,,,Joo
 rx_group,,,Ei
-on,"<emphasis level=""strong"">",</emphasis>,Rx Ryhmä
+on,,,Rx Ryhmä
 timeout_beep,,,On
 UNUSED_1,,,
 calibration,,,TehdasAsetus

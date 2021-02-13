@@ -151,7 +151,7 @@ all_skip,,,Alles Overslaan
 yes,,,Ja
 no,,,Neen
 rx_group,,,Ontvangstgroep
-on,"<emphasis level=""strong"">",</emphasis>,Aan
+on,,,Aan
 timeout_beep,,,Taaimout piep
 UNUSED_1,,,
 calibration,,,Calibraasssie

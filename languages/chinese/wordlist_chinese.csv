@@ -151,7 +151,7 @@ all_skip,,,跳过全部
 yes,,,是
 no,,,否
 rx_group,,,接收组
-on,"<emphasis level=""strong"">",</emphasis>,开
+on,,,开
 timeout_beep,,,超时警告
 UNUSED_1,,,
 calibration,,,校准参数
