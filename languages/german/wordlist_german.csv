@@ -238,3 +238,4 @@ pin_code,,,Enter Pin code
 please_confirm,,,Bitte bestätigen
 vfo_freq_bind_mode,,,Bind Transmit and Receive frequencies
 overwrite_qm,,,Überschreiben?
+eco_level,,,Economy level

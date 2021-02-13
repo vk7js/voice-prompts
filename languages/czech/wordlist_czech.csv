@@ -238,3 +238,4 @@ pin_code,,,Zadej pin kood
 please_confirm,,,potvrďit
 vfo_freq_bind_mode,,,Bind Transmit and Receive frequencies
 overwrite_qm,,,Přepsat ?
+eco_level,,,Economy level

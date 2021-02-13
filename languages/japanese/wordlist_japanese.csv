@@ -238,3 +238,4 @@ pin_code,,,暗証番号
 please_confirm,,,確認してください
 vfo_freq_bind_mode,,,送受周波数連動モード
 overwrite_qm,,,上書きしますか
+eco_level,,,Economy level
