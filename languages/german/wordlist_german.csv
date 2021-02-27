@@ -115,7 +115,7 @@ out_of_band,,,AUSSER BAND
 timeout,,,Zeitüberschreitung
 tg_entry,,,Eingabe TALKGROUP
 pc_entry,,,Eingabe Privater Ruf
-user_dmr_id,,,Benutzer ID
+user_dmr_id,,,Benutzer D M R ID
 contact,,,Kontakt
 accept_call,,,Ruf annehmen?
 private_call,,,Privater Ruf
@@ -229,14 +229,14 @@ dual_watch,,,Zweikanal Überwachung
 info,,,Infoleiste
 pwr,,,Sendeleistung
 user_power,,,Benutzerdefinierte Sendeleistungsstufe
-temperature,,,Temperature
-celcius,,,Celcius
-seconds,,,Seconds
+temperature,,,Temperatur
+celcius,,,Grad Celcius
+seconds,,,Sekunden
 radio_info,,,Radio information
-temperature_calibration,,,Temperature calibration
-pin_code,,,Enter Pin code
+temperature_calibration,,,Temperatur kalibration
+pin_code,,,Pin code eingeben
 please_confirm,,,Bitte bestätigen
-vfo_freq_bind_mode,,,Bind Transmit and Receive frequencies
+vfo_freq_bind_mode,,,Binde sende und empfangs Frequenz
 overwrite_qm,,,Überschreiben?
-eco_level,,,Economy level
-buttons,,,Buttons
+eco_level,,,Stromsparmodus Stufe
+buttons,,,Tasten
