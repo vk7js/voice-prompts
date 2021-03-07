@@ -48,15 +48,15 @@ PROMPT_TALKGROUP,,,keskusteluryhmäpuhelua
 PROMPT_TIMESLOT,,,aikaväliä
 PROMPT_VFO,,,V F O
 PROMPT_SECONDS,,,sekuntia
-PROMPT_Minutes,,,Pöytäkirja
-PROMPT_Hours,,,tuntia
+PROMPT_MINUTES,,,Pöytäkirja
+PROMPT_HOURS,,,tuntia
 PROMPT_VOLTS,,,volttia
 PROMPT_WATT,,,Wattt
 PROMPT_WATTS,,,Watts
 PROMPT_MILLIWATTS,,,millivvattia
 PROMPT_PERCENT,,,prosentti
 PROMPT_RECEIVE,,,Vastaanottaa
-PROMPT_Transmit,,,lähetys-
+PROMPT_TRANSMIT,,,lähetys-
 PROMPT_HASH,,,hash
 PROMPT_STAR,,,alkaa
 PROMPT_GREEN,,,Vihreä
