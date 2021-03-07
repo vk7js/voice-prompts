@@ -48,15 +48,15 @@ PROMPT_TALKGROUP,,,talegruppe
 PROMPT_TIMESLOT,,,TIDSVINDUE
 PROMPT_VFO,,,V F O
 PROMPT_SECONDS,,,Sekunder
-PROMPT_Minutes,,,minutter
-PROMPT_Hours,,,timer
+PROMPT_MINUTES,,,minutter
+PROMPT_HOURS,,,timer
 PROMPT_VOLTS,,,volt
 PROMPT_WATT,,,Watt
 PROMPT_WATTS,,,Watts
 PROMPT_MILLIWATTS,,,milliwatt
 PROMPT_PERCENT,,,procent
 PROMPT_RECEIVE,,,Modtage
-PROMPT_Transmit,,,Transmit
+PROMPT_TRANSMIT,,,Transmit
 PROMPT_HASH,,,Hash
 PROMPT_STAR,,,Start
 PROMPT_GREEN,,,Grøn
