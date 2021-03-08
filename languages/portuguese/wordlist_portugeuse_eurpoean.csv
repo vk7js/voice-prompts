@@ -1,6 +1,6 @@
 PromptName,PromptSpeechPrefix,PromptSpeechPostfix,PromptText
 PROMPT_SPACE,,, 
-PROMPT_POINT,,,POINT
+PROMPT_POINT,,,PONTO
 PROMPT_0,,,0
 PROMPT_1,,,1
 PROMPT_2,,,2
@@ -37,11 +37,11 @@ PROMPT_W,,,W
 PROMPT_X,,,X
 PROMPT_Y,,,Y
 PROMPT_Z,,,Z
-PROMPT_Z2,,,Zee
+PROMPT_Z2,,,Zdois
 PROMPT_CHANNEL,,,Canal
 PROMPT_CONTACT,,,Contato
 PROMPT_DBM,,,DBM
-PROMPT_ENTRY,,,Inserisci
+PROMPT_ENTRY,,,Inserir
 PROMPT_MEGAHERTZ,,,MEGAHERTZ
 PROMPT_KILOHERTZ,,,KILOHERTZ
 PROMPT_TALKGROUP,,,TALKGROUP
@@ -50,7 +50,7 @@ PROMPT_VFO,,,VFO
 PROMPT_SECONDS,,,Segundos
 PROMPT_MINUTES,,,Minutos
 PROMPT_HOURS,,,Horas
-PROMPT_VOLTS,,,Volt
+PROMPT_VOLTS,,,Volts
 PROMPT_WATT,,,Watt
 PROMPT_WATTS,,,Watts
 PROMPT_MILLIWATTS,,,Milliwatts
@@ -66,22 +66,22 @@ PROMPT_MODE,,,Modo
 PROMPT_DMR,,,D M R
 PROMPT_FM,,,F M
 PROMPT_WIDE,,,Largo
-PROMPT_NARROW,,,Limitar
+PROMPT_NARROW,,,Estreito
 PROMPT_PLUS,,,Plus
 PROMPT_MINUS,,,Minus
-PROMPT_VFO_EXCHANGE_TX_RX,,,Exchange Tx and Rx frequencies
-PROMPT_VFO_COPY_RX_TO_TX,,,Copy Receive frequency to Transmit frequency
-PROMPT_VFO_COPY_TX_TO_RX,,,Copy Transmit frequency to Receive frequency
+PROMPT_VFO_EXCHANGE_TX_RX,,,Frequências de Tx e Rx Expandidas
+PROMPT_VFO_COPY_RX_TO_TX,,,Copia frequencia de Receção para a frequência de Transmissão
+PROMPT_VFO_COPY_TX_TO_RX,,,Copia frequência de Transmissão para a frequência de Receção
 PROMPT_POWER,,,power
-PROMPT_CHANNEL_MODE,,,channel mode
-PROMPT_SCAN_MODE,,,scan mode
-PROMPT_TIMESLOT_MODE,,,timeslot mode
-PROMPT_FILTER_MODE,,,filter mode
-PROMPT_ZONE_MODE,,,zone mode
-PROMPT_POWER_MODE,,,power mode
-PROMPT_COLORCODE_MODE,,,color code mode
+PROMPT_CHANNEL_MODE,,,modo canal
+PROMPT_SCAN_MODE,,,modo busca
+PROMPT_TIMESLOT_MODE,,,timeslot modo
+PROMPT_FILTER_MODE,,,filter modo
+PROMPT_ZONE_MODE,,,zona modo
+PROMPT_POWER_MODE,,,power modo
+PROMPT_COLORCODE_MODE,,,color code modo
 PROMPT_HERTZ,,,HERTZ
-PROMPT_SETTINGS_UPDATE,,,Settings update
+PROMPT_SETTINGS_UPDATE,,,Update configuração
 LANGUAGE_NAME,,,Portugues
 menu,,,Menu
 credits,,,Creditos
@@ -93,12 +93,12 @@ last_heard,,,Ultima escutada
 firmware_info,,,Versao Firmware
 options,,,Opcoes
 display_options,,,Opcoes Visor
-sound_options,,,Sound options
+sound_options,,,Opcoes do som
 channel_details,,,Detalhes Canal
 language,,,Lingua
-new_contact,,,Contacto Novo
+new_contact,,,Novo Contacto
 dmr_contacts,,,Lista Contactos
-contact_details,,,Detalhes Contato
+contact_details,,,Detalhes Contacto
 hotspot_mode,,,Modo Hotspot
 built,,,Built
 zones,,,Zonas
@@ -125,25 +125,25 @@ filter,,,Filtro
 all_channels,,,Todos os Canais
 gotoChannel,,,Ir para
 scan,,,Busca
-channelToVfo,,,Copiar Canal para VFO
+channelToVfo,,,Copiar Canal para V F O
 vfoToChannel,,,Copiar V F O para Canal
 vfoToNewChannel,,,Copiar V F O para um Novo Canal
 group,,,Grupo
 private,,,Privado
 all,,,Todos
 type,,,Tipo
-timeSlot,,,Intervalo Tempo
+timeSlot,,,TimeSlot
 none,,,Nenhum
 contact_saved,,,Contacto Gravado
 duplicate,,,Duplicado
 tg,,,TG
 pc,,,PC
 ts,,,TS
-mode,,,Mode
-colour_code,,,Codigo de cores
+mode,,,Modo
+colour_code,,,Colour code
 n_a,,,N/A
 bandwidth,,,Largura de banda
-stepFreq,,,Passo
+stepFreq,,,Passo frequência
 tot,,,TOT
 off,,,Off
 zone_skip,,,Z Ignorar
@@ -163,11 +163,11 @@ key_long,,,Key long
 key_repeat,,,Key rpt
 dmr_filter_timeout,,,Filtro D M R
 brightness,,,Brilho
-brightness_off,,,Min bright
+brightness_off,,,Min brilho
 contrast,,,Contraste
 colour_invert,,,Color:Invertido
 colour_normal,,,Color:Normal
-backlight_timeout,,,Timeout
+backlight_timeout,,,Timeout luz
 scan_delay,,,Scan delay
 yes___in_uppercase,,,SIM
 no___in_uppercase,,,NÃO
@@ -201,7 +201,7 @@ start,,,Inicio
 both,,,Ambos
 vox_threshold,,,VOX Thres
 vox_tail,,,VOX Tail
-audio_prompt,,,Prompt
+audio_prompt,,,Prompt de audio
 silent,,,Silencioso
 normal,,,Normal
 beep,,,Bip
@@ -210,7 +210,7 @@ transmitTalkerAlias,,,Transmitir alias
 squelch_VHF,,,VHF squelch
 squelch_220,,,220 Megahertz squelch
 squelch_UHF,,,UHF squelch
-display_background_colour,,,Exibir cor de fundor
+display_background_colour,,,Exibir cor de fundo
 openGD77,,,Open G D 77
 openGD77S,,,Open G D 77 S
 openDM1801,,,Open D M 18 0 1
@@ -219,25 +219,25 @@ gitCommit,,,Git revision
 voice_prompt_level_2,,,Voz 2
 voice_prompt_level_3,,,Voz 3
 dmr_filter,,,D M R Filter
-dmr_cc_filter,,,Colour code Filter
-dmr_ts_filter,,,Timeslot Filter
+dmr_cc_filter,,,Colour code Filtro
+dmr_ts_filter,,,Timeslot Filtro
 dtmf_contact_list,,,Lista DTMF
 channel_power,,,Channel Power
 from_master,,,From Master
 set_quickkey,,,Set Quickkey
 dual_watch,,,Dual Watch
 info,,,Information
-pwr,,,Power
+pwr,,,Potência
 user_power,,,User power level
-temperature,,,Temperature
+temperature,,,Temperatura
 celcius,,,Celcius
-seconds,,,Seconds
+seconds,,,Segundos
 radio_info,,,Radio information
-temperature_calibration,,,Temperature calibration
+temperature_calibration,,,Calibração da Temperatura
 pin_code,,,Enter Pin code
-please_confirm,,,Please confirm
+please_confirm,,,Confirme por favor
 vfo_freq_bind_mode,,,Bind Transmit and Receive frequencies
 overwrite_qm,,,Overwrite ?
-eco_level,,,Economy level
-buttons,,,Buttons
+eco_level,,,Niveis económicos
+buttons,,,Butões
 leds,,,LEDs
