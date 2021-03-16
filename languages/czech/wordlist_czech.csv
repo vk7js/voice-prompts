@@ -238,6 +238,6 @@ pin_code,,,Zadej pin kood
 please_confirm,,,potvrďit
 vfo_freq_bind_mode,,,Zmjenit frekvenci TX společnjě s RX
 overwrite_qm,,,Přepsat ?
-eco_level,,,Economy level
-buttons,,,Buttons
-leds,,,LEDs
+eco_level,,,Eko úroveň
+buttons,,,Tlačíítka
+leds,,,Led dioda
