@@ -40,7 +40,7 @@ PROMPT_Z,,,Z
 PROMPT_Z2,,,Z
 PROMPT_CHANNEL,,,CANAL
 PROMPT_CONTACT,,,CONTACT
-PROMPT_MILLISECONDS,,,Milliseconds
+PROMPT_MILLISECONDS,,,Milliseconde
 PROMPT_ENTRY,,,Entrée
 PROMPT_MEGAHERTZ,<phoneme alphabet="ipa" ph=" meg a ɛrts">,</phoneme>,
 PROMPT_KILOHERTZ,<phoneme alphabet="ipa" ph=" kilo ɛrts">,</phoneme>,
@@ -238,9 +238,10 @@ radio_info,,,Informations sur la Radio
 temperature_calibration,,,Étalonnage de la température
 pin_code,,,Entrez le code pine
 please_confirm,,,Confirmez s'il vous plaît
-vfo_freq_bind_mode,,,Bind Transmit and Receive frequencies
+vfo_freq_bind_mode,,,Lier les fréquences RX et TX
 overwrite_qm,,,Écraser ?
-eco_level,,,Economy level
+eco_level,,,Niveau d'économie
 buttons,,,Boutons
-leds,,,LEDs
-scan_dwell_time,,,Scan dwell time
+# Let it sounds right
+leds,,,laide
+scan_dwell_time,,,Durée de scan
