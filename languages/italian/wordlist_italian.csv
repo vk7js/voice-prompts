@@ -40,7 +40,7 @@ PROMPT_Z,,,Z
 PROMPT_Z2,,,Zee
 PROMPT_CHANNEL,,,Canale
 PROMPT_CONTACT,,,Contatto
-PROMPT_DBM,,,D B M
+PROMPT_MILLISECONDS,,,Millisecondi
 PROMPT_ENTRY,,,Inserisci
 PROMPT_MEGAHERTZ,,,MEGAHERTZ
 PROMPT_KILOHERTZ,,,KILOHERTZ
@@ -241,3 +241,4 @@ overwrite_qm,,,Sovrascrivi ?
 eco_level,,,Livello del risparmio energetico
 buttons,,,Bottoni
 leds,,,LED
+scan_dwell_time,,,Tempo di permanenza della scansione 

@@ -40,7 +40,7 @@ PROMPT_Z,,,Z
 PROMPT_Z2,,,Zdois
 PROMPT_CHANNEL,,,Canal
 PROMPT_CONTACT,,,Contato
-PROMPT_DBM,,,DBM
+PROMPT_MILLISECONDS,,,Milissegundos
 PROMPT_ENTRY,,,Inserir
 PROMPT_MEGAHERTZ,,,MEGAHERTZ
 PROMPT_KILOHERTZ,,,KILOHERTZ
@@ -222,22 +222,23 @@ dmr_filter,,,D M R Filter
 dmr_cc_filter,,,Colour code Filtro
 dmr_ts_filter,,,Timeslot Filtro
 dtmf_contact_list,,,Lista DTMF
-channel_power,,,Channel Power
-from_master,,,From Master
+channel_power,,,Potência do canal
+from_master,,,Do mestre
 set_quickkey,,,Set Quickkey
 dual_watch,,,Dual Watch
-info,,,Information
+info,,,Em formação
 pwr,,,Potência
-user_power,,,User power level
+user_power,,,Nível de poder do usuário 
 temperature,,,Temperatura
 celcius,,,Celcius
 seconds,,,Segundos
-radio_info,,,Radio information
+radio_info,,,Informação de rádio
 temperature_calibration,,,Calibração da Temperatura
-pin_code,,,Enter Pin code
+pin_code,,,Insira o código PIN
 please_confirm,,,Confirme por favor
-vfo_freq_bind_mode,,,Bind Transmit and Receive frequencies
-overwrite_qm,,,Overwrite ?
+vfo_freq_bind_mode,,,Ligar frequências de transmissão e recepção
+overwrite_qm,,,Sobrescrever ?
 eco_level,,,Niveis económicos
 buttons,,,Butões
 leds,,,LEDs
+scan_dwell_time,,,Tempo de permanência da varredura 

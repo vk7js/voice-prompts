@@ -40,7 +40,7 @@ PROMPT_Z,,,Zed
 PROMPT_Z2,,,Z
 PROMPT_CHANNEL,,,チャンネル
 PROMPT_CONTACT,,,コンタクト
-PROMPT_DBM,,,D B M
+PROMPT_MILLISECONDS,,,ミリ秒
 PROMPT_ENTRY,,,入力
 PROMPT_MEGAHERTZ,,,MHz
 PROMPT_KILOHERTZ,,,kHz
@@ -238,6 +238,7 @@ pin_code,,,暗証番号
 please_confirm,,,確認してください
 vfo_freq_bind_mode,,,送受周波数連動モード
 overwrite_qm,,,上書きしますか
-eco_level,,,Economy level
-buttons,,,Buttons
-leds,,,LEDs
+eco_level,,,経済レベル 
+buttons,,,ボタン 
+leds,,,LED
+scan_dwell_time,,,スキャン滞留時間 

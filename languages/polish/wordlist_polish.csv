@@ -40,7 +40,7 @@ PROMPT_Z,,,Z
 PROMPT_Z2,,,Z
 PROMPT_CHANNEL,,,Kanał
 PROMPT_CONTACT,,,KONTAKT
-PROMPT_DBM,,,DBM
+PROMPT_MILLISECONDS,,,Milisekundy
 PROMPT_ENTRY,,,WEJŚCIE
 PROMPT_MEGAHERTZ,,,MEGAHERTZ
 PROMPT_KILOHERTZ,,,KILOHERTZ
@@ -202,10 +202,10 @@ both,,,Oba
 vox_threshold,,,VOX Thres.
 vox_tail,,,VOX Tail
 audio_prompt,,,Prompt
-silent,,,Silent
-normal,,,Normal
-beep,,,Beep
-voice_prompt_level_1,,,Voice
+silent,,,Cichy
+normal,,,Normalny
+beep,,,Brzęczyk
+voice_prompt_level_1,,,Głos
 transmitTalkerAlias,,,TA Tx
 squelch_VHF,,,VHF Squelch
 squelch_220,,,220 Squelch
@@ -216,28 +216,29 @@ openGD77S,,,Open G D 77 S
 openDM1801,,,Open D M 18 0 1
 openRD5R,,,Open R D 5 R
 gitCommit,,,Git revision
-voice_prompt_level_2,,,Voice 2
-voice_prompt_level_3,,,Voice 3
+voice_prompt_level_2,,,Głos 2
+voice_prompt_level_3,,,Głos 3
 dmr_filter,,,D M R Filter
-dmr_cc_filter,,,Colour code Filter
-dmr_ts_filter,,,Timeslot Filter
+dmr_cc_filter,,,Filtr kodu koloru
+dmr_ts_filter,,,Filtr szczelin czasowych
 dtmf_contact_list,,,Lista DTMF
-channel_power,,,Channel Power
-from_master,,,From Master
-set_quickkey,,,Set Quickkey
+channel_power,,,Moc kanału 
+from_master,,,Od Mistrza
+set_quickkey,,,Ustaw klawisz szybkiego dostępu
 dual_watch,,,Dual Watch
-info,,,Information
-pwr,,,Power
-user_power,,,User power level
-temperature,,,Temperature
+info,,,Informacja
+pwr,,,Moc
+user_power,,,Poziom mocy użytkownika
+temperature,,,Temperatura
 celcius,,,Celcius
-seconds,,,Seconds
-radio_info,,,Radio information
-temperature_calibration,,,Temperature calibration
-pin_code,,,Enter Pin code
-please_confirm,,,Please confirm
-vfo_freq_bind_mode,,,Bind Transmit and Receive frequencies
-overwrite_qm,,,Overwrite ?
-eco_level,,,Economy level
-buttons,,,Buttons
-leds,,,LEDs
+seconds,,,Sekundy
+radio_info,,,Informacje radiowe
+temperature_calibration,,,Kalibracja temperatury
+pin_code,,,Wpisz kod PIN
+please_confirm,,,Proszę potwierdzić
+vfo_freq_bind_mode,,,Bind częstotliwości transmisji i odbioru
+overwrite_qm,,,Zastąpić?
+eco_level,,,Poziom ekonomiczny
+buttons,,,Przyciski
+leds,,,diody LED
+scan_dwell_time,,,Czas przebywania skanowania

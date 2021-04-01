@@ -40,7 +40,7 @@ PROMPT_Z,,,Zed
 PROMPT_Z2,,,Z
 PROMPT_CHANNEL,,,KANÁL
 PROMPT_CONTACT,,,KONTAKT
-PROMPT_DBM,,,D B M
+PROMPT_MILLISECONDS,,,Milisekundy
 PROMPT_ENTRY,,,VSTUP
 PROMPT_MEGAHERTZ,,,MEGAHERTZ
 PROMPT_KILOHERTZ,,,KILOHERTZ
@@ -226,8 +226,8 @@ channel_power,,,vysýlacý vyykon
 from_master,,,ručnjě
 set_quickkey,,,Nastaveni rychlee kláavesy
 dual_watch,,,Hlídat dva kanáli
-info,,,informace
-pwr,,,vyysýlacy vyykon
+info,,,Informace
+pwr,,,Vyysýlacy vyykon
 user_power,,,max výkon při ++
 temperature,,,Teplota
 celcius,,,Stupnjě celzya
@@ -241,3 +241,4 @@ overwrite_qm,,,Přepsat ?
 eco_level,,,Eko úroveň
 buttons,,,Tlačíítka
 leds,,,Led dioda
+scan_dwell_time,,,Čas prodlevy skenování 

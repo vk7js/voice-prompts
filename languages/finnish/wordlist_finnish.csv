@@ -40,7 +40,7 @@ PROMPT_Z,,,Z
 PROMPT_Z2,,,Z
 PROMPT_CHANNEL,,,kanava
 PROMPT_CONTACT,,,Ottaa yhteyttä
-PROMPT_DBM,,,D B M
+PROMPT_MILLISECONDS,,,Millisekuntia
 PROMPT_ENTRY,,,merkintä
 PROMPT_MEGAHERTZ,,,megahertsi
 PROMPT_KILOHERTZ,,,kilohertsin
@@ -219,25 +219,26 @@ gitCommit,,,Git revision
 voice_prompt_level_2,,,Voice mode 2
 voice_prompt_level_3,,,Voice mode 3
 dmr_filter,,,D M R Filter
-dmr_cc_filter,,,Colour code Filter
+dmr_cc_filter,,,Värikoodisuodatin
 dmr_ts_filter,,,Timeslot Filter
 dtmf_contact_list,,,DTMF lista
-channel_power,,,Channel Power
+channel_power,,,Kanavan teho
 from_master,,,From Master
 set_quickkey,,,Set Quickkey
 dual_watch,,,Dual Watch
-info,,,Information
+info,,,Tiedot
 pwr,,,Power
-user_power,,,User power level
-temperature,,,Temperature
+user_power,,,Käyttäjän tehotasol
+temperature,,,Lämpötila
 celcius,,,Celcius
-seconds,,,Seconds
-radio_info,,,Radio information
-temperature_calibration,,,Temperature calibration
-pin_code,,,Enter Pin code
-please_confirm,,,Please confirm
-vfo_freq_bind_mode,,,Bind Transmit and Receive frequencies
-overwrite_qm,,,Overwrite ?
-eco_level,,,Economy level
+seconds,,,Sekuntia
+radio_info,,,Radiotiedot
+temperature_calibration,,,Lämpötilan kalibrointi
+pin_code,,,Syötä PIN-koodi
+please_confirm,,,Ole hyvä ja vahvista
+vfo_freq_bind_mode,,,Sidota lähetys- ja vastaanottotaajuudet
+overwrite_qm,,,Korvaa ?
+eco_level,,,Talouden taso
 buttons,,,Buttons
 leds,,,LEDs
+scan_dwell_time,,,Skannauksen viipymäaika

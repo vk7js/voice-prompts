@@ -40,7 +40,7 @@ PROMPT_Z,,,Z
 PROMPT_Z2,,,Z
 PROMPT_CHANNEL,,,CANAL
 PROMPT_CONTACT,,,CONTACT
-PROMPT_DBM,,,DBM
+PROMPT_MILLISECONDS,,,Milliseconds
 PROMPT_ENTRY,,,Entrée
 PROMPT_MEGAHERTZ,<phoneme alphabet="ipa" ph=" meg a ɛrts">,</phoneme>,
 PROMPT_KILOHERTZ,<phoneme alphabet="ipa" ph=" kilo ɛrts">,</phoneme>,
@@ -243,3 +243,4 @@ overwrite_qm,,,Écraser ?
 eco_level,,,Economy level
 buttons,,,Boutons
 leds,,,LEDs
+scan_dwell_time,,,Scan dwell time

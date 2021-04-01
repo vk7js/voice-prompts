@@ -40,7 +40,7 @@ PROMPT_Z,,,Z
 PROMPT_Z2,,,Z
 PROMPT_CHANNEL,,,KANAL
 PROMPT_CONTACT,,,?LET???M
-PROMPT_DBM,,,DBM
+PROMPT_MILLISECONDS,,,Milisaniye
 PROMPT_ENTRY,,,G?R??
 PROMPT_MEGAHERTZ,,,MEGAHERTZ
 PROMPT_KILOHERTZ,,,PROMPT_KILOHERTZ
@@ -196,9 +196,9 @@ one_line,,,1 sat“r
 two_lines,,,2 sat“r
 new_channel,,,Yeni Kanal
 priority_order,,,Öncelik
-dmr_beep,,,DMR beep
-start,,,Start
-both,,,Both
+dmr_beep,,,DMR bip sesi
+start,,,Başlat
+both,,,Her ikisi de
 vox_threshold,,,VOX Thres.
 vox_tail,,,VOX Tail
 audio_prompt,,,Prompt
@@ -222,22 +222,23 @@ dmr_filter,,,DMR Filter
 dmr_cc_filter,,,CC Filter
 dmr_ts_filter,,,TS Filter
 dtmf_contact_list,,,DTMF listesi
-channel_power,,,Channel Power
-from_master,,,From Master
+channel_power,,,Kanal Gücü
+from_master,,,Ustadan
 set_quickkey,,,Set Quickkey
 dual_watch,,,Dual Watch
-info,,,Information
-pwr,,,Power
-user_power,,,User power level
-temperature,,,Temperature
+info,,,Bilgi
+pwr,,,güç
+user_power,,,Kullanıcı güç seviyesi
+temperature,,,Sıcaklık
 celcius,,,Celcius
-seconds,,,Seconds
-radio_info,,,Radio information
-temperature_calibration,,,Temperature calibration
-pin_code,,,Enter Pin code
-please_confirm,,,Please confirm
-vfo_freq_bind_mode,,,Bind Transmit and Receive frequencies
-overwrite_qm,,,Overwrite ?
-eco_level,,,Economy level
+seconds,,,Saniye
+radio_info,,,Radyo bilgisi
+temperature_calibration,,,Sıcaklık kalibrasyonu
+pin_code,,,PIN kodunu girine
+please_confirm,,,Lütfen onaylayın
+vfo_freq_bind_mode,,,İletim ve Alma frekanslarını bağla
+overwrite_qm,,,Üzerine yaz ?
+eco_level,,,Ekonomi seviyesi
 buttons,,,Buttons
 leds,,,LEDs
+scan_dwell_time,,,Tarama bekleme süresi

@@ -223,21 +223,22 @@ dmr_cc_filter,,,Kleurkode Filter
 dmr_ts_filter,,,Tijdslot Filter 
 dtmf_contact_list,,,D T M F lijst
 channel_power,,,Vermogen voor Kanaal
-from_master,,,From Master
+from_master,,,Van Master
 set_quickkey,,,Set Quickkey
 dual_watch,,,Dual Watch
-info,,,Information
-pwr,,,Power
-user_power,,,User power level
-temperature,,,Temperature
+info,,,Informatie
+pwr,,,Kracht
+user_power,,,Machtsniveau van de gebruiker
+temperature,,,Temperatuur 
 celcius,,,Celcius
-seconds,,,Seconds
-radio_info,,,Radio information
-temperature_calibration,,,Temperature calibration
-pin_code,,,Enter Pin code
-please_confirm,,,Please confirm
-vfo_freq_bind_mode,,,Bind Transmit and Receive frequencies
-overwrite_qm,,,Overwrite ?
-eco_level,,,Economy level
-buttons,,,Buttons
+seconds,,,Seconden
+radio_info,,,Radio-informatien
+temperature_calibration,,,Temperatuurkalibratie
+pin_code,,,Voer de pincode in
+please_confirm,,,Bevestig alstublieft
+vfo_freq_bind_mode,,,Bind zend- en ontvangstfrequenties
+overwrite_qm,,,Overschrijven?
+eco_level,,,Economisch niveau
+buttons,,,Toetsen
 leds,,,LEDs
+scan_dwell_time,,,Scan verblijftijd

@@ -40,7 +40,7 @@ PROMPT_Z,,,Z
 PROMPT_Z2,,,Z
 PROMPT_CHANNEL,,,CANAL
 PROMPT_CONTACT,,,CONTACTE
-PROMPT_DBM,,,D B M
+PROMPT_MILLISECONDS,,,Mil·lisegons
 PROMPT_ENTRY,,,ENTRADA
 PROMPT_MEGAHERTZ,,,MEGAHERTZS
 PROMPT_KILOHERTZ,,,KILOHERTZS
@@ -229,15 +229,16 @@ dual_watch,,,escolta doble
 info,,,Informació
 pwr,,,Potencia
 user_power,,,nivel de potencia del usuari
-temperature,,,Temperature
+temperature,,,Temperatura
 celcius,,,Celcius
-seconds,,,Seconds
-radio_info,,,Radio information
-temperature_calibration,,,Temperature calibration
-pin_code,,,Enter Pin code
-please_confirm,,,Please confirm
-vfo_freq_bind_mode,,,Bind Transmit and Receive frequencies
-overwrite_qm,,,Overwrite ?
-eco_level,,,Economy level
-buttons,,,Buttons
+seconds,,,Segons
+radio_info,,,Informació de ràdio
+temperature_calibration,,,Calibratge de la temperaturan
+pin_code,,,Introduïu el codi PIN
+please_confirm,,,Siusplau confirma
+vfo_freq_bind_mode,,,Enllaça les freqüències de transmissió i recepció
+overwrite_qm,,,Sobreescriu ?
+eco_level,,,Nivell d’economia
+buttons,,,Botons
 leds,,,LEDs
+scan_dwell_time,,,Escaneja el temps de permanència

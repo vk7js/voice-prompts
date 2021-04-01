@@ -40,7 +40,7 @@ PROMPT_Z,,,Z
 PROMPT_Z2,,,Z
 PROMPT_CHANNEL,,,CANAL
 PROMPT_CONTACT,,,CONTACTO
-PROMPT_DBM,,,D B M
+PROMPT_MILLISECONDS,,,Milisegundos
 PROMPT_ENTRY,,,ENTRADA
 PROMPT_MEGAHERTZ,,,MEGAHERZIOS
 PROMPT_KILOHERTZ,,,KILOHERZIOS
@@ -222,22 +222,23 @@ dmr_filter,,,Filtro D M R
 dmr_cc_filter,,,Filtro Codigo Color
 dmr_ts_filter,,,Filtro Timeslot
 dtmf_contact_list,,,Lista DTMF
-channel_power,,,Channel Power
-from_master,,,From Master
+channel_power,,,Potencia del canal
+from_master,,,Del maestro
 set_quickkey,,,Set Quickkey
 dual_watch,,,Dual Watch
-info,,,Information
-pwr,,,Power
-user_power,,,User power level
-temperature,,,Temperature
+info,,,Información
+pwr,,,Energía
+user_power,,,Nivel de energía del usuario
+temperature,,,Temperatura
 celcius,,,Celcius
-seconds,,,Seconds
-radio_info,,,Radio information
-temperature_calibration,,,Temperature calibration
-pin_code,,,Enter Pin code
-please_confirm,,,Please confirm
-vfo_freq_bind_mode,,,Bind Transmit and Receive frequencies
-overwrite_qm,,,Overwrite ?
-eco_level,,,Economy level
-buttons,,,Buttons
-leds,,,LEDs
+seconds,,,Segundos
+radio_info,,,Información de radio
+temperature_calibration,,,Calibración de temperatura
+pin_code,,,Ingrese el código PIN
+please_confirm,,,Por favor confirmar
+vfo_freq_bind_mode,,,Vincular frecuencias de transmisión y recepción
+overwrite_qm,,,Sobrescribir ?
+eco_level,,,Nivel de economía
+buttons,,,Botones
+leds,,,LED
+scan_dwell_time,,,Tiempo de permanencia de escaneo 
