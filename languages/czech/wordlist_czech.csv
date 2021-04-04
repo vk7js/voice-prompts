@@ -241,4 +241,5 @@ overwrite_qm,,,Přepsat ?
 eco_level,,,Eko úroveň
 buttons,,,Tlačíítka
 leds,,,Led dioda
-scan_dwell_time,,,Čas prodlevy skenování 
+scan_dwell_time,,,Čas prodlevy skenování
+battery_calibration,,,Kalibrace baterie

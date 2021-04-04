@@ -241,4 +241,5 @@ overwrite_qm,,,Sobrescrever ?
 eco_level,,,Niveis económicos
 buttons,,,Butões
 leds,,,LEDs
-scan_dwell_time,,,Tempo de permanência da varredura 
+scan_dwell_time,,,Tempo de permanência da varredura
+battery_calibration,,,Calibração de bateria

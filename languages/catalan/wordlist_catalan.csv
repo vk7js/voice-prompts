@@ -242,3 +242,4 @@ eco_level,,,Nivell d’economia
 buttons,,,Botons
 leds,,,LEDs
 scan_dwell_time,,,Escaneja el temps de permanència
+battery_calibration,,,Calibratge de la bateria

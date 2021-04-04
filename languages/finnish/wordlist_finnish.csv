@@ -242,3 +242,4 @@ eco_level,,,Talouden taso
 buttons,,,Buttons
 leds,,,LEDs
 scan_dwell_time,,,Skannauksen viipymäaika
+battery_calibration,,,Akun kalibrointi

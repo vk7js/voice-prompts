@@ -242,3 +242,4 @@ eco_level,,,Poziom ekonomiczny
 buttons,,,Przyciski
 leds,,,diody LED
 scan_dwell_time,,,Czas przebywania skanowania
+battery_calibration,,,Kalibracja baterii

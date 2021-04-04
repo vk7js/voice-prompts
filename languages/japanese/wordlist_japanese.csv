@@ -241,4 +241,5 @@ overwrite_qm,,,上書きしますか
 eco_level,,,経済レベル 
 buttons,,,ボタン 
 leds,,,LED
-scan_dwell_time,,,スキャン滞留時間 
+scan_dwell_time,,,スキャン滞留時間
+battery_calibration,,,バッテリーキャリブレーション
