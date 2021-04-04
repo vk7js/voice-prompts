@@ -242,3 +242,4 @@ eco_level,,,Economy level
 buttons,,,Buttons
 leds,,,LEDs
 scan_dwell_time,,,Scan dwell time
+battery_calibration,,,Battery calibration

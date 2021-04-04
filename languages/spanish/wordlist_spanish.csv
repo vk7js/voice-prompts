@@ -241,4 +241,5 @@ overwrite_qm,,,Sobrescribir ?
 eco_level,,,Nivel de economía
 buttons,,,Botones
 leds,,,LED
-scan_dwell_time,,,Tiempo de permanencia de escaneo 
+scan_dwell_time,,,Tiempo de permanencia de escaneo
+battery_calibration,,,Calibración de batería

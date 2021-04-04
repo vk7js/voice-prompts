@@ -242,3 +242,4 @@ eco_level,,,经济水平
 buttons,,,纽扣
 leds,,,发光二极管 
 scan_dwell_time,,,扫描停留时间
+battery_calibration,,,电池校准

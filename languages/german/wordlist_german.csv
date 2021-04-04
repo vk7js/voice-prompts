@@ -242,3 +242,4 @@ eco_level,,,Stromsparmodus Stufe
 buttons,,,Tasten
 leds,,,LEDs
 scan_dwell_time,,,Verweilzeit scannen
+battery_calibration,,,Batteriekalibrierung
