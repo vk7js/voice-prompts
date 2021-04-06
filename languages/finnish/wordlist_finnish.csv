@@ -41,7 +41,7 @@ PROMPT_Z2,,,Z
 PROMPT_CHANNEL,,,kanava
 PROMPT_CONTACT,,,Ottaa yhteyttä
 PROMPT_MILLISECONDS,,,Millisekuntia
-PROMPT_ENTRY,,,merkintä
+PROMPT_FROM,,,From
 PROMPT_MEGAHERTZ,,,megahertsi
 PROMPT_KILOHERTZ,,,kilohertsin
 PROMPT_TALKGROUP,,,keskusteluryhmäpuhelua
@@ -49,7 +49,7 @@ PROMPT_TIMESLOT,,,aikaväliä
 PROMPT_VFO,,,V F O
 PROMPT_SECONDS,,,sekuntia
 PROMPT_MINUTES,,,Pöytäkirja
-PROMPT_HOURS,,,tuntia
+PROMPT_TO,,,To
 PROMPT_VOLTS,,,volttia
 PROMPT_WATT,,,Wattt
 PROMPT_WATTS,,,Watts

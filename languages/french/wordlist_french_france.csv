@@ -41,7 +41,7 @@ PROMPT_Z2,,,Z
 PROMPT_CHANNEL,,,CANAL
 PROMPT_CONTACT,,,CONTACT
 PROMPT_MILLISECONDS,,,Milliseconde
-PROMPT_ENTRY,,,Entrée
+PROMPT_FROM,,,Depuis
 PROMPT_MEGAHERTZ,<phoneme alphabet="ipa" ph=" meg a ɛrts">,</phoneme>,
 PROMPT_KILOHERTZ,<phoneme alphabet="ipa" ph=" kilo ɛrts">,</phoneme>,
 PROMPT_TALKGROUP,,,tolk group
@@ -49,7 +49,8 @@ PROMPT_TIMESLOT,<phoneme alphabet="ipa" ph="tajm sl">,</phoneme>hotte,
 PROMPT_VFO,,,V F O
 PROMPT_SECONDS,,,Secondes
 PROMPT_MINUTES,,,Minutes
-PROMPT_HOURS,,,Heures
+# this is not a typo
+PROMPT_TO,,,Jusqua
 PROMPT_VOLTS,,,Volt
 PROMPT_WATT,,,Watt
 PROMPT_WATTS,,,Watt
