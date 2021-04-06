@@ -41,7 +41,6 @@ PROMPT_Z2,,,Z
 PROMPT_CHANNEL,,,Kanaal
 PROMPT_CONTACT,,,Contact
 PROMPT_DBM,,,D; B; M
-PROMPT_FROM,,,From
 PROMPT_MEGAHERTZ,,,Megaherts
 PROMPT_KILOHERTZ,,,Kilo herts
 PROMPT_TALKGROUP,,,Gespreksgroep
@@ -49,7 +48,6 @@ PROMPT_TIMESLOT,,,Tijdslot
 PROMPT_VFO,,,V F O
 PROMPT_SECONDS,,,Seconden
 PROMPT_MINUTES,,,Minuten
-PROMPT_TO,,,To
 PROMPT_VOLTS,,,Volt
 PROMPT_WATT,,,Watt
 PROMPT_WATTS,,,Watt
@@ -57,16 +55,9 @@ PROMPT_MILLIWATTS,,,Milliwatt
 PROMPT_PERCENT,,,Procent
 PROMPT_RECEIVE,,,Ontvangen
 PROMPT_TRANSMIT,,,Zenden
-PROMPT_HASH,,,Hash
-PROMPT_STAR,,,Ster
-PROMPT_GREEN,,,Groen
-PROMPT_RED,,,Rood
-PROMPT_VERSION,,,Versie
 PROMPT_MODE,,,Modus
 PROMPT_DMR,,,D M R
 PROMPT_FM,,,F M
-PROMPT_WIDE,,,Breed
-PROMPT_NARROW,,,Smal
 PROMPT_PLUS,,,Plus
 PROMPT_MINUS,,,Min
 PROMPT_VFO_EXCHANGE_TX_RX,,,Wissel Zend en Ontvangstfrequenties Om
@@ -83,6 +74,8 @@ PROMPT_COLORCODE_MODE,,,kleurkode modus
 PROMPT_HERTZ,,,Herts
 PROMPT_SETTINGS_UPDATE,,,Settings update
 LANGUAGE_NAME,,,Nederlands
+PROMPT_UNUSED,,,u
+PROMPT_UNUSED2,,,u
 menu,,,Menu
 credits,,,Vermeldingen
 zone,,,Zone
@@ -243,3 +236,5 @@ buttons,,,Toetsen
 leds,,,LEDs
 scan_dwell_time,,,Scan verblijftijd
 battery_calibration,,,Batterij kalibratie
+low,,,low
+high,,,high

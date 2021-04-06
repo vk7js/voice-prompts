@@ -41,7 +41,6 @@ PROMPT_Z2,,,Z
 PROMPT_CHANNEL,,,kanava
 PROMPT_CONTACT,,,Ottaa yhteyttä
 PROMPT_MILLISECONDS,,,Millisekuntia
-PROMPT_FROM,,,From
 PROMPT_MEGAHERTZ,,,megahertsi
 PROMPT_KILOHERTZ,,,kilohertsin
 PROMPT_TALKGROUP,,,keskusteluryhmäpuhelua
@@ -49,7 +48,6 @@ PROMPT_TIMESLOT,,,aikaväliä
 PROMPT_VFO,,,V F O
 PROMPT_SECONDS,,,sekuntia
 PROMPT_MINUTES,,,Pöytäkirja
-PROMPT_TO,,,To
 PROMPT_VOLTS,,,volttia
 PROMPT_WATT,,,Wattt
 PROMPT_WATTS,,,Watts
@@ -57,16 +55,9 @@ PROMPT_MILLIWATTS,,,millivvattia
 PROMPT_PERCENT,,,prosentti
 PROMPT_RECEIVE,,,Vastaanottaa
 PROMPT_TRANSMIT,,,lähetys-
-PROMPT_HASH,,,hash
-PROMPT_STAR,,,alkaa
-PROMPT_GREEN,,,Vihreä
-PROMPT_RED,,,Punainen
-PROMPT_VERSION,,,Versio
 PROMPT_MODE,,,tila
 PROMPT_DMR,,,D M R
 PROMPT_FM,,,F M
-PROMPT_WIDE,,,leveä
-PROMPT_NARROW,,,Kapea
 PROMPT_PLUS,,,Plus
 PROMPT_MINUS,,,Miinus
 PROMPT_VFO_EXCHANGE_TX_RX,,,Exchange Tx and Rx frequencies
@@ -83,6 +74,8 @@ PROMPT_COLORCODE_MODE,,,color code mode
 PROMPT_HERTZ,,,hertsi
 PROMPT_SETTINGS_UPDATE,,,Settings update
 LANGUAGE_NAME,,,Suomi
+PROMPT_UNUSED,,,u
+PROMPT_UNUSED2,,,u
 menu,,,Menu
 credits,,,Kiitokset
 zone,,,Zone
@@ -243,3 +236,5 @@ buttons,,,Buttons
 leds,,,LEDs
 scan_dwell_time,,,Skannauksen viipymäaika
 battery_calibration,,,Akun kalibrointi
+low,,,low
+high,,,high

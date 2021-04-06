@@ -41,7 +41,6 @@ PROMPT_Z2,,,Z
 PROMPT_CHANNEL,,,CANAL
 PROMPT_CONTACT,,,CONTACTO
 PROMPT_MILLISECONDS,,,Milisegundos
-PROMPT_FROM,,,From
 PROMPT_MEGAHERTZ,,,MEGAHERZIOS
 PROMPT_KILOHERTZ,,,KILOHERZIOS
 PROMPT_TALKGROUP,,,TALKGROUP
@@ -49,7 +48,6 @@ PROMPT_TIMESLOT,,,TAIMESLOT
 PROMPT_VFO,,,V F O
 PROMPT_SECONDS,,,Segundos
 PROMPT_MINUTES,,,Minutos
-PROMPT_TO,,,To
 PROMPT_VOLTS,,,Voltios
 PROMPT_WATT,,,Vatio
 PROMPT_WATTS,,,Vatios
@@ -57,16 +55,9 @@ PROMPT_MILLIWATTS,,,Milivatios
 PROMPT_PERCENT,,,Por ciento
 PROMPT_RECEIVE,,,Recepción
 PROMPT_TRANSMIT,,,Transmisión
-PROMPT_HASH,,,Almohadilla
-PROMPT_STAR,,,Asterisco
-PROMPT_GREEN,,,Verde
-PROMPT_RED,,,Rojo
-PROMPT_VERSION,,,Versión
 PROMPT_MODE,,,Modo
 PROMPT_DMR,,,D M R
 PROMPT_FM,,,F M
-PROMPT_WIDE,,,Ancho
-PROMPT_NARROW,,,Estrecho
 PROMPT_PLUS,,,más
 PROMPT_MINUS,,,menos
 PROMPT_VFO_EXCHANGE_TX_RX,,,Intercambia frecuencias T X y R X
@@ -83,6 +74,8 @@ PROMPT_COLORCODE_MODE,,,modo codigo color
 PROMPT_HERTZ,,,HERZIOS
 PROMPT_SETTINGS_UPDATE,,,Settings update
 LANGUAGE_NAME,,,Español
+PROMPT_UNUSED,,,u
+PROMPT_UNUSED2,,,u
 menu,,,Menú
 credits,,,Créditos
 zone,,,Zona
@@ -243,3 +236,5 @@ buttons,,,Botones
 leds,,,LED
 scan_dwell_time,,,Tiempo de permanencia de escaneo
 battery_calibration,,,Calibración de batería
+low,,,low
+high,,,high

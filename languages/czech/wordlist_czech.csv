@@ -41,7 +41,6 @@ PROMPT_Z2,,,Z
 PROMPT_CHANNEL,,,KANÁL
 PROMPT_CONTACT,,,KONTAKT
 PROMPT_MILLISECONDS,,,Milisekundy
-PROMPT_FROM,,,From
 PROMPT_MEGAHERTZ,,,MEGAHERTZ
 PROMPT_KILOHERTZ,,,KILOHERTZ
 PROMPT_TALKGROUP,,,TALKGROUP
@@ -49,7 +48,6 @@ PROMPT_TIMESLOT,,,TAJM SLOT
 PROMPT_VFO,,,VEFO
 PROMPT_SECONDS,,,Sekund
 PROMPT_MINUTES,,,Minutu
-PROMPT_TO,,,To
 PROMPT_VOLTS,,,Voltů
 PROMPT_WATT,,,Wat
 PROMPT_WATTS,,,Watů
@@ -57,16 +55,9 @@ PROMPT_MILLIWATTS,,,Miliwat
 PROMPT_PERCENT,,,Procent
 PROMPT_RECEIVE,,,Příjem
 PROMPT_TRANSMIT,,,Vysýláníí
-PROMPT_HASH,,,Haš
-PROMPT_STAR,,,Hvjězda
-PROMPT_GREEN,,,Zelené
-PROMPT_RED,,,Červené
-PROMPT_VERSION,,,Verse
 PROMPT_MODE,,,Režim
 PROMPT_DMR,,,DIEMÁRK
 PROMPT_FM,,,EFEM
-PROMPT_WIDE,,,Široká
-PROMPT_NARROW,,,Úzká
 PROMPT_PLUS,,,Plus
 PROMPT_MINUS,,,Mínus
 PROMPT_VFO_EXCHANGE_TX_RX,,,zmjeň frekvenci T X za R X
@@ -83,6 +74,8 @@ PROMPT_COLORCODE_MODE,,,kolor kood mood
 PROMPT_HERTZ,,,HERTZ
 PROMPT_SETTINGS_UPDATE,,,Nastavení aktualizace
 LANGUAGE_NAME,,,Čeština
+PROMPT_UNUSED,,,u
+PROMPT_UNUSED2,,,u
 menu,,,Me nu
 credits,,,přispjěvatelé
 zone,,,Zóna
@@ -243,3 +236,5 @@ buttons,,,Tlačíítka
 leds,,,Led dioda
 scan_dwell_time,,,Čas prodlevy skenování
 battery_calibration,,,Kalibrace baterie
+low,,,low
+high,,,high
