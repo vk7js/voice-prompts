@@ -41,7 +41,6 @@ PROMPT_Z2,,,Z
 PROMPT_CHANNEL,,,KANAL
 PROMPT_CONTACT,,,?LET???M
 PROMPT_MILLISECONDS,,,Milisaniye
-PROMPT_FROM,,,From
 PROMPT_MEGAHERTZ,,,MEGAHERTZ
 PROMPT_KILOHERTZ,,,PROMPT_KILOHERTZ
 PROMPT_TALKGROUP,,,talkgroup
@@ -49,7 +48,6 @@ PROMPT_TIMESLOT,,,ZAMAN ARALI?I
 PROMPT_VFO,,,V F O
 PROMPT_SECONDS,,,Saniye
 PROMPT_MINUTES,,,Dakika
-PROMPT_TO,,,To
 PROMPT_VOLTS,,,Volt
 PROMPT_WATT,,,vat
 PROMPT_WATTS,,,Watts
@@ -57,16 +55,9 @@ PROMPT_MILLIWATTS,,,miliwatt
 PROMPT_PERCENT,,,Yüzde
 PROMPT_RECEIVE,,,Teslim almak
 PROMPT_TRANSMIT,,,?letim
-PROMPT_HASH,,,esrar
-PROMPT_STAR,,,Ba?lat
-PROMPT_GREEN,,,Ye?il
-PROMPT_RED,,,K?rm?z?
-PROMPT_VERSION,,,versiyon
 PROMPT_MODE,,,kip
 PROMPT_DMR,,,D M R
 PROMPT_FM,,,F M
-PROMPT_WIDE,,,Geni?
-PROMPT_NARROW,,,Dar
 PROMPT_PLUS,,,Art?
 PROMPT_MINUS,,,Eksi
 PROMPT_VFO_EXCHANGE_TX_RX,,,Exchange Tx and Rx frequencies
@@ -83,6 +74,8 @@ PROMPT_COLORCODE_MODE,,,color code mode
 PROMPT_HERTZ,,,HERTZ
 PROMPT_SETTINGS_UPDATE,,,Settings update
 LANGUAGE_NAME,,,Turkish
+PROMPT_UNUSED,,,u
+PROMPT_UNUSED2,,,u
 menu,,,Menü
 credits,,,Yap“mc“lar
 zone,,,Bölge
@@ -243,3 +236,5 @@ buttons,,,Buttons
 leds,,,LEDs
 scan_dwell_time,,,Tarama bekleme süresi
 battery_calibration,,,Pil kalibrasyonu
+low,,,low
+high,,,high

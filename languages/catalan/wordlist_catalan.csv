@@ -41,7 +41,6 @@ PROMPT_Z2,,,Z
 PROMPT_CHANNEL,,,CANAL
 PROMPT_CONTACT,,,CONTACTE
 PROMPT_MILLISECONDS,,,Mil·lisegons
-PROMPT_FROM,,,From
 PROMPT_MEGAHERTZ,,,MEGAHERTZS
 PROMPT_KILOHERTZ,,,KILOHERTZS
 PROMPT_TALKGROUP,,,GRUP
@@ -49,7 +48,6 @@ PROMPT_TIMESLOT,,,ESLOT
 PROMPT_VFO,,,B F O
 PROMPT_SECONDS,,,Segons
 PROMPT_MINUTES,,,Minuts
-PROMPT_TO,,,To
 PROMPT_VOLTS,,,Volts
 PROMPT_WATT,,,Vat
 PROMPT_WATTS,,,Vats
@@ -57,16 +55,9 @@ PROMPT_MILLIWATTS,,,Milivats
 PROMPT_PERCENT,,,Per cent
 PROMPT_RECEIVE,,,Recepció
 PROMPT_TRANSMIT,,,Transmissió
-PROMPT_HASH,,,Cuadradet
-PROMPT_STAR,,,Asterisc
-PROMPT_GREEN,,,Verd
-PROMPT_RED,,,Vermell
-PROMPT_VERSION,,,Versió
 PROMPT_MODE,,,Mode
 PROMPT_DMR,,,D M R
 PROMPT_FM,,,F M
-PROMPT_WIDE,,,Ample
-PROMPT_NARROW,,,Estret
 PROMPT_PLUS,,,més
 PROMPT_MINUS,,,menys
 PROMPT_VFO_EXCHANGE_TX_RX,,,Intercanvia frequencies de T X i R X
@@ -83,6 +74,8 @@ PROMPT_COLORCODE_MODE,,,mode codi color
 PROMPT_HERTZ,,,Hersos
 PROMPT_SETTINGS_UPDATE,,,Settings update
 LANGUAGE_NAME,,,Catalá
+PROMPT_UNUSED,,,u
+PROMPT_UNUSED2,,,u
 menu,,,Menú
 credits,,,Crèdits
 zone,,,Sona
@@ -243,3 +236,5 @@ buttons,,,Botons
 leds,,,LEDs
 scan_dwell_time,,,Escaneja el temps de permanència
 battery_calibration,,,Calibratge de la bateria
+low,,,low
+high,,,high

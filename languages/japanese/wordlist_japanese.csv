@@ -41,7 +41,6 @@ PROMPT_Z2,,,Z
 PROMPT_CHANNEL,,,チャンネル
 PROMPT_CONTACT,,,コンタクト
 PROMPT_MILLISECONDS,,,ミリ秒
-PROMPT_FROM,,,From
 PROMPT_MEGAHERTZ,,,MHz
 PROMPT_KILOHERTZ,,,kHz
 PROMPT_TALKGROUP,,,トークグループ
@@ -49,7 +48,6 @@ PROMPT_TIMESLOT,,,タイムスロット
 PROMPT_VFO,,,ブイエフオー
 PROMPT_SECONDS,,,びょう
 PROMPT_MINUTES,,,ふん
-PROMPT_TO,,,To
 PROMPT_VOLTS,,,ボルト
 PROMPT_WATT,,,ワット
 PROMPT_WATTS,,,ワット
@@ -57,16 +55,9 @@ PROMPT_MILLIWATTS,,,ミリワット
 PROMPT_PERCENT,,,パーセント
 PROMPT_RECEIVE,,,受信
 PROMPT_TRANSMIT,,,送信
-PROMPT_HASH,,,ハッシュ
-PROMPT_STAR,,,こめじるし
-PROMPT_GREEN,,,緑色
-PROMPT_RED,,,赤色
-PROMPT_VERSION,,,バージョン
 PROMPT_MODE,,,モード
 PROMPT_DMR,,,D M R
 PROMPT_FM,,,F M
-PROMPT_WIDE,,,ワイド
-PROMPT_NARROW,,,ナロー
 PROMPT_PLUS,,,プラス
 PROMPT_MINUS,,,マイナス
 PROMPT_VFO_EXCHANGE_TX_RX,,,送受信周波数入れ替え
@@ -83,6 +74,8 @@ PROMPT_COLORCODE_MODE,,,カラーコードモード
 PROMPT_HERTZ,,,ヘルツ
 PROMPT_SETTINGS_UPDATE,,,アップデート設定
 LANGUAGE_NAME,,,日本語
+PROMPT_UNUSED,,,u
+PROMPT_UNUSED2,,,u
 menu,,,メニュー
 credits,,,開発者
 zone,,,ゾーン
@@ -243,3 +236,5 @@ buttons,,,ボタン
 leds,,,LED
 scan_dwell_time,,,スキャン滞留時間
 battery_calibration,,,バッテリーキャリブレーション
+low,,,low
+high,,,high

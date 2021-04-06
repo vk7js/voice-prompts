@@ -41,7 +41,6 @@ PROMPT_Z2,,,Z
 PROMPT_CHANNEL,,,CANAL
 PROMPT_CONTACT,,,CONTACT
 PROMPT_MILLISECONDS,,,Milliseconde
-PROMPT_FROM,,,Depuis
 PROMPT_MEGAHERTZ,<phoneme alphabet="ipa" ph=" meg a ɛrts">,</phoneme>,
 PROMPT_KILOHERTZ,<phoneme alphabet="ipa" ph=" kilo ɛrts">,</phoneme>,
 PROMPT_TALKGROUP,,,tolk group
@@ -50,7 +49,6 @@ PROMPT_VFO,,,V F O
 PROMPT_SECONDS,,,Secondes
 PROMPT_MINUTES,,,Minutes
 # this is not a typo
-PROMPT_TO,,,Jusqua
 PROMPT_VOLTS,,,Volt
 PROMPT_WATT,,,Watt
 PROMPT_WATTS,,,Watt
@@ -58,16 +56,9 @@ PROMPT_MILLIWATTS,,,Milliwatt
 PROMPT_PERCENT,,,Pourcent
 PROMPT_RECEIVE,,,Reçois
 PROMPT_TRANSMIT,,,Transmet
-PROMPT_HASH,<phoneme alphabet="ipa" ph="diɛɛz">,</phoneme>,
-PROMPT_STAR,,,Étoile
-PROMPT_GREEN,,,Vert
-PROMPT_RED,,,Rouge
-PROMPT_VERSION,,,Version
 PROMPT_MODE,,,Mode
 PROMPT_DMR,,,D.M.R.
 PROMPT_FM,,,F.M.
-PROMPT_WIDE,,,Large
-PROMPT_NARROW,,,Étroit
 PROMPT_PLUS,,,Plus
 PROMPT_MINUS,,,Moins
 PROMPT_VFO_EXCHANGE_TX_RX,,,Échanger les fréquences de transmission et de réception
@@ -83,6 +74,8 @@ PROMPT_POWER_MODE,,,mode puissance
 PROMPT_COLORCODE_MODE,,,mode code couleur
 PROMPT_HERTZ,<phoneme alphabet="ipa" ph=" ɛrts">,</phoneme>,
 PROMPT_SETTINGS_UPDATE,,,Paramètres mis à jour
+PROMPT_UNUSED,,,u
+PROMPT_UNUSED2,,,u
 LANGUAGE_NAME,,,Français
 menu,<phoneme alphabet="ipa" ph="møny">,</phoneme>,
 credits,,,Crédit
@@ -247,3 +240,5 @@ buttons,,,Boutons
 leds,,,laide
 scan_dwell_time,,,Durée de scan
 battery_calibration,,,Étalonnage de la batterie
+low,,,bas
+high,,,haut
