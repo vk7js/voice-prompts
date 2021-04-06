@@ -79,7 +79,7 @@ PROMPT_UNUSED2,,,u
 menu,,,メニュー
 credits,,,開発者
 zone,,,ゾーン
-rssi,,,信号強度RSSI
+rssi,,,信号強度
 battery,,,電池
 contacts,,,コンタクト
 last_heard,,,受信ログ
@@ -93,7 +93,7 @@ new_contact,,,新しいコンタクト
 dmr_contacts,,,デジタルコンタクト
 contact_details,,,コンタクト情報
 hotspot_mode,,,ホットスポットモード
-built,,,built
+built,,,ビルト
 zones,,,ゾーン
 keypad,,,キーパッド
 ptt,,,P T T
@@ -231,10 +231,10 @@ pin_code,,,暗証番号
 please_confirm,,,確認してください
 vfo_freq_bind_mode,,,送受周波数連動モード
 overwrite_qm,,,上書きしますか
-eco_level,,,経済レベル 
+eco_level,,,エコレベル 
 buttons,,,ボタン 
-leds,,,LED
-scan_dwell_time,,,スキャン滞留時間
+leds,,,L E D
+scan_dwell_time,,,スキャン停止時間
 battery_calibration,,,バッテリーキャリブレーション
 low,,,low
 high,,,high
