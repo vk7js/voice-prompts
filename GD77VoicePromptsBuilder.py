@@ -342,8 +342,8 @@ def buildDataPack(filename,voiceName,outputFileName):
             with open(infile,'rb') as f:
                 promptsDict[promptName] = bytearray(f.read())
                 f.close()
-
-    headerTOCSize = 256*4 + 4 + 4
+    MAX_PROMPTS = 300
+    headerTOCSize = (MAX_PROMPTS * 4) + 4 + 4
     outBuf = bytearray(headerTOCSize)
     outBuf[0:3]  = bytes([0x56, 0x50, 0x00, 0x00])#Magic number
     outBuf[4:7]  = bytes([0x04, 0x00, 0x00, 0x00])#Version number = 4
