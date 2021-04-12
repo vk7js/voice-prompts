@@ -235,6 +235,6 @@ eco_level,,,Livello del risparmio energetico
 buttons,,,Bottoni
 leds,,,LED
 scan_dwell_time,,,Tempo di permanenza della scansione
-battery_calibration,,,Calibrazione della batteria
-low,,,low
-high,,,high
+battery_calibration,,,Calibrazione livello batteria
+low,,,Bassa
+high,,,Alta
