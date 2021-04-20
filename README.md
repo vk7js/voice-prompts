@@ -1,7 +1,6 @@
 # Voice prompts 
 
 This repository contains the voice prompt data and scripts and synthesised voice files, used by the OpenGD77 firmware
-https://github.com/rogerclarkmelbourne/OpenGD77
 
 This is a work in progress.
 
@@ -21,6 +20,3 @@ Ogg data can't be sent directly to the firmware, as it only supports RAW 16 bit 
 One a file has been encoded to AMBE, it is saved as a .amb file
 
 Once all files have been processed to AMBE, the script packages the files into a single Voice Prompt pack, binary file.
-
-This file can then be uploaded to the OpenGD77 firmare for later playback, using the OpenGD77 CPS
-https://github.com/rogerclarkmelbourne/OpenGD77CPS
