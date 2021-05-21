@@ -238,3 +238,4 @@ scan_dwell_time,,,Skannauksen viipymäaika
 battery_calibration,,,Akun kalibrointi
 low,,,low
 high,,,high
+dmr_id,,,DMR ID

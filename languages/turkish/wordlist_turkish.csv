@@ -238,3 +238,4 @@ scan_dwell_time,,,Tarama bekleme süresi
 battery_calibration,,,Pil kalibrasyonu
 low,,,low
 high,,,high
+dmr_id,,,DMR ID

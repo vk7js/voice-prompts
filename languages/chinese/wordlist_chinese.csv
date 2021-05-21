@@ -238,3 +238,4 @@ scan_dwell_time,,,扫描停留时间
 battery_calibration,,,电池校准
 low,,,low
 high,,,high
+dmr_id,,,DMR ID
