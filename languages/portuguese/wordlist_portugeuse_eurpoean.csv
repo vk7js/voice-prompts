@@ -238,3 +238,4 @@ scan_dwell_time,,,Tempo de permanência da varredura
 battery_calibration,,,Calibração de bateria
 low,,,low
 high,,,high
+dmr_id,,,DMR ID

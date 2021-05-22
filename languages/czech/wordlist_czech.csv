@@ -238,3 +238,4 @@ scan_dwell_time,,,Čas prodlevy skenování
 battery_calibration,,,Kalibrace baterie
 low,,,low
 high,,,high
+dmr_id,,,DMR ID
