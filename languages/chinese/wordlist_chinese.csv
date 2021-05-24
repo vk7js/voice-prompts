@@ -239,3 +239,4 @@ battery_calibration,,,电池校准
 low,,,low
 high,,,high
 dmr_id,,,DMR ID
+scan_on_boot,,,scan on boot
