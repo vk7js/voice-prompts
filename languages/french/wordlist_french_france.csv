@@ -243,3 +243,4 @@ battery_calibration,,,Étalonnage de la batterie
 low,,,bas
 high,,,haut
 dmr_id,,,numéro DMR
+scan_on_boot,,,scan au démarrage
