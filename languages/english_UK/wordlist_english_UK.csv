@@ -74,8 +74,8 @@ PROMPT_COLORCODE_MODE,,,color code mode
 PROMPT_HERTZ,,,hertz
 PROMPT_SETTINGS_UPDATE,,,Settings update
 LANGUAGE_NAME,,,English
-PROMPT_UNUSED,,,u
-PROMPT_UNUSED2,,,u
+PROMPT_STAR,,,Star
+PROMPT_HASH,,,Hash
 menu,,,Menu
 credits,,,Credits
 zone,,,Zone

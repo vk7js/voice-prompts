@@ -74,8 +74,8 @@ PROMPT_POWER_MODE,,,mode puissance
 PROMPT_COLORCODE_MODE,,,mode code couleur
 PROMPT_HERTZ,<phoneme alphabet="ipa" ph=" ɛrts">,</phoneme>,
 PROMPT_SETTINGS_UPDATE,,,Paramètres mis à jour
-PROMPT_UNUSED,,,u
-PROMPT_UNUSED2,,,u
+PROMPT_STAR,,,Étoile
+PROMPT_HASH,,,Dièse
 LANGUAGE_NAME,,,Français
 menu,<phoneme alphabet="ipa" ph="møny">,</phoneme>,
 credits,,,Crédit

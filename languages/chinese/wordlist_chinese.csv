@@ -74,8 +74,8 @@ PROMPT_COLORCODE_MODE,,,色码模式
 PROMPT_HERTZ,,,赫兹
 PROMPT_SETTINGS_UPDATE,,,设置更新
 LANGUAGE_NAME,,,中文
-PROMPT_UNUSED,,,u
-PROMPT_UNUSED2,,,u
+PROMPT_STAR,,,Star
+PROMPT_HASH,,,Hash
 menu,,,菜单
 credits,,,致谢
 zone,,,区域
