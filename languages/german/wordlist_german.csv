@@ -72,7 +72,7 @@ PROMPT_ZONE_MODE,,,Zonen Modus
 PROMPT_POWER_MODE,,,power Modus
 PROMPT_COLORCODE_MODE,,,color code Modus
 PROMPT_HERTZ,,,HERTZ
-PROMPT_SETTINGS_UPDATE,,,Settings update
+PROMPT_SETTINGS_UPDATE,,,Einstellungen werden aktualisiert
 LANGUAGE_NAME,,,Deutsch
 PROMPT_UNUSED,,,u
 PROMPT_UNUSED2,,,u
@@ -235,8 +235,8 @@ eco_level,,,Stromsparmodus Stufe
 buttons,,,Tasten
 leds,,,LEDs
 scan_dwell_time,,,Verweilzeit scannen
-battery_calibration,,,Batteriekalibrierung
+battery_calibration,,,Batterie kalibration
 low,,,Niedrig
 high,,,Hoch
 dmr_id,,,DMR ID
-scan_on_boot,,,scan on boot
+scan_on_boot,,,Starte Scan nach Einschalten
