@@ -73,8 +73,8 @@ PROMPT_POWER_MODE,,,power mode
 PROMPT_COLORCODE_MODE,,,color code mode
 PROMPT_HERTZ,,,Hertz
 PROMPT_SETTINGS_UPDATE,,,Settings update
-> PROMPT_HASH,,,hash
-> 	PROMPT_STAR,,,star
+PROMPT_HASH,,,hash
+PROMPT_STAR,,,star
 LANGUAGE_NAME,,,English
 menu,,,Menu
 credits,,,Credits
