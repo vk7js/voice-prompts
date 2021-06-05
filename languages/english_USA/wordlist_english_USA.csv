@@ -73,9 +73,9 @@ PROMPT_POWER_MODE,,,power mode
 PROMPT_COLORCODE_MODE,,,color code mode
 PROMPT_HERTZ,,,Hertz
 PROMPT_SETTINGS_UPDATE,,,Settings update
+> PROMPT_HASH,,,hash
+> 	PROMPT_STAR,,,star
 LANGUAGE_NAME,,,English
-PROMPT_UNUSED,,,u
-PROMPT_UNUSED2,,,u
 menu,,,Menu
 credits,,,Credits
 zone,,,Zone
@@ -90,7 +90,7 @@ sound_options,,,Sound options
 channel_details,,,Channel details
 language,,,Language
 new_contact,,,New contact
-dmr_contacts,,,DMR Contact list
+dmr_contacts,,,D M R Contact list
 contact_details,,,Contact Details
 hotspot_mode,,,Hotspot mode
 built,,,Built
@@ -240,3 +240,7 @@ low,,,low
 high,,,high
 dmr_id,,,DMR ID
 scan_on_boot,,,scan on boot
+sk2Latch,,,S K 2 Latch
+name,,,Name
+dtmfCode,,,DTMF Code
+vox,,,Vox
