@@ -74,8 +74,8 @@ PROMPT_COLORCODE_MODE,,,mode codi color
 PROMPT_HERTZ,,,Hersos
 PROMPT_SETTINGS_UPDATE,,,Settings update
 LANGUAGE_NAME,,,Catalá
-PROMPT_UNUSED,,,u
-PROMPT_UNUSED2,,,u
+PROMPT_STAR,,,Star
+PROMPT_HASH,,,Hash
 menu,,,Menú
 credits,,,Crèdits
 zone,,,Sona
@@ -240,3 +240,4 @@ low,,,low
 high,,,high
 dmr_id,,,DMR ID
 scan_on_boot,,,scan on boot
+dtmf_entry,,,DTMF entry
