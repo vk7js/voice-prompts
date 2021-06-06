@@ -238,7 +238,7 @@ scan_dwell_time,,,Scan dwell time
 battery_calibration,,,Battery calibration
 low,,,low
 high,,,high
-dmr_id,,,DMR ID
+dmr_id,,,D M R ID
 scan_on_boot,,,scan on boot
 sk2Latch,,,S K 2 Latch
 name,,,Name
