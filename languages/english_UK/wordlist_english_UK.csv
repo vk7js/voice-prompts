@@ -240,7 +240,7 @@ low,,,low
 high,,,high
 dmr_id,,,D M R ID
 scan_on_boot,,,scan on boot
-sk2Latch,,,S K 2 Latch
-name,,,Name
 dtmfCode,,,DTMF Code
+name,,,Name
 vox,,,Vox
+sk2Latch,,,S K 2 Latch
