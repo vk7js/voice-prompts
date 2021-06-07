@@ -73,9 +73,9 @@ PROMPT_POWER_MODE,,,電源モード
 PROMPT_COLORCODE_MODE,,,カラーコードモード
 PROMPT_HERTZ,,,ヘルツ
 PROMPT_SETTINGS_UPDATE,,,アップデート設定
-LANGUAGE_NAME,,,日本語
 PROMPT_STAR,,,Star
 PROMPT_HASH,,,Hash
+LANGUAGE_NAME,,,日本語
 menu,,,メニュー
 credits,,,開発者
 zone,,,ゾーン

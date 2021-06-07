@@ -73,9 +73,9 @@ PROMPT_POWER_MODE,,,mode de potencia
 PROMPT_COLORCODE_MODE,,,mode codi color
 PROMPT_HERTZ,,,Hersos
 PROMPT_SETTINGS_UPDATE,,,Settings update
-LANGUAGE_NAME,,,Catalá
 PROMPT_STAR,,,Star
 PROMPT_HASH,,,Hash
+LANGUAGE_NAME,,,Catalá
 menu,,,Menú
 credits,,,Crèdits
 zone,,,Sona

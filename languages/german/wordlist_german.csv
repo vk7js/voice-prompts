@@ -73,9 +73,9 @@ PROMPT_POWER_MODE,,,power Modus
 PROMPT_COLORCODE_MODE,,,color code Modus
 PROMPT_HERTZ,,,HERTZ
 PROMPT_SETTINGS_UPDATE,,,Einstellungen werden aktualisiert
-LANGUAGE_NAME,,,Deutsch
 PROMPT_STAR,,,Stern
 PROMPT_HASH,,,Raute
+LANGUAGE_NAME,,,Deutsch
 menu,,,Menü
 credits,,,Mitwirkende
 zone,,,Zone
