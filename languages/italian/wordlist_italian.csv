@@ -73,9 +73,9 @@ PROMPT_POWER_MODE,,,Modalità potenza
 PROMPT_COLORCODE_MODE,,,Modalità codice colore
 PROMPT_HERTZ,,,HERTZ
 PROMPT_SETTINGS_UPDATE,,,Settings update
-LANGUAGE_NAME,,,Italiano
 PROMPT_STAR,,,Star
 PROMPT_HASH,,,Hash
+LANGUAGE_NAME,,,Italiano
 menu,,,Menu
 credits,,,Crediti
 zone,,,Zone

@@ -73,9 +73,9 @@ PROMPT_POWER_MODE,,,power mode
 PROMPT_COLORCODE_MODE,,,color code mode
 PROMPT_HERTZ,,,HERTZ
 PROMPT_SETTINGS_UPDATE,,,Settings update
-LANGUAGE_NAME,,,Turkish
 PROMPT_STAR,,,Star
 PROMPT_HASH,,,Hash
+LANGUAGE_NAME,,,Turkish
 menu,,,Menü
 credits,,,Yap“mc“lar
 zone,,,Bölge
