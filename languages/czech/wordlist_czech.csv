@@ -236,8 +236,8 @@ buttons,,,Tlačíítka
 leds,,,Led dioda
 scan_dwell_time,,,Čas prodlevy skenování
 battery_calibration,,,Kalibrace baterie
-low,,,low
-high,,,high
-dmr_id,,,DMR ID
-scan_on_boot,,,scan on boot
-dtmf_entry,,,DTMF entry
+low,,,nízký
+high,,,vysoký
+dmr_id,,,Diemark aj dí
+scan_on_boot,,,sken po zapnutíí
+dtmf_entry,,,DTMF vstup
