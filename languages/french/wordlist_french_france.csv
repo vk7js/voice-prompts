@@ -6,7 +6,7 @@ PROMPT_1,,,1
 PROMPT_2,,,2
 PROMPT_3,,,3
 PROMPT_4,,,4
-PROMPT_5,<phoneme alphabet="ipa" ph=" sɛ̃ɛ̃k">,</phoneme>,
+PROMPT_5,"<phoneme alphabet=""ipa"" ph="" sɛ̃ɛ̃k"">",</phoneme>,
 PROMPT_6,,,6
 PROMPT_7,,,7
 PROMPT_8,,,8
@@ -41,14 +41,15 @@ PROMPT_Z2,,,Z
 PROMPT_CHANNEL,,,CANAL
 PROMPT_CONTACT,,,CONTACT
 PROMPT_MILLISECONDS,,,Milliseconde
-PROMPT_MEGAHERTZ,<phoneme alphabet="ipa" ph=" meg a ɛrts">,</phoneme>,
-PROMPT_KILOHERTZ,<phoneme alphabet="ipa" ph=" kilo ɛrts">,</phoneme>,
+PROMPT_ENTRY,,,Entrée
+PROMPT_MEGAHERTZ,"<phoneme alphabet=""ipa"" ph="" meg a ɛrts"">",</phoneme>,
+PROMPT_KILOHERTZ,"<phoneme alphabet=""ipa"" ph="" kilo ɛrts"">",</phoneme>,
 PROMPT_TALKGROUP,,,tolk group
-PROMPT_TIMESLOT,<phoneme alphabet="ipa" ph="tajm sl">,</phoneme>hotte,
+PROMPT_TIMESLOT,"<phoneme alphabet=""ipa"" ph=""tajm sl"">",</phoneme>hotte,
 PROMPT_VFO,,,V F O
 PROMPT_SECONDS,,,Secondes
 PROMPT_MINUTES,,,Minutes
-# this is not a typo
+PROMPT_HOURS,,,Heures
 PROMPT_VOLTS,,,Volt
 PROMPT_WATT,,,Watt
 PROMPT_WATTS,,,Watt
@@ -56,9 +57,16 @@ PROMPT_MILLIWATTS,,,Milliwatt
 PROMPT_PERCENT,,,Pourcent
 PROMPT_RECEIVE,,,Reçois
 PROMPT_TRANSMIT,,,Transmet
+PROMPT_HASH,"<phoneme alphabet=""ipa"" ph=""diɛɛz"">",</phoneme>,
+PROMPT_STAR,,,Étoile
+PROMPT_GREEN,,,Vert
+PROMPT_RED,,,Rouge
+PROMPT_VERSION,,,Version
 PROMPT_MODE,,,Mode
-PROMPT_DMR,,,D.M.R.
+PROMPT_DMR,,,D M R
 PROMPT_FM,,,F.M.
+PROMPT_WIDE,,,Large
+PROMPT_NARROW,,,Étroit
 PROMPT_PLUS,,,Plus
 PROMPT_MINUS,,,Moins
 PROMPT_VFO_EXCHANGE_TX_RX,,,Échanger les fréquences de transmission et de réception
@@ -67,23 +75,21 @@ PROMPT_VFO_COPY_TX_TO_RX,,,Copier la fréquence de transmission vers la fréquen
 PROMPT_POWER,,,puissance
 PROMPT_CHANNEL_MODE,,,mode canaux
 PROMPT_SCAN_MODE,,,mode scan
-PROMPT_TIMESLOT_MODE,mode <phoneme alphabet="ipa" ph="tajm sl">,</phoneme>hotte,
+PROMPT_TIMESLOT_MODE,"mode <phoneme alphabet=""ipa"" ph=""tajm sl"">",</phoneme>hotte,
 PROMPT_FILTER_MODE,,,mode filtre
 PROMPT_ZONE_MODE,,,mode zone
 PROMPT_POWER_MODE,,,mode puissance
 PROMPT_COLORCODE_MODE,,,mode code couleur
-PROMPT_HERTZ,<phoneme alphabet="ipa" ph=" ɛrts">,</phoneme>,
+PROMPT_HERTZ,"<phoneme alphabet=""ipa"" ph="" ɛrts"">",</phoneme>,
 PROMPT_SETTINGS_UPDATE,,,Paramètres mis à jour
-PROMPT_UNUSED,,,u
-PROMPT_UNUSED2,,,u
 LANGUAGE_NAME,,,Français
-menu,<phoneme alphabet="ipa" ph="møny">,</phoneme>,
+menu,"<phoneme alphabet=""ipa"" ph=""møny"">",</phoneme>,
 credits,,,Crédit
 zone,,,Zone
 rssi,,,R S S I
 battery,,,Batterie
 contacts,,,Contact
-# rentendus is not a typo.
+# rentendus is not a typo.,,,
 last_heard,,,Derniers rentendus
 firmware_info,,,Info Firmware
 options,,,Option
@@ -92,14 +98,14 @@ sound_options,,,Option audio
 channel_details,,,Détail du canal
 language,,,Langue
 new_contact,,,Nouveau contact
-dmr_contacts,,,Liste des contacts DMR
+dmr_contacts,,,Liste des contacts D M R
 contact_details,,,Détail du contact
 hotspot_mode,,,mode hote spot
 built,,,Créé
 zones,,,Zone
 keypad,,,Clavier
 ptt,,,PTT
-locked,<phoneme alphabet="ipa" ph="ve.r.u.j e">,</phoneme>,
+locked,"<phoneme alphabet=""ipa"" ph=""ve.r.u.j e"">",</phoneme>,
 press_blue_plus_star,,,Pressez la touche bleue plus l'étoile
 to_unlock,,,pour déverrouiller
 unlocked,,,Déverrouillé
@@ -110,11 +116,11 @@ out_of_band,,,HORS BANDE
 timeout,,,Délai dépassé
 tg_entry,,,Entrez le TG
 pc_entry,,,Entrez le PC
-user_dmr_id,,,numéro DMR utilisateur
+user_dmr_id,,,numéro D M R utilisateur
 contact,,,Contact
-accept_call,Répondre<break time="2ms"/> à,,
+accept_call,"Répondre<break time=""2ms""/> à",,
 private_call,,,appel privé
-squelch,<phoneme alphabet="ipa" ph="squœ lʃ">,</phoneme>,
+squelch,"<phoneme alphabet=""ipa"" ph=""squœ lʃ"">",</phoneme>,
 quick_menu,,,Menu rapide
 filter,,,Filtre
 all_channels,,,Tous les canaux
@@ -123,11 +129,11 @@ scan,,,Scan
 channelToVfo,,,Canal vers V F O
 vfoToChannel,,,V F O vers canal
 vfoToNewChannel,,,V F O vers un nouveau canal
-group,<phoneme alphabet="ipa" ph="gr.u.p">,</phoneme>,
+group,"<phoneme alphabet=""ipa"" ph=""gr.u.p"">",</phoneme>,
 private,,,privé
 all,,,Tous
 type,,,Type
-timeSlot,<phoneme alphabet="ipa" ph="tajm sl">,</phoneme>hotte,
+timeSlot,"<phoneme alphabet=""ipa"" ph=""tajm sl"">",</phoneme>hotte,
 none,,,Aucun
 contact_saved,,,Contact sauvé
 duplicate,,,Dupliqué
@@ -138,7 +144,7 @@ mode,,,Mode
 colour_code,,,code couleur
 n_a,,,Non disponible
 bandwidth,,,Largeur de bande
-stepFreq,Pas<break time="1ms"/> de fréquence,,
+stepFreq,"Pas<break time=""1ms""/> de fréquence",,
 tot,,,T O T
 off,,,Arrêt
 zone_skip,,,Sauter la Zone
@@ -152,11 +158,11 @@ UNUSED_1,,,
 calibration,,,Étalonnage
 band_limits,,,Limite de Bande
 beep_volume,,,Volume de tonalité
-dmr_mic_gain,,,Gain micro DMR
+dmr_mic_gain,,,Gain micro D M R
 fm_mic_gain,,,Gain micro FM
 key_long,,,Appui long
 key_repeat,,,Répétition de touche
-dmr_filter_timeout,,,Temporisation de filtre DMR
+dmr_filter_timeout,,,Temporisation de filtre D M R
 brightness,,,Rétro éclairage
 brightness_off,,,Rétro-éclairage minimal
 contrast,,,Contraste
@@ -181,9 +187,9 @@ delete_contact,,,Effacer le contact
 group_call,,,Appel de Groupe
 all_call,,,Appel pour tous
 tone_scan,,,Tonalité de scan
-low_battery,<phoneme alphabet="ipa" ph="ba.t.ø.r.i"></phoneme> faible,,
+low_battery,"<phoneme alphabet=""ipa"" ph=""ba.t.ø.r.i""></phoneme> faible",,
 Auto,,,Automatique
-manual,<phoneme alphabet="ipa" ph="man yɛ l">,</phoneme>,
+manual,"<phoneme alphabet=""ipa"" ph=""man yɛ l"">",</phoneme>,
 ptt_toggle,,,Bascule PTT
 private_call_handling,,,Gestion des appels privés
 stop,,,Arrêt
@@ -191,7 +197,7 @@ one_line,,,sur une ligne
 two_lines,,,sur deux lignes
 new_channel,,,Nouveau canal
 priority_order,,,Ordre de priorité
-dmr_beep,<phoneme alphabet="ipa" ph="bip"></phoneme><break time="2ms"/> émission DMR,,
+dmr_beep,"<phoneme alphabet=""ipa"" ph=""bip""></phoneme><break time=""2ms""/> émission D M R",,
 start,,,Début
 both,,,Les deux
 vox_threshold,,,Seuil du VOX
@@ -201,27 +207,27 @@ silent,,,Silencieux
 normal,,,Normal
 beep,,,Bip
 voice_prompt_level_1,,,Voix niveau 1
-transmitTalkerAlias,Diffuser le<phoneme alphabet="ipa" ph="tol kœr"></phoneme> alias,,
-squelch_VHF,<phoneme alphabet="ipa" ph="squœ lʃ"></phoneme><break time="1ms"/>V H F,,
-squelch_220,<phoneme alphabet="ipa" ph="squœ lʃ"></phoneme><break time="1ms"/>220<phoneme alphabet="ipa" ph=" meg a ɛrts">,</phoneme>,
-squelch_UHF,<phoneme alphabet="ipa" ph="squœ lʃ"></phoneme><break time="1ms"/>U H F,,
+transmitTalkerAlias,"Diffuser le<phoneme alphabet=""ipa"" ph=""tol kœr""></phoneme> alias",,
+squelch_VHF,"<phoneme alphabet=""ipa"" ph=""squœ lʃ""></phoneme><break time=""1ms""/>V H F",,
+squelch_220,"<phoneme alphabet=""ipa"" ph=""squœ lʃ""></phoneme><break time=""1ms""/>220<phoneme alphabet=""ipa"" ph="" meg a ɛrts"">",</phoneme>,
+squelch_UHF,"<phoneme alphabet=""ipa"" ph=""squœ lʃ""></phoneme><break time=""1ms""/>U H F",,
 display_background_colour,,,Couleur de fond d'écran
 openGD77,,,Open G D 77
 openGD77S,,,Open G D 77 S
 openDM1801,,,Open D M 1801
 openRD5R,,,Open R D 5 R
-gitCommit,Révision <phoneme alphabet="ipa" ph="gi.t">,</phoneme>,
+gitCommit,"Révision <phoneme alphabet=""ipa"" ph=""gi.t"">",</phoneme>,
 voice_prompt_level_2,,,Voix niveau 2
 voice_prompt_level_3,,,Voix niveau 3
-dmr_filter,,,Filtre DMR
+dmr_filter,,,Filtre D M R
 dmr_cc_filter,,,Filtre code couleur
-dmr_ts_filter,Filtre <phoneme alphabet="ipa" ph="tajm sl">,</phoneme>hotte,
+dmr_ts_filter,"Filtre <phoneme alphabet=""ipa"" ph=""tajm sl"">",</phoneme>hotte,
 dtmf_contact_list,,,liste des contacts DTMF FM
 channel_power,,,puissance canal
 from_master,,,Depuis le Master
 set_quickkey,,,défini quick key
 dual_watch,,,double veille
-# Double r is not a typo
+# Double r is not a typo,,,
 info,,,Inforrmation
 pwr,,,Puissance
 user_power,,,Niveau de puissance utilisateur
@@ -236,11 +242,15 @@ vfo_freq_bind_mode,,,Lier les fréquences RX et TX
 overwrite_qm,,,Écraser ?
 eco_level,,,Niveau d'économie
 buttons,,,Boutons
-# Let it sounds right
+# Let it sounds right,,,
 leds,,,laide
 scan_dwell_time,,,Durée de scan
 battery_calibration,,,Étalonnage de la batterie
-low,,,bas
-high,,,haut
-dmr_id,,,numéro DMR
-scan_on_boot,,,scan au démarrage
+low,,,Bas
+high,,,Haut
+dmr_id,,,ID D M R
+scan_on_boot,,,Scan au d�marrage
+dtmfCode,,,Code DTMF
+name,,,Nom
+vox,,,Vox
+sk2Latch,,,Loquet S K 2 
