@@ -244,3 +244,4 @@ dtmfCode,,,DTMF Code
 name,,,Name
 vox,,,Vox
 sk2Latch,,,S K 2 Latch
+dtmfLatch,,,DTMF Latch
