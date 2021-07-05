@@ -247,3 +247,6 @@ sk2Latch,,,S K 2 Latch
 dtmfLatch,,,DTMF Latch
 priority_channel,,,Priority Channel
 priority_scan,,,Priority Channel Scan
+vhfRptOffset,,,VHF Repeater Offset
+uhfRptOffset,,,UHF Repeater Offset
+tone,,,Tone
