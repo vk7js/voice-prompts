@@ -1,3 +1,3 @@
-Wordlist_file,Voice_name,Voice_pack_name,Download,Encode,Createpack,Volume_change_db,Remove_silence
-wordlist_dutch_netherlands.csv,Ruben,dutch_netherlands_ruben.vpr,y,y,y,0,y
-wordlist_dutch_netherlands.csv,Lotte,dutch_netherlands_lotte.vpr,y,y,y,0,y
+Wordlist_file,Voice_name,Voice_pack_name,Download,Encode,Createpack,Volume_change_db,Remove_silence,Audio_tempo
+wordlist_dutch_netherlands.csv,Ruben,dutch_netherlands_ruben.vpr,y,y,y,0,n,
+wordlist_dutch_netherlands.csv,Lotte,dutch_netherlands_lotte.vpr,y,y,y,0,n,

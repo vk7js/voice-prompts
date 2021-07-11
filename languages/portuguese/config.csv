@@ -1,4 +1,4 @@
-Wordlist_file,Voice_name,Voice_pack_name,Download,Encode,Createpack,Volume_change_db,,Remove_silence
-wordlist_portugeuse_eurpoean.csv,Cristiano,portuguese_portugal_cristiano.vpr,y,y,y,0,,n
-wordlist_portugues_brazil.csv,Vitoria,portuguese_brazil_vitoria.vpr,y,y,y,0,,n
-wordlist_portugues_brazil.csv,Ricardo,portuguese_brazil_ricardo.vpr,y,y,y,0,,n
+Wordlist_file,Voice_name,Voice_pack_name,Download,Encode,Createpack,Volume_change_db,Remove_silence,Audio_tempo
+wordlist_portugeuse_eurpoean.csv,Cristiano,portuguese_portugal_cristiano.vpr,y,y,y,0,n,
+wordlist_portugues_brazil.csv,Vitoria,portuguese_brazil_vitoria.vpr,y,y,y,0,n,
+wordlist_portugues_brazil.csv,Ricardo,portuguese_brazil_ricardo.vpr,y,y,y,0,n,

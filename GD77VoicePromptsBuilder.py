@@ -23,8 +23,10 @@ CREATE_NO_WINDOW = 0x08000000
 DETACHED_PROCESS = 0x00000008
 overwrite=False
 gain='0'
+atempo='1.25'
 removeSilenceAtStart = False
-forceTTSMP3Usage = False
+# PollyPro is not working
+forceTTSMP3Usage = True
 
 #FLASH_WRITE_SIZE = 2
 
@@ -191,8 +193,8 @@ def convert2AMBE(ser,infile,outfile):
 
 
 def convertToRaw(inFile,outFile):
-    print("ConvertToRaw "+ inFile + " -> " + outFile + " gain="+gain)
-    callArgs = ['ffmpeg','-y','-i', inFile,'-filter:a','volume='+gain+'dB','-ar','8000','-f','s16le',outFile]
+    print("ConvertToRaw "+ inFile + " -> " + outFile + " gain="+gain + " tempo="+atempo)
+    callArgs = ['ffmpeg','-y','-i', inFile,'-filter:a','atempo=+'+atempo+',volume='+gain+'dB','-ar','8000','-f','s16le',outFile]
     if os.name == 'nt':
         subprocess.call(callArgs, creationflags=CREATE_NO_WINDOW)#'-af','silenceremove=1:0:-50dB'
     elif os.name == 'posix':
@@ -295,7 +297,8 @@ def downloadSpeechForWordList(filename,voiceName):
 
             speechPrefix = row['PromptSpeechPrefix'].strip()
 
-            if ((forceTTSMP3Usage == False) and (speechPrefix != "")):
+            ## PollyPro is not working.
+            if ((forceTTSMP3Usage == False) and (speechPrefix != "") and False):
                 #Use VoicePolly as its not a special SSML that it doesnt handle
                 if (speechPrefix.find("<prosody rate=")!=-1):
                     matchObj = re.search(r'\".*\"',speechPrefix)
@@ -342,11 +345,11 @@ def buildDataPack(filename,voiceName,outputFileName):
             with open(infile,'rb') as f:
                 promptsDict[promptName] = bytearray(f.read())
                 f.close()
-    MAX_PROMPTS = 300
+    MAX_PROMPTS = 320
     headerTOCSize = (MAX_PROMPTS * 4) + 4 + 4
     outBuf = bytearray(headerTOCSize)
     outBuf[0:3]  = bytes([0x56, 0x50, 0x00, 0x00])#Magic number
-    outBuf[4:7]  = bytes([0x05, 0x00, 0x00, 0x00])#Version number = 5
+    outBuf[4:7]  = bytes([0x06, 0x00, 0x00, 0x00])#Version number
     outBuf[8:11] = bytes([0x00, 0x00, 0x00, 0x00])#First prompt audio is at offset zero
     bufPos=12;
     cumulativelength=0;
@@ -367,11 +370,11 @@ def buildDataPack(filename,voiceName,outputFileName):
     print("Built voice pack "+outputFileName);
 
 
-PROGRAM_VERSION = "0.0.1"
+PROGRAM_VERSION = "0.0.2"
 
-def usage(message):
+def usage(message=""):
     print("GD-77 voice prompts creator. v" + PROGRAM_VERSION)
-    if (message!=""):
+    if (message != ""):
         print()
         print(message)
         print()
@@ -381,20 +384,22 @@ def usage(message):
     print("    -h Display this help text,")
     print("    -c Configuration file (csv) - using this overrides all other options")
     print("    -f=<worlist_csv_file> : Wordlist file. Required for all functions")
-    print("    -n=<Voice_name>       : Voice name for synthesised speech from Voicepolly.pro and temporary folder name")
-    print("    -s                    : Download synthesised speech from Voicepolly.pro")
+    ##print("    -n=<Voice_name>       : Voice name for synthesised speech from Voicepolly.pro and temporary folder name")
+    ##print("    -s                    : Download synthesised speech from Voicepolly.pro")
     print("    -T                    : Download synthesised speech from ttsmp3.com")
     print("    -e                    : Encode previous download synthesised speech files, using the GD-77")
     print("    -b                    : Build voice prompts data pack from Encoded spech files ")
     print("    -d=<device>           : Use the specified device as serial port,")
     print("    -o                    : Overwrite existing files")
     print("    -g=gain               : Audio level gain adjust in db.  Default is 0, but can be negative or positive numbers")
+    print("    -t=tempo              : Audio tempo (from 0.5 to 2).  Default is {}".format(atempo))
     print("    -r                    : Remove silence from beginning of audio files")
     print("")
 
 def main():
     global overwrite
     global gain
+    global atempo
     global removeSilenceAtStart, forceTTSMP3Usage
 
     fileName   = ""#wordlist_english.csv"
@@ -415,7 +420,8 @@ def main():
             
     # Command line argument parsing
     try:
-        opts, args = getopt.getopt(sys.argv[1:], "hof:n:seb:d:c:g:T")
+        ##opts, args = getopt.getopt(sys.argv[1:], "hof:n:seb:d:c:g:Tt:")
+        opts, args = getopt.getopt(sys.argv[1:], "hof:eb:d:c:g:Tt:")
     except getopt.GetoptError as err:
         print(str(err))
         usage("")
@@ -438,8 +444,8 @@ def main():
             sys.exit(2)
         elif opt in ("-f"):
             fileName = arg
-        elif opt in ("-n"):
-            voiceName = arg
+        #elif opt in ("-n"):
+        #    voiceName = arg
         elif opt in ("-d"):
             serialDev = arg
         elif opt in ("-c"):
@@ -452,6 +458,8 @@ def main():
             removeSilenceAtStart = arg
         elif opt in ("-T"):
             forceTTSMP3Usage = True
+        elif opt in ('-t'):
+            atempo = arg
 
     if (configName!=""):
         print("Using Config file: {}...".format(configName))
@@ -467,7 +475,15 @@ def main():
                 createPack = row['Createpack'].strip()
                 gain = row['Volume_change_db'].strip()
                 rs = row['Remove_silence'].strip()
+                cfg_atempo = row['Audio_tempo'].strip()
 
+                ## Add audio tempo value to the filename
+                voicePackName = voicePackName.replace('.vpr', '-' + atempo + '.vpr');
+
+                ## If Audio_tempo is not set, use the default value
+                if cfg_atempo != '':
+                    atempo = cfg_atempo
+                    
                 print("Processing " + wordlistFilename+" "+voiceName+" "+voicePackName)
 
                 if not os.path.exists(voiceName):
@@ -503,10 +519,10 @@ def main():
         print("Creating folder " + voiceName + " for temporary files")
         os.mkdir(voiceName);
 
-    for opt, arg in opts:
-        if opt in ("-s"):
-            if (downloadSpeechForWordList(fileName,voiceName)==False):
-                 sys.exit(2)
+    #for opt, arg in opts:
+    #    if opt in ("-s"):
+    #        if (downloadSpeechForWordList(fileName,voiceName)==False):
+    #            sys.exit(2)
 
     for opt, arg in opts:
         if opt in ("-e"):

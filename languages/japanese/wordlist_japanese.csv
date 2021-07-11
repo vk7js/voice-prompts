@@ -75,6 +75,17 @@ PROMPT_HERTZ,,,ヘルツ
 PROMPT_SETTINGS_UPDATE,,,アップデート設定
 PROMPT_STAR,,,Star
 PROMPT_HASH,,,Hash
+PROMPT_VOX,,,Vox
+PROMPT_SWEEP_SCAN_MODE,,,Sweep scan mode
+PROMPT_ECO_MODE,,,Economy level mode
+PROMPT_UNUSED_3,,, 
+PROMPT_UNUSED_4,,, 
+PROMPT_UNUSED_5,,,
+PROMPT_UNUSED_6,,,
+PROMPT_UNUSED_7,,, 
+PROMPT_UNUSED_8,,, 
+PROMPT_UNUSED_9,,, 
+PROMPT_UNUSED_10,,, 
 LANGUAGE_NAME,,,日本語
 menu,,,メニュー
 credits,,,開発者
@@ -146,8 +157,8 @@ no,,,いいえ
 rx_group,,,受信グループ
 on,,,オン
 timeout_beep,,,タイムアウトビープ
+list_full,,,The list is full
 UNUSED_1,,,
-calibration,,,キャリブレーション
 band_limits,,,バンド制限
 beep_volume,,,ビープ音量
 dmr_mic_gain,,,D M R マイクゲイン
@@ -196,7 +207,7 @@ vox_threshold,,,VOX スレッショルド
 vox_tail,,,VOX テール
 audio_prompt,,,音声案内
 silent,,,サイレント
-normal,,,正常
+UNUSED_2,,,
 beep,,,ビープ
 voice_prompt_level_1,,,レベル1
 transmitTalkerAlias,,,トーカーエイリアス送信
@@ -241,3 +252,5 @@ high,,,high
 dmr_id,,,DMR ID
 scan_on_boot,,,scan on boot
 dtmf_entry,,,DTMF entry
+name,,,Name
+openDM1801A,,,Open D M 18 0 1 A
