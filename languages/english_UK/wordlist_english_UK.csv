@@ -253,6 +253,7 @@ dmr_id,,,D M R ID
 scan_on_boot,,,scan on boot
 dtmfCode,,,DTMF Code
 name,,,Name
+openDM1801A,,,Accessible D M 18 0 1 A
 sk2Latch,,,S K 2 Latch
 dtmfLatch,,,DTMF Latch
 priority_channel,,,Priority Channel
@@ -260,4 +261,4 @@ priority_scan,,,Priority Channel Scan
 vhfRptOffset,,,VHF Repeater Offset
 uhfRptOffset,,,UHF Repeater Offset
 tone,,,Tone
-openDM1801A,,,Open D M 18 0 1 A
+autoZone,,,Auto zone
