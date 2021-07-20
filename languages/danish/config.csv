@@ -1,2 +1,2 @@
-Wordlist_file,Voice_name,Voice_pack_name,Download,Encode,Createpack,Volume_change_db,,Remove_silence
-wordlist_danish.csv,Naja,danish_Naja.vpr,y,y,y,0,,n
+Wordlist_file,Voice_name,Voice_pack_name,Download,Encode,Createpack,Volume_change_db,Remove_silence,Audio_tempo
+wordlist_danish.csv,Naja,danish_Naja.vpr,y,y,y,0,n,

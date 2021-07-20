@@ -73,8 +73,19 @@ PROMPT_POWER_MODE,,,power mode
 PROMPT_COLORCODE_MODE,,,color code mode
 PROMPT_HERTZ,,,hertz
 PROMPT_SETTINGS_UPDATE,,,Settings update
-PROMPT_HASH,,,hash
-PROMPT_STAR,,,star
+PROMPT_STAR,,,Star
+PROMPT_HASH,,,Hash
+PROMPT_VOX,,,Vox
+PROMPT_SWEEP_SCAN_MODE,,,Sweep scan mode
+PROMPT_ECO_MODE,,,Economy level mode
+PROMPT_UNUSED_3,,, 
+PROMPT_UNUSED_4,,, 
+PROMPT_UNUSED_5,,,
+PROMPT_UNUSED_6,,,
+PROMPT_UNUSED_7,,, 
+PROMPT_UNUSED_8,,, 
+PROMPT_UNUSED_9,,, 
+PROMPT_UNUSED_10,,, 
 LANGUAGE_NAME,,,English
 menu,,,Menu
 credits,,,Credits
@@ -146,8 +157,8 @@ no,,,No
 rx_group,,,Rx Group
 on,,,On
 timeout_beep,,,Timeout beep
+list_full,,,The list is full
 UNUSED_1,,,
-calibration,,,Calibration
 band_limits,,,Band Limits
 beep_volume,,,Beep volume
 dmr_mic_gain,,,D M R mic gain
@@ -196,7 +207,7 @@ vox_threshold,,,VOX Threshold
 vox_tail,,,VOX Tail
 audio_prompt,,,Prompt
 silent,,,Silent
-normal,,,Normal
+UNUSED_2,,,
 beep,,,Beep
 voice_prompt_level_1,,,Voice mode
 transmitTalkerAlias,,,Talker Alias Transmit
@@ -242,7 +253,6 @@ dmr_id,,,D M R ID
 scan_on_boot,,,scan on boot
 dtmfCode,,,DTMF Code
 name,,,Name
-vox,,,Vox
 sk2Latch,,,S K 2 Latch
 dtmfLatch,,,DTMF Latch
 priority_channel,,,Priority Channel
@@ -250,3 +260,4 @@ priority_scan,,,Priority Channel Scan
 vhfRptOffset,,,VHF Repeater Offset
 uhfRptOffset,,,UHF Repeater Offset
 tone,,,Tone
+openDM1801A,,,Open D M 18 0 1 A
