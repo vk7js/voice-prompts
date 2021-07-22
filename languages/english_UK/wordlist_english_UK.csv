@@ -251,7 +251,7 @@ low,,,low
 high,,,high
 dmr_id,,,D M R ID
 scan_on_boot,,,scan on boot
-dtmfCode,,,DTMF Code
+dtmf_entry,,,DTMF Entry
 name,,,Name
 openDM1801A,,,Accessible D M 18 0 1 A
 sk2Latch,,,S K 2 Latch
@@ -262,3 +262,4 @@ vhfRptOffset,,,VHF Repeater Offset
 uhfRptOffset,,,UHF Repeater Offset
 tone,,,Tone
 autoZone,,,Auto zone
+dtmf_code,,,Code
