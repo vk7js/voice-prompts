@@ -263,3 +263,9 @@ uhfRptOffset,,,UHF Repeater Offset
 tone,,,Tone
 autoZone,,,Auto zone
 dtmf_code,,,Code
+user_info,,,User Information
+callsign,,,Call sign
+alphanumeric,,,Alphanumeric
+numeric,,,Numeric
+delete_from_zone,,,Delete from zone
+delete_from_all_zones,,,Delete from all zones
