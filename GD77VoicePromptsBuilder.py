@@ -23,7 +23,7 @@ CREATE_NO_WINDOW = 0x08000000
 DETACHED_PROCESS = 0x00000008
 overwrite=False
 gain='0'
-atempo='1.25'
+atempo='1.75'
 removeSilenceAtStart = False
 # PollyPro is not working
 forceTTSMP3Usage = True
@@ -476,14 +476,14 @@ def main():
                 gain = row['Volume_change_db'].strip()
                 rs = row['Remove_silence'].strip()
                 cfg_atempo = row['Audio_tempo'].strip()
+         ## If Audio_tempo is not set, use the default value
+                
+                if cfg_atempo != '':
+                    atempo = cfg_atempo
 
                 ## Add audio tempo value to the filename
                 voicePackName = voicePackName.replace('.vpr', '-' + atempo + '.vpr');
 
-                ## If Audio_tempo is not set, use the default value
-                if cfg_atempo != '':
-                    atempo = cfg_atempo
-                    
                 print("Processing " + wordlistFilename+" "+voiceName+" "+voicePackName)
 
                 if not os.path.exists(voiceName):
