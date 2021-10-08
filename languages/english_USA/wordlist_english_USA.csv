@@ -269,4 +269,5 @@ alphanumeric,,,Alphanumeric
 numeric,,,Numeric
 delete_from_zone,,,Delete from zone
 delete_from_all_zones,,,Delete from all zones
-re order_channels,,,Reorder Channels
+re order_channels,,,Re order Channels
+voice_prompt_volume,,,Voice volume
