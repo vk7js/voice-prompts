@@ -37,7 +37,7 @@ PROMPT_W,,,W
 PROMPT_X,,,X
 PROMPT_Y,,,Y
 PROMPT_Z,,,Zed
-PROMPT_Z2,,,Z
+PROMPT_CAP,,,cap 
 PROMPT_CHANNEL,,,Channel
 PROMPT_CONTACT,,,Contact
 PROMPT_MILLISECONDS,,,Milliseconds
@@ -78,14 +78,14 @@ PROMPT_HASH,,,Hash
 PROMPT_VOX,,,Vox
 PROMPT_SWEEP_SCAN_MODE,,,Sweep scan mode
 PROMPT_ECO_MODE,,,Economy level mode
-PROMPT_UNUSED_3,,, 
-PROMPT_UNUSED_4,,, 
-PROMPT_UNUSED_5,,,
-PROMPT_UNUSED_6,,,
-PROMPT_UNUSED_7,,, 
-PROMPT_UNUSED_8,,, 
-PROMPT_UNUSED_9,,, 
-PROMPT_UNUSED_10,,, 
+PROMPT_UNUSED_3,,,hotspot
+PROMPT_UNUSED_4,,,clear node
+PROMPT_UNUSED_5,,,openspot
+PROMPT_UNUSED_6,,,micro hub
+PROMPT_UNUSED_7,,,allstar
+PROMPT_UNUSED_8,,,disconnect
+PROMPT_UNUSED_9,,,parrot
+PROMPT_UNUSED_10,,,blind hams
 LANGUAGE_NAME,,,English
 menu,,,Menu
 credits,,,Credits
