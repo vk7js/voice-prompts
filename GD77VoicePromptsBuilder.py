@@ -217,7 +217,6 @@ def downloadPollyPro(voiceName,fileStub,promptText,speechSpeed):
     mp3FileName = voiceName + "/" +fileStub+".mp3"
     rawFileName = voiceName + "/" +fileStub+".raw"
     ambeFileName = voiceName + "/" +fileStub+".amb"
-
     if (not os.path.exists(mp3FileName) or overwrite==True):
         with urllib.request.urlopen("https://voicepolly.pro/speech-converter.php", data) as f:
             resp = f.read().decode('utf-8')
@@ -258,7 +257,6 @@ def downloadTTSMP3(voiceName,fileStub,promptText):
 
     if (not os.path.exists(mp3FileName) or overwrite==True):
         print("Download TTSMP3 " +  promptText)
-
         with urllib.request.urlopen("https://ttsmp3.com/makemp3_new.php", data) as f:
             resp = f.read().decode('utf-8')
             print("TTSMP3: Downloading synthesised speech for text: \"" + promptText + "\" -> " + mp3FileName)
@@ -312,9 +310,10 @@ def downloadSpeechForWordList(filename,voiceName):
                 if (downloadTTSMP3(voiceName,promptName,promptTTSText)==False):
                     retval=False
                     break
-
-    return retval
-
+        # Add voice name as last prompt
+        if (downloadTTSMP3(voiceName, "PROMPT_VOICE_NAME", voiceName)==False):
+            retval=False
+        return retval
 
 
 
@@ -333,6 +332,10 @@ def encodeWordList(ser,filename,voiceName,forceReEncode):
             fileStub = voiceName + "/" + promptName
 
             encodeFile(ser,fileStub)
+        promptName = "PROMPT_VOICE_NAME"
+        fileStub = voiceName + "/" + promptName
+
+        encodeFile(ser,fileStub)
 
 def buildDataPack(filename,voiceName,outputFileName):
     print("Building...")
@@ -345,6 +348,12 @@ def buildDataPack(filename,voiceName,outputFileName):
             with open(infile,'rb') as f:
                 promptsDict[promptName] = bytearray(f.read())
                 f.close()
+        promptName = "PROMPT_VOICE_NAME"
+        infile = voiceName+"/" + promptName+".amb"
+        with open(infile,'rb') as f:
+            promptsDict[promptName] = bytearray(f.read())
+            f.close()
+                
     MAX_PROMPTS = 320
     headerTOCSize = (MAX_PROMPTS * 4) + 4 + 4
     outBuf = bytearray(headerTOCSize)
@@ -360,7 +369,6 @@ def buildDataPack(filename,voiceName,outputFileName):
         outBuf[bufPos+1] = (cumulativelength >>  8) & 0xFF
         outBuf[bufPos+0] = (cumulativelength >>  0) & 0xFF
         bufPos = bufPos + 4
-
     #outputFileName = voiceName+'/voice_prompts_'+voiceName+'.bin'
     with open(outputFileName,'wb') as f:
         f.write(outBuf[0:headerTOCSize])#Should be headerTOCSize
@@ -383,7 +391,7 @@ def usage(message=""):
     print("")
     print("    -h Display this help text,")
     print("    -c Configuration file (csv) - using this overrides all other options")
-    print("    -f=<worlist_csv_file> : Wordlist file. Required for all functions")
+    print("    -f=<wordlist_csv_file> : Wordlist file. Required for all functions")
     ##print("    -n=<Voice_name>       : Voice name for synthesised speech from Voicepolly.pro and temporary folder name")
     ##print("    -s                    : Download synthesised speech from Voicepolly.pro")
     print("    -T                    : Download synthesised speech from ttsmp3.com")
