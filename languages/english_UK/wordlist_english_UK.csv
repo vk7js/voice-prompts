@@ -272,3 +272,5 @@ delete_from_all_zones,,,Delete from all zones
 reorder_channels,,,Re order Channels
 voice_prompt_volume,,,Voice volume
 voice_prompt_rate,,,Voice rate
+dtmf_vol,,,DTMF volume
+vp_saved,,,prompt saved
