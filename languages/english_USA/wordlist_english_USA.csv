@@ -1,5 +1,5 @@
 PromptName,PromptSpeechPrefix,PromptSpeechPostfix,PromptText
-PROMPT_SPACE,,, 
+PROMPT_SILENCE,,, 
 PROMPT_POINT,,,POINT
 PROMPT_0,,,0
 PROMPT_1,,,1
@@ -85,7 +85,7 @@ PROMPT_UNUSED_6,,,micro hub
 PROMPT_UNUSED_7,,,allstar
 PROMPT_UNUSED_8,,,disconnect
 PROMPT_UNUSED_9,,,parrot
-PROMPT_UNUSED_10,,,blind hams
+PROMPT_SPACE,,,space
 LANGUAGE_NAME,,,English
 menu,,,Menu
 credits,,,Credits
