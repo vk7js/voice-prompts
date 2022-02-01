@@ -78,14 +78,57 @@ PROMPT_HASH,,,Hash
 PROMPT_VOX,,,Vox
 PROMPT_SWEEP_SCAN_MODE,,,Sweep scan mode
 PROMPT_ECO_MODE,,,Economy level mode
-PROMPT_UNUSED_3,,,hotspot
-PROMPT_UNUSED_4,,,clear node
-PROMPT_UNUSED_5,,,openspot
-PROMPT_UNUSED_6,,,micro hub
-PROMPT_UNUSED_7,,,allstar
-PROMPT_UNUSED_8,,,parrot
 PROMPT_EDIT_VOICETAG,,,edit voice tag
 PROMPT_SPACE,,,space
+PROMPT_A_PHONETIC,,,alpha
+PROMPT_B_PHONETIC,,,bravo
+PROMPT_C_PHONETIC,,,charlie
+PROMPT_D_PHONETIC,,,delta
+PROMPT_E_PHONETIC,,,echo
+PROMPT_F_PHONETIC,,,foxtrot
+PROMPT_G_PHONETIC,,,golf
+PROMPT_H_PHONETIC,,,hotel
+PROMPT_I_PHONETIC,,,india
+PROMPT_J_PHONETIC,,,juliet
+PROMPT_K_PHONETIC,,,kilo
+PROMPT_L_PHONETIC,,,lema
+PROMPT_M_PHONETIC,,,mike
+PROMPT_N_PHONETIC,,,november
+PROMPT_O_PHONETIC,,,oscar
+PROMPT_P_PHONETIC,,,papa
+PROMPT_Q_PHONETIC,,,quebec
+PROMPT_R_PHONETIC,,,romeo
+PROMPT_S_PHONETIC,,,siera
+PROMPT_T_PHONETIC,,,tango
+PROMPT_U_PHONETIC,,,uniform
+PROMPT_V_PHONETIC,,,victor
+PROMPT_W_PHONETIC,,,whisky
+PROMPT_X_PHONETIC,,,exray
+PROMPT_Y_PHONETIC,,,yankie
+PROMPT_Z_PHONETIC,,,zulu
+PROMPT_EXCLAIM,,,exclaim
+PROMPT_COMMA,,,comma
+PROMPT_AT,,,at
+PROMPT_COLON,,,colon
+PROMPT_QUESTION,,,question
+PROMPT_LEFT_PAREN,,,left paren
+PROMPT_RIGHT_PAREN,,,right paren
+PROMPT_TILDE,,,tilde
+PROMPT_SLASH,,,slash
+PROMPT_LEFT_BRACKET,,,left bracket
+PROMPT_RIGHT_BRACKET,,,right bracket
+PROMPT_LESS,,,less
+PROMPT_GREATER,,,greater
+PROMPT_EQUALS,,,equals
+PROMPT_DOLLAR,,,dollar
+PROMPT_APOSTROPHE,,,apostrophe
+PROMPT_GRAVE,,,grave
+PROMPT_AMPERSAND,,,and
+PROMPT_BAR,,,bar
+PROMPT_UNDERLINE,,,underline
+PROMPT_CARET,,,caret
+PROMPT_LEFT_BRACE,,,left brace
+PROMPT_RIGHT_BRACE,,,right brace
 LANGUAGE_NAME,,,English
 menu,,,Menu
 credits,,,Credits
@@ -207,7 +250,7 @@ vox_threshold,,,VOX Threshold
 vox_tail,,,VOX Tail
 audio_prompt,,,Prompt
 silent,,,Silent
-UNUSED_2,,,
+phoneticSpell,,,Phonetic Spell
 beep,,,Beep
 voice_prompt_level_1,,,Voice mode
 transmitTalkerAlias,,,Talker Alias Transmit
