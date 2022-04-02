@@ -354,7 +354,7 @@ def buildDataPack(filename,voiceName,outputFileName):
             promptsDict[promptName] = bytearray(f.read())
             f.close()
                 
-    MAX_PROMPTS = 320
+    MAX_PROMPTS = 350
     headerTOCSize = (MAX_PROMPTS * 4) + 4 + 4
     outBuf = bytearray(headerTOCSize)
     outBuf[0:3]  = bytes([0x56, 0x50, 0x00, 0x00])#Magic number
