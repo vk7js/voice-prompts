@@ -328,3 +328,4 @@ voice_prompt_rate,,,Voice rate
 dtmf_vol,,,DTMF volume
 vp_saved,,,prompt saved
 css_tail,,,CSS Tail elimination
+fahrenheit,,,fahrenheit
