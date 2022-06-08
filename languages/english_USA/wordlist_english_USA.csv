@@ -138,7 +138,7 @@ PROMPT_CUSTOM6,,,repeater
 PROMPT_CUSTOM7,,,BlindHams
 PROMPT_CUSTOM8,,,Allstar
 PROMPT_CUSTOM9,,,Parrot
-PROMPT_CUSTOM10,,, 
+PROMPT_REVERSE,,,Reverse
 LANGUAGE_NAME,,,English
 menu,,,Menu
 credits,,,Credits
