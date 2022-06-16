@@ -329,3 +329,5 @@ dtmf_vol,,,DTMF volume
 vp_saved,,,prompt saved
 css_tail,,,CSS Tail elimination
 fahrenheit,,,fahrenheit
+sortBy,,,Sort by
+frequency,,,frequency
